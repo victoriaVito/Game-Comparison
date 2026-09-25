@@ -1,0 +1,35 @@
+{
+  "reviewed_at": "2026-09-24T18:47:10.754502+00:00",
+  "review_scope": "Royal Kingdom levels 181-200",
+  "result": "passed",
+  "checks": [
+    "Exact expected level sequence",
+    "JPEG signature present for every board",
+    "Source URL and timestamp present for every level",
+    "No captured New item unlocked screen"
+  ],
+  "visual_review": "passed_full_batch",
+  "reviewed_levels": [
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200
+  ],
+  "visual_review_notes": "All captures show a playable pre-first-move state or initial Kingdom battle state."
+}

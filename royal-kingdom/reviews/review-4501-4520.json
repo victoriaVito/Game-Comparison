@@ -1,0 +1,34 @@
+{
+  "reviewed_at": "2026-09-24T22:56:16.158758+00:00",
+  "review_scope": "Royal Kingdom levels 4501-4520",
+  "result": "automated_passed",
+  "checks": [
+    "Exact expected level sequence",
+    "JPEG signature present for every board",
+    "Source URL and timestamp present for every level",
+    "No captured New item unlocked screen"
+  ],
+  "visual_review": "stratified_sample_passed",
+  "reviewed_levels": [
+    4501,
+    4502,
+    4503,
+    4504,
+    4505,
+    4506,
+    4507,
+    4508,
+    4509,
+    4510,
+    4511,
+    4512,
+    4513,
+    4514,
+    4515,
+    4516,
+    4517,
+    4518,
+    4519,
+    4520
+  ]
+}

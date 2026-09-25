@@ -1,0 +1,26 @@
+{
+  "reviewed_at": "2026-09-24",
+  "review_scope": "Royal Kingdom stratified sample for levels 4301-4400",
+  "result": "passed_after_recapture",
+  "sample_size": 40,
+  "accepted_count": 40,
+  "detected_exception_levels": [
+    4307,
+    4323,
+    4339,
+    4343
+  ],
+  "resolved_exception_levels": [
+    4307,
+    4323,
+    4339,
+    4343
+  ],
+  "ambiguous_levels": [],
+  "failed_count": 0,
+  "missing_count": 0,
+  "selection_policy": "Every multiple of 5 plus offsets 3, 7, 11, and 19 in each 20-level sub-block",
+  "resolution": "Magic Pot captures at levels 4307, 4323, 4339, and 4343 were replaced from independently verified no-booster sources, and the same 40-level sample passed on reinspection.",
+  "contact_sheet": "/Users/victoria.serrano/.cache/codex/royal-kingdom/reviews/4301-4400/review-4301-4400.jpg",
+  "sample_metadata": "/Users/victoria.serrano/.cache/codex/royal-kingdom/reviews/4301-4400/sample-metadata.json"
+}

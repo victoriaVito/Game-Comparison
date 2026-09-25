@@ -1,0 +1,37 @@
+{
+  "reviewed_at": "2026-09-24T18:56:53.871871+00:00",
+  "review_scope": "Royal Kingdom levels 201-220",
+  "result": "passed_with_visual_exception",
+  "checks": [
+    "Exact expected level sequence",
+    "JPEG signature present for every board",
+    "Source URL and timestamp present for every level",
+    "No captured New item unlocked screen"
+  ],
+  "visual_review": "stratified_sample_exception",
+  "reviewed_levels": [
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220
+  ],
+  "ambiguous_levels": [
+    211
+  ]
+}

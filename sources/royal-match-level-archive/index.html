@@ -1,0 +1,1546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Royal Match — Level Archive</title>
+<style>
+  :root{
+    --bg:#0d0e12;
+    --panel:#15171e;
+    --panel2:#1b1e27;
+    --border:#2a2e3a;
+    --text:#e7e8ee;
+    --muted:#8b91a0;
+    --accent:#4fd67a;   /* matches the game's green Play button */
+    --warn:#e8b23d;
+    --danger:#e5534b;
+    --focus:#5b8cff;
+  }
+  *{box-sizing:border-box;}
+  html,body{
+    margin:0; padding:0; height:100%;
+    background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    font-size:14px;
+  }
+  #app{ display:flex; flex-direction:column; height:100vh; }
+
+  /* ---------- header ---------- */
+  header{
+    display:flex; align-items:center; gap:20px;
+    padding:10px 16px; background:var(--panel);
+    border-bottom:1px solid var(--border);
+    flex-wrap:wrap; flex-shrink:0;
+  }
+  header h1{ font-size:15px; margin:0; font-weight:600; white-space:nowrap; color:var(--text); }
+  header h1 span{ color:var(--muted); font-weight:400; }
+  .stats{ color:var(--muted); font-size:12.5px; display:flex; gap:14px; flex-wrap:wrap; align-items:center; }
+  .stats b{ color:var(--text); font-weight:600; }
+  .stats .flag-n{ color:var(--warn); font-weight:600; }
+  .stats .missing-n{ color:var(--danger); font-weight:600; }
+  .stats details{ color:var(--muted); }
+  .stats summary{ cursor:pointer; user-select:none; }
+  #missingList{
+    max-height:140px; overflow:auto; margin-top:6px; padding:6px 8px;
+    background:var(--panel2); border:1px solid var(--border); border-radius:6px;
+    font-family:ui-monospace,Menlo,Consolas,monospace; font-size:11.5px; line-height:1.6;
+    max-width:520px;
+  }
+  .spacer{ flex:1; }
+  .controls{ display:flex; align-items:center; gap:14px; }
+  #jumpInput{
+    background:var(--panel2); border:1px solid var(--border); color:var(--text);
+    border-radius:6px; padding:6px 10px; width:130px; font-size:13px;
+  }
+  #jumpInput:focus{ outline:none; border-color:var(--focus); }
+  .filterLabel{ display:flex; align-items:center; gap:6px; color:var(--text); cursor:pointer; white-space:nowrap; }
+  .filterLabel input{ accent-color:var(--accent); width:15px; height:15px; cursor:pointer; }
+
+  .segmented{ display:flex; border:1px solid var(--border); border-radius:6px; overflow:hidden; }
+  .segmented button{
+    background:var(--panel2); border:none; color:var(--muted); padding:6px 11px;
+    font-size:12.5px; cursor:pointer; border-right:1px solid var(--border);
+  }
+  .segmented button:last-child{ border-right:none; }
+  .segmented button.active{ background:var(--accent); color:#0d1c12; font-weight:600; }
+  .segmented button:hover:not(.active){ color:var(--text); }
+  .ctrlLabel{ color:var(--muted); font-size:11.5px; text-transform:uppercase; letter-spacing:.04em; margin-right:6px; }
+  .ctrlGroup{ display:flex; align-items:center; }
+
+  /* ---------- grid ---------- */
+  #gridViewport{
+    position:relative; flex:1; overflow-y:auto; overflow-x:hidden;
+    background:var(--bg);
+  }
+  #gridContent{ position:relative; width:100%; }
+  #emptyState{
+    position:absolute; top:80px; left:0; right:0; text-align:center; color:var(--muted); font-size:14px;
+  }
+  .cell{
+    position:absolute; padding:5px; cursor:pointer;
+  }
+  .cell .thumbwrap{
+    position:relative; width:100%; aspect-ratio:592/1280; overflow:hidden;
+    background:var(--panel2); border-radius:5px; border:1px solid var(--border);
+    transition:border-color .1s;
+  }
+  .cell:hover .thumbwrap{ border-color:var(--focus); }
+  .cell.flagged .thumbwrap{ border-color:rgba(232,178,61,.55); }
+  .cell .thumbwrap img{
+    width:100%; height:100%; object-fit:cover; display:block;
+  }
+  .cell .meta{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:3px 2px 0; font-size:11px; color:var(--muted);
+  }
+  .cell .dot{ width:7px; height:7px; border-radius:50%; background:transparent; flex-shrink:0; }
+  .cell.flagged .dot{ background:var(--warn); }
+  .cell.lowconf .lvl{ color:var(--danger); }
+
+  /* ---------- detail overlay ---------- */
+  #detail{
+    position:fixed; inset:0; background:var(--bg);
+    display:flex; flex-direction:column; z-index:50;
+  }
+  #detail.hidden{ display:none; }
+  #detailTop{
+    display:flex; align-items:center; gap:16px; padding:10px 16px;
+    border-bottom:1px solid var(--border); flex-shrink:0; flex-wrap:wrap;
+  }
+  #detailTop h2{ margin:0; font-size:16px; font-weight:600; }
+  #detailTop .navBtn{
+    background:var(--panel2); border:1px solid var(--border); color:var(--text);
+    border-radius:6px; padding:5px 12px; cursor:pointer; font-size:14px;
+  }
+  #detailTop .navBtn:hover{ border-color:var(--focus); }
+  #detailTop .hint{ color:var(--muted); font-size:11.5px; white-space:nowrap; }
+  #detailTop .closeBtn{ margin-left:auto; font-size:20px; background:none; border:none; color:var(--muted); cursor:pointer; line-height:1; }
+  #detailTop .closeBtn:hover{ color:var(--text); }
+  #detailBody{
+    flex:1; display:flex; overflow:hidden; min-height:0;
+  }
+  #detailImages{
+    flex:3; display:flex; gap:2px; min-width:0; overflow:auto; justify-content:center; align-items:flex-start;
+    padding:12px; background:#000;
+  }
+  .imgCol{ flex:1 1 0; min-width:0; max-width:640px; display:flex; flex-direction:column; align-items:center; }
+  .imgCol .caption{ color:var(--muted); font-size:12px; padding:6px 0; text-transform:uppercase; letter-spacing:.05em; }
+  .imgCol img{ max-width:100%; max-height:calc(100vh - 150px); object-fit:contain; border:1px solid var(--border); background:var(--panel2); }
+  .imgCol video{ max-width:100%; max-height:calc(100vh - 150px); object-fit:contain; border:1px solid var(--border); background:#000; }
+  .imgCol img.hidden, .imgCol video.hidden{ display:none; }
+  .boardMediaWrap{ position:relative; display:flex; align-items:center; justify-content:center; width:100%; }
+  /* when the docked timeline (SPEC v2.7) is showing, both panes get a bit
+     less vertical room so the bar at the bottom never gets pushed offscreen */
+  #detail.hasTimeline .imgCol img, #detail.hasTimeline .imgCol video{ max-height:calc(100vh - 214px); }
+  #detailMeta{
+    flex:0 0 300px; padding:16px; overflow-y:auto; border-left:1px solid var(--border);
+    background:var(--panel);
+  }
+  #detailMeta h3{ margin:0 0 4px; font-size:13px; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; }
+  #detailMeta .row{ margin-bottom:16px; }
+  #detailMeta .confBar{ height:6px; border-radius:3px; background:var(--panel2); overflow:hidden; margin-top:6px; }
+  #detailMeta .confBar div{ height:100%; }
+  .chip{
+    display:inline-block; background:var(--panel2); border:1px solid var(--border);
+    color:var(--warn); border-radius:10px; padding:2px 9px; font-size:11.5px; margin:2px 4px 0 0;
+  }
+  .chip.none{ color:var(--muted); border-style:dashed; }
+  #detailMeta a.ytlink{
+    display:inline-block; margin-top:6px; color:var(--focus); text-decoration:none; font-size:13px;
+  }
+  #detailMeta a.ytlink:hover{ text-decoration:underline; }
+  #videoTitle{ color:var(--text); font-size:13px; }
+  #detailNavLeft, #detailNavRight{
+    position:absolute; top:50%; transform:translateY(-50%);
+    background:rgba(20,22,29,.7); border:1px solid var(--border); color:var(--text);
+    font-size:22px; width:42px; height:64px; border-radius:8px; cursor:pointer;
+  }
+  #detailNavLeft{ left:8px; } #detailNavRight{ right:316px; }
+  #detailNavLeft:hover, #detailNavRight:hover{ background:rgba(40,44,56,.9); }
+
+  #missingPanel{
+    flex:1; display:flex; align-items:center; justify-content:center; padding:40px;
+  }
+  #missingPanel .box{
+    max-width:520px; text-align:center; background:var(--panel); border:1px solid var(--border);
+    border-radius:10px; padding:32px 36px;
+  }
+  #missingPanel .bigNum{ font-size:34px; font-weight:700; color:var(--danger); margin-bottom:6px; }
+  #missingPanel .msg{ color:var(--text); font-size:15px; margin-bottom:18px; }
+  #missingPanel .videoBox{
+    background:var(--panel2); border:1px solid var(--border); border-radius:8px; padding:14px 16px; text-align:left;
+  }
+  #missingPanel .videoBox h4{ margin:0 0 4px; font-size:11.5px; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; }
+  #missingPanel .videoBox .vt{ color:var(--text); font-size:13.5px; margin-bottom:8px; }
+  #missingPanel .videoBox .vt.none{ color:var(--muted); font-style:italic; }
+
+  /* ---------- scrubber overlay (SPEC v2.4) ---------- */
+  #scrubber{
+    position:fixed; inset:0; background:var(--bg);
+    display:flex; flex-direction:column; z-index:60;
+  }
+  #scrubber.hidden{ display:none; }
+  #scrubTop{
+    display:flex; align-items:center; gap:16px; padding:10px 16px;
+    border-bottom:1px solid var(--border); flex-shrink:0;
+  }
+  #scrubTop h2{ margin:0; font-size:16px; font-weight:600; }
+  #scrubTop .hint{ color:var(--muted); font-size:12px; }
+  #scrubTop .closeBtn{ margin-left:auto; font-size:20px; background:none; border:none; color:var(--muted); cursor:pointer; line-height:1; }
+  #scrubTop .closeBtn:hover{ color:var(--text); }
+  #scrubBody{ flex:1; display:flex; overflow:hidden; min-height:0; }
+  #scrubVideoWrap{
+    flex:1; position:relative; display:flex; flex-direction:column;
+    align-items:center; justify-content:center;
+    background:#000; min-width:0;
+  }
+  #scrubVideoWrap > video{ min-height:0; }
+  #scrubVideo{ max-width:100%; max-height:100%; background:#000; }
+  #scrubVideo.hidden{ display:none; }
+  #scrubNoClip{ color:var(--muted); font-size:14px; text-align:center; padding:0 40px; line-height:1.6; }
+  #scrubNoClip.hidden{ display:none; }
+  #scrubChosenBadge, .chosenBadge{
+    background:rgba(79,214,122,.95); color:#0d1c12;
+    font-weight:700; font-size:12.5px; padding:6px 14px; border-radius:20px;
+    box-shadow:0 2px 8px rgba(0,0,0,.35);
+  }
+  /* Docked under the video, not floating on top of it. */
+  #scrubChosenBadge{ position:static; margin:10px auto 0; align-self:center; }
+  #scrubChosenBadge.hidden, .chosenBadge.hidden{ display:none; }
+  .modifiedBadge{
+    position:absolute; top:14px; left:14px; background:rgba(91,140,255,.95); color:#0d1420;
+    font-weight:700; font-size:12.5px; padding:6px 14px; border-radius:20px;
+    box-shadow:0 2px 8px rgba(0,0,0,.35);
+  }
+  .modifiedBadge.hidden{ display:none; }
+  /* In the detail view the badges sit in the caption row above the board rather
+     than floating over it — overlaying hid the Target/Moves header, which is the
+     very thing you need to read to confirm the frame is pre-first-move. */
+  .imgCol .caption.captionRow{
+    display:flex; align-items:center; gap:10px; flex-wrap:wrap; min-height:26px;
+  }
+  .captionRow .chosenBadge, .captionRow .modifiedBadge{
+    position:static; top:auto; left:auto;
+    text-transform:none; letter-spacing:0; font-size:11.5px; padding:4px 11px;
+    box-shadow:none; white-space:nowrap;
+  }
+  #scrubSide{
+    flex:0 0 300px; padding:16px; overflow-y:auto; border-left:1px solid var(--border);
+    background:var(--panel);
+  }
+  #scrubSide h3{ margin:0 0 6px; font-size:13px; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; }
+  #scrubSide .row{ margin-bottom:18px; }
+  #scrubControls, .scrubControlsBar{
+    display:flex; align-items:center; gap:10px; padding:10px 16px;
+    border-top:1px solid var(--border); background:var(--panel); flex-shrink:0; flex-wrap:wrap;
+  }
+  .scrubControlsBar.hidden{ display:none; }
+  .scrubBtn{
+    background:var(--panel2); border:1px solid var(--border); color:var(--text);
+    border-radius:6px; padding:6px 12px; cursor:pointer; font-size:13px; white-space:nowrap;
+  }
+  .scrubBtn:hover:not(:disabled){ border-color:var(--focus); }
+  .scrubBtn:disabled{ opacity:.4; cursor:default; }
+  #scrubFrameCounter, #scrubTimeCounter, .scrubCounter{
+    color:var(--muted); font-size:11.5px; font-family:ui-monospace,Menlo,Consolas,monospace; white-space:nowrap;
+  }
+  #scrubTimeline, .scrubTimeline{ flex:1 1 260px; min-width:200px; display:flex; align-items:center; gap:10px; }
+  #tlTrack, .tlTrack{
+    position:relative; height:22px; flex:1; background:var(--panel2);
+    border:1px solid var(--border); border-radius:5px; cursor:pointer;
+  }
+  #tlPlayed, .tlPlayed{ position:absolute; top:0; left:0; bottom:0; background:rgba(91,140,255,.25); border-radius:5px 0 0 5px; pointer-events:none; }
+  #tlPlayhead, .tlPlayhead{
+    position:absolute; top:-4px; width:2px; height:30px; background:var(--focus);
+    transform:translateX(-1px); pointer-events:none;
+  }
+  .tlMarker{ position:absolute; top:0; bottom:0; width:3px; transform:translateX(-1.5px); pointer-events:none; }
+  .tlMarker.hidden{ display:none; }
+  #tlBoardMarker, .tlBoardMarker{ background:var(--accent); box-shadow:0 0 0 1px rgba(0,0,0,.5); }
+  #tlMoveMarker, .tlMoveMarker{ background:var(--danger); box-shadow:0 0 0 1px rgba(0,0,0,.5); }
+  .tlLegend{ display:flex; align-items:center; gap:12px; color:var(--muted); font-size:11px; white-space:nowrap; }
+  .tlLegend .lg{ display:inline-block; width:9px; height:9px; border-radius:2px; margin-right:4px; vertical-align:-1px; }
+  .tlLegend .lgBoard{ background:var(--accent); }
+  .tlLegend .lgMove{ background:var(--danger); }
+
+  #loadingMsg, #errorMsg{
+    position:fixed; inset:0; display:flex; align-items:center; justify-content:center;
+    color:var(--muted); font-size:15px; text-align:center; padding:20px;
+  }
+  #errorMsg{ display:none; flex-direction:column; gap:10px; }
+  #errorMsg code{ background:var(--panel2); padding:2px 6px; border-radius:4px; }
+  .hidden{ display:none !important; }
+</style>
+</head>
+<body>
+<div id="loadingMsg">Loading manifest…</div>
+<div id="errorMsg">
+  <div style="font-size:18px;color:var(--text)">Couldn't load manifest.json</div>
+  <div>Build it with <code>build_index.py</code> and serve the archive with <code>serve.sh</code>.</div>
+  <div id="errorDetail" style="color:var(--danger)"></div>
+</div>
+
+<div id="app" class="hidden">
+  <header>
+    <h1>Royal Match <span>— Level Archive</span></h1>
+    <div class="stats" id="statsBar"></div>
+    <div class="spacer"></div>
+    <div class="controls">
+      <div class="ctrlGroup" style="display:none">
+        <span class="ctrlLabel">Thumb</span>
+        <div class="segmented" id="gridKindToggle" role="group" aria-label="Grid thumbnail source">
+          <button type="button" data-kind="board">Board</button>
+          <button type="button" data-kind="play">Play</button>
+        </div>
+      </div>
+      <div class="ctrlGroup">
+        <span class="ctrlLabel">Density</span>
+        <div class="segmented" id="densityToggle" role="group" aria-label="Grid density">
+          <button type="button" data-density="compact">Compact</button>
+          <button type="button" data-density="normal">Normal</button>
+          <button type="button" data-density="large">Large</button>
+        </div>
+      </div>
+      <label class="filterLabel"><input type="checkbox" id="filterToggle"> Flagged / low-confidence only</label>
+      <input id="jumpInput" type="text" inputmode="numeric" placeholder="Jump to level #…">
+    </div>
+  </header>
+
+  <div id="gridViewport">
+    <div id="gridContent"></div>
+    <div id="emptyState" class="hidden">No levels match this filter.</div>
+  </div>
+</div>
+
+<div id="detail" class="hidden">
+  <div id="detailTop">
+    <button class="navBtn" id="prevBtn">&larr; Prev</button>
+    <button class="navBtn" id="nextBtn">Next &rarr;</button>
+    <h2 id="detailTitle">Level —</h2>
+    <span class="hint">&larr;/&rarr; prev/next level &middot; Esc close &middot; <b>hosted copy:</b> board screenshots only (414&times;896), no play dialog or frame clips</span>
+    <button class="closeBtn" id="closeBtn" title="Close (Esc)">&#10005;</button>
+  </div>
+  <div id="detailBody">
+    <div id="detailImages">
+      <!-- hosted copy: play-dialog screenshots omitted to buy board resolution -->
+      <div class="imgCol hidden" id="playCol"><div class="caption">Play</div><img id="playImg" alt="play screen"></div>
+      <div class="imgCol">
+        <!-- Badges live in the caption row, NOT over the image: they used to be
+             absolutely positioned inside .boardMediaWrap and covered the board's
+             Target/Moves header, which is exactly the part you need to read. -->
+        <div class="caption captionRow">
+          <span>Board</span>
+          <span id="detailChosenBadge" class="chosenBadge hidden">&#10003; chosen frame (= board.jpg)</span>
+          <span id="detailModifiedBadge" class="modifiedBadge hidden">&#9998; scrubbed &mdash; not the saved frame</span>
+        </div>
+        <div class="boardMediaWrap" id="boardMediaWrap">
+          <img id="boardImg" alt="board screen">
+          <video id="detailBoardVideo" class="hidden" muted playsinline preload="none"></video>
+        </div>
+      </div>
+    </div>
+    <div id="detailMeta">
+      <div class="row">
+        <h3>Confidence</h3>
+        <div id="confText">—</div>
+        <div class="confBar"><div id="confFill"></div></div>
+      </div>
+      <div class="row">
+        <h3>Flags</h3>
+        <div id="flagsBox">—</div>
+      </div>
+      <div class="row">
+        <h3>Source video</h3>
+        <div id="videoTitle">—</div>
+        <a class="ytlink" id="ytLink" href="#" target="_blank" rel="noopener">Watch on YouTube ↗</a>
+      </div>
+      <div class="row">
+        <h3>Detection detail</h3>
+        <div id="ocrText" style="color:var(--muted)">—</div>
+        <div id="movesText" style="color:var(--muted)">—</div>
+      </div>
+    </div>
+  </div>
+  <div id="detailTimelineBar" class="scrubControlsBar hidden">
+    <button class="scrubBtn" id="dtPlayBtn" title="Play/Pause (Space)">&#9654;</button>
+    <button class="scrubBtn" id="dtPrevBtn" title="Previous frame (&larr;)">&#9664;&#9664;</button>
+    <button class="scrubBtn" id="dtNextBtn" title="Next frame (&rarr;)">&#9654;&#9654;</button>
+    <button class="scrubBtn" id="dtJumpBtn" title="Back to the chosen board_t frame">Back to chosen frame</button>
+    <span class="scrubCounter" id="dtFrameCounter">frame — / —</span>
+    <span class="scrubCounter" id="dtTimeCounter">—</span>
+    <div class="scrubTimeline">
+      <div id="dtTrack" class="tlTrack">
+        <div id="dtPlayed" class="tlPlayed"></div>
+        <div id="dtPlayhead" class="tlPlayhead"></div>
+        <div id="dtBoardMarker" class="tlMarker tlBoardMarker hidden" title="Chosen board_t frame"></div>
+        <div id="dtMoveMarker" class="tlMarker tlMoveMarker hidden" title="First move"></div>
+      </div>
+    </div>
+    <span class="tlLegend"><span class="lg lgBoard"></span>chosen<span class="lg lgMove" style="margin-left:8px"></span>first move</span>
+  </div>
+  <div id="missingPanel" class="hidden">
+    <div class="box">
+      <div class="bigNum" id="missingLevelNum">Level —</div>
+      <div class="msg">This level was not captured by the extraction pipeline.</div>
+      <div class="videoBox" id="missingVideoBox">
+        <h4>Should appear in</h4>
+        <div class="vt" id="missingVideoTitle">—</div>
+        <a class="ytlink" id="missingYtLink" href="#" target="_blank" rel="noopener">Watch on YouTube ↗</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="scrubber" class="hidden">
+  <div id="scrubTop">
+    <h2 id="scrubTitle">Level —</h2>
+    <span class="hint">frame-by-frame verification window &middot; double-click a level to open this</span>
+    <button class="closeBtn" id="scrubCloseBtn" title="Close (Esc)">&#10005;</button>
+  </div>
+  <div id="scrubBody">
+    <div id="scrubVideoWrap">
+      <video id="scrubVideo" class="hidden" muted playsinline preload="none"></video>
+      <div id="scrubNoClip" class="hidden">No verification clip available for this level.</div>
+      <div id="scrubChosenBadge" class="hidden">&#10003; This IS the extracted board.jpg frame</div>
+    </div>
+    <div id="scrubSide">
+      <div class="row">
+        <h3>Flags</h3>
+        <div id="scrubFlagsBox">—</div>
+      </div>
+      <div class="row">
+        <h3>Reward animation</h3>
+        <div id="scrubRewardBox" style="color:var(--muted);font-size:12.5px;line-height:1.6;">—</div>
+      </div>
+      <div class="row">
+        <h3>Timing</h3>
+        <div id="scrubTimingBox" style="color:var(--muted);font-size:12.5px;line-height:1.7;">—</div>
+      </div>
+    </div>
+  </div>
+  <div id="scrubControls">
+    <button class="scrubBtn" id="scrubPlayBtn" title="Play/Pause (Space)">&#9654;</button>
+    <button class="scrubBtn" id="scrubPrevBtn" title="Previous frame (&larr;)">&#9664;&#9664;</button>
+    <button class="scrubBtn" id="scrubNextBtn" title="Next frame (&rarr;)">&#9654;&#9654;</button>
+    <button class="scrubBtn" id="scrubJumpBtn" title="Jump to the chosen board_t frame">Jump to chosen frame</button>
+    <span id="scrubFrameCounter">frame — / —</span>
+    <span id="scrubTimeCounter">—</span>
+    <div id="scrubTimeline">
+      <div id="tlTrack">
+        <div id="tlPlayed"></div>
+        <div id="tlPlayhead"></div>
+        <div id="tlBoardMarker" class="tlMarker hidden" title="Chosen board_t frame"></div>
+        <div id="tlMoveMarker" class="tlMarker hidden" title="First move"></div>
+      </div>
+    </div>
+    <span class="tlLegend"><span class="lg lgBoard"></span>chosen<span class="lg lgMove" style="margin-left:8px"></span>first move</span>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  // ---------------------------------------------------------------
+  // Config
+  // ---------------------------------------------------------------
+  var DENSITY_PRESETS = { compact: 90, normal: 150, large: 260 }; // px min cell width
+  var MAX_COLUMNS = 20;
+  var OVERSCAN_ROWS = 3;
+  var LOW_CONF_DEFAULT = 0.7;
+  var LS_KEY_GRID_KIND = "rmshots.gridKind";   // 'board' | 'play'
+  var LS_KEY_DENSITY = "rmshots.density";      // 'compact' | 'normal' | 'large'
+  var LS_KEY_FILTER = "rmshots.filterOn";      // '1' | '0'
+
+  // ---------------------------------------------------------------
+  // State
+  // ---------------------------------------------------------------
+  var manifest = null;
+  var basePrefix = "";     // resolved prefix so relative asset paths (levels/, manifest.json) work
+  var levels = [];         // full array, ascending by level number
+  var videoRanges = [];    // [{video_id,title,level_start,level_end}, ...] ascending by level_start
+  var lowConfThreshold = LOW_CONF_DEFAULT;
+  var filterOn = false;
+  var activeList = [];     // array of indices into `levels` currently shown in the grid (respects filter)
+  var minCellWidth = DENSITY_PRESETS.normal;
+  var densityKey = "normal";
+  var gridImageKind = "board"; // which screenshot the grid thumbnails show: 'board' (default) or 'play'
+
+  var columns = 6, cellWidth = 0, rowHeight = 0, totalRows = 0;
+  var rendered = new Map();  // listPos -> element currently mounted
+  var freePool = [];        // detached elements ready for reuse
+  var scrollTicking = false;
+
+  var detailOpen = false;
+  var detailMode = null;    // 'list' (opened from a grid cell / activeList position) or 'number' (opened by exact level number, via jump box or #hash — may resolve to found or missing)
+  var detailPos = -1;       // valid when detailMode === 'list': position within activeList
+  var detailLevelNum = null;// the level number currently displayed/requested, valid in both modes
+
+  // ---------------------------------------------------------------
+  // DOM refs
+  // ---------------------------------------------------------------
+  var $app = document.getElementById("app");
+  var $loading = document.getElementById("loadingMsg");
+  var $error = document.getElementById("errorMsg");
+  var $errorDetail = document.getElementById("errorDetail");
+  var $statsBar = document.getElementById("statsBar");
+  var $gridViewport = document.getElementById("gridViewport");
+  var $gridContent = document.getElementById("gridContent");
+  var $emptyState = document.getElementById("emptyState");
+  var $filterToggle = document.getElementById("filterToggle");
+  var $jumpInput = document.getElementById("jumpInput");
+  var $gridKindToggle = document.getElementById("gridKindToggle");
+  var $densityToggle = document.getElementById("densityToggle");
+
+  var $detail = document.getElementById("detail");
+  var $detailTitle = document.getElementById("detailTitle");
+  var $detailBody = document.getElementById("detailBody");
+  var $playImg = document.getElementById("playImg");
+  var $boardImg = document.getElementById("boardImg");
+  var $confText = document.getElementById("confText");
+  var $confFill = document.getElementById("confFill");
+  var $flagsBox = document.getElementById("flagsBox");
+  var $videoTitle = document.getElementById("videoTitle");
+  var $ytLink = document.getElementById("ytLink");
+  var $ocrText = document.getElementById("ocrText");
+  var $movesText = document.getElementById("movesText");
+  var $prevBtn = document.getElementById("prevBtn");
+  var $nextBtn = document.getElementById("nextBtn");
+  var $closeBtn = document.getElementById("closeBtn");
+  var $missingPanel = document.getElementById("missingPanel");
+  var $missingLevelNum = document.getElementById("missingLevelNum");
+  var $missingVideoBox = document.getElementById("missingVideoBox");
+  var $missingVideoTitle = document.getElementById("missingVideoTitle");
+  var $missingYtLink = document.getElementById("missingYtLink");
+
+  // -- SPEC v2.7: docked frame timeline in the detail view --
+  var $boardMediaWrap = document.getElementById("boardMediaWrap");
+  var $detailBoardVideo = document.getElementById("detailBoardVideo");
+  var $detailChosenBadge = document.getElementById("detailChosenBadge");
+  var $detailModifiedBadge = document.getElementById("detailModifiedBadge");
+  var $detailTimelineBar = document.getElementById("detailTimelineBar");
+  var $dtPlayBtn = document.getElementById("dtPlayBtn");
+  var $dtPrevBtn = document.getElementById("dtPrevBtn");
+  var $dtNextBtn = document.getElementById("dtNextBtn");
+  var $dtJumpBtn = document.getElementById("dtJumpBtn");
+  var $dtFrameCounter = document.getElementById("dtFrameCounter");
+  var $dtTimeCounter = document.getElementById("dtTimeCounter");
+  var $dtTrack = document.getElementById("dtTrack");
+  var $dtPlayed = document.getElementById("dtPlayed");
+  var $dtPlayhead = document.getElementById("dtPlayhead");
+  var $dtBoardMarker = document.getElementById("dtBoardMarker");
+  var $dtMoveMarker = document.getElementById("dtMoveMarker");
+
+  var $scrubber = document.getElementById("scrubber");
+  var $scrubTitle = document.getElementById("scrubTitle");
+  var $scrubCloseBtn = document.getElementById("scrubCloseBtn");
+  var $scrubVideo = document.getElementById("scrubVideo");
+  var $scrubNoClip = document.getElementById("scrubNoClip");
+  var $scrubChosenBadge = document.getElementById("scrubChosenBadge");
+  var $scrubFlagsBox = document.getElementById("scrubFlagsBox");
+  var $scrubRewardBox = document.getElementById("scrubRewardBox");
+  var $scrubTimingBox = document.getElementById("scrubTimingBox");
+  var $scrubPlayBtn = document.getElementById("scrubPlayBtn");
+  var $scrubPrevBtn = document.getElementById("scrubPrevBtn");
+  var $scrubNextBtn = document.getElementById("scrubNextBtn");
+  var $scrubJumpBtn = document.getElementById("scrubJumpBtn");
+  var $scrubFrameCounter = document.getElementById("scrubFrameCounter");
+  var $scrubTimeCounter = document.getElementById("scrubTimeCounter");
+  var $tlTrack = document.getElementById("tlTrack");
+  var $tlPlayed = document.getElementById("tlPlayed");
+  var $tlPlayhead = document.getElementById("tlPlayhead");
+  var $tlBoardMarker = document.getElementById("tlBoardMarker");
+  var $tlMoveMarker = document.getElementById("tlMoveMarker");
+
+  // ---------------------------------------------------------------
+  // Load manifest — try a few candidate locations so this works whether
+  // ui/index.html is symlinked into the data dir (serve.sh's approach,
+  // -> manifest at ../manifest.json) or copied alongside manifest.json.
+  // ---------------------------------------------------------------
+  function loadManifest(){
+    var candidates = ["../manifest.json", "./manifest.json", "/out/manifest.json", "/manifest.json"];
+    tryNext(0);
+    function tryNext(i){
+      if (i >= candidates.length){
+        $loading.classList.add("hidden");
+        $error.style.display = "flex";
+        $errorDetail.textContent = "Tried: " + candidates.join(", ");
+        return;
+      }
+      var url = candidates[i];
+      fetch(url, {cache:"no-cache"}).then(function(res){
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        return res.json();
+      }).then(function(data){
+        basePrefix = url.slice(0, url.length - "manifest.json".length);
+        init(data);
+      }).catch(function(){
+        tryNext(i + 1);
+      });
+    }
+  }
+
+  // ---------------------------------------------------------------
+  // Persisted preferences (localStorage) — grid image kind, density, filter.
+  // Wrapped in try/catch: localStorage can throw in private-browsing/sandboxed
+  // contexts, and that must never break the app, just fall back to defaults.
+  // ---------------------------------------------------------------
+  function lsGet(key, fallback){
+    try { var v = window.localStorage.getItem(key); return v === null ? fallback : v; }
+    catch (e) { return fallback; }
+  }
+  function lsSet(key, value){
+    try { window.localStorage.setItem(key, value); } catch (e) { /* ignore */ }
+  }
+
+  function loadPrefs(){
+    gridImageKind = "board";  // hosted copy ships board images only
+    if (gridImageKind !== "board" && gridImageKind !== "play") gridImageKind = "board";
+
+    densityKey = lsGet(LS_KEY_DENSITY, "normal");
+    if (!DENSITY_PRESETS.hasOwnProperty(densityKey)) densityKey = "normal";
+    minCellWidth = DENSITY_PRESETS[densityKey];
+
+    filterOn = lsGet(LS_KEY_FILTER, "0") === "1";
+  }
+
+  function syncPrefControls(){
+    Array.prototype.forEach.call($gridKindToggle.querySelectorAll("button"), function(b){
+      b.classList.toggle("active", b.dataset.kind === gridImageKind);
+    });
+    Array.prototype.forEach.call($densityToggle.querySelectorAll("button"), function(b){
+      b.classList.toggle("active", b.dataset.density === densityKey);
+    });
+    $filterToggle.checked = filterOn;
+  }
+
+  function init(data){
+    manifest = data;
+    levels = manifest.levels || [];
+    videoRanges = manifest.video_ranges || [];
+    lowConfThreshold = manifest.low_confidence_threshold || LOW_CONF_DEFAULT;
+
+    loadPrefs();
+    syncPrefControls();
+    activeList = filterOn ? computeFilteredList() : fullIndexList();
+
+    renderStats();
+    $loading.classList.add("hidden");
+    $app.classList.remove("hidden");
+
+    layout();
+    renderVisible();
+
+    window.addEventListener("resize", onResize);
+    $gridViewport.addEventListener("scroll", onScroll, {passive:true});
+    $filterToggle.addEventListener("change", onFilterToggle);
+    $jumpInput.addEventListener("keydown", onJumpKey);
+    document.addEventListener("keydown", onGlobalKey);
+    $closeBtn.addEventListener("click", function(){ closeDetail(); });
+    $prevBtn.addEventListener("click", function(){ stepDetail(-1); });
+    $nextBtn.addEventListener("click", function(){ stepDetail(1); });
+    $gridKindToggle.addEventListener("click", onGridKindClick);
+    $densityToggle.addEventListener("click", onDensityClick);
+    window.addEventListener("hashchange", onHashChange);
+
+    // deep link on initial load: #L8451 opens that level's detail directly
+    var initial = parseHash();
+    if (initial !== null){
+      ensureFilterOff();
+      var nearest = levels.length ? nearestLevelIndex(initial) : -1;
+      if (nearest >= 0) scrollToPos(nearest, true);
+      openDetailForLevelNumber(initial, true);
+    }
+  }
+
+  function fullIndexList(){
+    var arr = new Array(levels.length);
+    for (var i=0;i<levels.length;i++) arr[i]=i;
+    return arr;
+  }
+
+  function isFlaggedOrLow(entry){
+    return (entry.flags && entry.flags.length > 0) ||
+           (typeof entry.confidence === "number" && entry.confidence < lowConfThreshold);
+  }
+
+  // ---------------------------------------------------------------
+  // Stats bar
+  // ---------------------------------------------------------------
+  function renderStats(){
+    var s = manifest.stats || {};
+    var pct = s.expected_total ? ((s.captured / s.expected_total) * 100).toFixed(1) : null;
+    var html = "";
+    html += "<span><b>" + fmt(s.captured) + "</b>" + (s.expected_total ? " / " + fmt(s.expected_total) : "") +
+            " levels captured" + (pct ? " (" + pct + "%)" : "") + "</span>";
+    html += "<span class=\"flag-n\">" + fmt(s.flagged||0) + " flagged</span>";
+    html += "<span class=\"flag-n\">" + fmt(s.low_confidence||0) + " low-confidence</span>";
+    if (s.missing_count){
+      html += "<span class=\"missing-n\">" + fmt(s.missing_count) + " missing</span>";
+      html += "<details><summary>" + (s.missing_ranges||[]).length + " gaps</summary>" +
+              "<div id=\"missingList\">" + renderMissingRanges(s.missing_ranges||[]) + "</div></details>";
+    }
+    $statsBar.innerHTML = html;
+  }
+  function renderMissingRanges(ranges){
+    return ranges.map(function(r){
+      return r[0]===r[1] ? String(r[0]) : (r[0] + "–" + r[1]);
+    }).join(", ") || "none";
+  }
+  function fmt(n){ return (n===undefined||n===null) ? "0" : n.toLocaleString(); }
+
+  // ---------------------------------------------------------------
+  // Layout / virtualization
+  // ---------------------------------------------------------------
+  function layout(){
+    var vw = $gridViewport.clientWidth;
+    columns = Math.max(2, Math.min(MAX_COLUMNS, Math.floor(vw / minCellWidth)));
+    cellWidth = vw / columns;
+    var thumbH = cellWidth * (1280/592);
+    rowHeight = Math.round(thumbH + 26); // + meta row + padding
+    totalRows = Math.ceil(activeList.length / columns);
+    $gridContent.style.height = (totalRows * rowHeight) + "px";
+    if (activeList.length === 0){
+      $emptyState.textContent = levels.length === 0
+        ? "No levels in manifest.json yet — run the extraction pipeline, then src/build_index.py."
+        : "No levels match this filter.";
+    }
+    $emptyState.classList.toggle("hidden", activeList.length !== 0);
+  }
+
+  function onResize(){
+    // full re-render at new geometry: release everything back to the pool first
+    for (var pos of Array.from(rendered.keys())) releaseCell(pos);
+    layout();
+    renderVisible();
+  }
+
+  function onScroll(){
+    if (scrollTicking) return;
+    scrollTicking = true;
+    requestAnimationFrame(function(){ scrollTicking = false; renderVisible(); });
+  }
+
+  function visibleRange(){
+    if (activeList.length === 0 || rowHeight === 0) return [0,-1];
+    var scrollTop = $gridViewport.scrollTop;
+    var viewH = $gridViewport.clientHeight;
+    var startRow = Math.max(0, Math.floor(scrollTop / rowHeight) - OVERSCAN_ROWS);
+    var endRow = Math.min(totalRows - 1, Math.ceil((scrollTop + viewH) / rowHeight) + OVERSCAN_ROWS);
+    var startPos = startRow * columns;
+    var endPos = Math.min(activeList.length - 1, (endRow + 1) * columns - 1);
+    return [startPos, endPos];
+  }
+
+  function renderVisible(){
+    var range = visibleRange();
+    var startPos = range[0], endPos = range[1];
+    var needed = new Set();
+    for (var p = startPos; p <= endPos; p++) needed.add(p);
+
+    // drop cells no longer needed
+    for (var pos of Array.from(rendered.keys())){
+      if (!needed.has(pos)) releaseCell(pos);
+    }
+    // mount cells newly needed
+    for (var p2 = startPos; p2 <= endPos; p2++){
+      if (!rendered.has(p2)) mountCell(p2);
+    }
+  }
+
+  function releaseCell(pos){
+    var el = rendered.get(pos);
+    if (!el) return;
+    rendered.delete(pos);
+    el.style.display = "none";
+    var img = el._img;
+    img.removeAttribute("src"); // stop holding decoded bitmap / free network slot
+    freePool.push(el);
+  }
+
+  function makeCell(){
+    var el = document.createElement("div");
+    el.className = "cell";
+    var thumbwrap = document.createElement("div");
+    thumbwrap.className = "thumbwrap";
+    var img = document.createElement("img");
+    img.loading = "lazy";
+    img.decoding = "async";
+    img.onerror = function(){ img.src = BLANK_THUMB; };
+    thumbwrap.appendChild(img);
+    var meta = document.createElement("div");
+    meta.className = "meta";
+    var lvl = document.createElement("span");
+    lvl.className = "lvl";
+    var dot = document.createElement("span");
+    dot.className = "dot";
+    meta.appendChild(lvl);
+    meta.appendChild(dot);
+    el.appendChild(thumbwrap);
+    el.appendChild(meta);
+    el._img = img;
+    el._lvl = lvl;
+    // e.detail is the browser's native consecutive-click counter (2 on the
+    // second click of a double-click) -- bail here so the single-click
+    // detail view doesn't flash open right before dblclick's scrubber does.
+    // Single-click's own behaviour (e.detail === 1) is otherwise unchanged.
+    el.addEventListener("click", function(e){
+      if (e.detail > 1) return;
+      var pos = parseInt(el.dataset.pos, 10);
+      openDetail(pos);
+    });
+    el.addEventListener("dblclick", function(e){
+      e.preventDefault();
+      var pos = parseInt(el.dataset.pos, 10);
+      openScrubberForPos(pos);
+    });
+    return el;
+  }
+
+  var BLANK_THUMB = "data:image/svg+xml;utf8," + encodeURIComponent(
+    '<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"><rect width="10" height="10" fill="#1b1e27"/></svg>'
+  );
+
+  function mountCell(pos){
+    var el = freePool.pop() || makeCell();
+    var idx = activeList[pos];
+    var entry = levels[idx];
+    var row = Math.floor(pos / columns);
+    var col = pos % columns;
+    el.style.top = (row * rowHeight) + "px";
+    el.style.left = (col * cellWidth) + "px";
+    el.style.width = cellWidth + "px";
+    el.dataset.pos = pos;
+
+    var flagged = isFlaggedOrLow(entry);
+    el.classList.toggle("flagged", flagged);
+    el.classList.toggle("lowconf", typeof entry.confidence === "number" && entry.confidence < lowConfThreshold);
+    el._img.src = basePrefix + entry[gridImageKind];
+    el._img.alt = "Level " + entry.level;
+    el._lvl.textContent = entry.level;
+    el.style.display = "";
+
+    if (!el.isConnected) $gridContent.appendChild(el);
+    rendered.set(pos, el);
+  }
+
+  // ---------------------------------------------------------------
+  // Filter
+  // ---------------------------------------------------------------
+  function computeFilteredList(){
+    var out = [];
+    for (var i=0;i<levels.length;i++) if (isFlaggedOrLow(levels[i])) out.push(i);
+    return out;
+  }
+  function onFilterToggle(){
+    filterOn = $filterToggle.checked;
+    lsSet(LS_KEY_FILTER, filterOn ? "1" : "0");
+    applyFilter();
+  }
+  // Number-mode navigation (jump box / #hash / stepping through it) always
+  // addresses the full, unfiltered level list — nearestLevelIndex()/scrollToPos()
+  // treat their index as a position in `activeList`, which is only the same
+  // thing as an index into `levels` when the filter is off. Call this before
+  // using either of those from a number-mode code path.
+  function ensureFilterOff(){
+    if (filterOn){ filterOn = false; lsSet(LS_KEY_FILTER, "0"); $filterToggle.checked = false; applyFilter(); }
+  }
+  function applyFilter(){
+    activeList = filterOn ? computeFilteredList() : fullIndexList();
+    for (var pos of Array.from(rendered.keys())) releaseCell(pos);
+    $gridViewport.scrollTop = 0;
+    layout();
+    renderVisible();
+  }
+
+  // ---------------------------------------------------------------
+  // Grid thumbnail source (play/board) + density controls
+  // ---------------------------------------------------------------
+  function onGridKindClick(e){
+    var btn = e.target.closest("button[data-kind]");
+    if (!btn) return;
+    var kind = btn.dataset.kind;
+    if (kind === gridImageKind) return;
+    gridImageKind = kind;
+    lsSet(LS_KEY_GRID_KIND, kind);
+    syncPrefControls();
+    refreshGridImages();
+  }
+  function refreshGridImages(){
+    // image kind change doesn't affect layout/geometry — just repoint the
+    // <img> src of whatever's currently mounted (rendered + pooled-hidden).
+    rendered.forEach(function(el, pos){
+      var entry = levels[activeList[pos]];
+      if (entry) el._img.src = basePrefix + entry[gridImageKind];
+    });
+  }
+  function onDensityClick(e){
+    var btn = e.target.closest("button[data-density]");
+    if (!btn) return;
+    var key = btn.dataset.density;
+    if (key === densityKey || !DENSITY_PRESETS.hasOwnProperty(key)) return;
+    densityKey = key;
+    minCellWidth = DENSITY_PRESETS[key];
+    lsSet(LS_KEY_DENSITY, key);
+    syncPrefControls();
+    for (var pos of Array.from(rendered.keys())) releaseCell(pos);
+    layout();
+    renderVisible();
+  }
+
+  // ---------------------------------------------------------------
+  // Jump to level
+  //
+  // IMPORTANT: this must never silently substitute a different level than
+  // the one requested. If the requested level wasn't captured, the detail
+  // view shows an explicit "not captured" state for that exact number —
+  // it does not fall back to showing the nearest captured level's images
+  // under the requested number, nor does it silently redirect to showing
+  // a different level than what the user typed.
+  // ---------------------------------------------------------------
+  function onJumpKey(e){
+    if (e.key !== "Enter") return;
+    var n = parseInt($jumpInput.value, 10);
+    if (isNaN(n)) return;
+    jumpToLevel(n);
+  }
+
+  function jumpToLevel(n){
+    ensureFilterOff();
+    // scroll the grid to the nearest captured neighbour for visual context...
+    if (levels.length){
+      var nearest = nearestLevelIndex(n);
+      if (nearest >= 0) scrollToPos(nearest, true);
+    }
+    // ...but the detail view itself must reflect exactly what was asked for.
+    openDetailForLevelNumber(n);
+  }
+
+  // binary search `levels` (sorted ascending by .level) for exact/nearest match
+  function nearestLevelIndex(n){
+    var lo = 0, hi = levels.length - 1;
+    if (hi < 0) return -1;
+    while (lo <= hi){
+      var mid = (lo + hi) >> 1;
+      var v = levels[mid].level;
+      if (v === n) return mid;
+      if (v < n) lo = mid + 1; else hi = mid - 1;
+    }
+    // lo is insertion point; compare neighbours lo-1 and lo
+    if (lo >= levels.length) return levels.length - 1;
+    if (lo <= 0) return 0;
+    var below = lo - 1, above = lo;
+    return (n - levels[below].level <= levels[above].level - n) ? below : above;
+  }
+
+  // exact match only — returns -1 if `n` was not captured
+  function exactLevelIndex(n){
+    var lo = 0, hi = levels.length - 1;
+    while (lo <= hi){
+      var mid = (lo + hi) >> 1;
+      var v = levels[mid].level;
+      if (v === n) return mid;
+      if (v < n) lo = mid + 1; else hi = mid - 1;
+    }
+    return -1;
+  }
+
+  // which known source video (from playlist.json, via manifest.video_ranges)
+  // should contain a given level number, whether or not it was captured
+  function findVideoForLevel(n){
+    for (var i=0;i<videoRanges.length;i++){
+      var v = videoRanges[i];
+      if (n >= v.level_start && n <= v.level_end) return v;
+    }
+    return null;
+  }
+
+  function scrollToPos(pos, center){
+    var row = Math.floor(pos / columns);
+    var target = row * rowHeight;
+    if (center) target -= ($gridViewport.clientHeight/2 - rowHeight/2);
+    target = Math.max(0, Math.min(target, totalRows*rowHeight - $gridViewport.clientHeight));
+    $gridViewport.scrollTop = target;
+    renderVisible();
+  }
+
+  // ---------------------------------------------------------------
+  // URL hash deep-linking: #L8451
+  // ---------------------------------------------------------------
+  function parseHash(){
+    var m = /^#L(\d+)$/.exec(location.hash);
+    return m ? parseInt(m[1], 10) : null;
+  }
+  // mode: "push" (new history entry — initial open from a click/jump/link)
+  //    or "replace" (update in place — Prev/Next stepping, so arrow-key
+  //       spamming doesn't flood history; Back then just returns to
+  //       wherever browsing started, not one arrow-step at a time)
+  function setHash(n, mode){
+    var h = "#L" + n;
+    if (location.hash === h) return;
+    if (mode === "replace") history.replaceState(null, "", h);
+    else history.pushState(null, "", h);
+  }
+  function clearHash(){
+    if (location.hash !== "") history.pushState(null, "", location.pathname + location.search);
+  }
+  function onHashChange(){
+    var n = parseHash();
+    if (n === null){
+      if (detailOpen) closeDetail(true);
+    } else if (n !== detailLevelNum || !detailOpen){
+      openDetailForLevelNumber(n, true);
+    }
+  }
+
+  // ---------------------------------------------------------------
+  // Detail overlay — two entry points:
+  //   openDetail(pos)              — from clicking a grid cell (respects the
+  //                                   current filtered list for Prev/Next)
+  //   openDetailForLevelNumber(n)  — from the jump box, a #hash deep link, or
+  //                                   Prev/Next while already in "number" mode;
+  //                                   resolves to the found or missing view.
+  // ---------------------------------------------------------------
+  function blurActive(){
+    if (document.activeElement && document.activeElement !== document.body && document.activeElement.blur){
+      document.activeElement.blur();
+    }
+  }
+
+  function openDetail(pos, historyMode){
+    if (pos < 0 || pos >= activeList.length) return;
+    blurActive();
+    detailMode = "list";
+    detailPos = pos;
+    detailOpen = true;
+    var entry = levels[activeList[pos]];
+    detailLevelNum = entry.level;
+    showFoundEntry(entry);
+    $prevBtn.disabled = pos <= 0;
+    $nextBtn.disabled = pos >= activeList.length - 1;
+    setHash(entry.level, historyMode || "push");
+  }
+
+  // fromHash: called in response to a hashchange event (back/forward, or the
+  //   user editing the URL) — the hash is already correct, don't touch it.
+  // historyMode: "push" (default) or "replace", ignored when fromHash is set.
+  function openDetailForLevelNumber(n, fromHash, historyMode){
+    blurActive();
+    detailMode = "number";
+    detailPos = -1;
+    detailLevelNum = n;
+    detailOpen = true;
+    var idx = exactLevelIndex(n);
+    if (idx >= 0){
+      showFoundEntry(levels[idx]);
+    } else {
+      showMissingEntry(n);
+    }
+    var rs = (manifest.stats && manifest.stats.range_start) || (levels.length ? levels[0].level : 1);
+    var re = (manifest.stats && manifest.stats.range_end) || (levels.length ? levels[levels.length-1].level : n);
+    $prevBtn.disabled = n <= rs;
+    $nextBtn.disabled = n >= re;
+    if (!fromHash) setHash(n, historyMode || "push");
+  }
+
+  function showFoundEntry(entry){
+    $detail.classList.remove("hidden");
+    $missingPanel.classList.add("hidden");
+    $detailBody.classList.remove("hidden");
+    $detailTitle.textContent = "Level " + entry.level;
+    $playImg.src = basePrefix + entry.play;
+    $boardImg.src = basePrefix + entry.board;
+    $playImg.onerror = function(){ $playImg.src = BLANK_THUMB; };
+    $boardImg.onerror = function(){ $boardImg.src = BLANK_THUMB; };
+
+    // SPEC v2.7: board pane becomes scrubbable in place when a verification
+    // clip exists. detailCtl.open() sets/clears <video src> (lazy-loaded --
+    // only fetched while a detail view showing this level is actually open)
+    // and, because it was built with startAtChosen:true, lands on exactly the
+    // board_offset_s frame -- i.e. what board.jpg captured -- so the default
+    // view is unchanged from before this feature existed. $boardImg stays the
+    // display for levels with no clip; exactly one of the two is ever visible.
+    var hasClip = !!entry.window;
+    $detail.classList.toggle("hasTimeline", hasClip);
+    $detailTimelineBar.classList.toggle("hidden", !hasClip);
+    $boardImg.classList.toggle("hidden", hasClip);
+    detailCtl.open(entry);
+
+    var conf = entry.confidence;
+    $confText.textContent = (typeof conf === "number") ? conf.toFixed(2) : "unknown";
+    var pct = typeof conf === "number" ? Math.round(conf*100) : 0;
+    $confFill.style.width = pct + "%";
+    $confFill.style.background = conf < lowConfThreshold ? "var(--danger)" : "var(--accent)";
+
+    $flagsBox.innerHTML = "";
+    if (entry.flags && entry.flags.length){
+      entry.flags.forEach(function(f){
+        var c = document.createElement("span");
+        c.className = "chip";
+        c.textContent = f;
+        $flagsBox.appendChild(c);
+      });
+    } else {
+      var c = document.createElement("span");
+      c.className = "chip none";
+      c.textContent = "none";
+      $flagsBox.appendChild(c);
+    }
+
+    $videoTitle.textContent = entry.video_title || entry.video_id || "unknown";
+    $ytLink.href = entry.youtube_url || "#";
+
+    $ocrText.textContent = "OCR: " + (entry.ocr_text || "—") +
+      (entry.level_source ? "  (" + entry.level_source + ")" : "");
+    $movesText.textContent = "Moves at start: " + (entry.moves_start != null ? entry.moves_start : "—");
+  }
+
+  function showMissingEntry(n){
+    $detail.classList.remove("hidden");
+    $detailBody.classList.add("hidden");
+    $missingPanel.classList.remove("hidden");
+    $detail.classList.remove("hasTimeline");
+    $detailTimelineBar.classList.add("hidden");
+    detailCtl.close();
+    $detailTitle.textContent = "Level " + n + " — not captured";
+    $missingLevelNum.textContent = "Level " + n;
+
+    var video = findVideoForLevel(n);
+    if (video){
+      $missingVideoTitle.className = "vt";
+      $missingVideoTitle.textContent = video.title || video.video_id;
+      $missingYtLink.classList.remove("hidden");
+      $missingYtLink.href = "https://youtu.be/" + video.video_id;
+    } else {
+      $missingVideoTitle.className = "vt none";
+      $missingVideoTitle.textContent = "No known source video covers this level number.";
+      $missingYtLink.classList.add("hidden");
+    }
+  }
+
+  function closeDetail(fromHash){
+    detailOpen = false;
+    detailMode = null;
+    detailPos = -1;
+    detailLevelNum = null;
+    detailCtl.close();  // clears <video src> -- must not keep the clip loaded once closed
+    $detail.classList.add("hidden");
+    if (!fromHash) clearHash();
+  }
+
+  function stepDetail(delta){
+    if (!detailOpen) return;
+    if (detailMode === "list"){
+      var newPos = detailPos + delta;
+      if (newPos < 0 || newPos >= activeList.length) return;
+      openDetail(newPos, "replace");
+      scrollToPos(newPos, false);
+    } else {
+      openDetailForLevelNumber(detailLevelNum + delta, false, "replace");
+      ensureFilterOff();
+      if (levels.length){
+        var nearest = nearestLevelIndex(detailLevelNum);
+        if (nearest >= 0) scrollToPos(nearest, false);
+      }
+    }
+  }
+
+  // ---------------------------------------------------------------
+  // Shared frame-scrub controller (SPEC v2.3 clip format / v2.4 full-screen
+  // scrubber / v2.7 inline detail timeline).
+  //
+  // Both the full-screen scrubber and the docked timeline at the bottom of
+  // the single-click detail view step through the same kind of 10fps
+  // window.mp4 verification clip and need identical frame math. Factored out
+  // once here (SPEC v2.7 explicitly asks for this) so the two UIs share
+  // logic and cannot drift apart; each call site supplies its own DOM
+  // elements and gets back an independent controller with its own state.
+  // ---------------------------------------------------------------
+  var SCRUB_FPS = 10;                 // must match pipeline.py's `-vf fps=10` (SPEC v2.3)
+  var SCRUB_FRAME_S = 1 / SCRUB_FPS;
+
+  // board_offset_s is a continuous timestamp and won't generally land exactly
+  // on a 10fps frame boundary (e.g. offset 3.05s is exactly between frame 30
+  // @3.0s and frame 31 @3.1s) -- so as of SPEC v2.8 the chosen frame is NOT
+  // re-derived from that float at all. pipeline.py decodes the actual clip
+  // frames around the estimate and pixel-compares each against the saved
+  // board.jpg, storing the empirically-best integer as `board_frame_idx`
+  // (and `first_move_frame_idx` similarly). The UI must use those stored
+  // integers directly and compare indices everywhere (jump-to-chosen, the
+  // "is this the chosen frame" badge) so exactly one frame is ever "the
+  // chosen frame", never a time-distance check that can straddle two
+  // adjacent frames. `Math.floor` (NOT `Math.round`, which was measured to
+  // be late on 65.5% of levels) is only a fallback for manifests that
+  // predate this field.
+  function frameIndexFromOffset(offsetS){
+    return Math.floor(offsetS / SCRUB_FRAME_S);
+  }
+  function boardFrameIdx(win){
+    return (win.board_frame_idx != null) ? win.board_frame_idx : frameIndexFromOffset(win.board_offset_s);
+  }
+  function firstMoveFrameIdx(win){
+    if (win.first_move_frame_idx != null) return win.first_move_frame_idx;
+    if (win.first_move_offset_s == null) return null;
+    return frameIndexFromOffset(win.first_move_offset_s);
+  }
+  function clamp01(x){ return Math.max(0, Math.min(1, x)); }
+
+  // opts: { video, playBtn, prevBtn, nextBtn, jumpBtn, frameCounterEl, timeCounterEl,
+  //         trackEl, playedEl, playheadEl, boardMarkerEl, moveMarkerEl,
+  //         chosenBadgeEl, modifiedBadgeEl, noClipEl, startAtChosen }
+  // All DOM refs except `video` are optional -- callers only wire what their
+  // view actually has (e.g. the inline detail timeline has a modifiedBadgeEl,
+  // the full-screen scrubber has a noClipEl; neither has both).
+  function createScrubController(opts){
+    var st = { entry: null, duration: 0, chosenFrameIdx: null };
+
+    function currentFrameIndex(){ return Math.round(opts.video.currentTime / SCRUB_FRAME_S); }
+
+    // Seeking by recomputed `idx * SCRUB_FRAME_S` (rather than repeated
+    // `currentTime += 0.1`) avoids floating-point drift accumulating over many
+    // steps, while still landing on exactly the frame boundaries the SPEC's
+    // `-vf fps=10` encode guarantees exist.
+    function seekToFrame(idx){
+      var dur = st.duration || opts.video.duration || 0;
+      var maxIdx = Math.max(0, Math.round(dur / SCRUB_FRAME_S));
+      idx = Math.max(0, Math.min(idx, maxIdx));
+      opts.video.currentTime = idx * SCRUB_FRAME_S;
+    }
+
+    function stepFrame(delta){
+      if (!st.entry || !st.entry.window) return;
+      if (!opts.video.paused) opts.video.pause();
+      seekToFrame(currentFrameIndex() + delta);
+    }
+
+    function jumpToChosen(){
+      if (!st.entry || !st.entry.window || st.chosenFrameIdx === null) return;
+      if (!opts.video.paused) opts.video.pause();
+      seekToFrame(st.chosenFrameIdx);
+    }
+
+    function togglePlay(){
+      if (!st.entry || !st.entry.window) return;
+      if (opts.video.paused) opts.video.play(); else opts.video.pause();
+    }
+
+    function updatePlayButton(playing){
+      if (opts.playBtn) opts.playBtn.innerHTML = playing ? "&#10074;&#10074;" : "&#9654;";
+    }
+
+    function setControlsDisabled(disabled){
+      [opts.playBtn, opts.prevBtn, opts.nextBtn, opts.jumpBtn].forEach(function(b){ if (b) b.disabled = disabled; });
+    }
+
+    function updateMarkers(win){
+      if (!opts.boardMarkerEl) return;
+      if (!win){
+        opts.boardMarkerEl.classList.add("hidden");
+        if (opts.moveMarkerEl) opts.moveMarkerEl.classList.add("hidden");
+        return;
+      }
+      var dur = st.duration || win.duration;
+      opts.boardMarkerEl.classList.remove("hidden");
+      // Marker position derives from the SAME stored integer frame index used
+      // for the chosen-frame badge (not the raw float offset), so the marker
+      // and the badge can never disagree about which frame is "chosen".
+      opts.boardMarkerEl.style.left = (clamp01((boardFrameIdx(win) * SCRUB_FRAME_S) / dur) * 100) + "%";
+      if (opts.moveMarkerEl){
+        var moveIdx = firstMoveFrameIdx(win);
+        if (moveIdx != null){
+          opts.moveMarkerEl.classList.remove("hidden");
+          opts.moveMarkerEl.style.left = (clamp01((moveIdx * SCRUB_FRAME_S) / dur) * 100) + "%";
+        } else {
+          opts.moveMarkerEl.classList.add("hidden");
+        }
+      }
+    }
+
+    function resetReadouts(){
+      if (opts.frameCounterEl) opts.frameCounterEl.textContent = "frame — / —";
+      if (opts.timeCounterEl) opts.timeCounterEl.textContent = "—";
+      if (opts.playedEl) opts.playedEl.style.width = "0%";
+      if (opts.playheadEl) opts.playheadEl.style.left = "0%";
+      if (opts.chosenBadgeEl) opts.chosenBadgeEl.classList.add("hidden");
+      if (opts.modifiedBadgeEl) opts.modifiedBadgeEl.classList.add("hidden");
+    }
+
+    function onTimeUpdate(){
+      if (!st.entry || !st.entry.window) return;
+      var dur = st.duration || opts.video.duration || 0;
+      var t = opts.video.currentTime;
+      var frac = dur > 0 ? clamp01(t / dur) : 0;
+      if (opts.playedEl) opts.playedEl.style.width = (frac * 100) + "%";
+      if (opts.playheadEl) opts.playheadEl.style.left = (frac * 100) + "%";
+      var totalFrames = Math.max(0, Math.round(dur / SCRUB_FRAME_S));
+      if (opts.frameCounterEl) opts.frameCounterEl.textContent = "frame " + currentFrameIndex() + " / " + totalFrames;
+      if (opts.timeCounterEl) opts.timeCounterEl.textContent = t.toFixed(2) + "s / " + dur.toFixed(2) + "s";
+
+      // Unmistakable "this IS the chosen frame" indicator: compare integer
+      // frame indices (not raw time deltas) so exactly one frame ever matches,
+      // even when board_offset_s itself falls exactly between two frame
+      // boundaries (e.g. an offset of 3.05s is equidistant from frames at 3.0s
+      // and 3.1s) -- the index comparison ties to whichever single frame
+      // jump-to-chosen-frame actually lands on. Callers that also show a
+      // "modified" badge (SPEC v2.7) get its exact complement for free.
+      var isChosen = st.chosenFrameIdx !== null && currentFrameIndex() === st.chosenFrameIdx;
+      if (opts.chosenBadgeEl) opts.chosenBadgeEl.classList.toggle("hidden", !isChosen);
+      if (opts.modifiedBadgeEl) opts.modifiedBadgeEl.classList.toggle("hidden", isChosen);
+    }
+
+    function open(entry){
+      st.entry = entry;
+      var win = entry.window;
+      opts.video.pause();
+      if (!win){
+        // Graceful degradation (SPEC v2.3/v2.4/v2.7): no window.mp4 either
+        // because this level predates the verification-clip feature, or its
+        // source video's detect.json doesn't (yet) carry the v2.2 timing
+        // fields the clip is built from. Never crash -- just say so.
+        if (opts.noClipEl) opts.noClipEl.classList.remove("hidden");
+        opts.video.classList.add("hidden");
+        opts.video.removeAttribute("src");
+        setControlsDisabled(true);
+        updateMarkers(null);
+        resetReadouts();
+        st.chosenFrameIdx = null;
+        st.duration = 0;
+        return;
+      }
+      if (opts.noClipEl) opts.noClipEl.classList.add("hidden");
+      opts.video.classList.remove("hidden");
+      setControlsDisabled(false);
+      st.duration = win.duration;
+      st.chosenFrameIdx = boardFrameIdx(win);
+      updateMarkers(win);
+      if (opts.chosenBadgeEl) opts.chosenBadgeEl.classList.add("hidden");
+      if (opts.modifiedBadgeEl) opts.modifiedBadgeEl.classList.add("hidden");
+      opts.video.src = basePrefix + win.file;
+      opts.video.currentTime = 0;
+      opts.video.load();
+      updatePlayButton(false);
+    }
+
+    // Lazy-loading (SPEC v2.3/v2.7): clears <video src> so having ~13,000
+    // levels in the manifest never means ~13,000 clips get fetched -- only
+    // the level actually open in this view ever holds a loaded clip.
+    function close(){
+      opts.video.pause();
+      opts.video.removeAttribute("src");
+      opts.video.load();
+      st.entry = null;
+      st.duration = 0;
+      st.chosenFrameIdx = null;
+    }
+
+    opts.video.addEventListener("loadedmetadata", function(){
+      if (opts.video.duration && isFinite(opts.video.duration)) st.duration = opts.video.duration;
+      if (st.entry && st.entry.window) updateMarkers(st.entry.window);
+      // SPEC v2.7: the inline detail timeline must default to the CHOSEN
+      // frame (what board.jpg captured), not clip t=0 -- opt in per caller.
+      if (opts.startAtChosen && st.chosenFrameIdx !== null) seekToFrame(st.chosenFrameIdx);
+      onTimeUpdate();
+    });
+    opts.video.addEventListener("timeupdate", onTimeUpdate);
+    opts.video.addEventListener("seeked", onTimeUpdate);
+    opts.video.addEventListener("play", function(){ updatePlayButton(true); });
+    opts.video.addEventListener("pause", function(){ updatePlayButton(false); });
+    opts.video.addEventListener("ended", function(){ updatePlayButton(false); });
+
+    if (opts.trackEl){
+      opts.trackEl.addEventListener("click", function(e){
+        if (!st.entry || !st.entry.window) return;
+        var rect = opts.trackEl.getBoundingClientRect();
+        var frac = clamp01((e.clientX - rect.left) / rect.width);
+        var dur = st.duration || st.entry.window.duration;
+        if (!opts.video.paused) opts.video.pause();
+        seekToFrame(Math.round((frac * dur) / SCRUB_FRAME_S));
+      });
+    }
+    if (opts.playBtn) opts.playBtn.addEventListener("click", togglePlay);
+    if (opts.prevBtn) opts.prevBtn.addEventListener("click", function(){ stepFrame(-1); });
+    if (opts.nextBtn) opts.nextBtn.addEventListener("click", function(){ stepFrame(1); });
+    if (opts.jumpBtn) opts.jumpBtn.addEventListener("click", jumpToChosen);
+
+    return {
+      open: open,
+      close: close,
+      stepFrame: stepFrame,
+      jumpToChosen: jumpToChosen,
+      togglePlay: togglePlay,
+      currentFrameIndex: currentFrameIndex,
+      hasClip: function(){ return !!(st.entry && st.entry.window); }
+    };
+  }
+
+  // ---------------------------------------------------------------
+  // Full-screen scrubber overlay (SPEC v2.4) — double-click a level to
+  // frame-step through its out/levels/<NNNNN>/window.mp4 verification clip
+  // (SPEC v2.3) in a larger view, and see, at a glance, whether the
+  // extracted board.jpg frame precedes the first move. Independent of the
+  // single-click detail view: it can be opened straight from the grid, or
+  // (via dblclick on either image) from on top of an already-open detail
+  // view. SPEC v2.7 no longer makes this the only way to step frames -- see
+  // the "Detail inline timeline" section below -- but it remains available
+  // for a bigger picture, sharing the same createScrubController() logic.
+  // ---------------------------------------------------------------
+  var scrubberOpen = false;
+  var scrubEntry = null;              // the levels[] entry currently shown in the scrubber
+
+  var scrubberCtl = createScrubController({
+    video: $scrubVideo,
+    playBtn: $scrubPlayBtn, prevBtn: $scrubPrevBtn, nextBtn: $scrubNextBtn, jumpBtn: $scrubJumpBtn,
+    frameCounterEl: $scrubFrameCounter, timeCounterEl: $scrubTimeCounter,
+    trackEl: $tlTrack, playedEl: $tlPlayed, playheadEl: $tlPlayhead,
+    boardMarkerEl: $tlBoardMarker, moveMarkerEl: $tlMoveMarker,
+    chosenBadgeEl: $scrubChosenBadge, noClipEl: $scrubNoClip,
+    startAtChosen: false   // unchanged from before: starts at clip t=0, use "Jump to chosen frame" to see it
+  });
+
+  function openScrubberForPos(pos){
+    if (pos < 0 || pos >= activeList.length) return;
+    openScrubber(levels[activeList[pos]]);
+  }
+  function openScrubberFromLevelNumber(n){
+    var idx = exactLevelIndex(n);
+    if (idx >= 0) openScrubber(levels[idx]);
+  }
+
+  function openScrubber(entry){
+    blurActive();
+    scrubberOpen = true;
+    scrubEntry = entry;
+    $scrubber.classList.remove("hidden");
+    $scrubTitle.textContent = "Level " + entry.level;
+
+    renderScrubFlags(entry);
+    renderScrubReward(entry);
+    renderScrubTiming(entry.window || null);
+    scrubberCtl.open(entry);
+  }
+
+  function closeScrubber(){
+    if (!scrubberOpen) return;
+    scrubberOpen = false;
+    scrubberCtl.close();
+    scrubEntry = null;
+    $scrubber.classList.add("hidden");
+  }
+
+  function renderScrubFlags(entry){
+    $scrubFlagsBox.innerHTML = "";
+    if (entry.flags && entry.flags.length){
+      entry.flags.forEach(function(f){
+        var c = document.createElement("span");
+        c.className = "chip";
+        c.textContent = f;
+        $scrubFlagsBox.appendChild(c);
+      });
+    } else {
+      var c = document.createElement("span");
+      c.className = "chip none";
+      c.textContent = "none";
+      $scrubFlagsBox.appendChild(c);
+    }
+  }
+
+  function renderScrubReward(entry){
+    var r = entry.reward_anim;
+    if (!r || !r.present){
+      $scrubRewardBox.textContent = "none detected";
+      return;
+    }
+    var lines = [];
+    lines.push("variant: <b style=\"color:var(--text)\">" + escapeHtml(String(r.variant || "?")) + "</b>");
+    lines.push("duration: " + (typeof r.duration === "number" ? r.duration.toFixed(2) + "s" : "?") +
+      (r.duration_source ? " (" + escapeHtml(String(r.duration_source)) + ")" : ""));
+    if (typeof r.start_t === "number" && typeof r.end_t === "number"){
+      lines.push("in source: " + r.start_t.toFixed(2) + "s – " + r.end_t.toFixed(2) + "s");
+    }
+    $scrubRewardBox.innerHTML = lines.join("<br>");
+  }
+
+  function escapeHtml(s){
+    return s.replace(/[&<>"']/g, function(c){
+      return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c];
+    });
+  }
+
+  function renderScrubTiming(win){
+    if (!win){
+      $scrubTimingBox.textContent = "No board_appear_t / board_t available for this level's source video yet.";
+      return;
+    }
+    var lines = [];
+    lines.push("clip covers " + win.start_t.toFixed(2) + "s–" + (win.start_t + win.duration).toFixed(2) +
+      "s of source (" + win.duration.toFixed(2) + "s @ " + win.fps + "fps)");
+    lines.push("chosen board_t: +" + win.board_offset_s.toFixed(2) + "s into clip");
+    lines.push(win.first_move_offset_s != null
+      ? "first move: +" + win.first_move_offset_s.toFixed(2) + "s into clip"
+      : "first move: not detected (clip runs board_t + 4s)");
+    $scrubTimingBox.innerHTML = lines.join("<br>");
+  }
+
+  $scrubCloseBtn.addEventListener("click", closeScrubber);
+  // A double-click on either image in the (single-click) detail view also
+  // opens the full-screen scrubber for the level currently shown there.
+  $playImg.addEventListener("dblclick", function(){ openScrubberFromLevelNumber(detailLevelNum); });
+  $boardMediaWrap.addEventListener("dblclick", function(){ openScrubberFromLevelNumber(detailLevelNum); });
+
+  // ---------------------------------------------------------------
+  // Detail inline timeline (SPEC v2.7) — the docked frame timeline and
+  // transport controls at the bottom of the single-click detail view. The
+  // board pane becomes the scrub target in place: showFoundEntry() wires
+  // this controller to whatever levels[] entry it's already displaying, so
+  // stepping frames here updates the SAME board pane the user is looking at
+  // -- no extra navigation hop to a third page. Built with startAtChosen:true
+  // so opening a level's detail view lands on the chosen board_t frame by
+  // default, i.e. exactly what board.jpg captured.
+  // ---------------------------------------------------------------
+  var detailCtl = createScrubController({
+    video: $detailBoardVideo,
+    playBtn: $dtPlayBtn, prevBtn: $dtPrevBtn, nextBtn: $dtNextBtn, jumpBtn: $dtJumpBtn,
+    frameCounterEl: $dtFrameCounter, timeCounterEl: $dtTimeCounter,
+    trackEl: $dtTrack, playedEl: $dtPlayed, playheadEl: $dtPlayhead,
+    boardMarkerEl: $dtBoardMarker, moveMarkerEl: $dtMoveMarker,
+    chosenBadgeEl: $detailChosenBadge, modifiedBadgeEl: $detailModifiedBadge,
+    startAtChosen: true
+  });
+
+  // ---------------------------------------------------------------
+  // Keyboard
+  //
+  // SPEC v2.7 resolves a conflict: Left/Right used to move to the prev/next
+  // LEVEL in the detail view. Frame stepping is now the more frequent
+  // action, so plain Left/Right step a frame and Shift+Left/Right move
+  // between levels; Up/Down are untouched (still prev/next level).
+  // ---------------------------------------------------------------
+  function onGlobalKey(e){
+    var tag = (document.activeElement && document.activeElement.tagName) || "";
+    if (tag === "INPUT" || tag === "TEXTAREA") {
+      if (e.key === "Escape") document.activeElement.blur();
+      return;
+    }
+    if (scrubberOpen){
+      if (e.key === "Escape"){ closeScrubber(); e.preventDefault(); }
+      else if (e.key === "ArrowLeft"){ scrubberCtl.stepFrame(-1); e.preventDefault(); }
+      else if (e.key === "ArrowRight"){ scrubberCtl.stepFrame(1); e.preventDefault(); }
+      else if (e.key === " " || e.key === "Spacebar"){ scrubberCtl.togglePlay(); e.preventDefault(); }
+      return;
+    }
+    if (detailOpen){
+      if (e.key === "Escape"){ closeDetail(); e.preventDefault(); }
+      else if (e.key === "ArrowLeft"){ stepDetail(-1); e.preventDefault(); }
+      else if (e.key === "ArrowRight"){ stepDetail(1); e.preventDefault(); }
+      else if (e.key === "ArrowUp"){ stepDetail(-1); e.preventDefault(); }
+      else if (e.key === "ArrowDown"){ stepDetail(1); e.preventDefault(); }
+      else if (e.key === " " || e.key === "Spacebar"){ detailCtl.togglePlay(); e.preventDefault(); }
+    }
+  }
+
+  loadManifest();
+})();
+</script>
+</body>
+</html>

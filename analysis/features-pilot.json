@@ -1,0 +1,422 @@
+{
+  "summary": {
+    "levels": 30,
+    "tutorials": 2,
+    "target_count_resolved": 29,
+    "target_count_unknown": 1
+  },
+  "levels": [
+    {
+      "level": 2,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 1,
+      "target_values": [
+        36
+      ],
+      "target_confidence": 0.8,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 3,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 1,
+      "target_values": [
+        25
+      ],
+      "target_confidence": 0.8,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 4,
+      "tutorial": true,
+      "level_type": "tutorial",
+      "target_count": 1,
+      "target_values": [
+        49
+      ],
+      "target_confidence": 0.8,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 5,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 1,
+      "target_values": [
+        73
+      ],
+      "target_confidence": 0.8,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 6,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 1,
+      "target_values": [
+        72
+      ],
+      "target_confidence": 0.8,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 7,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 2,
+      "target_values": [
+        17,
+        32
+      ],
+      "target_confidence": 0.95,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 8,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 2,
+      "target_values": [
+        33,
+        25
+      ],
+      "target_confidence": 0.95,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 9,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 1,
+      "target_values": [
+        40
+      ],
+      "target_confidence": 0.8,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 10,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 2,
+      "target_values": [
+        27,
+        27
+      ],
+      "target_confidence": 0.95,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 11,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 1,
+      "target_values": [
+        40
+      ],
+      "target_confidence": 0.8,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 12,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 2,
+      "target_values": [
+        40,
+        32
+      ],
+      "target_confidence": 0.95,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 13,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 3,
+      "target_values": [
+        30,
+        40,
+        12
+      ],
+      "target_confidence": 0.95,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 14,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 2,
+      "target_values": [
+        60,
+        24
+      ],
+      "target_confidence": 0.95,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 15,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 2,
+      "target_values": [
+        36,
+        36
+      ],
+      "target_confidence": 0.95,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 16,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 2,
+      "target_values": [
+        60,
+        24
+      ],
+      "target_confidence": 0.95,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 17,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 2,
+      "target_values": [
+        54,
+        20
+      ],
+      "target_confidence": 0.95,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 18,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 3,
+      "target_values": [
+        18,
+        40,
+        16
+      ],
+      "target_confidence": 0.95,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 19,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 3,
+      "target_values": [
+        40,
+        15,
+        32
+      ],
+      "target_confidence": 0.95,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 20,
+      "tutorial": true,
+      "level_type": "tutorial",
+      "target_count": null,
+      "target_values": [],
+      "target_confidence": 0,
+      "target_method": "unresolved",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 21,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 1,
+      "target_values": [
+        50
+      ],
+      "target_confidence": 0.8,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 22,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 1,
+      "target_values": [
+        60
+      ],
+      "target_confidence": 0.8,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 23,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 2,
+      "target_values": [
+        25,
+        45
+      ],
+      "target_confidence": 0.95,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 24,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 2,
+      "target_values": [
+        32,
+        40
+      ],
+      "target_confidence": 0.95,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 25,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 3,
+      "target_values": [
+        36,
+        30,
+        30
+      ],
+      "target_confidence": 0.95,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 26,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 2,
+      "target_values": [
+        15,
+        36
+      ],
+      "target_confidence": 0.95,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 27,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 3,
+      "target_values": [
+        40,
+        16,
+        16
+      ],
+      "target_confidence": 0.95,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 28,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 2,
+      "target_values": [
+        120,
+        30
+      ],
+      "target_confidence": 0.95,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 29,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 3,
+      "target_values": [
+        27,
+        18,
+        50
+      ],
+      "target_confidence": 0.95,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 30,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 1,
+      "target_values": [
+        200
+      ],
+      "target_confidence": 0.8,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    },
+    {
+      "level": 31,
+      "tutorial": false,
+      "level_type": "standard",
+      "target_count": 1,
+      "target_values": [
+        60
+      ],
+      "target_confidence": 0.8,
+      "target_method": "ocr_values",
+      "difficulty": "unknown",
+      "pattern_status": "not_analyzed"
+    }
+  ]
+}

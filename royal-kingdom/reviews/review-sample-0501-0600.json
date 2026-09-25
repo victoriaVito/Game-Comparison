@@ -1,0 +1,16 @@
+{
+  "reviewed_at": "2026-09-24",
+  "review_scope": "Royal Kingdom stratified sample for levels 501-600",
+  "result": "passed_after_recapture",
+  "sample_size": 40,
+  "accepted_count": 40,
+  "detected_exception_levels": [530, 551, 571, 580, 587, 591],
+  "resolved_exception_levels": [530, 551, 571, 580, 587, 591],
+  "ambiguous_levels": [],
+  "failed_count": 0,
+  "missing_count": 0,
+  "selection_policy": "Every multiple of 5 plus offsets 3, 7, 11, and 19 in each 20-level sub-block",
+  "resolution": "Magic Pot animation captures were replaced from independently verified no-booster sources and the 40-level sample was reviewed again.",
+  "contact_sheet": "/Users/victoria.serrano/.cache/codex/royal-kingdom/reviews/0501-0600/review-0501-0600.jpg",
+  "sample_metadata": "/Users/victoria.serrano/.cache/codex/royal-kingdom/reviews/0501-0600/sample-metadata.json"
+}

@@ -1,0 +1,34 @@
+{
+  "reviewed_at": "2026-09-25T01:06:49.721065+00:00",
+  "review_scope": "Royal Kingdom levels 5141-5160",
+  "result": "automated_passed",
+  "checks": [
+    "Exact expected level sequence",
+    "JPEG signature present for every board",
+    "Source URL and timestamp present for every level",
+    "No captured New item unlocked screen"
+  ],
+  "visual_review": "stratified_sample_passed",
+  "reviewed_levels": [
+    5141,
+    5142,
+    5143,
+    5144,
+    5145,
+    5146,
+    5147,
+    5148,
+    5149,
+    5150,
+    5151,
+    5152,
+    5153,
+    5154,
+    5155,
+    5156,
+    5157,
+    5158,
+    5159,
+    5160
+  ]
+}

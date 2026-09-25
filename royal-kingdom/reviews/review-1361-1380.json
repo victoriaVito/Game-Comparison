@@ -1,0 +1,34 @@
+{
+  "reviewed_at": "2026-09-24T23:00:56.628334+00:00",
+  "review_scope": "Royal Kingdom levels 1361-1380",
+  "result": "automated_passed",
+  "checks": [
+    "Exact expected level sequence",
+    "JPEG signature present for every board",
+    "Source URL and timestamp present for every level",
+    "No captured New item unlocked screen"
+  ],
+  "visual_review": "stratified_sample_passed",
+  "reviewed_levels": [
+    1361,
+    1362,
+    1363,
+    1364,
+    1365,
+    1366,
+    1367,
+    1368,
+    1369,
+    1370,
+    1371,
+    1372,
+    1373,
+    1374,
+    1375,
+    1376,
+    1377,
+    1378,
+    1379,
+    1380
+  ]
+}

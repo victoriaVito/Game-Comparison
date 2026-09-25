@@ -1,0 +1,59 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=nT-hcLmkddg",
+  "coverage": "Levels 1-15 pilot video",
+  "monetization_summary": {
+    "status": "not_observed",
+    "evidence": "The footage shows hearts, coins, boosters, rewards, and progression locks, but no store, price, checkout, ad, or payment action.",
+    "limit": "This video cannot establish whether payment is required elsewhere or later in the game."
+  },
+  "notes": [
+    {
+      "id": "level-1-onboarding",
+      "timestamp_seconds": 89,
+      "title": "Level 1: tightly guided onboarding",
+      "gameplay": "The player follows a forced match next to a box. The first board teaches one obstacle and constrains the opening move, prioritizing clarity over agency.",
+      "monetization": "No payment prompt is visible. The player starts with five lives and visible currencies, but their purchase routes are not shown.",
+      "impression": "The tutorial is readable and low-risk, although the heavy guidance delays meaningful player choice."
+    },
+    {
+      "id": "level-5-kingdom",
+      "timestamp_seconds": 405.5,
+      "title": "Level 5: Kingdom battle",
+      "gameplay": "The match-3 board becomes an attack engine: matches and power-ups damage enemy structures while a move limit controls the encounter.",
+      "monetization": "No purchase or paid continue appears in this encounter.",
+      "impression": "The battle wrapper adds spectacle and a different objective without asking the player to learn a new core interaction."
+    },
+    {
+      "id": "level-8-hammer",
+      "timestamp_seconds": 611.5,
+      "title": "Level 8: booster introduction",
+      "gameplay": "The player is prompted to select the Hammer, introducing targeted board correction rather than a normal swap.",
+      "monetization": "The tutorial presents the Hammer as free here. The footage does not show its later price or replenishment loop.",
+      "impression": "This teaches the value of a scarce precision tool at a moment of low failure risk."
+    },
+    {
+      "id": "level-10-dark-kingdom",
+      "timestamp_seconds": 857.5,
+      "title": "Level 10: Dark Kingdom boss",
+      "gameplay": "The player must hit the Giant Golem before it spreads ivy. The 40-move budget supports a longer, staged fight with changing enemy pressure.",
+      "monetization": "No paywall or paid power-up selection is shown before the fight.",
+      "impression": "This is the strongest early pacing break: the enemy creates urgency and a visible reason for every match."
+    },
+    {
+      "id": "level-12-battle-ram",
+      "timestamp_seconds": 1039,
+      "title": "Level 12: Battle Ram tutorial",
+      "gameplay": "The Battle Ram is introduced as a directional special action for dealing with long blocker lanes.",
+      "monetization": "The tutorial use is free; later acquisition cost is not visible in this source.",
+      "impression": "The tool is taught on a board shaped to make its purpose immediately legible."
+    },
+    {
+      "id": "level-15-kingdom",
+      "timestamp_seconds": 1251.5,
+      "title": "Level 15: returning Kingdom format",
+      "gameplay": "The second Kingdom level revisits combat with a more structured battlefield and a 32-move budget, reinforcing the mode after ten levels.",
+      "monetization": "No payment action is shown. The available boosters are visible, but ownership does not prove they were purchased.",
+      "impression": "Repetition at this interval turns the battle from a one-off surprise into an expected progression pillar."
+    }
+  ]
+}

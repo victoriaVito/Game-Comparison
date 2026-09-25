@@ -1,0 +1,34 @@
+{
+  "reviewed_at": "2026-09-25T01:06:40.737378+00:00",
+  "review_scope": "Royal Kingdom levels 3921-3940",
+  "result": "automated_passed",
+  "checks": [
+    "Exact expected level sequence",
+    "JPEG signature present for every board",
+    "Source URL and timestamp present for every level",
+    "No captured New item unlocked screen"
+  ],
+  "visual_review": "stratified_sample_passed",
+  "reviewed_levels": [
+    3921,
+    3922,
+    3923,
+    3924,
+    3925,
+    3926,
+    3927,
+    3928,
+    3929,
+    3930,
+    3931,
+    3932,
+    3933,
+    3934,
+    3935,
+    3936,
+    3937,
+    3938,
+    3939,
+    3940
+  ]
+}

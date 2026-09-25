@@ -1,0 +1,20 @@
+{
+  "reviewed_at": "2026-09-24",
+  "review_scope": "Royal Kingdom stratified sample for levels 2201-2300",
+  "result": "passed_after_recapture",
+  "sample_size": 40,
+  "accepted_count": 40,
+  "detected_exception_levels": [
+    2283
+  ],
+  "resolved_exception_levels": [
+    2283
+  ],
+  "ambiguous_levels": [],
+  "failed_count": 0,
+  "missing_count": 0,
+  "selection_policy": "Every multiple of 5 plus offsets 3, 7, 11, and 19 in each 20-level sub-block",
+  "resolution": "The non-board My Team capture at level 2283 was replaced from an independently verified no-booster source at the initial pre-move frame, and the same 40-level sample passed on reinspection.",
+  "contact_sheet": "/Users/victoria.serrano/.cache/codex/royal-kingdom/reviews/2201-2300/review-2201-2300.jpg",
+  "sample_metadata": "/Users/victoria.serrano/.cache/codex/royal-kingdom/reviews/2201-2300/sample-metadata.json"
+}

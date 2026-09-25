@@ -1,0 +1,14 @@
+{
+  "reviewed_at": "2026-09-24",
+  "review_scope": "Royal Kingdom pilot levels 1-15",
+  "result": "passed",
+  "tutorial_levels": [1, 5, 8, 10, 12],
+  "checks": [
+    "All 15 expected levels are present",
+    "Each capture shows the complete board before the first move",
+    "Level numbering follows the source video sequence",
+    "Kingdom and Dark Kingdom levels are represented",
+    "Instruction overlays are retained when they are part of the initial board state"
+  ],
+  "reviewed_levels": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+}

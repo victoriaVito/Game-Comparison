@@ -1,0 +1,35 @@
+{
+  "reviewed_at": "2026-09-24T18:31:08.324022+00:00",
+  "review_scope": "Royal Kingdom levels 121-140",
+  "result": "passed",
+  "checks": [
+    "Exact expected level sequence",
+    "JPEG signature present for every board",
+    "Source URL and timestamp present for every level",
+    "No captured New item unlocked screen"
+  ],
+  "visual_review": "passed_full_batch",
+  "reviewed_levels": [
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140
+  ],
+  "visual_review_notes": "All captures show a playable pre-first-move state or initial Kingdom battle state."
+}

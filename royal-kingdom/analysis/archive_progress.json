@@ -1,0 +1,2373 @@
+{
+  "runs": [
+    {
+      "source_id": "7dPDBrl5cX8",
+      "range": [
+        101,
+        120
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "qCwb3oFbI_g",
+      "range": [
+        121,
+        140
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "C-PEOuovKSs",
+      "range": [
+        141,
+        160
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "lwHgGgvxIns",
+      "range": [
+        161,
+        180
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "jVoDeWcF_SU",
+      "range": [
+        181,
+        200
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "1zemew9dRl8",
+      "range": [
+        201,
+        220
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "07sHCexsNXs",
+      "range": [
+        221,
+        240
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "av_XJR_UiNY",
+      "range": [
+        241,
+        260
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "rhejfTFhd-Q",
+      "range": [
+        261,
+        280
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "IxqtCARc3Gg",
+      "range": [
+        281,
+        300
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "uol_uwe5zdo",
+      "range": [
+        301,
+        320
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "gX8DHMPWydw",
+      "range": [
+        321,
+        340
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "P5kPXv72NTQ",
+      "range": [
+        341,
+        360
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "xEFZ_NDGRtM",
+      "range": [
+        361,
+        380
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "KYvn44d6gXs",
+      "range": [
+        381,
+        400
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "69S2QkcOub8",
+      "range": [
+        401,
+        420
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "ny_MgfVkdCE",
+      "range": [
+        421,
+        440
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "QVaqaGhXkvk",
+      "range": [
+        441,
+        460
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "pBo3YefGPjQ",
+      "range": [
+        461,
+        480
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "Od2edOCrDYA",
+      "range": [
+        481,
+        500
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "szcHcS3m9Ss",
+      "range": [
+        501,
+        520
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "8jlBySqXXEw",
+      "range": [
+        521,
+        540
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "6OKTpQLJgmg",
+      "range": [
+        541,
+        560
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "i5-wGtaw8jc",
+      "range": [
+        561,
+        580
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "sjD_ECliwx0",
+      "range": [
+        581,
+        600
+      ],
+      "status": "failed",
+      "detail": "Command '['/Users/victoria.serrano/.local/bin/yt-dlp', '-f', 'bestvideo[height<=720][ext=mp4][protocol=https]/bestvideo[height<=720][ext=mp4]', '--abort-on-unavailable-fragments', '--no-progress', '-o', '/Users/victoria.serrano/.cache/codex/royal-kingdom/archive/videos/%(id)s.%(ext)s', 'https://www.youtube.com/watch?v=sjD_ECliwx0']' returned non-zero exit status 1."
+    },
+    {
+      "source_id": "sjD_ECliwx0",
+      "range": [
+        581,
+        600
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "v3SjkQbP-l4",
+      "range": [
+        601,
+        620
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "e_R1h6UncP0",
+      "range": [
+        621,
+        640
+      ],
+      "status": "failed",
+      "detail": "Command '['/Users/victoria.serrano/.local/bin/yt-dlp', '-f', 'bestvideo[height<=720][ext=mp4][vcodec^=avc1][protocol=https]/bestvideo[height<=720][ext=mp4][protocol=https]/bestvideo[height<=720][ext=mp4]', '--abort-on-unavailable-fragments', '--no-progress', '-o', '/Users/victoria.serrano/.cache/codex/royal-kingdom/archive/videos/%(id)s.%(ext)s', 'https://www.youtube.com/watch?v=e_R1h6UncP0']' returned non-zero exit status 1."
+    },
+    {
+      "source_id": "e_R1h6UncP0",
+      "range": [
+        621,
+        640
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "jsQsoc2PGik",
+      "range": [
+        641,
+        660
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "Whl7IirJIcI",
+      "range": [
+        661,
+        680
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "TSieqjS6Z_Y",
+      "range": [
+        681,
+        700
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "W88T8E-qeC4",
+      "range": [
+        701,
+        720
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "CVL6eaUuDYA",
+      "range": [
+        721,
+        740
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "PEdeodbwcn4",
+      "range": [
+        741,
+        760
+      ],
+      "status": "failed",
+      "detail": "Command '['/Users/victoria.serrano/.local/share/uv/python/cpython-3.13-macos-aarch64-none/bin/python3.13', '/Users/victoria.serrano/OpenHuman/projects/taussen_project/royal-kingdom/analysis/build_video_batch.py', '--video', '/Users/victoria.serrano/.cache/codex/royal-kingdom/archive/videos/PEdeodbwcn4.mp4', '--source-url', 'https://www.youtube.com/watch?v=PEdeodbwcn4', '--level-start', '741', '--level-end', '760', '--cache', '/Users/victoria.serrano/.cache/codex/royal-kingdom/archive/PEdeodbwcn4', '--output', '/Users/victoria.serrano/OpenHuman/projects/taussen_project/royal-kingdom/staging/0741-0760']' returned non-zero exit status 1."
+    },
+    {
+      "source_id": "PEdeodbwcn4",
+      "range": [
+        741,
+        760
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "mDtYNbpNAgA",
+      "range": [
+        761,
+        780
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "dG_zkDI9guc",
+      "range": [
+        781,
+        800
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "ciSHkgq4wYs",
+      "range": [
+        801,
+        820
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "aU8h4KI5224",
+      "range": [
+        821,
+        840
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "X-Ld7nopBDc",
+      "range": [
+        841,
+        860
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "l5POF770DDA",
+      "range": [
+        861,
+        880
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "Q_HQTvWxnkc",
+      "range": [
+        881,
+        900
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "adYVgbr5AWE",
+      "range": [
+        901,
+        920
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "mcxIU1n5HzM",
+      "range": [
+        921,
+        940
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "piW0kuKksAU",
+      "range": [
+        941,
+        960
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "MWslXValNLw",
+      "range": [
+        961,
+        980
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "HmCTWOcAbsc",
+      "range": [
+        981,
+        1000
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "JDeIAuQzmgo",
+      "range": [
+        1001,
+        1020
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "qaYzBWMNILc",
+      "range": [
+        1021,
+        1040
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "VFGs-jiZaP0",
+      "range": [
+        1041,
+        1060
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "Oe3PqLkBdJA",
+      "range": [
+        4241,
+        4260
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "_ZFRxkMVg3I",
+      "range": [
+        1061,
+        1080
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "E7BQfdokZX8",
+      "range": [
+        3041,
+        3460
+      ],
+      "status": "failed",
+      "detail": "Command '['/Users/victoria.serrano/.local/share/uv/python/cpython-3.13-macos-aarch64-none/bin/python3.13', '/Users/victoria.serrano/OpenHuman/projects/taussen_project/royal-kingdom/analysis/build_video_batch.py', '--video', '/Users/victoria.serrano/.cache/codex/royal-kingdom/archive/videos/E7BQfdokZX8.mp4', '--source-url', 'https://www.youtube.com/watch?v=E7BQfdokZX8', '--level-start', '3041', '--level-end', '3460', '--cache', '/Users/victoria.serrano/.cache/codex/royal-kingdom/archive/E7BQfdokZX8', '--output', '/Users/victoria.serrano/OpenHuman/projects/taussen_project/royal-kingdom/staging/3041-3460']' returned non-zero exit status 1."
+    },
+    {
+      "source_id": "E7BQfdokZX8",
+      "range": [
+        3041,
+        3060
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "IL5C2AHtI_Y",
+      "range": [
+        4261,
+        4280
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "bEuFAORfyDo",
+      "range": [
+        1081,
+        1100
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "-czthflqkuw",
+      "range": [
+        3061,
+        3080
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "o9GnOezBmZY",
+      "range": [
+        4281,
+        4300
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "1YesEKEB_5A",
+      "range": [
+        1101,
+        1120
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "Rn0eluKp62Y",
+      "range": [
+        3081,
+        3100
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "ujYXTlKi7hE",
+      "range": [
+        4301,
+        4320
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "foJEkDI8k3k",
+      "range": [
+        1121,
+        1140
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "UX8EI69PGZQ",
+      "range": [
+        2101,
+        2200
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "dN1bhd0DW-Q",
+      "range": [
+        3101,
+        3120
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "hnEkDRHNsN8",
+      "range": [
+        2201,
+        2220
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "qzM9Pr2DjP4",
+      "range": [
+        4321,
+        4340
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "CTP8Dl_9GCE",
+      "range": [
+        1141,
+        1160
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "d5HXk_Llu_A",
+      "range": [
+        3121,
+        3140
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "ot-3FMUYMII",
+      "range": [
+        2221,
+        2240
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "SM7obPbERMk",
+      "range": [
+        1161,
+        1180
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "J0f__FqA9rM",
+      "range": [
+        4341,
+        4360
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "VABQt7vcRIo",
+      "range": [
+        3141,
+        3160
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "rNlZ-SQp3Tg",
+      "range": [
+        2241,
+        2260
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "uQENfKdpoZo",
+      "range": [
+        1181,
+        1200
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "U7zd8ecUmDU",
+      "range": [
+        4361,
+        4380
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "4hjU_XuwxM0",
+      "range": [
+        3161,
+        3180
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "7PZ1NQ0eRB0",
+      "range": [
+        2261,
+        2280
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "iz2TUBVg6FU",
+      "range": [
+        1201,
+        1220
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "WK4UEEHc3lY",
+      "range": [
+        3181,
+        3200
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "utK7fYFEsuc",
+      "range": [
+        4381,
+        4400
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "9eqqLrDhAvE",
+      "range": [
+        2281,
+        2300
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "eGOKuT3lWok",
+      "range": [
+        1221,
+        1240
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "OafXLK9JImY",
+      "range": [
+        3201,
+        3220
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "vMlFYDbPFdo",
+      "range": [
+        4401,
+        4420
+      ],
+      "status": "failed",
+      "detail": "Command '['/Users/victoria.serrano/.local/share/uv/python/cpython-3.13-macos-aarch64-none/bin/python3.13', '/Users/victoria.serrano/OpenHuman/projects/taussen_project/royal-kingdom/analysis/build_video_batch.py', '--video', '/Users/victoria.serrano/.cache/codex/royal-kingdom/archive/videos/vMlFYDbPFdo.mp4', '--source-url', 'https://www.youtube.com/watch?v=vMlFYDbPFdo', '--level-start', '4401', '--level-end', '4420', '--cache', '/Users/victoria.serrano/.cache/codex/royal-kingdom/archive/vMlFYDbPFdo', '--output', '/Users/victoria.serrano/OpenHuman/projects/taussen_project/royal-kingdom/staging/4401-4420']' returned non-zero exit status 1."
+    },
+    {
+      "source_id": "ei536imzBS8",
+      "range": [
+        2301,
+        2320
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "vMlFYDbPFdo",
+      "range": [
+        4401,
+        4420
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "4pAqb44X5oc",
+      "range": [
+        1241,
+        1260
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "Queqn_9JttY",
+      "range": [
+        3221,
+        3240
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "esrD5Xx5b3E",
+      "range": [
+        2321,
+        2340
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "DgR_8qBLET0",
+      "range": [
+        4421,
+        4440
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "PJODr_iY2uc",
+      "range": [
+        1261,
+        1280
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "U0BlOcYf8bg",
+      "range": [
+        2341,
+        2360
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "4kEqpQePK-M",
+      "range": [
+        3241,
+        3260
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "7HfXlfG0D1g",
+      "range": [
+        4441,
+        4460
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "WIs35iw_q0A",
+      "range": [
+        1281,
+        1300
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "CY1Oiro-p8I",
+      "range": [
+        2361,
+        2380
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "rWsBgT6kODM",
+      "range": [
+        3261,
+        3280
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "e90ftGfauMc",
+      "range": [
+        4461,
+        4480
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "EuFFc6vO2j8",
+      "range": [
+        2381,
+        2400
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "Ea1Gd_s_sSw",
+      "range": [
+        1301,
+        1320
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "CQU_GtlwnkY",
+      "range": [
+        3281,
+        3300
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "JsX4g6qroug",
+      "range": [
+        4481,
+        4500
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "Di_P_qPIBBA",
+      "range": [
+        2401,
+        2420
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "zGVP0Hn2czQ",
+      "range": [
+        1321,
+        1340
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "gkEGe7S0Pnk",
+      "range": [
+        3301,
+        3320
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "uVnu5RMT33Y",
+      "range": [
+        2421,
+        2440
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "9jb5iI_aoA8",
+      "range": [
+        4501,
+        4520
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "qm3WqJeMOp8",
+      "range": [
+        1341,
+        1360
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "Tfe37rf1VvI",
+      "range": [
+        3321,
+        3340
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "61cCH3AvY0A",
+      "range": [
+        2441,
+        2460
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "lzVL1DcH8dw",
+      "range": [
+        4521,
+        4540
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "GDssCIQDzKg",
+      "range": [
+        1361,
+        1380
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "4qfF-THdyQU",
+      "range": [
+        3341,
+        3360
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "cVdVgDzGOHg",
+      "range": [
+        2461,
+        2480
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "-c_M6J6bO3k",
+      "range": [
+        4541,
+        4560
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "OuuUlrQeCd4",
+      "range": [
+        1381,
+        1400
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "WrQurC0UjSM",
+      "range": [
+        3361,
+        3380
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "LrxuAdGaB9A",
+      "range": [
+        2481,
+        2500
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "AKEd4pzWNF0",
+      "range": [
+        4561,
+        4580
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "saCLvPivAEw",
+      "range": [
+        1401,
+        1420
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "6h-ll2iQE4o",
+      "range": [
+        2501,
+        2520
+      ],
+      "status": "failed",
+      "detail": "Command '['/Users/victoria.serrano/.local/share/uv/python/cpython-3.13-macos-aarch64-none/bin/python3.13', '/Users/victoria.serrano/OpenHuman/projects/taussen_project/royal-kingdom/analysis/build_video_batch.py', '--video', '/Users/victoria.serrano/.cache/codex/royal-kingdom/archive/videos/6h-ll2iQE4o.mp4', '--source-url', 'https://www.youtube.com/watch?v=6h-ll2iQE4o', '--level-start', '2501', '--level-end', '2520', '--cache', '/Users/victoria.serrano/.cache/codex/royal-kingdom/archive/6h-ll2iQE4o', '--output', '/Users/victoria.serrano/OpenHuman/projects/taussen_project/royal-kingdom/staging/2501-2520']' returned non-zero exit status 1."
+    },
+    {
+      "source_id": "A6JZvohyx3Q",
+      "range": [
+        3381,
+        3400
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "2WEszjbWCT0",
+      "range": [
+        4581,
+        4600
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "BZzxDybhAy0",
+      "range": [
+        1421,
+        1440
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "FdyGZIsnFbo",
+      "range": [
+        3401,
+        3420
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "6h-ll2iQE4o",
+      "range": [
+        2501,
+        2520
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "HJRQ5RMlGHg",
+      "range": [
+        1441,
+        1460
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "JIjZAMZPQMo",
+      "range": [
+        4601,
+        4620
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "nTJuGD_Ib_I",
+      "range": [
+        2521,
+        2540
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "ZOaJTqu5dTM",
+      "range": [
+        3421,
+        3440
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "aiWe7-xBv-E",
+      "range": [
+        1461,
+        1480
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "DvQK9Td0yGQ",
+      "range": [
+        4621,
+        4640
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "p9lvvdcGpjc",
+      "range": [
+        2541,
+        2560
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "XdfOlsTNaU0",
+      "range": [
+        3441,
+        3460
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "BRAdBO2y63k",
+      "range": [
+        1481,
+        1500
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "kN01jGW5HeE",
+      "range": [
+        2561,
+        2580
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "7hQizZ6TnzI",
+      "range": [
+        4641,
+        4660
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "UoGOWv6_mNc",
+      "range": [
+        3461,
+        3480
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "NYOhIFEjsOg",
+      "range": [
+        1501,
+        1520
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "53uFVu4xBfQ",
+      "range": [
+        2581,
+        2600
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "VooUF-Dw_Wo",
+      "range": [
+        4661,
+        4680
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "PjDdnRTjUMM",
+      "range": [
+        3481,
+        3500
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "7mMdkjtX_kE",
+      "range": [
+        1521,
+        1540
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "5MFXvrCj7Bs",
+      "range": [
+        2601,
+        2620
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "ZRsfGwaAlF0",
+      "range": [
+        4681,
+        4700
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "PkjbPAKGVu4",
+      "range": [
+        3501,
+        3520
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "ROsRl_mXzuo",
+      "range": [
+        1541,
+        1560
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "2wRKqk_FMJ4",
+      "range": [
+        2621,
+        2640
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "1K1FtWOP7-I",
+      "range": [
+        4701,
+        4720
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "kPOByEs0dWo",
+      "range": [
+        3521,
+        3540
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "l3n2xZ_Xg0M",
+      "range": [
+        1561,
+        1580
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "aIM3zdZ8VRo",
+      "range": [
+        2641,
+        2660
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "BXFzb31_uvo",
+      "range": [
+        4721,
+        4740
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "NcKgwuaR4oo",
+      "range": [
+        1581,
+        1600
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "0Bd_696v7to",
+      "range": [
+        3541,
+        3560
+      ],
+      "status": "failed",
+      "detail": "Command '['/Users/victoria.serrano/.local/share/uv/python/cpython-3.13-macos-aarch64-none/bin/python3.13', '/Users/victoria.serrano/OpenHuman/projects/taussen_project/royal-kingdom/analysis/build_video_batch.py', '--video', '/Users/victoria.serrano/.cache/codex/royal-kingdom/archive/videos/0Bd_696v7to.mp4', '--source-url', 'https://www.youtube.com/watch?v=0Bd_696v7to', '--level-start', '3541', '--level-end', '3560', '--cache', '/Users/victoria.serrano/.cache/codex/royal-kingdom/archive/0Bd_696v7to', '--output', '/Users/victoria.serrano/OpenHuman/projects/taussen_project/royal-kingdom/staging/3541-3560']' returned non-zero exit status 1."
+    },
+    {
+      "source_id": "IULd-l-0iLQ",
+      "range": [
+        2661,
+        2680
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "N9SwGXD3IOw",
+      "range": [
+        4741,
+        4760
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "23dFZEOgpfw",
+      "range": [
+        1601,
+        1620
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "aXZvdmebaC8",
+      "range": [
+        2681,
+        2700
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "b_M7lK_O7Ko",
+      "range": [
+        4761,
+        4780
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "wYZXet5kMT4",
+      "range": [
+        1621,
+        1640
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "Cq-Y_rnbYis",
+      "range": [
+        3541,
+        3560
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "LniaP8xNmos",
+      "range": [
+        2701,
+        2720
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "0VWhDt4MJf0",
+      "range": [
+        4781,
+        4800
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "Ss040nIvUJc",
+      "range": [
+        1641,
+        1660
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "zp6U32J2LR0",
+      "range": [
+        3561,
+        3580
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "7OOVMW4j43I",
+      "range": [
+        2721,
+        2740
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "QTwZSpV6bqM",
+      "range": [
+        4801,
+        4820
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "7_2ctA9eliI",
+      "range": [
+        3581,
+        3600
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "IIYBnkI4ie4",
+      "range": [
+        1661,
+        1680
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "WYlj69ne5Qw",
+      "range": [
+        2741,
+        2760
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "0Qf0sNESvfU",
+      "range": [
+        4821,
+        4840
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "1dmI9u7mkfk",
+      "range": [
+        3601,
+        3620
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "8SLLbjrFDb8",
+      "range": [
+        1681,
+        1700
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "kXgJ4eBdmv0",
+      "range": [
+        2761,
+        2780
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "Hiky7B6BLIU",
+      "range": [
+        4841,
+        4860
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "01bo86WfvAQ",
+      "range": [
+        3621,
+        3640
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "WxE7oxg-DLA",
+      "range": [
+        1701,
+        1720
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "xnIPcNw08DA",
+      "range": [
+        2781,
+        2800
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "CDTNmuXWxLI",
+      "range": [
+        4861,
+        4880
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "iNWMBp5RZTo",
+      "range": [
+        3641,
+        3660
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "jibuK37y1Go",
+      "range": [
+        1721,
+        1740
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "VUIA2MvhwS4",
+      "range": [
+        2801,
+        2820
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "KB1xx2FVhgQ",
+      "range": [
+        4881,
+        4900
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "azLtBDM_Cgo",
+      "range": [
+        3661,
+        3680
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "By-e4Whm0A8",
+      "range": [
+        1741,
+        1760
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "UXHLFsTPWow",
+      "range": [
+        2821,
+        2840
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "scYhkSLt_i0",
+      "range": [
+        3681,
+        3700
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "TUsaeoZqfbY",
+      "range": [
+        4901,
+        4920
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "_j6c-lh0dzQ",
+      "range": [
+        2841,
+        2860
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "9p_Nrggvi6E",
+      "range": [
+        1761,
+        1780
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "duhz5wMvvrw",
+      "range": [
+        4921,
+        4940
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "BBMZqmMpWwE",
+      "range": [
+        3701,
+        3720
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "TSWZ-EH_mlw",
+      "range": [
+        2861,
+        2880
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "BaJgZeOUNyE",
+      "range": [
+        1781,
+        1800
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "CD3W58KaNdc",
+      "range": [
+        2881,
+        2900
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "yRoSdnSDia0",
+      "range": [
+        4941,
+        4960
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "1sfTmhk7KjQ",
+      "range": [
+        3721,
+        3740
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "i-LnJnzOTrM",
+      "range": [
+        1801,
+        1820
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "ir4KhSH9W90",
+      "range": [
+        2901,
+        2920
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "17Ly0dcugV8",
+      "range": [
+        4961,
+        4980
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "r08LDXRUbxA",
+      "range": [
+        3741,
+        3760
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "QJYVt3lcaMg",
+      "range": [
+        1821,
+        1840
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "u-lO7YVzTR4",
+      "range": [
+        2921,
+        2940
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "DZQ6YBvRHho",
+      "range": [
+        3761,
+        3780
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "VeYle1Ge1DQ",
+      "range": [
+        4981,
+        5000
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "zRQSEMyUGXo",
+      "range": [
+        1841,
+        1860
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "DlXo-fVnIx0",
+      "range": [
+        2941,
+        2960
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "WzXWD8An8R4",
+      "range": [
+        1861,
+        1880
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "8-ZlPJ0j0xs",
+      "range": [
+        3781,
+        3800
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "wAejt04xwlA",
+      "range": [
+        5001,
+        5020
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "AfD0G5XMqC0",
+      "range": [
+        2961,
+        2980
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "9bDnaR6tpJo",
+      "range": [
+        1881,
+        1900
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "24-siOeOqzY",
+      "range": [
+        5021,
+        5040
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "30ShK28YTRs",
+      "range": [
+        3801,
+        3820
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "KbGVE0CS0Sw",
+      "range": [
+        2981,
+        3000
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "N2jfNUurSfE",
+      "range": [
+        1901,
+        1920
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "ggdEfN2dBBg",
+      "range": [
+        3821,
+        3840
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "6sLOwvdssZQ",
+      "range": [
+        5041,
+        5060
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "BbugyIjLapg",
+      "range": [
+        1921,
+        1940
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "OE0l4hDKeRM",
+      "range": [
+        3001,
+        3020
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "rowMkES53X4",
+      "range": [
+        3841,
+        3860
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "18IJ56rWNXM",
+      "range": [
+        5061,
+        5080
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "9_qZG3fOrRs",
+      "range": [
+        1941,
+        1960
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "mGH7c2L_A5U",
+      "range": [
+        3021,
+        3040
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "lfySRFik9QU",
+      "range": [
+        3861,
+        3880
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "h9M5ujnL8dY",
+      "range": [
+        5081,
+        5100
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "4uLFHDtp1jM",
+      "range": [
+        1961,
+        1980
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "6gkG8SUFaaY",
+      "range": [
+        3881,
+        3900
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "p9IW-nF-oGo",
+      "range": [
+        1981,
+        2000
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "bCoumPyEw24",
+      "range": [
+        5101,
+        5120
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "ZWPLbpfwxCo",
+      "range": [
+        2001,
+        2020
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "rav_1CFruJE",
+      "range": [
+        3901,
+        3920
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "3PYDbprnP64",
+      "range": [
+        5121,
+        5140
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "tpuu-TROBXg",
+      "range": [
+        2021,
+        2040
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "By-LrgXJHbQ",
+      "range": [
+        3921,
+        3940
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "UAODI5kzNRE",
+      "range": [
+        5141,
+        5160
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "IJtlUUeeDHs",
+      "range": [
+        2041,
+        2060
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "XLAfzRfZYWY",
+      "range": [
+        5161,
+        5180
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "vS1pigFIqSM",
+      "range": [
+        3941,
+        3960
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "m13xEfN4N4g",
+      "range": [
+        2061,
+        2080
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "oXQEoM8AUk0",
+      "range": [
+        5181,
+        5200
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "sd_2wgUBvs0",
+      "range": [
+        3961,
+        3980
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "0G79sn4irYQ",
+      "range": [
+        2081,
+        2100
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "mGRaa7lPHPA",
+      "range": [
+        5201,
+        5220
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "bAZgiUI-2B8",
+      "range": [
+        3981,
+        4000
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "HCjmNmb06ec",
+      "range": [
+        5221,
+        5240
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "1vrfRdqCxOA",
+      "range": [
+        4001,
+        4020
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "tgjSSVCyf4c",
+      "range": [
+        5241,
+        5260
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "pPnY2OsP-Gg",
+      "range": [
+        4021,
+        4040
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "FtZXfxYNlIQ",
+      "range": [
+        5261,
+        5280
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "o7qqvBwO0IM",
+      "range": [
+        4041,
+        4060
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "VxVkGN3KSWI",
+      "range": [
+        5281,
+        5300
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "xuUQ1_qAslU",
+      "range": [
+        4061,
+        4080
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "cnjITkeJJ5g",
+      "range": [
+        4081,
+        4100
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "a28ox_sWeP4",
+      "range": [
+        4101,
+        4120
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "yzCfCGrvdTo",
+      "range": [
+        4121,
+        4140
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "S4C8cXsamYc",
+      "range": [
+        4141,
+        4160
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "oUzDBU3hYTE",
+      "range": [
+        4161,
+        4180
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "VnDYJTQzt24",
+      "range": [
+        4181,
+        4200
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "qzbjlO1NI74",
+      "range": [
+        4201,
+        4220
+      ],
+      "status": "published",
+      "detail": ""
+    },
+    {
+      "source_id": "JB3I7L3imtI",
+      "range": [
+        4221,
+        4240
+      ],
+      "status": "published",
+      "detail": ""
+    }
+  ],
+  "updated_at": "2026-09-25T02:01:13.181274+00:00",
+  "published_through": 5300
+}

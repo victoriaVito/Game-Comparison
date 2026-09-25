@@ -1,0 +1,23 @@
+{
+  "batch": "0016-0100",
+  "source_playlist": "https://www.youtube.com/playlist?list=PLqw_nFRGFVOpjUUoSby3efCOfeSjRROQ4",
+  "videos": [
+    {"id": "r5nTWnsWauM", "level_start": 16, "level_end": 20},
+    {"id": "utyAuDvC6DI", "level_start": 21, "level_end": 25},
+    {"id": "9MNRk8YRrdw", "level_start": 26, "level_end": 30},
+    {"id": "X-kJOtocHSo", "level_start": 31, "level_end": 35},
+    {"id": "YcHyxrT-gek", "level_start": 36, "level_end": 40},
+    {"id": "XXxuHJlQI5k", "level_start": 41, "level_end": 45},
+    {"id": "9zhE6SusC6o", "level_start": 46, "level_end": 50},
+    {"id": "tJNCY62hQ0M", "level_start": 51, "level_end": 55},
+    {"id": "ehCGAiOeqTs", "level_start": 56, "level_end": 60},
+    {"id": "9Z0Q47bIkgE", "level_start": 61, "level_end": 65},
+    {"id": "YBTlba-nKZ0", "level_start": 66, "level_end": 70},
+    {"id": "Sgj5PrHAn5w", "level_start": 71, "level_end": 75},
+    {"id": "q2DM0y58E1A", "level_start": 76, "level_end": 80},
+    {"id": "3ErzH1FAsrk", "level_start": 81, "level_end": 85},
+    {"id": "ATjTr8fIWOU", "level_start": 86, "level_end": 90},
+    {"id": "LtwmrPt6-Pg", "level_start": 91, "level_end": 95},
+    {"id": "qVzUmv1RDPU", "level_start": 96, "level_end": 100}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "reviewed_at": "2026-09-24",
+  "review_scope": "Royal Kingdom stratified sample for levels 701-800",
+  "result": "passed_after_recapture",
+  "sample_size": 40,
+  "accepted_count": 40,
+  "detected_exception_levels": [705, 710, 720, 725, 727, 745, 750],
+  "resolved_exception_levels": [705, 710, 720, 725, 727, 745, 750],
+  "power_rush_exception_levels": [705, 710, 720, 725, 745, 750],
+  "magic_pot_exception_levels": [727],
+  "ambiguous_levels": [],
+  "failed_count": 0,
+  "missing_count": 0,
+  "selection_policy": "Every multiple of 5 plus offsets 3, 7, 11, and 19 in each 20-level sub-block",
+  "resolution": "Starter-effect captures were replaced from independently verified no-booster sources and the 40-level sample was reviewed again. Persistent golden knight figures are level mechanics; added special pieces and active overlays were removed.",
+  "contact_sheet": "/Users/victoria.serrano/.cache/codex/royal-kingdom/reviews/0701-0800/review-0701-0800.jpg",
+  "sample_metadata": "/Users/victoria.serrano/.cache/codex/royal-kingdom/reviews/0701-0800/sample-metadata.json"
+}

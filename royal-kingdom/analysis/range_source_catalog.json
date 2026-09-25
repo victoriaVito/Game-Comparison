@@ -1,0 +1,5804 @@
+{
+  "generated_at": "2026-09-24T22:00:08.401681+00:00",
+  "range": [
+    101,
+    5300
+  ],
+  "channel_url": "https://www.youtube.com/channel/UCph27JIfhqHnu5hcJiLzW4g/videos",
+  "candidate_count": 323,
+  "selected_source_count": 256,
+  "covered_levels": 5200,
+  "selection_policy": "Prefer exact 20-level blocks, then the smallest contiguous source",
+  "sources": [
+    {
+      "id": "7dPDBrl5cX8",
+      "title": "Royal Kingdom Level 101-120 (Gameplay)",
+      "level_start": 101,
+      "level_end": 120,
+      "duration_seconds": 1324,
+      "channel_position": 310,
+      "url": "https://www.youtube.com/watch?v=7dPDBrl5cX8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "qCwb3oFbI_g",
+      "title": "Royal Kingdom Level 121-140 (Gameplay)",
+      "level_start": 121,
+      "level_end": 140,
+      "duration_seconds": 1429,
+      "channel_position": 308,
+      "url": "https://www.youtube.com/watch?v=qCwb3oFbI_g",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "C-PEOuovKSs",
+      "title": "Royal Kingdom Level 141-160 (Gameplay)",
+      "level_start": 141,
+      "level_end": 160,
+      "duration_seconds": 1200,
+      "channel_position": 301,
+      "url": "https://www.youtube.com/watch?v=C-PEOuovKSs",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "lwHgGgvxIns",
+      "title": "Royal Kingdom Level 161-180 (Gameplay)",
+      "level_start": 161,
+      "level_end": 180,
+      "duration_seconds": 1437,
+      "channel_position": 300,
+      "url": "https://www.youtube.com/watch?v=lwHgGgvxIns",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "jVoDeWcF_SU",
+      "title": "Royal Kingdom Level 181-200 (Gameplay)",
+      "level_start": 181,
+      "level_end": 200,
+      "duration_seconds": 1208,
+      "channel_position": 299,
+      "url": "https://www.youtube.com/watch?v=jVoDeWcF_SU",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "1zemew9dRl8",
+      "title": "Royal Kingdom Level 201-220 (Gameplay)",
+      "level_start": 201,
+      "level_end": 220,
+      "duration_seconds": 1516,
+      "channel_position": 297,
+      "url": "https://www.youtube.com/watch?v=1zemew9dRl8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "07sHCexsNXs",
+      "title": "Royal Kingdom Level 221-240 (Gameplay)",
+      "level_start": 221,
+      "level_end": 240,
+      "duration_seconds": 1361,
+      "channel_position": 296,
+      "url": "https://www.youtube.com/watch?v=07sHCexsNXs",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "av_XJR_UiNY",
+      "title": "Royal Kingdom Level 241-260 (Gameplay)",
+      "level_start": 241,
+      "level_end": 260,
+      "duration_seconds": 1472,
+      "channel_position": 295,
+      "url": "https://www.youtube.com/watch?v=av_XJR_UiNY",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "rhejfTFhd-Q",
+      "title": "Royal Kingdom Level 261-280 (Gameplay)",
+      "level_start": 261,
+      "level_end": 280,
+      "duration_seconds": 1554,
+      "channel_position": 294,
+      "url": "https://www.youtube.com/watch?v=rhejfTFhd-Q",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "IxqtCARc3Gg",
+      "title": "Royal Kingdom Level 281-300 (Gameplay)",
+      "level_start": 281,
+      "level_end": 300,
+      "duration_seconds": 1501,
+      "channel_position": 293,
+      "url": "https://www.youtube.com/watch?v=IxqtCARc3Gg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "uol_uwe5zdo",
+      "title": "Royal Kingdom Level 301-320 (Gameplay)",
+      "level_start": 301,
+      "level_end": 320,
+      "duration_seconds": 1396,
+      "channel_position": 285,
+      "url": "https://www.youtube.com/watch?v=uol_uwe5zdo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "gX8DHMPWydw",
+      "title": "Royal Kingdom Level 321-340 (Gameplay)",
+      "level_start": 321,
+      "level_end": 340,
+      "duration_seconds": 1259,
+      "channel_position": 283,
+      "url": "https://www.youtube.com/watch?v=gX8DHMPWydw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "P5kPXv72NTQ",
+      "title": "Royal Kingdom Level 341-360 (Gameplay)",
+      "level_start": 341,
+      "level_end": 360,
+      "duration_seconds": 1231,
+      "channel_position": 281,
+      "url": "https://www.youtube.com/watch?v=P5kPXv72NTQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "xEFZ_NDGRtM",
+      "title": "Royal Kingdom Level 361-380 (Gameplay)",
+      "level_start": 361,
+      "level_end": 380,
+      "duration_seconds": 1513,
+      "channel_position": 280,
+      "url": "https://www.youtube.com/watch?v=xEFZ_NDGRtM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "KYvn44d6gXs",
+      "title": "Royal Kingdom Level 381-400 (Gameplay)",
+      "level_start": 381,
+      "level_end": 400,
+      "duration_seconds": 1373,
+      "channel_position": 250,
+      "url": "https://www.youtube.com/watch?v=KYvn44d6gXs",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "69S2QkcOub8",
+      "title": "Royal Kingdom Level 401-420 (Gameplay)",
+      "level_start": 401,
+      "level_end": 420,
+      "duration_seconds": 1414,
+      "channel_position": 249,
+      "url": "https://www.youtube.com/watch?v=69S2QkcOub8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "ny_MgfVkdCE",
+      "title": "Royal Kingdom Level 421-440 (Gameplay)",
+      "level_start": 421,
+      "level_end": 440,
+      "duration_seconds": 1632,
+      "channel_position": 187,
+      "url": "https://www.youtube.com/watch?v=ny_MgfVkdCE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "QVaqaGhXkvk",
+      "title": "Royal Kingdom Level 441-460 (Gameplay)",
+      "level_start": 441,
+      "level_end": 460,
+      "duration_seconds": 1356,
+      "channel_position": 186,
+      "url": "https://www.youtube.com/watch?v=QVaqaGhXkvk",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "pBo3YefGPjQ",
+      "title": "Royal Kingdom Level 461-480 (Gameplay)",
+      "level_start": 461,
+      "level_end": 480,
+      "duration_seconds": 1339,
+      "channel_position": 185,
+      "url": "https://www.youtube.com/watch?v=pBo3YefGPjQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Od2edOCrDYA",
+      "title": "Royal Kingdom Level 481-500 (Gameplay)(Main Kingdom Complete)",
+      "level_start": 481,
+      "level_end": 500,
+      "duration_seconds": 1299,
+      "channel_position": 184,
+      "url": "https://www.youtube.com/watch?v=Od2edOCrDYA",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "szcHcS3m9Ss",
+      "title": "Royal Kingdom Level 501-520 (Gameplay)(NEW Ice Kingdom)",
+      "level_start": 501,
+      "level_end": 520,
+      "duration_seconds": 1361,
+      "channel_position": 183,
+      "url": "https://www.youtube.com/watch?v=szcHcS3m9Ss",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "8jlBySqXXEw",
+      "title": "Royal Kingdom Level 521-540 (Gameplay)",
+      "level_start": 521,
+      "level_end": 540,
+      "duration_seconds": 1348,
+      "channel_position": 182,
+      "url": "https://www.youtube.com/watch?v=8jlBySqXXEw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "6OKTpQLJgmg",
+      "title": "Royal Kingdom Level 541-560 (Gameplay)",
+      "level_start": 541,
+      "level_end": 560,
+      "duration_seconds": 1427,
+      "channel_position": 181,
+      "url": "https://www.youtube.com/watch?v=6OKTpQLJgmg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "i5-wGtaw8jc",
+      "title": "Royal Kingdom Level 561-580 (Gameplay)",
+      "level_start": 561,
+      "level_end": 580,
+      "duration_seconds": 1479,
+      "channel_position": 180,
+      "url": "https://www.youtube.com/watch?v=i5-wGtaw8jc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "sjD_ECliwx0",
+      "title": "Royal Kingdom Level 581-600 (Gameplay)",
+      "level_start": 581,
+      "level_end": 600,
+      "duration_seconds": 1357,
+      "channel_position": 174,
+      "url": "https://www.youtube.com/watch?v=sjD_ECliwx0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "v3SjkQbP-l4",
+      "title": "Royal Kingdom Level 601-620 (Gameplay)",
+      "level_start": 601,
+      "level_end": 620,
+      "duration_seconds": 1384,
+      "channel_position": 159,
+      "url": "https://www.youtube.com/watch?v=v3SjkQbP-l4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "e_R1h6UncP0",
+      "title": "Royal Kingdom Level 621-640 (Gameplay)",
+      "level_start": 621,
+      "level_end": 640,
+      "duration_seconds": 1388,
+      "channel_position": 158,
+      "url": "https://www.youtube.com/watch?v=e_R1h6UncP0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "jsQsoc2PGik",
+      "title": "Royal Kingdom Level 641-660 (Gameplay)",
+      "level_start": 641,
+      "level_end": 660,
+      "duration_seconds": 1419,
+      "channel_position": 157,
+      "url": "https://www.youtube.com/watch?v=jsQsoc2PGik",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Whl7IirJIcI",
+      "title": "Royal Kingdom Level 661-680 (Gameplay)",
+      "level_start": 661,
+      "level_end": 680,
+      "duration_seconds": 1428,
+      "channel_position": 156,
+      "url": "https://www.youtube.com/watch?v=Whl7IirJIcI",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "TSieqjS6Z_Y",
+      "title": "Royal Kingdom Level 681-700 (Gameplay)",
+      "level_start": 681,
+      "level_end": 700,
+      "duration_seconds": 1416,
+      "channel_position": 155,
+      "url": "https://www.youtube.com/watch?v=TSieqjS6Z_Y",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "W88T8E-qeC4",
+      "title": "Royal Kingdom Level 701-720 (Gameplay)",
+      "level_start": 701,
+      "level_end": 720,
+      "duration_seconds": 1499,
+      "channel_position": 140,
+      "url": "https://www.youtube.com/watch?v=W88T8E-qeC4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "CVL6eaUuDYA",
+      "title": "Royal Kingdom Level 721-740 (Gameplay)",
+      "level_start": 721,
+      "level_end": 740,
+      "duration_seconds": 1545,
+      "channel_position": 139,
+      "url": "https://www.youtube.com/watch?v=CVL6eaUuDYA",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "PEdeodbwcn4",
+      "title": "Royal Kingdom Level 741-760 (Gameplay)",
+      "level_start": 741,
+      "level_end": 760,
+      "duration_seconds": 1607,
+      "channel_position": 138,
+      "url": "https://www.youtube.com/watch?v=PEdeodbwcn4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "mDtYNbpNAgA",
+      "title": "Royal Kingdom Level 761-780 (Gameplay)",
+      "level_start": 761,
+      "level_end": 780,
+      "duration_seconds": 1494,
+      "channel_position": 137,
+      "url": "https://www.youtube.com/watch?v=mDtYNbpNAgA",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "dG_zkDI9guc",
+      "title": "Royal Kingdom Level 781-800 (Gameplay)",
+      "level_start": 781,
+      "level_end": 800,
+      "duration_seconds": 1530,
+      "channel_position": 136,
+      "url": "https://www.youtube.com/watch?v=dG_zkDI9guc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "ciSHkgq4wYs",
+      "title": "Royal Kingdom Level 801-820 (Gameplay)",
+      "level_start": 801,
+      "level_end": 820,
+      "duration_seconds": 1434,
+      "channel_position": 129,
+      "url": "https://www.youtube.com/watch?v=ciSHkgq4wYs",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "aU8h4KI5224",
+      "title": "Royal Kingdom Level 821-840 (Gameplay)",
+      "level_start": 821,
+      "level_end": 840,
+      "duration_seconds": 1611,
+      "channel_position": 128,
+      "url": "https://www.youtube.com/watch?v=aU8h4KI5224",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "X-Ld7nopBDc",
+      "title": "Royal Kingdom Level 841-860 (Gameplay)",
+      "level_start": 841,
+      "level_end": 860,
+      "duration_seconds": 1478,
+      "channel_position": 127,
+      "url": "https://www.youtube.com/watch?v=X-Ld7nopBDc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "l5POF770DDA",
+      "title": "Royal Kingdom Level 861-880 (Gameplay)",
+      "level_start": 861,
+      "level_end": 880,
+      "duration_seconds": 1435,
+      "channel_position": 126,
+      "url": "https://www.youtube.com/watch?v=l5POF770DDA",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Q_HQTvWxnkc",
+      "title": "Royal Kingdom Level 881-900 (Gameplay)",
+      "level_start": 881,
+      "level_end": 900,
+      "duration_seconds": 1432,
+      "channel_position": 125,
+      "url": "https://www.youtube.com/watch?v=Q_HQTvWxnkc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "adYVgbr5AWE",
+      "title": "Royal Kingdom Level 901-920 (Gameplay)",
+      "level_start": 901,
+      "level_end": 920,
+      "duration_seconds": 1577,
+      "channel_position": 118,
+      "url": "https://www.youtube.com/watch?v=adYVgbr5AWE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "mcxIU1n5HzM",
+      "title": "Royal Kingdom Level 921-940 (Gameplay)",
+      "level_start": 921,
+      "level_end": 940,
+      "duration_seconds": 1770,
+      "channel_position": 117,
+      "url": "https://www.youtube.com/watch?v=mcxIU1n5HzM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "piW0kuKksAU",
+      "title": "Royal Kingdom Level 941-960 (Gameplay)",
+      "level_start": 941,
+      "level_end": 960,
+      "duration_seconds": 1614,
+      "channel_position": 115,
+      "url": "https://www.youtube.com/watch?v=piW0kuKksAU",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "MWslXValNLw",
+      "title": "Royal Kingdom Level 961-980 (Gameplay)",
+      "level_start": 961,
+      "level_end": 980,
+      "duration_seconds": 1499,
+      "channel_position": 114,
+      "url": "https://www.youtube.com/watch?v=MWslXValNLw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "HmCTWOcAbsc",
+      "title": "Royal Kingdom Level 981-1000 (Gameplay)(Ice Kingdom Complete)",
+      "level_start": 981,
+      "level_end": 1000,
+      "duration_seconds": 1579,
+      "channel_position": 113,
+      "url": "https://www.youtube.com/watch?v=HmCTWOcAbsc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "JDeIAuQzmgo",
+      "title": "Royal Kingdom Level 1001-1020 (Gameplay)(NEW Sand Kingdom)",
+      "level_start": 1001,
+      "level_end": 1020,
+      "duration_seconds": 1340,
+      "channel_position": 106,
+      "url": "https://www.youtube.com/watch?v=JDeIAuQzmgo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "qaYzBWMNILc",
+      "title": "Royal Kingdom Level 1021-1040 (Gameplay)",
+      "level_start": 1021,
+      "level_end": 1040,
+      "duration_seconds": 1427,
+      "channel_position": 105,
+      "url": "https://www.youtube.com/watch?v=qaYzBWMNILc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "VFGs-jiZaP0",
+      "title": "Royal Kingdom Level 1041-1060 (Gameplay)",
+      "level_start": 1041,
+      "level_end": 1060,
+      "duration_seconds": 1576,
+      "channel_position": 104,
+      "url": "https://www.youtube.com/watch?v=VFGs-jiZaP0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "_ZFRxkMVg3I",
+      "title": "Royal Kingdom Level 1061-1080 (Gameplay)",
+      "level_start": 1061,
+      "level_end": 1080,
+      "duration_seconds": 1589,
+      "channel_position": 103,
+      "url": "https://www.youtube.com/watch?v=_ZFRxkMVg3I",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "bEuFAORfyDo",
+      "title": "Royal Kingdom Level 1081-1100 (Gameplay)(Golden Palace Complete)",
+      "level_start": 1081,
+      "level_end": 1100,
+      "duration_seconds": 1797,
+      "channel_position": 102,
+      "url": "https://www.youtube.com/watch?v=bEuFAORfyDo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "1YesEKEB_5A",
+      "title": "Royal Kingdom Level 1101-1120 (Gameplay)",
+      "level_start": 1101,
+      "level_end": 1120,
+      "duration_seconds": 1537,
+      "channel_position": 100,
+      "url": "https://www.youtube.com/watch?v=1YesEKEB_5A",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "foJEkDI8k3k",
+      "title": "Royal Kingdom Level 1121-1140 (Gameplay)",
+      "level_start": 1121,
+      "level_end": 1140,
+      "duration_seconds": 1577,
+      "channel_position": 99,
+      "url": "https://www.youtube.com/watch?v=foJEkDI8k3k",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "CTP8Dl_9GCE",
+      "title": "Royal Kingdom Level 1141-1160 (Gameplay)",
+      "level_start": 1141,
+      "level_end": 1160,
+      "duration_seconds": 1650,
+      "channel_position": 98,
+      "url": "https://www.youtube.com/watch?v=CTP8Dl_9GCE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "SM7obPbERMk",
+      "title": "Royal Kingdom Level 1161-1180 (Gameplay)",
+      "level_start": 1161,
+      "level_end": 1180,
+      "duration_seconds": 1472,
+      "channel_position": 97,
+      "url": "https://www.youtube.com/watch?v=SM7obPbERMk",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "uQENfKdpoZo",
+      "title": "Royal Kingdom Level 1181-1200 (Gameplay)(Pyramid Complete)",
+      "level_start": 1181,
+      "level_end": 1200,
+      "duration_seconds": 1647,
+      "channel_position": 96,
+      "url": "https://www.youtube.com/watch?v=uQENfKdpoZo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "iz2TUBVg6FU",
+      "title": "Royal Kingdom Level 1201-1220 (Gameplay)",
+      "level_start": 1201,
+      "level_end": 1220,
+      "duration_seconds": 1263,
+      "channel_position": 89,
+      "url": "https://www.youtube.com/watch?v=iz2TUBVg6FU",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "eGOKuT3lWok",
+      "title": "Royal Kingdom Level 1221-1240 (Gameplay)",
+      "level_start": 1221,
+      "level_end": 1240,
+      "duration_seconds": 1731,
+      "channel_position": 88,
+      "url": "https://www.youtube.com/watch?v=eGOKuT3lWok",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "4pAqb44X5oc",
+      "title": "Royal Kingdom Level 1241-1260 (Gameplay)",
+      "level_start": 1241,
+      "level_end": 1260,
+      "duration_seconds": 1553,
+      "channel_position": 87,
+      "url": "https://www.youtube.com/watch?v=4pAqb44X5oc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "PJODr_iY2uc",
+      "title": "Royal Kingdom Level 1261-1280 (Gameplay)",
+      "level_start": 1261,
+      "level_end": 1280,
+      "duration_seconds": 1483,
+      "channel_position": 86,
+      "url": "https://www.youtube.com/watch?v=PJODr_iY2uc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "WIs35iw_q0A",
+      "title": "Royal Kingdom Level 1281-1300 (Gameplay)(Treasury Complete)",
+      "level_start": 1281,
+      "level_end": 1300,
+      "duration_seconds": 1547,
+      "channel_position": 85,
+      "url": "https://www.youtube.com/watch?v=WIs35iw_q0A",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Ea1Gd_s_sSw",
+      "title": "Royal Kingdom Level 1301-1320 (Gameplay)",
+      "level_start": 1301,
+      "level_end": 1320,
+      "duration_seconds": 1413,
+      "channel_position": 79,
+      "url": "https://www.youtube.com/watch?v=Ea1Gd_s_sSw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "zGVP0Hn2czQ",
+      "title": "Royal Kingdom Level 1321-1340 (Gameplay)",
+      "level_start": 1321,
+      "level_end": 1340,
+      "duration_seconds": 1595,
+      "channel_position": 78,
+      "url": "https://www.youtube.com/watch?v=zGVP0Hn2czQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "qm3WqJeMOp8",
+      "title": "Royal Kingdom Level 1341-1360 (Gameplay)",
+      "level_start": 1341,
+      "level_end": 1360,
+      "duration_seconds": 1490,
+      "channel_position": 77,
+      "url": "https://www.youtube.com/watch?v=qm3WqJeMOp8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "GDssCIQDzKg",
+      "title": "Royal Kingdom Level 1361-1380 (Gameplay)",
+      "level_start": 1361,
+      "level_end": 1380,
+      "duration_seconds": 1437,
+      "channel_position": 76,
+      "url": "https://www.youtube.com/watch?v=GDssCIQDzKg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "OuuUlrQeCd4",
+      "title": "Royal Kingdom Level 1381-1400 (Gameplay)(Grand Orrery Completed)",
+      "level_start": 1381,
+      "level_end": 1400,
+      "duration_seconds": 1589,
+      "channel_position": 75,
+      "url": "https://www.youtube.com/watch?v=OuuUlrQeCd4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "saCLvPivAEw",
+      "title": "Royal Kingdom Level 1401-1420 (Gameplay)",
+      "level_start": 1401,
+      "level_end": 1420,
+      "duration_seconds": 1490,
+      "channel_position": 74,
+      "url": "https://www.youtube.com/watch?v=saCLvPivAEw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "BZzxDybhAy0",
+      "title": "Royal Kingdom Level 1421-1440 (Gameplay)",
+      "level_start": 1421,
+      "level_end": 1440,
+      "duration_seconds": 1367,
+      "channel_position": 72,
+      "url": "https://www.youtube.com/watch?v=BZzxDybhAy0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "HJRQ5RMlGHg",
+      "title": "Royal Kingdom Level 1441-1460 (Gameplay)",
+      "level_start": 1441,
+      "level_end": 1460,
+      "duration_seconds": 1552,
+      "channel_position": 71,
+      "url": "https://www.youtube.com/watch?v=HJRQ5RMlGHg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "aiWe7-xBv-E",
+      "title": "Royal Kingdom Level 1461-1480 (Gameplay)",
+      "level_start": 1461,
+      "level_end": 1480,
+      "duration_seconds": 1536,
+      "channel_position": 70,
+      "url": "https://www.youtube.com/watch?v=aiWe7-xBv-E",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "BRAdBO2y63k",
+      "title": "Royal Kingdom Level 1481-1500 (Gameplay) (Hanging Gardens Completed)",
+      "level_start": 1481,
+      "level_end": 1500,
+      "duration_seconds": 1538,
+      "channel_position": 69,
+      "url": "https://www.youtube.com/watch?v=BRAdBO2y63k",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "NYOhIFEjsOg",
+      "title": "Royal Kingdom Level 1501-1520 (Gameplay)",
+      "level_start": 1501,
+      "level_end": 1520,
+      "duration_seconds": 1367,
+      "channel_position": 63,
+      "url": "https://www.youtube.com/watch?v=NYOhIFEjsOg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "7mMdkjtX_kE",
+      "title": "Royal Kingdom Level 1521-1540 (Gameplay)",
+      "level_start": 1521,
+      "level_end": 1540,
+      "duration_seconds": 1218,
+      "channel_position": 62,
+      "url": "https://www.youtube.com/watch?v=7mMdkjtX_kE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "ROsRl_mXzuo",
+      "title": "Royal Kingdom Level 1541-1560 (Gameplay)",
+      "level_start": 1541,
+      "level_end": 1560,
+      "duration_seconds": 1469,
+      "channel_position": 61,
+      "url": "https://www.youtube.com/watch?v=ROsRl_mXzuo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "l3n2xZ_Xg0M",
+      "title": "Royal Kingdom Level 1561-1580 (Gameplay)",
+      "level_start": 1561,
+      "level_end": 1580,
+      "duration_seconds": 1248,
+      "channel_position": 60,
+      "url": "https://www.youtube.com/watch?v=l3n2xZ_Xg0M",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "NcKgwuaR4oo",
+      "title": "Royal Kingdom Level 1581-1600 (Gameplay)(Escavation Completed)",
+      "level_start": 1581,
+      "level_end": 1600,
+      "duration_seconds": 1447,
+      "channel_position": 59,
+      "url": "https://www.youtube.com/watch?v=NcKgwuaR4oo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "23dFZEOgpfw",
+      "title": "Royal Kingdom Level 1601-1620 (Gameplay)",
+      "level_start": 1601,
+      "level_end": 1620,
+      "duration_seconds": 1298,
+      "channel_position": 52,
+      "url": "https://www.youtube.com/watch?v=23dFZEOgpfw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "wYZXet5kMT4",
+      "title": "Royal Kingdom Level 1621-1640 (Gameplay)",
+      "level_start": 1621,
+      "level_end": 1640,
+      "duration_seconds": 1267,
+      "channel_position": 51,
+      "url": "https://www.youtube.com/watch?v=wYZXet5kMT4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Ss040nIvUJc",
+      "title": "Royal Kingdom Level 1641-1660 (Gameplay)",
+      "level_start": 1641,
+      "level_end": 1660,
+      "duration_seconds": 1556,
+      "channel_position": 50,
+      "url": "https://www.youtube.com/watch?v=Ss040nIvUJc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "IIYBnkI4ie4",
+      "title": "Royal Kingdom Level 1661-1680 (Gameplay)",
+      "level_start": 1661,
+      "level_end": 1680,
+      "duration_seconds": 1599,
+      "channel_position": 49,
+      "url": "https://www.youtube.com/watch?v=IIYBnkI4ie4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "8SLLbjrFDb8",
+      "title": "Royal Kingdom Level 1681-1700 (Gameplay)",
+      "level_start": 1681,
+      "level_end": 1700,
+      "duration_seconds": 1506,
+      "channel_position": 48,
+      "url": "https://www.youtube.com/watch?v=8SLLbjrFDb8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "WxE7oxg-DLA",
+      "title": "Royal Kingdom Level 1701-1720 (Gameplay)",
+      "level_start": 1701,
+      "level_end": 1720,
+      "duration_seconds": 1304,
+      "channel_position": 47,
+      "url": "https://www.youtube.com/watch?v=WxE7oxg-DLA",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "jibuK37y1Go",
+      "title": "Royal Kingdom Level 1721-1740 (Gameplay)",
+      "level_start": 1721,
+      "level_end": 1740,
+      "duration_seconds": 1572,
+      "channel_position": 45,
+      "url": "https://www.youtube.com/watch?v=jibuK37y1Go",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "By-e4Whm0A8",
+      "title": "Royal Kingdom Level 1741-1760 (Gameplay)",
+      "level_start": 1741,
+      "level_end": 1760,
+      "duration_seconds": 1483,
+      "channel_position": 44,
+      "url": "https://www.youtube.com/watch?v=By-e4Whm0A8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "9p_Nrggvi6E",
+      "title": "Royal Kingdom Level 1761-1780 (Gameplay)",
+      "level_start": 1761,
+      "level_end": 1780,
+      "duration_seconds": 1747,
+      "channel_position": 43,
+      "url": "https://www.youtube.com/watch?v=9p_Nrggvi6E",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "BaJgZeOUNyE",
+      "title": "Royal Kingdom Level 1781-1800 (Gameplay)",
+      "level_start": 1781,
+      "level_end": 1800,
+      "duration_seconds": 1331,
+      "channel_position": 42,
+      "url": "https://www.youtube.com/watch?v=BaJgZeOUNyE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "i-LnJnzOTrM",
+      "title": "Royal Kingdom Level 1801-1820 (Gameplay)",
+      "level_start": 1801,
+      "level_end": 1820,
+      "duration_seconds": 1429,
+      "channel_position": 381,
+      "url": "https://www.youtube.com/watch?v=i-LnJnzOTrM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "QJYVt3lcaMg",
+      "title": "Royal Kingdom Level 1821-1840 (Gameplay)",
+      "level_start": 1821,
+      "level_end": 1840,
+      "duration_seconds": 1463,
+      "channel_position": 382,
+      "url": "https://www.youtube.com/watch?v=QJYVt3lcaMg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "zRQSEMyUGXo",
+      "title": "Royal Kingdom Level 1841-1860 (Gameplay)",
+      "level_start": 1841,
+      "level_end": 1860,
+      "duration_seconds": 1445,
+      "channel_position": 380,
+      "url": "https://www.youtube.com/watch?v=zRQSEMyUGXo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "WzXWD8An8R4",
+      "title": "Royal Kingdom Level 1861-1880 (Gameplay)",
+      "level_start": 1861,
+      "level_end": 1880,
+      "duration_seconds": 1312,
+      "channel_position": 379,
+      "url": "https://www.youtube.com/watch?v=WzXWD8An8R4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "9bDnaR6tpJo",
+      "title": "Royal Kingdom Level 1881-1900 (Gameplay)",
+      "level_start": 1881,
+      "level_end": 1900,
+      "duration_seconds": 1285,
+      "channel_position": 378,
+      "url": "https://www.youtube.com/watch?v=9bDnaR6tpJo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "N2jfNUurSfE",
+      "title": "Royal Kingdom Level 1901-1920 (Gameplay)",
+      "level_start": 1901,
+      "level_end": 1920,
+      "duration_seconds": 1393,
+      "channel_position": 377,
+      "url": "https://www.youtube.com/watch?v=N2jfNUurSfE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "BbugyIjLapg",
+      "title": "Royal Kingdom Level 1921-1940 (Gameplay)",
+      "level_start": 1921,
+      "level_end": 1940,
+      "duration_seconds": 1338,
+      "channel_position": 376,
+      "url": "https://www.youtube.com/watch?v=BbugyIjLapg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "9_qZG3fOrRs",
+      "title": "Royal Kingdom Level 1941-1960 (Gameplay)",
+      "level_start": 1941,
+      "level_end": 1960,
+      "duration_seconds": 1355,
+      "channel_position": 375,
+      "url": "https://www.youtube.com/watch?v=9_qZG3fOrRs",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "4uLFHDtp1jM",
+      "title": "Royal Kingdom Level 1961-1980 (Gameplay)",
+      "level_start": 1961,
+      "level_end": 1980,
+      "duration_seconds": 1277,
+      "channel_position": 373,
+      "url": "https://www.youtube.com/watch?v=4uLFHDtp1jM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "p9IW-nF-oGo",
+      "title": "Royal Kingdom Level 1981-2000 (Gameplay)",
+      "level_start": 1981,
+      "level_end": 2000,
+      "duration_seconds": 1210,
+      "channel_position": 374,
+      "url": "https://www.youtube.com/watch?v=p9IW-nF-oGo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "ZWPLbpfwxCo",
+      "title": "Royal Kingdom Level 2001-2020 (Gameplay)",
+      "level_start": 2001,
+      "level_end": 2020,
+      "duration_seconds": 1220,
+      "channel_position": 369,
+      "url": "https://www.youtube.com/watch?v=ZWPLbpfwxCo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "tpuu-TROBXg",
+      "title": "Royal Kingdom Level 2021-2040 (Gameplay)",
+      "level_start": 2021,
+      "level_end": 2040,
+      "duration_seconds": 1454,
+      "channel_position": 363,
+      "url": "https://www.youtube.com/watch?v=tpuu-TROBXg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "IJtlUUeeDHs",
+      "title": "Royal Kingdom Level 2041-2060 (Gameplay)",
+      "level_start": 2041,
+      "level_end": 2060,
+      "duration_seconds": 1490,
+      "channel_position": 362,
+      "url": "https://www.youtube.com/watch?v=IJtlUUeeDHs",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "m13xEfN4N4g",
+      "title": "Royal Kingdom Level 2061-2080 (Gameplay)",
+      "level_start": 2061,
+      "level_end": 2080,
+      "duration_seconds": 1342,
+      "channel_position": 358,
+      "url": "https://www.youtube.com/watch?v=m13xEfN4N4g",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "0G79sn4irYQ",
+      "title": "Royal Kingdom Level 2081-2100 (Gameplay)",
+      "level_start": 2081,
+      "level_end": 2100,
+      "duration_seconds": 1505,
+      "channel_position": 357,
+      "url": "https://www.youtube.com/watch?v=0G79sn4irYQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "UX8EI69PGZQ",
+      "title": "Royal Kingdom Level 2101-2200 (Full Gameplay)",
+      "level_start": 2101,
+      "level_end": 2200,
+      "duration_seconds": 6849,
+      "channel_position": 328,
+      "url": "https://www.youtube.com/watch?v=UX8EI69PGZQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "hnEkDRHNsN8",
+      "title": "Royal Kingdom Level 2201-2220 (Gameplay)",
+      "level_start": 2201,
+      "level_end": 2220,
+      "duration_seconds": 1275,
+      "channel_position": 327,
+      "url": "https://www.youtube.com/watch?v=hnEkDRHNsN8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "ot-3FMUYMII",
+      "title": "Royal Kingdom Level 2221-2240 (Gameplay)",
+      "level_start": 2221,
+      "level_end": 2240,
+      "duration_seconds": 1370,
+      "channel_position": 326,
+      "url": "https://www.youtube.com/watch?v=ot-3FMUYMII",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "rNlZ-SQp3Tg",
+      "title": "Royal Kingdom Level 2241-2260 (Gameplay)",
+      "level_start": 2241,
+      "level_end": 2260,
+      "duration_seconds": 1412,
+      "channel_position": 325,
+      "url": "https://www.youtube.com/watch?v=rNlZ-SQp3Tg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "7PZ1NQ0eRB0",
+      "title": "Royal Kingdom Level 2261-2280 (Gameplay)",
+      "level_start": 2261,
+      "level_end": 2280,
+      "duration_seconds": 1310,
+      "channel_position": 324,
+      "url": "https://www.youtube.com/watch?v=7PZ1NQ0eRB0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "9eqqLrDhAvE",
+      "title": "Royal Kingdom Level 2281-2300 (Gameplay)",
+      "level_start": 2281,
+      "level_end": 2300,
+      "duration_seconds": 1506,
+      "channel_position": 323,
+      "url": "https://www.youtube.com/watch?v=9eqqLrDhAvE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "ei536imzBS8",
+      "title": "Royal Kingdom Level 2301-2320 (Gameplay)",
+      "level_start": 2301,
+      "level_end": 2320,
+      "duration_seconds": 1393,
+      "channel_position": 322,
+      "url": "https://www.youtube.com/watch?v=ei536imzBS8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "esrD5Xx5b3E",
+      "title": "Royal Kingdom Level 2321-2340 (Gameplay)",
+      "level_start": 2321,
+      "level_end": 2340,
+      "duration_seconds": 1411,
+      "channel_position": 321,
+      "url": "https://www.youtube.com/watch?v=esrD5Xx5b3E",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "U0BlOcYf8bg",
+      "title": "Royal Kingdom Level 2341-2360 (Gameplay)",
+      "level_start": 2341,
+      "level_end": 2360,
+      "duration_seconds": 1507,
+      "channel_position": 320,
+      "url": "https://www.youtube.com/watch?v=U0BlOcYf8bg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "CY1Oiro-p8I",
+      "title": "Royal Kingdom Level 2361-2380 (Gameplay)",
+      "level_start": 2361,
+      "level_end": 2380,
+      "duration_seconds": 1300,
+      "channel_position": 319,
+      "url": "https://www.youtube.com/watch?v=CY1Oiro-p8I",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "EuFFc6vO2j8",
+      "title": "Royal Kingdom Level 2381-2400 (Gameplay)",
+      "level_start": 2381,
+      "level_end": 2400,
+      "duration_seconds": 1255,
+      "channel_position": 318,
+      "url": "https://www.youtube.com/watch?v=EuFFc6vO2j8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Di_P_qPIBBA",
+      "title": "Royal Kingdom Level 2401-2420 (Gameplay)",
+      "level_start": 2401,
+      "level_end": 2420,
+      "duration_seconds": 1483,
+      "channel_position": 306,
+      "url": "https://www.youtube.com/watch?v=Di_P_qPIBBA",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "uVnu5RMT33Y",
+      "title": "Royal Kingdom Level 2421-2440 (Gameplay)",
+      "level_start": 2421,
+      "level_end": 2440,
+      "duration_seconds": 1461,
+      "channel_position": 305,
+      "url": "https://www.youtube.com/watch?v=uVnu5RMT33Y",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "61cCH3AvY0A",
+      "title": "Royal Kingdom Level 2441-2460 (Gameplay)",
+      "level_start": 2441,
+      "level_end": 2460,
+      "duration_seconds": 1568,
+      "channel_position": 304,
+      "url": "https://www.youtube.com/watch?v=61cCH3AvY0A",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "cVdVgDzGOHg",
+      "title": "Royal Kingdom Level 2461-2480 (Gameplay)",
+      "level_start": 2461,
+      "level_end": 2480,
+      "duration_seconds": 1474,
+      "channel_position": 303,
+      "url": "https://www.youtube.com/watch?v=cVdVgDzGOHg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "LrxuAdGaB9A",
+      "title": "Royal Kingdom Level 2481-2500 (Gameplay)",
+      "level_start": 2481,
+      "level_end": 2500,
+      "duration_seconds": 1433,
+      "channel_position": 302,
+      "url": "https://www.youtube.com/watch?v=LrxuAdGaB9A",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "6h-ll2iQE4o",
+      "title": "Royal Kingdom Level 2501-2520 (Gameplay)",
+      "level_start": 2501,
+      "level_end": 2520,
+      "duration_seconds": 1446,
+      "channel_position": 290,
+      "url": "https://www.youtube.com/watch?v=6h-ll2iQE4o",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "nTJuGD_Ib_I",
+      "title": "Royal Kingdom Level 2521-2540 (Gameplay)",
+      "level_start": 2521,
+      "level_end": 2540,
+      "duration_seconds": 1246,
+      "channel_position": 289,
+      "url": "https://www.youtube.com/watch?v=nTJuGD_Ib_I",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "p9lvvdcGpjc",
+      "title": "Royal Kingdom Level 2541-2560 (Gameplay)",
+      "level_start": 2541,
+      "level_end": 2560,
+      "duration_seconds": 1487,
+      "channel_position": 288,
+      "url": "https://www.youtube.com/watch?v=p9lvvdcGpjc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "kN01jGW5HeE",
+      "title": "Royal Kingdom Level 2561-2580 (Gameplay)",
+      "level_start": 2561,
+      "level_end": 2580,
+      "duration_seconds": 1295,
+      "channel_position": 287,
+      "url": "https://www.youtube.com/watch?v=kN01jGW5HeE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "53uFVu4xBfQ",
+      "title": "Royal Kingdom Level 2581-2600 (Gameplay)",
+      "level_start": 2581,
+      "level_end": 2600,
+      "duration_seconds": 1382,
+      "channel_position": 286,
+      "url": "https://www.youtube.com/watch?v=53uFVu4xBfQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "5MFXvrCj7Bs",
+      "title": "Royal Kingdom Level 2601-2620 (Gameplay)",
+      "level_start": 2601,
+      "level_end": 2620,
+      "duration_seconds": 1358,
+      "channel_position": 279,
+      "url": "https://www.youtube.com/watch?v=5MFXvrCj7Bs",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "2wRKqk_FMJ4",
+      "title": "Royal Kingdom Level 2621-2640 (Gameplay)",
+      "level_start": 2621,
+      "level_end": 2640,
+      "duration_seconds": 1495,
+      "channel_position": 278,
+      "url": "https://www.youtube.com/watch?v=2wRKqk_FMJ4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "aIM3zdZ8VRo",
+      "title": "Royal Kingdom Level 2641-2660 (Gameplay)",
+      "level_start": 2641,
+      "level_end": 2660,
+      "duration_seconds": 1519,
+      "channel_position": 277,
+      "url": "https://www.youtube.com/watch?v=aIM3zdZ8VRo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "IULd-l-0iLQ",
+      "title": "Royal Kingdom Level 2661-2680 (Gameplay)",
+      "level_start": 2661,
+      "level_end": 2680,
+      "duration_seconds": 1461,
+      "channel_position": 276,
+      "url": "https://www.youtube.com/watch?v=IULd-l-0iLQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "aXZvdmebaC8",
+      "title": "Royal Kingdom Level 2681-2700 (Gameplay)",
+      "level_start": 2681,
+      "level_end": 2700,
+      "duration_seconds": 1407,
+      "channel_position": 275,
+      "url": "https://www.youtube.com/watch?v=aXZvdmebaC8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "LniaP8xNmos",
+      "title": "Royal Kingdom Level 2701-2720 (Gameplay)",
+      "level_start": 2701,
+      "level_end": 2720,
+      "duration_seconds": 1521,
+      "channel_position": 273,
+      "url": "https://www.youtube.com/watch?v=LniaP8xNmos",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "7OOVMW4j43I",
+      "title": "Royal Kingdom Level 2721-2740 (Gameplay)",
+      "level_start": 2721,
+      "level_end": 2740,
+      "duration_seconds": 1386,
+      "channel_position": 272,
+      "url": "https://www.youtube.com/watch?v=7OOVMW4j43I",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "WYlj69ne5Qw",
+      "title": "Royal Kingdom Level 2741-2760 (Gameplay)",
+      "level_start": 2741,
+      "level_end": 2760,
+      "duration_seconds": 1394,
+      "channel_position": 271,
+      "url": "https://www.youtube.com/watch?v=WYlj69ne5Qw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "kXgJ4eBdmv0",
+      "title": "Royal Kingdom Level 2761-2780 (Gameplay)",
+      "level_start": 2761,
+      "level_end": 2780,
+      "duration_seconds": 1357,
+      "channel_position": 270,
+      "url": "https://www.youtube.com/watch?v=kXgJ4eBdmv0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "xnIPcNw08DA",
+      "title": "Royal Kingdom Level 2781-2800 (Gameplay)",
+      "level_start": 2781,
+      "level_end": 2800,
+      "duration_seconds": 1515,
+      "channel_position": 269,
+      "url": "https://www.youtube.com/watch?v=xnIPcNw08DA",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "VUIA2MvhwS4",
+      "title": "Royal Kingdom Level 2801-2820 (Gameplay)",
+      "level_start": 2801,
+      "level_end": 2820,
+      "duration_seconds": 1461,
+      "channel_position": 265,
+      "url": "https://www.youtube.com/watch?v=VUIA2MvhwS4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "UXHLFsTPWow",
+      "title": "Royal Kingdom Level 2821-2840 (Gameplay)",
+      "level_start": 2821,
+      "level_end": 2840,
+      "duration_seconds": 1445,
+      "channel_position": 264,
+      "url": "https://www.youtube.com/watch?v=UXHLFsTPWow",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "_j6c-lh0dzQ",
+      "title": "Royal Kingdom Level 2841-2860 (Gameplay)",
+      "level_start": 2841,
+      "level_end": 2860,
+      "duration_seconds": 1404,
+      "channel_position": 263,
+      "url": "https://www.youtube.com/watch?v=_j6c-lh0dzQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "TSWZ-EH_mlw",
+      "title": "Royal Kingdom Level 2861-2880 (Gameplay)",
+      "level_start": 2861,
+      "level_end": 2880,
+      "duration_seconds": 1408,
+      "channel_position": 261,
+      "url": "https://www.youtube.com/watch?v=TSWZ-EH_mlw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "CD3W58KaNdc",
+      "title": "Royal Kingdom Level 2881-2900 (Gameplay)",
+      "level_start": 2881,
+      "level_end": 2900,
+      "duration_seconds": 1345,
+      "channel_position": 260,
+      "url": "https://www.youtube.com/watch?v=CD3W58KaNdc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "ir4KhSH9W90",
+      "title": "Royal Kingdom Level 2901-2920 (Gameplay)",
+      "level_start": 2901,
+      "level_end": 2920,
+      "duration_seconds": 1506,
+      "channel_position": 256,
+      "url": "https://www.youtube.com/watch?v=ir4KhSH9W90",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "u-lO7YVzTR4",
+      "title": "Royal Kingdom Level 2921-2940 (Gameplay)",
+      "level_start": 2921,
+      "level_end": 2940,
+      "duration_seconds": 1504,
+      "channel_position": 255,
+      "url": "https://www.youtube.com/watch?v=u-lO7YVzTR4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "DlXo-fVnIx0",
+      "title": "Royal Kingdom Level 2941-2960 (Gameplay)",
+      "level_start": 2941,
+      "level_end": 2960,
+      "duration_seconds": 1382,
+      "channel_position": 254,
+      "url": "https://www.youtube.com/watch?v=DlXo-fVnIx0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "AfD0G5XMqC0",
+      "title": "Royal Kingdom Level 2961-2980 (Gameplay)",
+      "level_start": 2961,
+      "level_end": 2980,
+      "duration_seconds": 1374,
+      "channel_position": 253,
+      "url": "https://www.youtube.com/watch?v=AfD0G5XMqC0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "KbGVE0CS0Sw",
+      "title": "Royal Kingdom Level 2981-3000 (Gameplay)",
+      "level_start": 2981,
+      "level_end": 3000,
+      "duration_seconds": 1358,
+      "channel_position": 252,
+      "url": "https://www.youtube.com/watch?v=KbGVE0CS0Sw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "OE0l4hDKeRM",
+      "title": "Royal Kingdom Level 3001-3020 (Gameplay)",
+      "level_start": 3001,
+      "level_end": 3020,
+      "duration_seconds": 1669,
+      "channel_position": 247,
+      "url": "https://www.youtube.com/watch?v=OE0l4hDKeRM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "mGH7c2L_A5U",
+      "title": "Royal Kingdom Level 3021-3040 (Gameplay)",
+      "level_start": 3021,
+      "level_end": 3040,
+      "duration_seconds": 1608,
+      "channel_position": 240,
+      "url": "https://www.youtube.com/watch?v=mGH7c2L_A5U",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "E7BQfdokZX8",
+      "title": "Royal Kingdom Level 3041-3460 (Gameplay)",
+      "level_start": 3041,
+      "level_end": 3060,
+      "duration_seconds": 1614,
+      "channel_position": 236,
+      "url": "https://www.youtube.com/watch?v=E7BQfdokZX8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "-czthflqkuw",
+      "title": "Royal Kingdom Level 3061-3080 (Gameplay)",
+      "level_start": 3061,
+      "level_end": 3080,
+      "duration_seconds": 1627,
+      "channel_position": 235,
+      "url": "https://www.youtube.com/watch?v=-czthflqkuw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Rn0eluKp62Y",
+      "title": "Royal Kingdom Level 3081-3100 (Gameplay)",
+      "level_start": 3081,
+      "level_end": 3100,
+      "duration_seconds": 1483,
+      "channel_position": 234,
+      "url": "https://www.youtube.com/watch?v=Rn0eluKp62Y",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "dN1bhd0DW-Q",
+      "title": "Royal Kingdom Level 3101-3120 (Gameplay)",
+      "level_start": 3101,
+      "level_end": 3120,
+      "duration_seconds": 1677,
+      "channel_position": 229,
+      "url": "https://www.youtube.com/watch?v=dN1bhd0DW-Q",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "d5HXk_Llu_A",
+      "title": "Royal Kingdom Level 3121-3140 (Gameplay)",
+      "level_start": 3121,
+      "level_end": 3140,
+      "duration_seconds": 1651,
+      "channel_position": 228,
+      "url": "https://www.youtube.com/watch?v=d5HXk_Llu_A",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "VABQt7vcRIo",
+      "title": "Royal Kingdom Level 3141-3160 (Gameplay)",
+      "level_start": 3141,
+      "level_end": 3160,
+      "duration_seconds": 1437,
+      "channel_position": 225,
+      "url": "https://www.youtube.com/watch?v=VABQt7vcRIo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "4hjU_XuwxM0",
+      "title": "Royal Kingdom Level 3161-3180 (Gameplay)",
+      "level_start": 3161,
+      "level_end": 3180,
+      "duration_seconds": 1563,
+      "channel_position": 224,
+      "url": "https://www.youtube.com/watch?v=4hjU_XuwxM0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "WK4UEEHc3lY",
+      "title": "Royal Kingdom Level 3181-3200 (Gameplay)",
+      "level_start": 3181,
+      "level_end": 3200,
+      "duration_seconds": 1392,
+      "channel_position": 223,
+      "url": "https://www.youtube.com/watch?v=WK4UEEHc3lY",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "OafXLK9JImY",
+      "title": "Royal Kingdom Level 3201-3220 (Gameplay)",
+      "level_start": 3201,
+      "level_end": 3220,
+      "duration_seconds": 1447,
+      "channel_position": 221,
+      "url": "https://www.youtube.com/watch?v=OafXLK9JImY",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Queqn_9JttY",
+      "title": "Royal Kingdom Level 3221-3240 (Gameplay)",
+      "level_start": 3221,
+      "level_end": 3240,
+      "duration_seconds": 1567,
+      "channel_position": 220,
+      "url": "https://www.youtube.com/watch?v=Queqn_9JttY",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "4kEqpQePK-M",
+      "title": "Royal Kingdom Level 3241-3260 (Gameplay)",
+      "level_start": 3241,
+      "level_end": 3260,
+      "duration_seconds": 1675,
+      "channel_position": 219,
+      "url": "https://www.youtube.com/watch?v=4kEqpQePK-M",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "rWsBgT6kODM",
+      "title": "Royal Kingdom Level 3261-3280 (Gameplay)",
+      "level_start": 3261,
+      "level_end": 3280,
+      "duration_seconds": 1499,
+      "channel_position": 217,
+      "url": "https://www.youtube.com/watch?v=rWsBgT6kODM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "CQU_GtlwnkY",
+      "title": "Royal Kingdom Level 3281-3300 (Gameplay)",
+      "level_start": 3281,
+      "level_end": 3300,
+      "duration_seconds": 1565,
+      "channel_position": 218,
+      "url": "https://www.youtube.com/watch?v=CQU_GtlwnkY",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "gkEGe7S0Pnk",
+      "title": "Royal Kingdom Level 3301-3320 (Gameplay)",
+      "level_start": 3301,
+      "level_end": 3320,
+      "duration_seconds": 1714,
+      "channel_position": 212,
+      "url": "https://www.youtube.com/watch?v=gkEGe7S0Pnk",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Tfe37rf1VvI",
+      "title": "Royal Kingdom Level 3321-3340 (Gameplay)",
+      "level_start": 3321,
+      "level_end": 3340,
+      "duration_seconds": 1521,
+      "channel_position": 211,
+      "url": "https://www.youtube.com/watch?v=Tfe37rf1VvI",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "4qfF-THdyQU",
+      "title": "Royal Kingdom Level 3341-3360 (Gameplay)",
+      "level_start": 3341,
+      "level_end": 3360,
+      "duration_seconds": 1555,
+      "channel_position": 210,
+      "url": "https://www.youtube.com/watch?v=4qfF-THdyQU",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "WrQurC0UjSM",
+      "title": "Royal Kingdom Level 3361-3380 (Gameplay)",
+      "level_start": 3361,
+      "level_end": 3380,
+      "duration_seconds": 1479,
+      "channel_position": 209,
+      "url": "https://www.youtube.com/watch?v=WrQurC0UjSM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "A6JZvohyx3Q",
+      "title": "Royal Kingdom Level 3381-3400 (Gameplay)",
+      "level_start": 3381,
+      "level_end": 3400,
+      "duration_seconds": 1422,
+      "channel_position": 208,
+      "url": "https://www.youtube.com/watch?v=A6JZvohyx3Q",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "FdyGZIsnFbo",
+      "title": "Royal Kingdom Level 3401-3420 (Gameplay)",
+      "level_start": 3401,
+      "level_end": 3420,
+      "duration_seconds": 1520,
+      "channel_position": 207,
+      "url": "https://www.youtube.com/watch?v=FdyGZIsnFbo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "ZOaJTqu5dTM",
+      "title": "Royal Kingdom Level 3421-3440 (Gameplay)",
+      "level_start": 3421,
+      "level_end": 3440,
+      "duration_seconds": 1553,
+      "channel_position": 206,
+      "url": "https://www.youtube.com/watch?v=ZOaJTqu5dTM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "XdfOlsTNaU0",
+      "title": "Royal Kingdom Level 3441-3460 (Gameplay)",
+      "level_start": 3441,
+      "level_end": 3460,
+      "duration_seconds": 1603,
+      "channel_position": 205,
+      "url": "https://www.youtube.com/watch?v=XdfOlsTNaU0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "UoGOWv6_mNc",
+      "title": "Royal Kingdom Level 3461-3480 (Gameplay)",
+      "level_start": 3461,
+      "level_end": 3480,
+      "duration_seconds": 1408,
+      "channel_position": 204,
+      "url": "https://www.youtube.com/watch?v=UoGOWv6_mNc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "PjDdnRTjUMM",
+      "title": "Royal Kingdom Level 3481-3500 (Gameplay)",
+      "level_start": 3481,
+      "level_end": 3500,
+      "duration_seconds": 1496,
+      "channel_position": 203,
+      "url": "https://www.youtube.com/watch?v=PjDdnRTjUMM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "PkjbPAKGVu4",
+      "title": "Royal Kingdom Level 3501-3520 (Gameplay)",
+      "level_start": 3501,
+      "level_end": 3520,
+      "duration_seconds": 1887,
+      "channel_position": 202,
+      "url": "https://www.youtube.com/watch?v=PkjbPAKGVu4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "kPOByEs0dWo",
+      "title": "Royal Kingdom Level 3521-3540 (Gameplay)",
+      "level_start": 3521,
+      "level_end": 3540,
+      "duration_seconds": 1506,
+      "channel_position": 201,
+      "url": "https://www.youtube.com/watch?v=kPOByEs0dWo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Cq-Y_rnbYis",
+      "title": "Royal Kingdom Levels 3541-3560",
+      "level_start": 3541,
+      "level_end": 3560,
+      "url": "https://www.youtube.com/watch?v=Cq-Y_rnbYis",
+      "source": "RasyaPlaysRK corrected-title video"
+    },
+    {
+      "id": "zp6U32J2LR0",
+      "title": "Royal Kingdom Level 3561-3580 (Gameplay)",
+      "level_start": 3561,
+      "level_end": 3580,
+      "duration_seconds": 1573,
+      "channel_position": 199,
+      "url": "https://www.youtube.com/watch?v=zp6U32J2LR0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "7_2ctA9eliI",
+      "title": "Royal Kingdom Level 3581-3600 (Gameplay)",
+      "level_start": 3581,
+      "level_end": 3600,
+      "duration_seconds": 1319,
+      "channel_position": 198,
+      "url": "https://www.youtube.com/watch?v=7_2ctA9eliI",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "1dmI9u7mkfk",
+      "title": "Royal Kingdom Level 3601-3620 (Gameplay)",
+      "level_start": 3601,
+      "level_end": 3620,
+      "duration_seconds": 1507,
+      "channel_position": 192,
+      "url": "https://www.youtube.com/watch?v=1dmI9u7mkfk",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "01bo86WfvAQ",
+      "title": "Royal Kingdom Level 3621-3640 (Gameplay)",
+      "level_start": 3621,
+      "level_end": 3640,
+      "duration_seconds": 1381,
+      "channel_position": 191,
+      "url": "https://www.youtube.com/watch?v=01bo86WfvAQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "iNWMBp5RZTo",
+      "title": "Royal Kingdom Level 3641-3660 (Gameplay)",
+      "level_start": 3641,
+      "level_end": 3660,
+      "duration_seconds": 1494,
+      "channel_position": 190,
+      "url": "https://www.youtube.com/watch?v=iNWMBp5RZTo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "azLtBDM_Cgo",
+      "title": "Royal Kingdom Level 3661-3680 (Gameplay)",
+      "level_start": 3661,
+      "level_end": 3680,
+      "duration_seconds": 1347,
+      "channel_position": 189,
+      "url": "https://www.youtube.com/watch?v=azLtBDM_Cgo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "scYhkSLt_i0",
+      "title": "Royal Kingdom Level 3681-3700 (Gameplay)",
+      "level_start": 3681,
+      "level_end": 3700,
+      "duration_seconds": 1337,
+      "channel_position": 188,
+      "url": "https://www.youtube.com/watch?v=scYhkSLt_i0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "BBMZqmMpWwE",
+      "title": "Royal Kingdom Level 3701-3720 (Gameplay)",
+      "level_start": 3701,
+      "level_end": 3720,
+      "duration_seconds": 1860,
+      "channel_position": 179,
+      "url": "https://www.youtube.com/watch?v=BBMZqmMpWwE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "1sfTmhk7KjQ",
+      "title": "Royal Kingdom Level 3721-3740 (Gameplay)",
+      "level_start": 3721,
+      "level_end": 3740,
+      "duration_seconds": 1597,
+      "channel_position": 178,
+      "url": "https://www.youtube.com/watch?v=1sfTmhk7KjQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "r08LDXRUbxA",
+      "title": "Royal Kingdom Level 3741-3760 (Gameplay)",
+      "level_start": 3741,
+      "level_end": 3760,
+      "duration_seconds": 1574,
+      "channel_position": 177,
+      "url": "https://www.youtube.com/watch?v=r08LDXRUbxA",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "DZQ6YBvRHho",
+      "title": "Royal Kingdom Level 3761-3780 (Gameplay)",
+      "level_start": 3761,
+      "level_end": 3780,
+      "duration_seconds": 1363,
+      "channel_position": 176,
+      "url": "https://www.youtube.com/watch?v=DZQ6YBvRHho",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "8-ZlPJ0j0xs",
+      "title": "Royal Kingdom Level 3781-3800 (Gameplay)",
+      "level_start": 3781,
+      "level_end": 3800,
+      "duration_seconds": 1471,
+      "channel_position": 175,
+      "url": "https://www.youtube.com/watch?v=8-ZlPJ0j0xs",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "30ShK28YTRs",
+      "title": "Royal Kingdom Level 3801-3820 (Gameplay)",
+      "level_start": 3801,
+      "level_end": 3820,
+      "duration_seconds": 1813,
+      "channel_position": 172,
+      "url": "https://www.youtube.com/watch?v=30ShK28YTRs",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "ggdEfN2dBBg",
+      "title": "Royal Kingdom Level 3821-3840 (Gameplay)",
+      "level_start": 3821,
+      "level_end": 3840,
+      "duration_seconds": 1325,
+      "channel_position": 171,
+      "url": "https://www.youtube.com/watch?v=ggdEfN2dBBg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "rowMkES53X4",
+      "title": "Royal Kingdom Level 3841-3860 (Gameplay)",
+      "level_start": 3841,
+      "level_end": 3860,
+      "duration_seconds": 1549,
+      "channel_position": 170,
+      "url": "https://www.youtube.com/watch?v=rowMkES53X4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "lfySRFik9QU",
+      "title": "Royal Kingdom Level 3861-3880 (Gameplay)",
+      "level_start": 3861,
+      "level_end": 3880,
+      "duration_seconds": 1532,
+      "channel_position": 169,
+      "url": "https://www.youtube.com/watch?v=lfySRFik9QU",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "6gkG8SUFaaY",
+      "title": "Royal Kingdom Level 3881-3900 (Gameplay)",
+      "level_start": 3881,
+      "level_end": 3900,
+      "duration_seconds": 1585,
+      "channel_position": 168,
+      "url": "https://www.youtube.com/watch?v=6gkG8SUFaaY",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "rav_1CFruJE",
+      "title": "Royal Kingdom Level 3901-3920 (Gameplay)",
+      "level_start": 3901,
+      "level_end": 3920,
+      "duration_seconds": 1637,
+      "channel_position": 167,
+      "url": "https://www.youtube.com/watch?v=rav_1CFruJE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "By-LrgXJHbQ",
+      "title": "Royal Kingdom Level 3921-3940 (Gameplay)",
+      "level_start": 3921,
+      "level_end": 3940,
+      "duration_seconds": 1504,
+      "channel_position": 166,
+      "url": "https://www.youtube.com/watch?v=By-LrgXJHbQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "vS1pigFIqSM",
+      "title": "Royal Kingdom Level 3941-3960 (Gameplay)",
+      "level_start": 3941,
+      "level_end": 3960,
+      "duration_seconds": 1629,
+      "channel_position": 165,
+      "url": "https://www.youtube.com/watch?v=vS1pigFIqSM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "sd_2wgUBvs0",
+      "title": "Royal Kingdom Level 3961-3980 (Gameplay)",
+      "level_start": 3961,
+      "level_end": 3980,
+      "duration_seconds": 1428,
+      "channel_position": 162,
+      "url": "https://www.youtube.com/watch?v=sd_2wgUBvs0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "bAZgiUI-2B8",
+      "title": "Royal Kingdom Level 3981-4000 (Gameplay)(Zen Kingdom Complete)",
+      "level_start": 3981,
+      "level_end": 4000,
+      "duration_seconds": 1477,
+      "channel_position": 161,
+      "url": "https://www.youtube.com/watch?v=bAZgiUI-2B8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "1vrfRdqCxOA",
+      "title": "Royal Kingdom Level 4001-4020 (Gameplay)(New Tropic Kingdom)",
+      "level_start": 4001,
+      "level_end": 4020,
+      "duration_seconds": 1471,
+      "channel_position": 154,
+      "url": "https://www.youtube.com/watch?v=1vrfRdqCxOA",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "pPnY2OsP-Gg",
+      "title": "Royal Kingdom Level 4021-4040 (Gameplay)",
+      "level_start": 4021,
+      "level_end": 4040,
+      "duration_seconds": 1648,
+      "channel_position": 144,
+      "url": "https://www.youtube.com/watch?v=pPnY2OsP-Gg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "o7qqvBwO0IM",
+      "title": "Royal Kingdom Level 4041-4060 (Gameplay)",
+      "level_start": 4041,
+      "level_end": 4060,
+      "duration_seconds": 1463,
+      "channel_position": 143,
+      "url": "https://www.youtube.com/watch?v=o7qqvBwO0IM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "xuUQ1_qAslU",
+      "title": "Royal Kingdom Level 4061-4080 (Gameplay)",
+      "level_start": 4061,
+      "level_end": 4080,
+      "duration_seconds": 1536,
+      "channel_position": 142,
+      "url": "https://www.youtube.com/watch?v=xuUQ1_qAslU",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "cnjITkeJJ5g",
+      "title": "Royal Kingdom Level 4081-4100 (Gameplay)(Tropic Castle Complete)",
+      "level_start": 4081,
+      "level_end": 4100,
+      "duration_seconds": 1508,
+      "channel_position": 141,
+      "url": "https://www.youtube.com/watch?v=cnjITkeJJ5g",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "a28ox_sWeP4",
+      "title": "Royal Kingdom Level 4101-4120 (Gameplay)",
+      "level_start": 4101,
+      "level_end": 4120,
+      "duration_seconds": 1782,
+      "channel_position": 135,
+      "url": "https://www.youtube.com/watch?v=a28ox_sWeP4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "yzCfCGrvdTo",
+      "title": "Royal Kingdom Level 4121-4140 (Gameplay)",
+      "level_start": 4121,
+      "level_end": 4140,
+      "duration_seconds": 1581,
+      "channel_position": 134,
+      "url": "https://www.youtube.com/watch?v=yzCfCGrvdTo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "S4C8cXsamYc",
+      "title": "Royal Kingdom Level 4141-4160 (Gameplay)",
+      "level_start": 4141,
+      "level_end": 4160,
+      "duration_seconds": 1445,
+      "channel_position": 133,
+      "url": "https://www.youtube.com/watch?v=S4C8cXsamYc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "oUzDBU3hYTE",
+      "title": "Royal Kingdom Level 4161-4180 (Gameplay)",
+      "level_start": 4161,
+      "level_end": 4180,
+      "duration_seconds": 1512,
+      "channel_position": 132,
+      "url": "https://www.youtube.com/watch?v=oUzDBU3hYTE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "VnDYJTQzt24",
+      "title": "Royal Kingdom Level 4181-4200 (Gameplay)(Sand Museum Complete)",
+      "level_start": 4181,
+      "level_end": 4200,
+      "duration_seconds": 1500,
+      "channel_position": 131,
+      "url": "https://www.youtube.com/watch?v=VnDYJTQzt24",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "qzbjlO1NI74",
+      "title": "Royal Kingdom Level 4201-4220 (Gameplay)",
+      "level_start": 4201,
+      "level_end": 4220,
+      "duration_seconds": 1673,
+      "channel_position": 123,
+      "url": "https://www.youtube.com/watch?v=qzbjlO1NI74",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "JB3I7L3imtI",
+      "title": "Royal Kingdom Level 4221-4240 (Gameplay)",
+      "level_start": 4221,
+      "level_end": 4240,
+      "duration_seconds": 1698,
+      "channel_position": 122,
+      "url": "https://www.youtube.com/watch?v=JB3I7L3imtI",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Oe3PqLkBdJA",
+      "title": "Royal Kingdom Level 4241-4260 (Gameplay)",
+      "level_start": 4241,
+      "level_end": 4260,
+      "duration_seconds": 1536,
+      "channel_position": 121,
+      "url": "https://www.youtube.com/watch?v=Oe3PqLkBdJA",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "IL5C2AHtI_Y",
+      "title": "Royal Kingdom Level 4261-4280 (Gameplay)",
+      "level_start": 4261,
+      "level_end": 4280,
+      "duration_seconds": 1666,
+      "channel_position": 120,
+      "url": "https://www.youtube.com/watch?v=IL5C2AHtI_Y",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "o9GnOezBmZY",
+      "title": "Royal Kingdom Level 4281-4300 (Gameplay)(Fortress Complete)",
+      "level_start": 4281,
+      "level_end": 4300,
+      "duration_seconds": 1514,
+      "channel_position": 119,
+      "url": "https://www.youtube.com/watch?v=o9GnOezBmZY",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "ujYXTlKi7hE",
+      "title": "Royal Kingdom Level 4301-4320 (Gameplay)",
+      "level_start": 4301,
+      "level_end": 4320,
+      "duration_seconds": 1692,
+      "channel_position": 112,
+      "url": "https://www.youtube.com/watch?v=ujYXTlKi7hE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "qzM9Pr2DjP4",
+      "title": "Royal Kingdom Level 4321-4340 (Gameplay)",
+      "level_start": 4321,
+      "level_end": 4340,
+      "duration_seconds": 1749,
+      "channel_position": 111,
+      "url": "https://www.youtube.com/watch?v=qzM9Pr2DjP4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "J0f__FqA9rM",
+      "title": "Royal Kingdom Level 4341-4360 (Gameplay",
+      "level_start": 4341,
+      "level_end": 4360,
+      "duration_seconds": 1714,
+      "channel_position": 110,
+      "url": "https://www.youtube.com/watch?v=J0f__FqA9rM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "U7zd8ecUmDU",
+      "title": "Royal Kingdom Level 4361-4380 (Gameplay)",
+      "level_start": 4361,
+      "level_end": 4380,
+      "duration_seconds": 1631,
+      "channel_position": 109,
+      "url": "https://www.youtube.com/watch?v=U7zd8ecUmDU",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "utK7fYFEsuc",
+      "title": "Royal Kingdom Level 4381-4400 (Gameplay)(Glasswork Complete)",
+      "level_start": 4381,
+      "level_end": 4400,
+      "duration_seconds": 1681,
+      "channel_position": 108,
+      "url": "https://www.youtube.com/watch?v=utK7fYFEsuc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "vMlFYDbPFdo",
+      "title": "Royal Kingdom Level 4401-4420 (Gameplay)",
+      "level_start": 4401,
+      "level_end": 4420,
+      "duration_seconds": 1526,
+      "channel_position": 95,
+      "url": "https://www.youtube.com/watch?v=vMlFYDbPFdo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "DgR_8qBLET0",
+      "title": "Royal Kingdom Level 4421-4440 (Gameplay)",
+      "level_start": 4421,
+      "level_end": 4440,
+      "duration_seconds": 1569,
+      "channel_position": 94,
+      "url": "https://www.youtube.com/watch?v=DgR_8qBLET0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "7HfXlfG0D1g",
+      "title": "Royal Kingdom Level 4441-4460 (Gameplay)",
+      "level_start": 4441,
+      "level_end": 4460,
+      "duration_seconds": 1571,
+      "channel_position": 93,
+      "url": "https://www.youtube.com/watch?v=7HfXlfG0D1g",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "e90ftGfauMc",
+      "title": "Royal Kingdom Level 4461-4480 (Gameplay)",
+      "level_start": 4461,
+      "level_end": 4480,
+      "duration_seconds": 1488,
+      "channel_position": 92,
+      "url": "https://www.youtube.com/watch?v=e90ftGfauMc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "JsX4g6qroug",
+      "title": "Royal Kingdom Level 4481-4500 (Gameplay)(Resort Complete)",
+      "level_start": 4481,
+      "level_end": 4500,
+      "duration_seconds": 1676,
+      "channel_position": 91,
+      "url": "https://www.youtube.com/watch?v=JsX4g6qroug",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "9jb5iI_aoA8",
+      "title": "Royal Kingdom Level 4501-4520 (Gameplay)(New Feature: Emote Album)",
+      "level_start": 4501,
+      "level_end": 4520,
+      "duration_seconds": 1739,
+      "channel_position": 84,
+      "url": "https://www.youtube.com/watch?v=9jb5iI_aoA8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "lzVL1DcH8dw",
+      "title": "Royal Kingdom Level 4521-4540 (Gameplay)",
+      "level_start": 4521,
+      "level_end": 4540,
+      "duration_seconds": 1489,
+      "channel_position": 83,
+      "url": "https://www.youtube.com/watch?v=lzVL1DcH8dw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "-c_M6J6bO3k",
+      "title": "Royal Kingdom Level 4541-4560 (Gameplay)",
+      "level_start": 4541,
+      "level_end": 4560,
+      "duration_seconds": 1561,
+      "channel_position": 82,
+      "url": "https://www.youtube.com/watch?v=-c_M6J6bO3k",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "AKEd4pzWNF0",
+      "title": "Royal Kingdom Level 4561-4580 (Gameplay)",
+      "level_start": 4561,
+      "level_end": 4580,
+      "duration_seconds": 1486,
+      "channel_position": 81,
+      "url": "https://www.youtube.com/watch?v=AKEd4pzWNF0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "2WEszjbWCT0",
+      "title": "Royal Kingdom Level 4581-4600 (Gameplay)(Music Festival Completed)",
+      "level_start": 4581,
+      "level_end": 4600,
+      "duration_seconds": 1629,
+      "channel_position": 80,
+      "url": "https://www.youtube.com/watch?v=2WEszjbWCT0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "JIjZAMZPQMo",
+      "title": "Royal Kingdom Level 4601-4620 (Gameplay)",
+      "level_start": 4601,
+      "level_end": 4620,
+      "duration_seconds": 1590,
+      "channel_position": 68,
+      "url": "https://www.youtube.com/watch?v=JIjZAMZPQMo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "DvQK9Td0yGQ",
+      "title": "Royal Kingdom Level 4621-4640 (Gameplay)",
+      "level_start": 4621,
+      "level_end": 4640,
+      "duration_seconds": 1551,
+      "channel_position": 67,
+      "url": "https://www.youtube.com/watch?v=DvQK9Td0yGQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "7hQizZ6TnzI",
+      "title": "Royal Kingdom Level 4641-4660 (Gameplay)",
+      "level_start": 4641,
+      "level_end": 4660,
+      "duration_seconds": 1661,
+      "channel_position": 66,
+      "url": "https://www.youtube.com/watch?v=7hQizZ6TnzI",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "VooUF-Dw_Wo",
+      "title": "Royal Kingdom Level 4661-4680 (Gameplay)",
+      "level_start": 4661,
+      "level_end": 4680,
+      "duration_seconds": 1420,
+      "channel_position": 65,
+      "url": "https://www.youtube.com/watch?v=VooUF-Dw_Wo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "ZRsfGwaAlF0",
+      "title": "Royal Kingdom Level 4681-4700 (Gameplay)(Water Park Completed)",
+      "level_start": 4681,
+      "level_end": 4700,
+      "duration_seconds": 1495,
+      "channel_position": 64,
+      "url": "https://www.youtube.com/watch?v=ZRsfGwaAlF0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "1K1FtWOP7-I",
+      "title": "Royal Kingdom Level 4701-4720 (Gameplay)",
+      "level_start": 4701,
+      "level_end": 4720,
+      "duration_seconds": 1652,
+      "channel_position": 57,
+      "url": "https://www.youtube.com/watch?v=1K1FtWOP7-I",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "BXFzb31_uvo",
+      "title": "Royal Kingdom Level 4721-4740 (Gameplay)",
+      "level_start": 4721,
+      "level_end": 4740,
+      "duration_seconds": 1564,
+      "channel_position": 56,
+      "url": "https://www.youtube.com/watch?v=BXFzb31_uvo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "N9SwGXD3IOw",
+      "title": "Royal Kingdom Level 4741-4760 (Gameplay)",
+      "level_start": 4741,
+      "level_end": 4760,
+      "duration_seconds": 1538,
+      "channel_position": 55,
+      "url": "https://www.youtube.com/watch?v=N9SwGXD3IOw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "b_M7lK_O7Ko",
+      "title": "Royal Kingdom Level 4761-4780 (Gameplay)",
+      "level_start": 4761,
+      "level_end": 4780,
+      "duration_seconds": 1510,
+      "channel_position": 54,
+      "url": "https://www.youtube.com/watch?v=b_M7lK_O7Ko",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "0VWhDt4MJf0",
+      "title": "Royal Kingdom Level 4781-4800 (Gameplay)(Floating Market Completed)",
+      "level_start": 4781,
+      "level_end": 4800,
+      "duration_seconds": 1378,
+      "channel_position": 53,
+      "url": "https://www.youtube.com/watch?v=0VWhDt4MJf0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "QTwZSpV6bqM",
+      "title": "Royal Kingdom Level 4801-4820 (Gameplay)",
+      "level_start": 4801,
+      "level_end": 4820,
+      "duration_seconds": 1583,
+      "channel_position": 41,
+      "url": "https://www.youtube.com/watch?v=QTwZSpV6bqM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "0Qf0sNESvfU",
+      "title": "Royal Kingdom Level 4821-4840 (Gameplay)",
+      "level_start": 4821,
+      "level_end": 4840,
+      "duration_seconds": 1589,
+      "channel_position": 40,
+      "url": "https://www.youtube.com/watch?v=0Qf0sNESvfU",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Hiky7B6BLIU",
+      "title": "Royal Kingdom Level 4841-4860 (Gameplay)",
+      "level_start": 4841,
+      "level_end": 4860,
+      "duration_seconds": 1524,
+      "channel_position": 39,
+      "url": "https://www.youtube.com/watch?v=Hiky7B6BLIU",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "CDTNmuXWxLI",
+      "title": "Royal Kingdom Level 4861-4880 (Gameplay)",
+      "level_start": 4861,
+      "level_end": 4880,
+      "duration_seconds": 1519,
+      "channel_position": 38,
+      "url": "https://www.youtube.com/watch?v=CDTNmuXWxLI",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "KB1xx2FVhgQ",
+      "title": "Royal Kingdom Level 4881-4900 (Gameplay)(Secret Hills Completed)",
+      "level_start": 4881,
+      "level_end": 4900,
+      "duration_seconds": 1495,
+      "channel_position": 37,
+      "url": "https://www.youtube.com/watch?v=KB1xx2FVhgQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "TUsaeoZqfbY",
+      "title": "Royal Kingdom Level 4901-4920 (Gameplay)",
+      "level_start": 4901,
+      "level_end": 4920,
+      "duration_seconds": 1574,
+      "channel_position": 35,
+      "url": "https://www.youtube.com/watch?v=TUsaeoZqfbY",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "duhz5wMvvrw",
+      "title": "Royal Kingdom Level 4921-4940 (Gameplay)",
+      "level_start": 4921,
+      "level_end": 4940,
+      "duration_seconds": 1513,
+      "channel_position": 34,
+      "url": "https://www.youtube.com/watch?v=duhz5wMvvrw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "yRoSdnSDia0",
+      "title": "Royal Kingdom Level 4941-4960 (Gameplay)",
+      "level_start": 4941,
+      "level_end": 4960,
+      "duration_seconds": 1505,
+      "channel_position": 33,
+      "url": "https://www.youtube.com/watch?v=yRoSdnSDia0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "17Ly0dcugV8",
+      "title": "Royal Kingdom Level 4961-4980 (Gameplay)",
+      "level_start": 4961,
+      "level_end": 4980,
+      "duration_seconds": 1527,
+      "channel_position": 32,
+      "url": "https://www.youtube.com/watch?v=17Ly0dcugV8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "VeYle1Ge1DQ",
+      "title": "Royal Kingdom Level 4981-5000 (Gameplay)(Treasure Island & Tropic Kingdom Completed)",
+      "level_start": 4981,
+      "level_end": 5000,
+      "duration_seconds": 1452,
+      "channel_position": 31,
+      "url": "https://www.youtube.com/watch?v=VeYle1Ge1DQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "wAejt04xwlA",
+      "title": "Royal Kingdom Level 5001-5020 (Gameplay) (NEW Crystal Kingdom)",
+      "level_start": 5001,
+      "level_end": 5020,
+      "duration_seconds": 1550,
+      "channel_position": 29,
+      "url": "https://www.youtube.com/watch?v=wAejt04xwlA",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "24-siOeOqzY",
+      "title": "Royal Kingdom Level 5021-5040 (Gameplay)",
+      "level_start": 5021,
+      "level_end": 5040,
+      "duration_seconds": 1518,
+      "channel_position": 23,
+      "url": "https://www.youtube.com/watch?v=24-siOeOqzY",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "6sLOwvdssZQ",
+      "title": "Royal Kingdom Level 5041-5060 (Gameplay)",
+      "level_start": 5041,
+      "level_end": 5060,
+      "duration_seconds": 1530,
+      "channel_position": 22,
+      "url": "https://www.youtube.com/watch?v=6sLOwvdssZQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "18IJ56rWNXM",
+      "title": "Royal Kingdom Level 5061-5080 (Gameplay)",
+      "level_start": 5061,
+      "level_end": 5080,
+      "duration_seconds": 1442,
+      "channel_position": 18,
+      "url": "https://www.youtube.com/watch?v=18IJ56rWNXM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "h9M5ujnL8dY",
+      "title": "Royal Kingdom Level 5081-5100 (Gameplay)(Diamond Castle Completed)",
+      "level_start": 5081,
+      "level_end": 5100,
+      "duration_seconds": 1501,
+      "channel_position": 17,
+      "url": "https://www.youtube.com/watch?v=h9M5ujnL8dY",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "bCoumPyEw24",
+      "title": "Royal Kingdom Level 5101-5120 (Gameplay)",
+      "level_start": 5101,
+      "level_end": 5120,
+      "duration_seconds": 1770,
+      "channel_position": 14,
+      "url": "https://www.youtube.com/watch?v=bCoumPyEw24",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "3PYDbprnP64",
+      "title": "Royal Kingdom Level 5121-5140 (Gameplay)",
+      "level_start": 5121,
+      "level_end": 5140,
+      "duration_seconds": 1491,
+      "channel_position": 13,
+      "url": "https://www.youtube.com/watch?v=3PYDbprnP64",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "UAODI5kzNRE",
+      "title": "Royal Kingdom Level 5141-5160 (Gameplay)",
+      "level_start": 5141,
+      "level_end": 5160,
+      "duration_seconds": 1431,
+      "channel_position": 12,
+      "url": "https://www.youtube.com/watch?v=UAODI5kzNRE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "XLAfzRfZYWY",
+      "title": "Royal Kingdom Level 5161-5180 (Gameplay)",
+      "level_start": 5161,
+      "level_end": 5180,
+      "duration_seconds": 1440,
+      "channel_position": 10,
+      "url": "https://www.youtube.com/watch?v=XLAfzRfZYWY",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "oXQEoM8AUk0",
+      "title": "Royal Kingdom Level 5181-5200 (Gameplay)(Crystal Mine Completed)",
+      "level_start": 5181,
+      "level_end": 5200,
+      "duration_seconds": 1280,
+      "channel_position": 9,
+      "url": "https://www.youtube.com/watch?v=oXQEoM8AUk0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "mGRaa7lPHPA",
+      "title": "Royal Kingdom Level 5201-5220 (Gameplay)",
+      "level_start": 5201,
+      "level_end": 5220,
+      "duration_seconds": 1401,
+      "channel_position": 6,
+      "url": "https://www.youtube.com/watch?v=mGRaa7lPHPA",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "HCjmNmb06ec",
+      "title": "Royal Kingdom Level 5221-5240 (Gameplay)",
+      "level_start": 5221,
+      "level_end": 5240,
+      "duration_seconds": 1436,
+      "channel_position": 5,
+      "url": "https://www.youtube.com/watch?v=HCjmNmb06ec",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "tgjSSVCyf4c",
+      "title": "Royal Kingdom Level 5241-5260 (Gameplay)",
+      "level_start": 5241,
+      "level_end": 5260,
+      "duration_seconds": 1438,
+      "channel_position": 4,
+      "url": "https://www.youtube.com/watch?v=tgjSSVCyf4c",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "FtZXfxYNlIQ",
+      "title": "Royal Kingdom Level 5261-5280 (Gameplay)",
+      "level_start": 5261,
+      "level_end": 5280,
+      "duration_seconds": 1367,
+      "channel_position": 3,
+      "url": "https://www.youtube.com/watch?v=FtZXfxYNlIQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "VxVkGN3KSWI",
+      "title": "Royal Kingdom Level 5281-5300 (Gameplay)(Dragon Training Completed)",
+      "level_start": 5281,
+      "level_end": 5300,
+      "duration_seconds": 1352,
+      "channel_position": 2,
+      "url": "https://www.youtube.com/watch?v=VxVkGN3KSWI",
+      "source": "RasyaPlaysRK channel"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "MMg-vSGBvSk",
+      "title": "Royal Kingdom Level 3301-3400 (Full Gameplay)(New Version)",
+      "level_start": 3301,
+      "level_end": 3400,
+      "duration_seconds": 7517,
+      "channel_position": 1,
+      "url": "https://www.youtube.com/watch?v=MMg-vSGBvSk",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "VxVkGN3KSWI",
+      "title": "Royal Kingdom Level 5281-5300 (Gameplay)(Dragon Training Completed)",
+      "level_start": 5281,
+      "level_end": 5300,
+      "duration_seconds": 1352,
+      "channel_position": 2,
+      "url": "https://www.youtube.com/watch?v=VxVkGN3KSWI",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "FtZXfxYNlIQ",
+      "title": "Royal Kingdom Level 5261-5280 (Gameplay)",
+      "level_start": 5261,
+      "level_end": 5280,
+      "duration_seconds": 1367,
+      "channel_position": 3,
+      "url": "https://www.youtube.com/watch?v=FtZXfxYNlIQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "tgjSSVCyf4c",
+      "title": "Royal Kingdom Level 5241-5260 (Gameplay)",
+      "level_start": 5241,
+      "level_end": 5260,
+      "duration_seconds": 1438,
+      "channel_position": 4,
+      "url": "https://www.youtube.com/watch?v=tgjSSVCyf4c",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "HCjmNmb06ec",
+      "title": "Royal Kingdom Level 5221-5240 (Gameplay)",
+      "level_start": 5221,
+      "level_end": 5240,
+      "duration_seconds": 1436,
+      "channel_position": 5,
+      "url": "https://www.youtube.com/watch?v=HCjmNmb06ec",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "mGRaa7lPHPA",
+      "title": "Royal Kingdom Level 5201-5220 (Gameplay)",
+      "level_start": 5201,
+      "level_end": 5220,
+      "duration_seconds": 1401,
+      "channel_position": 6,
+      "url": "https://www.youtube.com/watch?v=mGRaa7lPHPA",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "pb1ZueNk3-c",
+      "title": "Royal Kingdom Level 3201-3300 (Full Gameplay)(New Version)",
+      "level_start": 3201,
+      "level_end": 3300,
+      "duration_seconds": 7186,
+      "channel_position": 7,
+      "url": "https://www.youtube.com/watch?v=pb1ZueNk3-c",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "oXQEoM8AUk0",
+      "title": "Royal Kingdom Level 5181-5200 (Gameplay)(Crystal Mine Completed)",
+      "level_start": 5181,
+      "level_end": 5200,
+      "duration_seconds": 1280,
+      "channel_position": 9,
+      "url": "https://www.youtube.com/watch?v=oXQEoM8AUk0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "XLAfzRfZYWY",
+      "title": "Royal Kingdom Level 5161-5180 (Gameplay)",
+      "level_start": 5161,
+      "level_end": 5180,
+      "duration_seconds": 1440,
+      "channel_position": 10,
+      "url": "https://www.youtube.com/watch?v=XLAfzRfZYWY",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "UAODI5kzNRE",
+      "title": "Royal Kingdom Level 5141-5160 (Gameplay)",
+      "level_start": 5141,
+      "level_end": 5160,
+      "duration_seconds": 1431,
+      "channel_position": 12,
+      "url": "https://www.youtube.com/watch?v=UAODI5kzNRE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "3PYDbprnP64",
+      "title": "Royal Kingdom Level 5121-5140 (Gameplay)",
+      "level_start": 5121,
+      "level_end": 5140,
+      "duration_seconds": 1491,
+      "channel_position": 13,
+      "url": "https://www.youtube.com/watch?v=3PYDbprnP64",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "bCoumPyEw24",
+      "title": "Royal Kingdom Level 5101-5120 (Gameplay)",
+      "level_start": 5101,
+      "level_end": 5120,
+      "duration_seconds": 1770,
+      "channel_position": 14,
+      "url": "https://www.youtube.com/watch?v=bCoumPyEw24",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "h9M5ujnL8dY",
+      "title": "Royal Kingdom Level 5081-5100 (Gameplay)(Diamond Castle Completed)",
+      "level_start": 5081,
+      "level_end": 5100,
+      "duration_seconds": 1501,
+      "channel_position": 17,
+      "url": "https://www.youtube.com/watch?v=h9M5ujnL8dY",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "18IJ56rWNXM",
+      "title": "Royal Kingdom Level 5061-5080 (Gameplay)",
+      "level_start": 5061,
+      "level_end": 5080,
+      "duration_seconds": 1442,
+      "channel_position": 18,
+      "url": "https://www.youtube.com/watch?v=18IJ56rWNXM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "6sLOwvdssZQ",
+      "title": "Royal Kingdom Level 5041-5060 (Gameplay)",
+      "level_start": 5041,
+      "level_end": 5060,
+      "duration_seconds": 1530,
+      "channel_position": 22,
+      "url": "https://www.youtube.com/watch?v=6sLOwvdssZQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "24-siOeOqzY",
+      "title": "Royal Kingdom Level 5021-5040 (Gameplay)",
+      "level_start": 5021,
+      "level_end": 5040,
+      "duration_seconds": 1518,
+      "channel_position": 23,
+      "url": "https://www.youtube.com/watch?v=24-siOeOqzY",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "wAejt04xwlA",
+      "title": "Royal Kingdom Level 5001-5020 (Gameplay) (NEW Crystal Kingdom)",
+      "level_start": 5001,
+      "level_end": 5020,
+      "duration_seconds": 1550,
+      "channel_position": 29,
+      "url": "https://www.youtube.com/watch?v=wAejt04xwlA",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "VeYle1Ge1DQ",
+      "title": "Royal Kingdom Level 4981-5000 (Gameplay)(Treasure Island & Tropic Kingdom Completed)",
+      "level_start": 4981,
+      "level_end": 5000,
+      "duration_seconds": 1452,
+      "channel_position": 31,
+      "url": "https://www.youtube.com/watch?v=VeYle1Ge1DQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "17Ly0dcugV8",
+      "title": "Royal Kingdom Level 4961-4980 (Gameplay)",
+      "level_start": 4961,
+      "level_end": 4980,
+      "duration_seconds": 1527,
+      "channel_position": 32,
+      "url": "https://www.youtube.com/watch?v=17Ly0dcugV8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "yRoSdnSDia0",
+      "title": "Royal Kingdom Level 4941-4960 (Gameplay)",
+      "level_start": 4941,
+      "level_end": 4960,
+      "duration_seconds": 1505,
+      "channel_position": 33,
+      "url": "https://www.youtube.com/watch?v=yRoSdnSDia0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "duhz5wMvvrw",
+      "title": "Royal Kingdom Level 4921-4940 (Gameplay)",
+      "level_start": 4921,
+      "level_end": 4940,
+      "duration_seconds": 1513,
+      "channel_position": 34,
+      "url": "https://www.youtube.com/watch?v=duhz5wMvvrw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "TUsaeoZqfbY",
+      "title": "Royal Kingdom Level 4901-4920 (Gameplay)",
+      "level_start": 4901,
+      "level_end": 4920,
+      "duration_seconds": 1574,
+      "channel_position": 35,
+      "url": "https://www.youtube.com/watch?v=TUsaeoZqfbY",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "KB1xx2FVhgQ",
+      "title": "Royal Kingdom Level 4881-4900 (Gameplay)(Secret Hills Completed)",
+      "level_start": 4881,
+      "level_end": 4900,
+      "duration_seconds": 1495,
+      "channel_position": 37,
+      "url": "https://www.youtube.com/watch?v=KB1xx2FVhgQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "CDTNmuXWxLI",
+      "title": "Royal Kingdom Level 4861-4880 (Gameplay)",
+      "level_start": 4861,
+      "level_end": 4880,
+      "duration_seconds": 1519,
+      "channel_position": 38,
+      "url": "https://www.youtube.com/watch?v=CDTNmuXWxLI",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Hiky7B6BLIU",
+      "title": "Royal Kingdom Level 4841-4860 (Gameplay)",
+      "level_start": 4841,
+      "level_end": 4860,
+      "duration_seconds": 1524,
+      "channel_position": 39,
+      "url": "https://www.youtube.com/watch?v=Hiky7B6BLIU",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "0Qf0sNESvfU",
+      "title": "Royal Kingdom Level 4821-4840 (Gameplay)",
+      "level_start": 4821,
+      "level_end": 4840,
+      "duration_seconds": 1589,
+      "channel_position": 40,
+      "url": "https://www.youtube.com/watch?v=0Qf0sNESvfU",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "QTwZSpV6bqM",
+      "title": "Royal Kingdom Level 4801-4820 (Gameplay)",
+      "level_start": 4801,
+      "level_end": 4820,
+      "duration_seconds": 1583,
+      "channel_position": 41,
+      "url": "https://www.youtube.com/watch?v=QTwZSpV6bqM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "BaJgZeOUNyE",
+      "title": "Royal Kingdom Level 1781-1800 (Gameplay)",
+      "level_start": 1781,
+      "level_end": 1800,
+      "duration_seconds": 1331,
+      "channel_position": 42,
+      "url": "https://www.youtube.com/watch?v=BaJgZeOUNyE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "9p_Nrggvi6E",
+      "title": "Royal Kingdom Level 1761-1780 (Gameplay)",
+      "level_start": 1761,
+      "level_end": 1780,
+      "duration_seconds": 1747,
+      "channel_position": 43,
+      "url": "https://www.youtube.com/watch?v=9p_Nrggvi6E",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "By-e4Whm0A8",
+      "title": "Royal Kingdom Level 1741-1760 (Gameplay)",
+      "level_start": 1741,
+      "level_end": 1760,
+      "duration_seconds": 1483,
+      "channel_position": 44,
+      "url": "https://www.youtube.com/watch?v=By-e4Whm0A8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "jibuK37y1Go",
+      "title": "Royal Kingdom Level 1721-1740 (Gameplay)",
+      "level_start": 1721,
+      "level_end": 1740,
+      "duration_seconds": 1572,
+      "channel_position": 45,
+      "url": "https://www.youtube.com/watch?v=jibuK37y1Go",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "WxE7oxg-DLA",
+      "title": "Royal Kingdom Level 1701-1720 (Gameplay)",
+      "level_start": 1701,
+      "level_end": 1720,
+      "duration_seconds": 1304,
+      "channel_position": 47,
+      "url": "https://www.youtube.com/watch?v=WxE7oxg-DLA",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "8SLLbjrFDb8",
+      "title": "Royal Kingdom Level 1681-1700 (Gameplay)",
+      "level_start": 1681,
+      "level_end": 1700,
+      "duration_seconds": 1506,
+      "channel_position": 48,
+      "url": "https://www.youtube.com/watch?v=8SLLbjrFDb8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "IIYBnkI4ie4",
+      "title": "Royal Kingdom Level 1661-1680 (Gameplay)",
+      "level_start": 1661,
+      "level_end": 1680,
+      "duration_seconds": 1599,
+      "channel_position": 49,
+      "url": "https://www.youtube.com/watch?v=IIYBnkI4ie4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Ss040nIvUJc",
+      "title": "Royal Kingdom Level 1641-1660 (Gameplay)",
+      "level_start": 1641,
+      "level_end": 1660,
+      "duration_seconds": 1556,
+      "channel_position": 50,
+      "url": "https://www.youtube.com/watch?v=Ss040nIvUJc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "wYZXet5kMT4",
+      "title": "Royal Kingdom Level 1621-1640 (Gameplay)",
+      "level_start": 1621,
+      "level_end": 1640,
+      "duration_seconds": 1267,
+      "channel_position": 51,
+      "url": "https://www.youtube.com/watch?v=wYZXet5kMT4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "23dFZEOgpfw",
+      "title": "Royal Kingdom Level 1601-1620 (Gameplay)",
+      "level_start": 1601,
+      "level_end": 1620,
+      "duration_seconds": 1298,
+      "channel_position": 52,
+      "url": "https://www.youtube.com/watch?v=23dFZEOgpfw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "0VWhDt4MJf0",
+      "title": "Royal Kingdom Level 4781-4800 (Gameplay)(Floating Market Completed)",
+      "level_start": 4781,
+      "level_end": 4800,
+      "duration_seconds": 1378,
+      "channel_position": 53,
+      "url": "https://www.youtube.com/watch?v=0VWhDt4MJf0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "b_M7lK_O7Ko",
+      "title": "Royal Kingdom Level 4761-4780 (Gameplay)",
+      "level_start": 4761,
+      "level_end": 4780,
+      "duration_seconds": 1510,
+      "channel_position": 54,
+      "url": "https://www.youtube.com/watch?v=b_M7lK_O7Ko",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "N9SwGXD3IOw",
+      "title": "Royal Kingdom Level 4741-4760 (Gameplay)",
+      "level_start": 4741,
+      "level_end": 4760,
+      "duration_seconds": 1538,
+      "channel_position": 55,
+      "url": "https://www.youtube.com/watch?v=N9SwGXD3IOw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "BXFzb31_uvo",
+      "title": "Royal Kingdom Level 4721-4740 (Gameplay)",
+      "level_start": 4721,
+      "level_end": 4740,
+      "duration_seconds": 1564,
+      "channel_position": 56,
+      "url": "https://www.youtube.com/watch?v=BXFzb31_uvo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "1K1FtWOP7-I",
+      "title": "Royal Kingdom Level 4701-4720 (Gameplay)",
+      "level_start": 4701,
+      "level_end": 4720,
+      "duration_seconds": 1652,
+      "channel_position": 57,
+      "url": "https://www.youtube.com/watch?v=1K1FtWOP7-I",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "NcKgwuaR4oo",
+      "title": "Royal Kingdom Level 1581-1600 (Gameplay)(Escavation Completed)",
+      "level_start": 1581,
+      "level_end": 1600,
+      "duration_seconds": 1447,
+      "channel_position": 59,
+      "url": "https://www.youtube.com/watch?v=NcKgwuaR4oo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "l3n2xZ_Xg0M",
+      "title": "Royal Kingdom Level 1561-1580 (Gameplay)",
+      "level_start": 1561,
+      "level_end": 1580,
+      "duration_seconds": 1248,
+      "channel_position": 60,
+      "url": "https://www.youtube.com/watch?v=l3n2xZ_Xg0M",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "ROsRl_mXzuo",
+      "title": "Royal Kingdom Level 1541-1560 (Gameplay)",
+      "level_start": 1541,
+      "level_end": 1560,
+      "duration_seconds": 1469,
+      "channel_position": 61,
+      "url": "https://www.youtube.com/watch?v=ROsRl_mXzuo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "7mMdkjtX_kE",
+      "title": "Royal Kingdom Level 1521-1540 (Gameplay)",
+      "level_start": 1521,
+      "level_end": 1540,
+      "duration_seconds": 1218,
+      "channel_position": 62,
+      "url": "https://www.youtube.com/watch?v=7mMdkjtX_kE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "NYOhIFEjsOg",
+      "title": "Royal Kingdom Level 1501-1520 (Gameplay)",
+      "level_start": 1501,
+      "level_end": 1520,
+      "duration_seconds": 1367,
+      "channel_position": 63,
+      "url": "https://www.youtube.com/watch?v=NYOhIFEjsOg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "ZRsfGwaAlF0",
+      "title": "Royal Kingdom Level 4681-4700 (Gameplay)(Water Park Completed)",
+      "level_start": 4681,
+      "level_end": 4700,
+      "duration_seconds": 1495,
+      "channel_position": 64,
+      "url": "https://www.youtube.com/watch?v=ZRsfGwaAlF0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "VooUF-Dw_Wo",
+      "title": "Royal Kingdom Level 4661-4680 (Gameplay)",
+      "level_start": 4661,
+      "level_end": 4680,
+      "duration_seconds": 1420,
+      "channel_position": 65,
+      "url": "https://www.youtube.com/watch?v=VooUF-Dw_Wo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "7hQizZ6TnzI",
+      "title": "Royal Kingdom Level 4641-4660 (Gameplay)",
+      "level_start": 4641,
+      "level_end": 4660,
+      "duration_seconds": 1661,
+      "channel_position": 66,
+      "url": "https://www.youtube.com/watch?v=7hQizZ6TnzI",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "DvQK9Td0yGQ",
+      "title": "Royal Kingdom Level 4621-4640 (Gameplay)",
+      "level_start": 4621,
+      "level_end": 4640,
+      "duration_seconds": 1551,
+      "channel_position": 67,
+      "url": "https://www.youtube.com/watch?v=DvQK9Td0yGQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "JIjZAMZPQMo",
+      "title": "Royal Kingdom Level 4601-4620 (Gameplay)",
+      "level_start": 4601,
+      "level_end": 4620,
+      "duration_seconds": 1590,
+      "channel_position": 68,
+      "url": "https://www.youtube.com/watch?v=JIjZAMZPQMo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "BRAdBO2y63k",
+      "title": "Royal Kingdom Level 1481-1500 (Gameplay) (Hanging Gardens Completed)",
+      "level_start": 1481,
+      "level_end": 1500,
+      "duration_seconds": 1538,
+      "channel_position": 69,
+      "url": "https://www.youtube.com/watch?v=BRAdBO2y63k",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "aiWe7-xBv-E",
+      "title": "Royal Kingdom Level 1461-1480 (Gameplay)",
+      "level_start": 1461,
+      "level_end": 1480,
+      "duration_seconds": 1536,
+      "channel_position": 70,
+      "url": "https://www.youtube.com/watch?v=aiWe7-xBv-E",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "HJRQ5RMlGHg",
+      "title": "Royal Kingdom Level 1441-1460 (Gameplay)",
+      "level_start": 1441,
+      "level_end": 1460,
+      "duration_seconds": 1552,
+      "channel_position": 71,
+      "url": "https://www.youtube.com/watch?v=HJRQ5RMlGHg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "BZzxDybhAy0",
+      "title": "Royal Kingdom Level 1421-1440 (Gameplay)",
+      "level_start": 1421,
+      "level_end": 1440,
+      "duration_seconds": 1367,
+      "channel_position": 72,
+      "url": "https://www.youtube.com/watch?v=BZzxDybhAy0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "saCLvPivAEw",
+      "title": "Royal Kingdom Level 1401-1420 (Gameplay)",
+      "level_start": 1401,
+      "level_end": 1420,
+      "duration_seconds": 1490,
+      "channel_position": 74,
+      "url": "https://www.youtube.com/watch?v=saCLvPivAEw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "OuuUlrQeCd4",
+      "title": "Royal Kingdom Level 1381-1400 (Gameplay)(Grand Orrery Completed)",
+      "level_start": 1381,
+      "level_end": 1400,
+      "duration_seconds": 1589,
+      "channel_position": 75,
+      "url": "https://www.youtube.com/watch?v=OuuUlrQeCd4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "GDssCIQDzKg",
+      "title": "Royal Kingdom Level 1361-1380 (Gameplay)",
+      "level_start": 1361,
+      "level_end": 1380,
+      "duration_seconds": 1437,
+      "channel_position": 76,
+      "url": "https://www.youtube.com/watch?v=GDssCIQDzKg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "qm3WqJeMOp8",
+      "title": "Royal Kingdom Level 1341-1360 (Gameplay)",
+      "level_start": 1341,
+      "level_end": 1360,
+      "duration_seconds": 1490,
+      "channel_position": 77,
+      "url": "https://www.youtube.com/watch?v=qm3WqJeMOp8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "zGVP0Hn2czQ",
+      "title": "Royal Kingdom Level 1321-1340 (Gameplay)",
+      "level_start": 1321,
+      "level_end": 1340,
+      "duration_seconds": 1595,
+      "channel_position": 78,
+      "url": "https://www.youtube.com/watch?v=zGVP0Hn2czQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Ea1Gd_s_sSw",
+      "title": "Royal Kingdom Level 1301-1320 (Gameplay)",
+      "level_start": 1301,
+      "level_end": 1320,
+      "duration_seconds": 1413,
+      "channel_position": 79,
+      "url": "https://www.youtube.com/watch?v=Ea1Gd_s_sSw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "2WEszjbWCT0",
+      "title": "Royal Kingdom Level 4581-4600 (Gameplay)(Music Festival Completed)",
+      "level_start": 4581,
+      "level_end": 4600,
+      "duration_seconds": 1629,
+      "channel_position": 80,
+      "url": "https://www.youtube.com/watch?v=2WEszjbWCT0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "AKEd4pzWNF0",
+      "title": "Royal Kingdom Level 4561-4580 (Gameplay)",
+      "level_start": 4561,
+      "level_end": 4580,
+      "duration_seconds": 1486,
+      "channel_position": 81,
+      "url": "https://www.youtube.com/watch?v=AKEd4pzWNF0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "-c_M6J6bO3k",
+      "title": "Royal Kingdom Level 4541-4560 (Gameplay)",
+      "level_start": 4541,
+      "level_end": 4560,
+      "duration_seconds": 1561,
+      "channel_position": 82,
+      "url": "https://www.youtube.com/watch?v=-c_M6J6bO3k",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "lzVL1DcH8dw",
+      "title": "Royal Kingdom Level 4521-4540 (Gameplay)",
+      "level_start": 4521,
+      "level_end": 4540,
+      "duration_seconds": 1489,
+      "channel_position": 83,
+      "url": "https://www.youtube.com/watch?v=lzVL1DcH8dw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "9jb5iI_aoA8",
+      "title": "Royal Kingdom Level 4501-4520 (Gameplay)(New Feature: Emote Album)",
+      "level_start": 4501,
+      "level_end": 4520,
+      "duration_seconds": 1739,
+      "channel_position": 84,
+      "url": "https://www.youtube.com/watch?v=9jb5iI_aoA8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "WIs35iw_q0A",
+      "title": "Royal Kingdom Level 1281-1300 (Gameplay)(Treasury Complete)",
+      "level_start": 1281,
+      "level_end": 1300,
+      "duration_seconds": 1547,
+      "channel_position": 85,
+      "url": "https://www.youtube.com/watch?v=WIs35iw_q0A",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "PJODr_iY2uc",
+      "title": "Royal Kingdom Level 1261-1280 (Gameplay)",
+      "level_start": 1261,
+      "level_end": 1280,
+      "duration_seconds": 1483,
+      "channel_position": 86,
+      "url": "https://www.youtube.com/watch?v=PJODr_iY2uc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "4pAqb44X5oc",
+      "title": "Royal Kingdom Level 1241-1260 (Gameplay)",
+      "level_start": 1241,
+      "level_end": 1260,
+      "duration_seconds": 1553,
+      "channel_position": 87,
+      "url": "https://www.youtube.com/watch?v=4pAqb44X5oc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "eGOKuT3lWok",
+      "title": "Royal Kingdom Level 1221-1240 (Gameplay)",
+      "level_start": 1221,
+      "level_end": 1240,
+      "duration_seconds": 1731,
+      "channel_position": 88,
+      "url": "https://www.youtube.com/watch?v=eGOKuT3lWok",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "iz2TUBVg6FU",
+      "title": "Royal Kingdom Level 1201-1220 (Gameplay)",
+      "level_start": 1201,
+      "level_end": 1220,
+      "duration_seconds": 1263,
+      "channel_position": 89,
+      "url": "https://www.youtube.com/watch?v=iz2TUBVg6FU",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "JsX4g6qroug",
+      "title": "Royal Kingdom Level 4481-4500 (Gameplay)(Resort Complete)",
+      "level_start": 4481,
+      "level_end": 4500,
+      "duration_seconds": 1676,
+      "channel_position": 91,
+      "url": "https://www.youtube.com/watch?v=JsX4g6qroug",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "e90ftGfauMc",
+      "title": "Royal Kingdom Level 4461-4480 (Gameplay)",
+      "level_start": 4461,
+      "level_end": 4480,
+      "duration_seconds": 1488,
+      "channel_position": 92,
+      "url": "https://www.youtube.com/watch?v=e90ftGfauMc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "7HfXlfG0D1g",
+      "title": "Royal Kingdom Level 4441-4460 (Gameplay)",
+      "level_start": 4441,
+      "level_end": 4460,
+      "duration_seconds": 1571,
+      "channel_position": 93,
+      "url": "https://www.youtube.com/watch?v=7HfXlfG0D1g",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "DgR_8qBLET0",
+      "title": "Royal Kingdom Level 4421-4440 (Gameplay)",
+      "level_start": 4421,
+      "level_end": 4440,
+      "duration_seconds": 1569,
+      "channel_position": 94,
+      "url": "https://www.youtube.com/watch?v=DgR_8qBLET0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "vMlFYDbPFdo",
+      "title": "Royal Kingdom Level 4401-4420 (Gameplay)",
+      "level_start": 4401,
+      "level_end": 4420,
+      "duration_seconds": 1526,
+      "channel_position": 95,
+      "url": "https://www.youtube.com/watch?v=vMlFYDbPFdo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "uQENfKdpoZo",
+      "title": "Royal Kingdom Level 1181-1200 (Gameplay)(Pyramid Complete)",
+      "level_start": 1181,
+      "level_end": 1200,
+      "duration_seconds": 1647,
+      "channel_position": 96,
+      "url": "https://www.youtube.com/watch?v=uQENfKdpoZo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "SM7obPbERMk",
+      "title": "Royal Kingdom Level 1161-1180 (Gameplay)",
+      "level_start": 1161,
+      "level_end": 1180,
+      "duration_seconds": 1472,
+      "channel_position": 97,
+      "url": "https://www.youtube.com/watch?v=SM7obPbERMk",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "CTP8Dl_9GCE",
+      "title": "Royal Kingdom Level 1141-1160 (Gameplay)",
+      "level_start": 1141,
+      "level_end": 1160,
+      "duration_seconds": 1650,
+      "channel_position": 98,
+      "url": "https://www.youtube.com/watch?v=CTP8Dl_9GCE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "foJEkDI8k3k",
+      "title": "Royal Kingdom Level 1121-1140 (Gameplay)",
+      "level_start": 1121,
+      "level_end": 1140,
+      "duration_seconds": 1577,
+      "channel_position": 99,
+      "url": "https://www.youtube.com/watch?v=foJEkDI8k3k",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "1YesEKEB_5A",
+      "title": "Royal Kingdom Level 1101-1120 (Gameplay)",
+      "level_start": 1101,
+      "level_end": 1120,
+      "duration_seconds": 1537,
+      "channel_position": 100,
+      "url": "https://www.youtube.com/watch?v=1YesEKEB_5A",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "bEuFAORfyDo",
+      "title": "Royal Kingdom Level 1081-1100 (Gameplay)(Golden Palace Complete)",
+      "level_start": 1081,
+      "level_end": 1100,
+      "duration_seconds": 1797,
+      "channel_position": 102,
+      "url": "https://www.youtube.com/watch?v=bEuFAORfyDo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "_ZFRxkMVg3I",
+      "title": "Royal Kingdom Level 1061-1080 (Gameplay)",
+      "level_start": 1061,
+      "level_end": 1080,
+      "duration_seconds": 1589,
+      "channel_position": 103,
+      "url": "https://www.youtube.com/watch?v=_ZFRxkMVg3I",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "VFGs-jiZaP0",
+      "title": "Royal Kingdom Level 1041-1060 (Gameplay)",
+      "level_start": 1041,
+      "level_end": 1060,
+      "duration_seconds": 1576,
+      "channel_position": 104,
+      "url": "https://www.youtube.com/watch?v=VFGs-jiZaP0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "qaYzBWMNILc",
+      "title": "Royal Kingdom Level 1021-1040 (Gameplay)",
+      "level_start": 1021,
+      "level_end": 1040,
+      "duration_seconds": 1427,
+      "channel_position": 105,
+      "url": "https://www.youtube.com/watch?v=qaYzBWMNILc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "JDeIAuQzmgo",
+      "title": "Royal Kingdom Level 1001-1020 (Gameplay)(NEW Sand Kingdom)",
+      "level_start": 1001,
+      "level_end": 1020,
+      "duration_seconds": 1340,
+      "channel_position": 106,
+      "url": "https://www.youtube.com/watch?v=JDeIAuQzmgo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "utK7fYFEsuc",
+      "title": "Royal Kingdom Level 4381-4400 (Gameplay)(Glasswork Complete)",
+      "level_start": 4381,
+      "level_end": 4400,
+      "duration_seconds": 1681,
+      "channel_position": 108,
+      "url": "https://www.youtube.com/watch?v=utK7fYFEsuc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "U7zd8ecUmDU",
+      "title": "Royal Kingdom Level 4361-4380 (Gameplay)",
+      "level_start": 4361,
+      "level_end": 4380,
+      "duration_seconds": 1631,
+      "channel_position": 109,
+      "url": "https://www.youtube.com/watch?v=U7zd8ecUmDU",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "J0f__FqA9rM",
+      "title": "Royal Kingdom Level 4341-4360 (Gameplay",
+      "level_start": 4341,
+      "level_end": 4360,
+      "duration_seconds": 1714,
+      "channel_position": 110,
+      "url": "https://www.youtube.com/watch?v=J0f__FqA9rM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "qzM9Pr2DjP4",
+      "title": "Royal Kingdom Level 4321-4340 (Gameplay)",
+      "level_start": 4321,
+      "level_end": 4340,
+      "duration_seconds": 1749,
+      "channel_position": 111,
+      "url": "https://www.youtube.com/watch?v=qzM9Pr2DjP4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "ujYXTlKi7hE",
+      "title": "Royal Kingdom Level 4301-4320 (Gameplay)",
+      "level_start": 4301,
+      "level_end": 4320,
+      "duration_seconds": 1692,
+      "channel_position": 112,
+      "url": "https://www.youtube.com/watch?v=ujYXTlKi7hE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "HmCTWOcAbsc",
+      "title": "Royal Kingdom Level 981-1000 (Gameplay)(Ice Kingdom Complete)",
+      "level_start": 981,
+      "level_end": 1000,
+      "duration_seconds": 1579,
+      "channel_position": 113,
+      "url": "https://www.youtube.com/watch?v=HmCTWOcAbsc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "MWslXValNLw",
+      "title": "Royal Kingdom Level 961-980 (Gameplay)",
+      "level_start": 961,
+      "level_end": 980,
+      "duration_seconds": 1499,
+      "channel_position": 114,
+      "url": "https://www.youtube.com/watch?v=MWslXValNLw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "piW0kuKksAU",
+      "title": "Royal Kingdom Level 941-960 (Gameplay)",
+      "level_start": 941,
+      "level_end": 960,
+      "duration_seconds": 1614,
+      "channel_position": 115,
+      "url": "https://www.youtube.com/watch?v=piW0kuKksAU",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "mcxIU1n5HzM",
+      "title": "Royal Kingdom Level 921-940 (Gameplay)",
+      "level_start": 921,
+      "level_end": 940,
+      "duration_seconds": 1770,
+      "channel_position": 117,
+      "url": "https://www.youtube.com/watch?v=mcxIU1n5HzM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "adYVgbr5AWE",
+      "title": "Royal Kingdom Level 901-920 (Gameplay)",
+      "level_start": 901,
+      "level_end": 920,
+      "duration_seconds": 1577,
+      "channel_position": 118,
+      "url": "https://www.youtube.com/watch?v=adYVgbr5AWE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "o9GnOezBmZY",
+      "title": "Royal Kingdom Level 4281-4300 (Gameplay)(Fortress Complete)",
+      "level_start": 4281,
+      "level_end": 4300,
+      "duration_seconds": 1514,
+      "channel_position": 119,
+      "url": "https://www.youtube.com/watch?v=o9GnOezBmZY",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "IL5C2AHtI_Y",
+      "title": "Royal Kingdom Level 4261-4280 (Gameplay)",
+      "level_start": 4261,
+      "level_end": 4280,
+      "duration_seconds": 1666,
+      "channel_position": 120,
+      "url": "https://www.youtube.com/watch?v=IL5C2AHtI_Y",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Oe3PqLkBdJA",
+      "title": "Royal Kingdom Level 4241-4260 (Gameplay)",
+      "level_start": 4241,
+      "level_end": 4260,
+      "duration_seconds": 1536,
+      "channel_position": 121,
+      "url": "https://www.youtube.com/watch?v=Oe3PqLkBdJA",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "JB3I7L3imtI",
+      "title": "Royal Kingdom Level 4221-4240 (Gameplay)",
+      "level_start": 4221,
+      "level_end": 4240,
+      "duration_seconds": 1698,
+      "channel_position": 122,
+      "url": "https://www.youtube.com/watch?v=JB3I7L3imtI",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "qzbjlO1NI74",
+      "title": "Royal Kingdom Level 4201-4220 (Gameplay)",
+      "level_start": 4201,
+      "level_end": 4220,
+      "duration_seconds": 1673,
+      "channel_position": 123,
+      "url": "https://www.youtube.com/watch?v=qzbjlO1NI74",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Q_HQTvWxnkc",
+      "title": "Royal Kingdom Level 881-900 (Gameplay)",
+      "level_start": 881,
+      "level_end": 900,
+      "duration_seconds": 1432,
+      "channel_position": 125,
+      "url": "https://www.youtube.com/watch?v=Q_HQTvWxnkc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "l5POF770DDA",
+      "title": "Royal Kingdom Level 861-880 (Gameplay)",
+      "level_start": 861,
+      "level_end": 880,
+      "duration_seconds": 1435,
+      "channel_position": 126,
+      "url": "https://www.youtube.com/watch?v=l5POF770DDA",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "X-Ld7nopBDc",
+      "title": "Royal Kingdom Level 841-860 (Gameplay)",
+      "level_start": 841,
+      "level_end": 860,
+      "duration_seconds": 1478,
+      "channel_position": 127,
+      "url": "https://www.youtube.com/watch?v=X-Ld7nopBDc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "aU8h4KI5224",
+      "title": "Royal Kingdom Level 821-840 (Gameplay)",
+      "level_start": 821,
+      "level_end": 840,
+      "duration_seconds": 1611,
+      "channel_position": 128,
+      "url": "https://www.youtube.com/watch?v=aU8h4KI5224",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "ciSHkgq4wYs",
+      "title": "Royal Kingdom Level 801-820 (Gameplay)",
+      "level_start": 801,
+      "level_end": 820,
+      "duration_seconds": 1434,
+      "channel_position": 129,
+      "url": "https://www.youtube.com/watch?v=ciSHkgq4wYs",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "VnDYJTQzt24",
+      "title": "Royal Kingdom Level 4181-4200 (Gameplay)(Sand Museum Complete)",
+      "level_start": 4181,
+      "level_end": 4200,
+      "duration_seconds": 1500,
+      "channel_position": 131,
+      "url": "https://www.youtube.com/watch?v=VnDYJTQzt24",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "oUzDBU3hYTE",
+      "title": "Royal Kingdom Level 4161-4180 (Gameplay)",
+      "level_start": 4161,
+      "level_end": 4180,
+      "duration_seconds": 1512,
+      "channel_position": 132,
+      "url": "https://www.youtube.com/watch?v=oUzDBU3hYTE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "S4C8cXsamYc",
+      "title": "Royal Kingdom Level 4141-4160 (Gameplay)",
+      "level_start": 4141,
+      "level_end": 4160,
+      "duration_seconds": 1445,
+      "channel_position": 133,
+      "url": "https://www.youtube.com/watch?v=S4C8cXsamYc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "yzCfCGrvdTo",
+      "title": "Royal Kingdom Level 4121-4140 (Gameplay)",
+      "level_start": 4121,
+      "level_end": 4140,
+      "duration_seconds": 1581,
+      "channel_position": 134,
+      "url": "https://www.youtube.com/watch?v=yzCfCGrvdTo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "a28ox_sWeP4",
+      "title": "Royal Kingdom Level 4101-4120 (Gameplay)",
+      "level_start": 4101,
+      "level_end": 4120,
+      "duration_seconds": 1782,
+      "channel_position": 135,
+      "url": "https://www.youtube.com/watch?v=a28ox_sWeP4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "dG_zkDI9guc",
+      "title": "Royal Kingdom Level 781-800 (Gameplay)",
+      "level_start": 781,
+      "level_end": 800,
+      "duration_seconds": 1530,
+      "channel_position": 136,
+      "url": "https://www.youtube.com/watch?v=dG_zkDI9guc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "mDtYNbpNAgA",
+      "title": "Royal Kingdom Level 761-780 (Gameplay)",
+      "level_start": 761,
+      "level_end": 780,
+      "duration_seconds": 1494,
+      "channel_position": 137,
+      "url": "https://www.youtube.com/watch?v=mDtYNbpNAgA",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "PEdeodbwcn4",
+      "title": "Royal Kingdom Level 741-760 (Gameplay)",
+      "level_start": 741,
+      "level_end": 760,
+      "duration_seconds": 1607,
+      "channel_position": 138,
+      "url": "https://www.youtube.com/watch?v=PEdeodbwcn4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "CVL6eaUuDYA",
+      "title": "Royal Kingdom Level 721-740 (Gameplay)",
+      "level_start": 721,
+      "level_end": 740,
+      "duration_seconds": 1545,
+      "channel_position": 139,
+      "url": "https://www.youtube.com/watch?v=CVL6eaUuDYA",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "W88T8E-qeC4",
+      "title": "Royal Kingdom Level 701-720 (Gameplay)",
+      "level_start": 701,
+      "level_end": 720,
+      "duration_seconds": 1499,
+      "channel_position": 140,
+      "url": "https://www.youtube.com/watch?v=W88T8E-qeC4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "cnjITkeJJ5g",
+      "title": "Royal Kingdom Level 4081-4100 (Gameplay)(Tropic Castle Complete)",
+      "level_start": 4081,
+      "level_end": 4100,
+      "duration_seconds": 1508,
+      "channel_position": 141,
+      "url": "https://www.youtube.com/watch?v=cnjITkeJJ5g",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "xuUQ1_qAslU",
+      "title": "Royal Kingdom Level 4061-4080 (Gameplay)",
+      "level_start": 4061,
+      "level_end": 4080,
+      "duration_seconds": 1536,
+      "channel_position": 142,
+      "url": "https://www.youtube.com/watch?v=xuUQ1_qAslU",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "o7qqvBwO0IM",
+      "title": "Royal Kingdom Level 4041-4060 (Gameplay)",
+      "level_start": 4041,
+      "level_end": 4060,
+      "duration_seconds": 1463,
+      "channel_position": 143,
+      "url": "https://www.youtube.com/watch?v=o7qqvBwO0IM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "pPnY2OsP-Gg",
+      "title": "Royal Kingdom Level 4021-4040 (Gameplay)",
+      "level_start": 4021,
+      "level_end": 4040,
+      "duration_seconds": 1648,
+      "channel_position": 144,
+      "url": "https://www.youtube.com/watch?v=pPnY2OsP-Gg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "1vrfRdqCxOA",
+      "title": "Royal Kingdom Level 4001-4020 (Gameplay)(New Tropic Kingdom)",
+      "level_start": 4001,
+      "level_end": 4020,
+      "duration_seconds": 1471,
+      "channel_position": 154,
+      "url": "https://www.youtube.com/watch?v=1vrfRdqCxOA",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "TSieqjS6Z_Y",
+      "title": "Royal Kingdom Level 681-700 (Gameplay)",
+      "level_start": 681,
+      "level_end": 700,
+      "duration_seconds": 1416,
+      "channel_position": 155,
+      "url": "https://www.youtube.com/watch?v=TSieqjS6Z_Y",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Whl7IirJIcI",
+      "title": "Royal Kingdom Level 661-680 (Gameplay)",
+      "level_start": 661,
+      "level_end": 680,
+      "duration_seconds": 1428,
+      "channel_position": 156,
+      "url": "https://www.youtube.com/watch?v=Whl7IirJIcI",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "jsQsoc2PGik",
+      "title": "Royal Kingdom Level 641-660 (Gameplay)",
+      "level_start": 641,
+      "level_end": 660,
+      "duration_seconds": 1419,
+      "channel_position": 157,
+      "url": "https://www.youtube.com/watch?v=jsQsoc2PGik",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "e_R1h6UncP0",
+      "title": "Royal Kingdom Level 621-640 (Gameplay)",
+      "level_start": 621,
+      "level_end": 640,
+      "duration_seconds": 1388,
+      "channel_position": 158,
+      "url": "https://www.youtube.com/watch?v=e_R1h6UncP0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "v3SjkQbP-l4",
+      "title": "Royal Kingdom Level 601-620 (Gameplay)",
+      "level_start": 601,
+      "level_end": 620,
+      "duration_seconds": 1384,
+      "channel_position": 159,
+      "url": "https://www.youtube.com/watch?v=v3SjkQbP-l4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "bAZgiUI-2B8",
+      "title": "Royal Kingdom Level 3981-4000 (Gameplay)(Zen Kingdom Complete)",
+      "level_start": 3981,
+      "level_end": 4000,
+      "duration_seconds": 1477,
+      "channel_position": 161,
+      "url": "https://www.youtube.com/watch?v=bAZgiUI-2B8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "sd_2wgUBvs0",
+      "title": "Royal Kingdom Level 3961-3980 (Gameplay)",
+      "level_start": 3961,
+      "level_end": 3980,
+      "duration_seconds": 1428,
+      "channel_position": 162,
+      "url": "https://www.youtube.com/watch?v=sd_2wgUBvs0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "vS1pigFIqSM",
+      "title": "Royal Kingdom Level 3941-3960 (Gameplay)",
+      "level_start": 3941,
+      "level_end": 3960,
+      "duration_seconds": 1629,
+      "channel_position": 165,
+      "url": "https://www.youtube.com/watch?v=vS1pigFIqSM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "By-LrgXJHbQ",
+      "title": "Royal Kingdom Level 3921-3940 (Gameplay)",
+      "level_start": 3921,
+      "level_end": 3940,
+      "duration_seconds": 1504,
+      "channel_position": 166,
+      "url": "https://www.youtube.com/watch?v=By-LrgXJHbQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "rav_1CFruJE",
+      "title": "Royal Kingdom Level 3901-3920 (Gameplay)",
+      "level_start": 3901,
+      "level_end": 3920,
+      "duration_seconds": 1637,
+      "channel_position": 167,
+      "url": "https://www.youtube.com/watch?v=rav_1CFruJE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "6gkG8SUFaaY",
+      "title": "Royal Kingdom Level 3881-3900 (Gameplay)",
+      "level_start": 3881,
+      "level_end": 3900,
+      "duration_seconds": 1585,
+      "channel_position": 168,
+      "url": "https://www.youtube.com/watch?v=6gkG8SUFaaY",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "lfySRFik9QU",
+      "title": "Royal Kingdom Level 3861-3880 (Gameplay)",
+      "level_start": 3861,
+      "level_end": 3880,
+      "duration_seconds": 1532,
+      "channel_position": 169,
+      "url": "https://www.youtube.com/watch?v=lfySRFik9QU",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "rowMkES53X4",
+      "title": "Royal Kingdom Level 3841-3860 (Gameplay)",
+      "level_start": 3841,
+      "level_end": 3860,
+      "duration_seconds": 1549,
+      "channel_position": 170,
+      "url": "https://www.youtube.com/watch?v=rowMkES53X4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "ggdEfN2dBBg",
+      "title": "Royal Kingdom Level 3821-3840 (Gameplay)",
+      "level_start": 3821,
+      "level_end": 3840,
+      "duration_seconds": 1325,
+      "channel_position": 171,
+      "url": "https://www.youtube.com/watch?v=ggdEfN2dBBg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "30ShK28YTRs",
+      "title": "Royal Kingdom Level 3801-3820 (Gameplay)",
+      "level_start": 3801,
+      "level_end": 3820,
+      "duration_seconds": 1813,
+      "channel_position": 172,
+      "url": "https://www.youtube.com/watch?v=30ShK28YTRs",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "sjD_ECliwx0",
+      "title": "Royal Kingdom Level 581-600 (Gameplay)",
+      "level_start": 581,
+      "level_end": 600,
+      "duration_seconds": 1357,
+      "channel_position": 174,
+      "url": "https://www.youtube.com/watch?v=sjD_ECliwx0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "8-ZlPJ0j0xs",
+      "title": "Royal Kingdom Level 3781-3800 (Gameplay)",
+      "level_start": 3781,
+      "level_end": 3800,
+      "duration_seconds": 1471,
+      "channel_position": 175,
+      "url": "https://www.youtube.com/watch?v=8-ZlPJ0j0xs",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "DZQ6YBvRHho",
+      "title": "Royal Kingdom Level 3761-3780 (Gameplay)",
+      "level_start": 3761,
+      "level_end": 3780,
+      "duration_seconds": 1363,
+      "channel_position": 176,
+      "url": "https://www.youtube.com/watch?v=DZQ6YBvRHho",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "r08LDXRUbxA",
+      "title": "Royal Kingdom Level 3741-3760 (Gameplay)",
+      "level_start": 3741,
+      "level_end": 3760,
+      "duration_seconds": 1574,
+      "channel_position": 177,
+      "url": "https://www.youtube.com/watch?v=r08LDXRUbxA",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "1sfTmhk7KjQ",
+      "title": "Royal Kingdom Level 3721-3740 (Gameplay)",
+      "level_start": 3721,
+      "level_end": 3740,
+      "duration_seconds": 1597,
+      "channel_position": 178,
+      "url": "https://www.youtube.com/watch?v=1sfTmhk7KjQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "BBMZqmMpWwE",
+      "title": "Royal Kingdom Level 3701-3720 (Gameplay)",
+      "level_start": 3701,
+      "level_end": 3720,
+      "duration_seconds": 1860,
+      "channel_position": 179,
+      "url": "https://www.youtube.com/watch?v=BBMZqmMpWwE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "i5-wGtaw8jc",
+      "title": "Royal Kingdom Level 561-580 (Gameplay)",
+      "level_start": 561,
+      "level_end": 580,
+      "duration_seconds": 1479,
+      "channel_position": 180,
+      "url": "https://www.youtube.com/watch?v=i5-wGtaw8jc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "6OKTpQLJgmg",
+      "title": "Royal Kingdom Level 541-560 (Gameplay)",
+      "level_start": 541,
+      "level_end": 560,
+      "duration_seconds": 1427,
+      "channel_position": 181,
+      "url": "https://www.youtube.com/watch?v=6OKTpQLJgmg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "8jlBySqXXEw",
+      "title": "Royal Kingdom Level 521-540 (Gameplay)",
+      "level_start": 521,
+      "level_end": 540,
+      "duration_seconds": 1348,
+      "channel_position": 182,
+      "url": "https://www.youtube.com/watch?v=8jlBySqXXEw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "szcHcS3m9Ss",
+      "title": "Royal Kingdom Level 501-520 (Gameplay)(NEW Ice Kingdom)",
+      "level_start": 501,
+      "level_end": 520,
+      "duration_seconds": 1361,
+      "channel_position": 183,
+      "url": "https://www.youtube.com/watch?v=szcHcS3m9Ss",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Od2edOCrDYA",
+      "title": "Royal Kingdom Level 481-500 (Gameplay)(Main Kingdom Complete)",
+      "level_start": 481,
+      "level_end": 500,
+      "duration_seconds": 1299,
+      "channel_position": 184,
+      "url": "https://www.youtube.com/watch?v=Od2edOCrDYA",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "pBo3YefGPjQ",
+      "title": "Royal Kingdom Level 461-480 (Gameplay)",
+      "level_start": 461,
+      "level_end": 480,
+      "duration_seconds": 1339,
+      "channel_position": 185,
+      "url": "https://www.youtube.com/watch?v=pBo3YefGPjQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "QVaqaGhXkvk",
+      "title": "Royal Kingdom Level 441-460 (Gameplay)",
+      "level_start": 441,
+      "level_end": 460,
+      "duration_seconds": 1356,
+      "channel_position": 186,
+      "url": "https://www.youtube.com/watch?v=QVaqaGhXkvk",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "ny_MgfVkdCE",
+      "title": "Royal Kingdom Level 421-440 (Gameplay)",
+      "level_start": 421,
+      "level_end": 440,
+      "duration_seconds": 1632,
+      "channel_position": 187,
+      "url": "https://www.youtube.com/watch?v=ny_MgfVkdCE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "scYhkSLt_i0",
+      "title": "Royal Kingdom Level 3681-3700 (Gameplay)",
+      "level_start": 3681,
+      "level_end": 3700,
+      "duration_seconds": 1337,
+      "channel_position": 188,
+      "url": "https://www.youtube.com/watch?v=scYhkSLt_i0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "azLtBDM_Cgo",
+      "title": "Royal Kingdom Level 3661-3680 (Gameplay)",
+      "level_start": 3661,
+      "level_end": 3680,
+      "duration_seconds": 1347,
+      "channel_position": 189,
+      "url": "https://www.youtube.com/watch?v=azLtBDM_Cgo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "iNWMBp5RZTo",
+      "title": "Royal Kingdom Level 3641-3660 (Gameplay)",
+      "level_start": 3641,
+      "level_end": 3660,
+      "duration_seconds": 1494,
+      "channel_position": 190,
+      "url": "https://www.youtube.com/watch?v=iNWMBp5RZTo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "01bo86WfvAQ",
+      "title": "Royal Kingdom Level 3621-3640 (Gameplay)",
+      "level_start": 3621,
+      "level_end": 3640,
+      "duration_seconds": 1381,
+      "channel_position": 191,
+      "url": "https://www.youtube.com/watch?v=01bo86WfvAQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "1dmI9u7mkfk",
+      "title": "Royal Kingdom Level 3601-3620 (Gameplay)",
+      "level_start": 3601,
+      "level_end": 3620,
+      "duration_seconds": 1507,
+      "channel_position": 192,
+      "url": "https://www.youtube.com/watch?v=1dmI9u7mkfk",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "7_2ctA9eliI",
+      "title": "Royal Kingdom Level 3581-3600 (Gameplay)",
+      "level_start": 3581,
+      "level_end": 3600,
+      "duration_seconds": 1319,
+      "channel_position": 198,
+      "url": "https://www.youtube.com/watch?v=7_2ctA9eliI",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "zp6U32J2LR0",
+      "title": "Royal Kingdom Level 3561-3580 (Gameplay)",
+      "level_start": 3561,
+      "level_end": 3580,
+      "duration_seconds": 1573,
+      "channel_position": 199,
+      "url": "https://www.youtube.com/watch?v=zp6U32J2LR0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Cq-Y_rnbYis",
+      "title": "Royal Kingdom Level 3541-3460 (Gameplay)",
+      "level_start": 3541,
+      "level_end": 3460,
+      "duration_seconds": 1586,
+      "channel_position": 200,
+      "url": "https://www.youtube.com/watch?v=Cq-Y_rnbYis",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "kPOByEs0dWo",
+      "title": "Royal Kingdom Level 3521-3540 (Gameplay)",
+      "level_start": 3521,
+      "level_end": 3540,
+      "duration_seconds": 1506,
+      "channel_position": 201,
+      "url": "https://www.youtube.com/watch?v=kPOByEs0dWo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "PkjbPAKGVu4",
+      "title": "Royal Kingdom Level 3501-3520 (Gameplay)",
+      "level_start": 3501,
+      "level_end": 3520,
+      "duration_seconds": 1887,
+      "channel_position": 202,
+      "url": "https://www.youtube.com/watch?v=PkjbPAKGVu4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "PjDdnRTjUMM",
+      "title": "Royal Kingdom Level 3481-3500 (Gameplay)",
+      "level_start": 3481,
+      "level_end": 3500,
+      "duration_seconds": 1496,
+      "channel_position": 203,
+      "url": "https://www.youtube.com/watch?v=PjDdnRTjUMM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "UoGOWv6_mNc",
+      "title": "Royal Kingdom Level 3461-3480 (Gameplay)",
+      "level_start": 3461,
+      "level_end": 3480,
+      "duration_seconds": 1408,
+      "channel_position": 204,
+      "url": "https://www.youtube.com/watch?v=UoGOWv6_mNc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "XdfOlsTNaU0",
+      "title": "Royal Kingdom Level 3441-3460 (Gameplay)",
+      "level_start": 3441,
+      "level_end": 3460,
+      "duration_seconds": 1603,
+      "channel_position": 205,
+      "url": "https://www.youtube.com/watch?v=XdfOlsTNaU0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "ZOaJTqu5dTM",
+      "title": "Royal Kingdom Level 3421-3440 (Gameplay)",
+      "level_start": 3421,
+      "level_end": 3440,
+      "duration_seconds": 1553,
+      "channel_position": 206,
+      "url": "https://www.youtube.com/watch?v=ZOaJTqu5dTM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "FdyGZIsnFbo",
+      "title": "Royal Kingdom Level 3401-3420 (Gameplay)",
+      "level_start": 3401,
+      "level_end": 3420,
+      "duration_seconds": 1520,
+      "channel_position": 207,
+      "url": "https://www.youtube.com/watch?v=FdyGZIsnFbo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "A6JZvohyx3Q",
+      "title": "Royal Kingdom Level 3381-3400 (Gameplay)",
+      "level_start": 3381,
+      "level_end": 3400,
+      "duration_seconds": 1422,
+      "channel_position": 208,
+      "url": "https://www.youtube.com/watch?v=A6JZvohyx3Q",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "WrQurC0UjSM",
+      "title": "Royal Kingdom Level 3361-3380 (Gameplay)",
+      "level_start": 3361,
+      "level_end": 3380,
+      "duration_seconds": 1479,
+      "channel_position": 209,
+      "url": "https://www.youtube.com/watch?v=WrQurC0UjSM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "4qfF-THdyQU",
+      "title": "Royal Kingdom Level 3341-3360 (Gameplay)",
+      "level_start": 3341,
+      "level_end": 3360,
+      "duration_seconds": 1555,
+      "channel_position": 210,
+      "url": "https://www.youtube.com/watch?v=4qfF-THdyQU",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Tfe37rf1VvI",
+      "title": "Royal Kingdom Level 3321-3340 (Gameplay)",
+      "level_start": 3321,
+      "level_end": 3340,
+      "duration_seconds": 1521,
+      "channel_position": 211,
+      "url": "https://www.youtube.com/watch?v=Tfe37rf1VvI",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "gkEGe7S0Pnk",
+      "title": "Royal Kingdom Level 3301-3320 (Gameplay)",
+      "level_start": 3301,
+      "level_end": 3320,
+      "duration_seconds": 1714,
+      "channel_position": 212,
+      "url": "https://www.youtube.com/watch?v=gkEGe7S0Pnk",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "uvPKiZL8Dk4",
+      "title": "Royal Kingdom Level 3101-3200 (Full Gameplay)",
+      "level_start": 3101,
+      "level_end": 3200,
+      "duration_seconds": 7718,
+      "channel_position": 216,
+      "url": "https://www.youtube.com/watch?v=uvPKiZL8Dk4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "rWsBgT6kODM",
+      "title": "Royal Kingdom Level 3261-3280 (Gameplay)",
+      "level_start": 3261,
+      "level_end": 3280,
+      "duration_seconds": 1499,
+      "channel_position": 217,
+      "url": "https://www.youtube.com/watch?v=rWsBgT6kODM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "CQU_GtlwnkY",
+      "title": "Royal Kingdom Level 3281-3300 (Gameplay)",
+      "level_start": 3281,
+      "level_end": 3300,
+      "duration_seconds": 1565,
+      "channel_position": 218,
+      "url": "https://www.youtube.com/watch?v=CQU_GtlwnkY",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "4kEqpQePK-M",
+      "title": "Royal Kingdom Level 3241-3260 (Gameplay)",
+      "level_start": 3241,
+      "level_end": 3260,
+      "duration_seconds": 1675,
+      "channel_position": 219,
+      "url": "https://www.youtube.com/watch?v=4kEqpQePK-M",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Queqn_9JttY",
+      "title": "Royal Kingdom Level 3221-3240 (Gameplay)",
+      "level_start": 3221,
+      "level_end": 3240,
+      "duration_seconds": 1567,
+      "channel_position": 220,
+      "url": "https://www.youtube.com/watch?v=Queqn_9JttY",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "OafXLK9JImY",
+      "title": "Royal Kingdom Level 3201-3220 (Gameplay)",
+      "level_start": 3201,
+      "level_end": 3220,
+      "duration_seconds": 1447,
+      "channel_position": 221,
+      "url": "https://www.youtube.com/watch?v=OafXLK9JImY",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "WK4UEEHc3lY",
+      "title": "Royal Kingdom Level 3181-3200 (Gameplay)",
+      "level_start": 3181,
+      "level_end": 3200,
+      "duration_seconds": 1392,
+      "channel_position": 223,
+      "url": "https://www.youtube.com/watch?v=WK4UEEHc3lY",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "4hjU_XuwxM0",
+      "title": "Royal Kingdom Level 3161-3180 (Gameplay)",
+      "level_start": 3161,
+      "level_end": 3180,
+      "duration_seconds": 1563,
+      "channel_position": 224,
+      "url": "https://www.youtube.com/watch?v=4hjU_XuwxM0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "VABQt7vcRIo",
+      "title": "Royal Kingdom Level 3141-3160 (Gameplay)",
+      "level_start": 3141,
+      "level_end": 3160,
+      "duration_seconds": 1437,
+      "channel_position": 225,
+      "url": "https://www.youtube.com/watch?v=VABQt7vcRIo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "d5HXk_Llu_A",
+      "title": "Royal Kingdom Level 3121-3140 (Gameplay)",
+      "level_start": 3121,
+      "level_end": 3140,
+      "duration_seconds": 1651,
+      "channel_position": 228,
+      "url": "https://www.youtube.com/watch?v=d5HXk_Llu_A",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "dN1bhd0DW-Q",
+      "title": "Royal Kingdom Level 3101-3120 (Gameplay)",
+      "level_start": 3101,
+      "level_end": 3120,
+      "duration_seconds": 1677,
+      "channel_position": 229,
+      "url": "https://www.youtube.com/watch?v=dN1bhd0DW-Q",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Me8llkh3Ifw",
+      "title": "Match Villains Level 75-100 (Gameplay)",
+      "level_start": 75,
+      "level_end": 100,
+      "duration_seconds": 1334,
+      "channel_position": 230,
+      "url": "https://www.youtube.com/watch?v=Me8llkh3Ifw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "oFoOlGG92Vk",
+      "title": "Match Villains Level 50-75 (Gameplay)",
+      "level_start": 50,
+      "level_end": 75,
+      "duration_seconds": 1544,
+      "channel_position": 231,
+      "url": "https://www.youtube.com/watch?v=oFoOlGG92Vk",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "jb9MRXhvYcc",
+      "title": "Match Villains Level 30-50 (Gameplay)",
+      "level_start": 30,
+      "level_end": 50,
+      "duration_seconds": 1123,
+      "channel_position": 232,
+      "url": "https://www.youtube.com/watch?v=jb9MRXhvYcc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "qfRqdzEZv9k",
+      "title": "Royal Kingdom Level 3001-3100 (Full Gameplay)",
+      "level_start": 3001,
+      "level_end": 3100,
+      "duration_seconds": 8000,
+      "channel_position": 233,
+      "url": "https://www.youtube.com/watch?v=qfRqdzEZv9k",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Rn0eluKp62Y",
+      "title": "Royal Kingdom Level 3081-3100 (Gameplay)",
+      "level_start": 3081,
+      "level_end": 3100,
+      "duration_seconds": 1483,
+      "channel_position": 234,
+      "url": "https://www.youtube.com/watch?v=Rn0eluKp62Y",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "-czthflqkuw",
+      "title": "Royal Kingdom Level 3061-3080 (Gameplay)",
+      "level_start": 3061,
+      "level_end": 3080,
+      "duration_seconds": 1627,
+      "channel_position": 235,
+      "url": "https://www.youtube.com/watch?v=-czthflqkuw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "E7BQfdokZX8",
+      "title": "Royal Kingdom Level 3041-3460 (Gameplay)",
+      "level_start": 3041,
+      "level_end": 3060,
+      "duration_seconds": 1614,
+      "channel_position": 236,
+      "url": "https://www.youtube.com/watch?v=E7BQfdokZX8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "mGH7c2L_A5U",
+      "title": "Royal Kingdom Level 3021-3040 (Gameplay)",
+      "level_start": 3021,
+      "level_end": 3040,
+      "duration_seconds": 1608,
+      "channel_position": 240,
+      "url": "https://www.youtube.com/watch?v=mGH7c2L_A5U",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "OE0l4hDKeRM",
+      "title": "Royal Kingdom Level 3001-3020 (Gameplay)",
+      "level_start": 3001,
+      "level_end": 3020,
+      "duration_seconds": 1669,
+      "channel_position": 247,
+      "url": "https://www.youtube.com/watch?v=OE0l4hDKeRM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "_x6UCC6GctM",
+      "title": "Royal Kingdom Level 301-400 (Full Gameplay)",
+      "level_start": 301,
+      "level_end": 400,
+      "duration_seconds": 6769,
+      "channel_position": 248,
+      "url": "https://www.youtube.com/watch?v=_x6UCC6GctM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "69S2QkcOub8",
+      "title": "Royal Kingdom Level 401-420 (Gameplay)",
+      "level_start": 401,
+      "level_end": 420,
+      "duration_seconds": 1414,
+      "channel_position": 249,
+      "url": "https://www.youtube.com/watch?v=69S2QkcOub8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "KYvn44d6gXs",
+      "title": "Royal Kingdom Level 381-400 (Gameplay)",
+      "level_start": 381,
+      "level_end": 400,
+      "duration_seconds": 1373,
+      "channel_position": 250,
+      "url": "https://www.youtube.com/watch?v=KYvn44d6gXs",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "a3GVWl__3qY",
+      "title": "Royal Kingdom Level 2901-3000 (Full Gameplay)",
+      "level_start": 2901,
+      "level_end": 3000,
+      "duration_seconds": 7122,
+      "channel_position": 251,
+      "url": "https://www.youtube.com/watch?v=a3GVWl__3qY",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "KbGVE0CS0Sw",
+      "title": "Royal Kingdom Level 2981-3000 (Gameplay)",
+      "level_start": 2981,
+      "level_end": 3000,
+      "duration_seconds": 1358,
+      "channel_position": 252,
+      "url": "https://www.youtube.com/watch?v=KbGVE0CS0Sw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "AfD0G5XMqC0",
+      "title": "Royal Kingdom Level 2961-2980 (Gameplay)",
+      "level_start": 2961,
+      "level_end": 2980,
+      "duration_seconds": 1374,
+      "channel_position": 253,
+      "url": "https://www.youtube.com/watch?v=AfD0G5XMqC0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "DlXo-fVnIx0",
+      "title": "Royal Kingdom Level 2941-2960 (Gameplay)",
+      "level_start": 2941,
+      "level_end": 2960,
+      "duration_seconds": 1382,
+      "channel_position": 254,
+      "url": "https://www.youtube.com/watch?v=DlXo-fVnIx0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "u-lO7YVzTR4",
+      "title": "Royal Kingdom Level 2921-2940 (Gameplay)",
+      "level_start": 2921,
+      "level_end": 2940,
+      "duration_seconds": 1504,
+      "channel_position": 255,
+      "url": "https://www.youtube.com/watch?v=u-lO7YVzTR4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "ir4KhSH9W90",
+      "title": "Royal Kingdom Level 2901-2920 (Gameplay)",
+      "level_start": 2901,
+      "level_end": 2920,
+      "duration_seconds": 1506,
+      "channel_position": 256,
+      "url": "https://www.youtube.com/watch?v=ir4KhSH9W90",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "WDJe55w8lDA",
+      "title": "Royal Kingdom Level 2801-2900 (Full Gameplay)",
+      "level_start": 2801,
+      "level_end": 2900,
+      "duration_seconds": 7063,
+      "channel_position": 257,
+      "url": "https://www.youtube.com/watch?v=WDJe55w8lDA",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "CD3W58KaNdc",
+      "title": "Royal Kingdom Level 2881-2900 (Gameplay)",
+      "level_start": 2881,
+      "level_end": 2900,
+      "duration_seconds": 1345,
+      "channel_position": 260,
+      "url": "https://www.youtube.com/watch?v=CD3W58KaNdc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "TSWZ-EH_mlw",
+      "title": "Royal Kingdom Level 2861-2880 (Gameplay)",
+      "level_start": 2861,
+      "level_end": 2880,
+      "duration_seconds": 1408,
+      "channel_position": 261,
+      "url": "https://www.youtube.com/watch?v=TSWZ-EH_mlw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "_j6c-lh0dzQ",
+      "title": "Royal Kingdom Level 2841-2860 (Gameplay)",
+      "level_start": 2841,
+      "level_end": 2860,
+      "duration_seconds": 1404,
+      "channel_position": 263,
+      "url": "https://www.youtube.com/watch?v=_j6c-lh0dzQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "UXHLFsTPWow",
+      "title": "Royal Kingdom Level 2821-2840 (Gameplay)",
+      "level_start": 2821,
+      "level_end": 2840,
+      "duration_seconds": 1445,
+      "channel_position": 264,
+      "url": "https://www.youtube.com/watch?v=UXHLFsTPWow",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "VUIA2MvhwS4",
+      "title": "Royal Kingdom Level 2801-2820 (Gameplay)",
+      "level_start": 2801,
+      "level_end": 2820,
+      "duration_seconds": 1461,
+      "channel_position": 265,
+      "url": "https://www.youtube.com/watch?v=VUIA2MvhwS4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "WWr-mUUQVZ0",
+      "title": "Royal Kingdom Level 2701-2800 (Full Gameplay)",
+      "level_start": 2701,
+      "level_end": 2800,
+      "duration_seconds": 7172,
+      "channel_position": 266,
+      "url": "https://www.youtube.com/watch?v=WWr-mUUQVZ0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "xnIPcNw08DA",
+      "title": "Royal Kingdom Level 2781-2800 (Gameplay)",
+      "level_start": 2781,
+      "level_end": 2800,
+      "duration_seconds": 1515,
+      "channel_position": 269,
+      "url": "https://www.youtube.com/watch?v=xnIPcNw08DA",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "kXgJ4eBdmv0",
+      "title": "Royal Kingdom Level 2761-2780 (Gameplay)",
+      "level_start": 2761,
+      "level_end": 2780,
+      "duration_seconds": 1357,
+      "channel_position": 270,
+      "url": "https://www.youtube.com/watch?v=kXgJ4eBdmv0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "WYlj69ne5Qw",
+      "title": "Royal Kingdom Level 2741-2760 (Gameplay)",
+      "level_start": 2741,
+      "level_end": 2760,
+      "duration_seconds": 1394,
+      "channel_position": 271,
+      "url": "https://www.youtube.com/watch?v=WYlj69ne5Qw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "7OOVMW4j43I",
+      "title": "Royal Kingdom Level 2721-2740 (Gameplay)",
+      "level_start": 2721,
+      "level_end": 2740,
+      "duration_seconds": 1386,
+      "channel_position": 272,
+      "url": "https://www.youtube.com/watch?v=7OOVMW4j43I",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "LniaP8xNmos",
+      "title": "Royal Kingdom Level 2701-2720 (Gameplay)",
+      "level_start": 2701,
+      "level_end": 2720,
+      "duration_seconds": 1521,
+      "channel_position": 273,
+      "url": "https://www.youtube.com/watch?v=LniaP8xNmos",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "hF6J17602LM",
+      "title": "Royal Kingdom Level 2601-2700 (Full Gameplay)",
+      "level_start": 2601,
+      "level_end": 2700,
+      "duration_seconds": 7237,
+      "channel_position": 274,
+      "url": "https://www.youtube.com/watch?v=hF6J17602LM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "aXZvdmebaC8",
+      "title": "Royal Kingdom Level 2681-2700 (Gameplay)",
+      "level_start": 2681,
+      "level_end": 2700,
+      "duration_seconds": 1407,
+      "channel_position": 275,
+      "url": "https://www.youtube.com/watch?v=aXZvdmebaC8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "IULd-l-0iLQ",
+      "title": "Royal Kingdom Level 2661-2680 (Gameplay)",
+      "level_start": 2661,
+      "level_end": 2680,
+      "duration_seconds": 1461,
+      "channel_position": 276,
+      "url": "https://www.youtube.com/watch?v=IULd-l-0iLQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "aIM3zdZ8VRo",
+      "title": "Royal Kingdom Level 2641-2660 (Gameplay)",
+      "level_start": 2641,
+      "level_end": 2660,
+      "duration_seconds": 1519,
+      "channel_position": 277,
+      "url": "https://www.youtube.com/watch?v=aIM3zdZ8VRo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "2wRKqk_FMJ4",
+      "title": "Royal Kingdom Level 2621-2640 (Gameplay)",
+      "level_start": 2621,
+      "level_end": 2640,
+      "duration_seconds": 1495,
+      "channel_position": 278,
+      "url": "https://www.youtube.com/watch?v=2wRKqk_FMJ4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "5MFXvrCj7Bs",
+      "title": "Royal Kingdom Level 2601-2620 (Gameplay)",
+      "level_start": 2601,
+      "level_end": 2620,
+      "duration_seconds": 1358,
+      "channel_position": 279,
+      "url": "https://www.youtube.com/watch?v=5MFXvrCj7Bs",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "xEFZ_NDGRtM",
+      "title": "Royal Kingdom Level 361-380 (Gameplay)",
+      "level_start": 361,
+      "level_end": 380,
+      "duration_seconds": 1513,
+      "channel_position": 280,
+      "url": "https://www.youtube.com/watch?v=xEFZ_NDGRtM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "P5kPXv72NTQ",
+      "title": "Royal Kingdom Level 341-360 (Gameplay)",
+      "level_start": 341,
+      "level_end": 360,
+      "duration_seconds": 1231,
+      "channel_position": 281,
+      "url": "https://www.youtube.com/watch?v=P5kPXv72NTQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "ggjA79Ac6RI",
+      "title": "Royal Kingdom Level 2501-2600 (Full Gameplay)",
+      "level_start": 2501,
+      "level_end": 2600,
+      "duration_seconds": 6855,
+      "channel_position": 282,
+      "url": "https://www.youtube.com/watch?v=ggjA79Ac6RI",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "gX8DHMPWydw",
+      "title": "Royal Kingdom Level 321-340 (Gameplay)",
+      "level_start": 321,
+      "level_end": 340,
+      "duration_seconds": 1259,
+      "channel_position": 283,
+      "url": "https://www.youtube.com/watch?v=gX8DHMPWydw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "uol_uwe5zdo",
+      "title": "Royal Kingdom Level 301-320 (Gameplay)",
+      "level_start": 301,
+      "level_end": 320,
+      "duration_seconds": 1396,
+      "channel_position": 285,
+      "url": "https://www.youtube.com/watch?v=uol_uwe5zdo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "53uFVu4xBfQ",
+      "title": "Royal Kingdom Level 2581-2600 (Gameplay)",
+      "level_start": 2581,
+      "level_end": 2600,
+      "duration_seconds": 1382,
+      "channel_position": 286,
+      "url": "https://www.youtube.com/watch?v=53uFVu4xBfQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "kN01jGW5HeE",
+      "title": "Royal Kingdom Level 2561-2580 (Gameplay)",
+      "level_start": 2561,
+      "level_end": 2580,
+      "duration_seconds": 1295,
+      "channel_position": 287,
+      "url": "https://www.youtube.com/watch?v=kN01jGW5HeE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "p9lvvdcGpjc",
+      "title": "Royal Kingdom Level 2541-2560 (Gameplay)",
+      "level_start": 2541,
+      "level_end": 2560,
+      "duration_seconds": 1487,
+      "channel_position": 288,
+      "url": "https://www.youtube.com/watch?v=p9lvvdcGpjc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "nTJuGD_Ib_I",
+      "title": "Royal Kingdom Level 2521-2540 (Gameplay)",
+      "level_start": 2521,
+      "level_end": 2540,
+      "duration_seconds": 1246,
+      "channel_position": 289,
+      "url": "https://www.youtube.com/watch?v=nTJuGD_Ib_I",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "6h-ll2iQE4o",
+      "title": "Royal Kingdom Level 2501-2520 (Gameplay)",
+      "level_start": 2501,
+      "level_end": 2520,
+      "duration_seconds": 1446,
+      "channel_position": 290,
+      "url": "https://www.youtube.com/watch?v=6h-ll2iQE4o",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "suoQWnJodCg",
+      "title": "Royal Kingdom Level 201-300 (Full Gameplay)",
+      "level_start": 201,
+      "level_end": 300,
+      "duration_seconds": 7402,
+      "channel_position": 291,
+      "url": "https://www.youtube.com/watch?v=suoQWnJodCg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "wC09sMefspE",
+      "title": "Royal Kingdom Level 101-200 (Full Gameplay)",
+      "level_start": 101,
+      "level_end": 200,
+      "duration_seconds": 6597,
+      "channel_position": 292,
+      "url": "https://www.youtube.com/watch?v=wC09sMefspE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "IxqtCARc3Gg",
+      "title": "Royal Kingdom Level 281-300 (Gameplay)",
+      "level_start": 281,
+      "level_end": 300,
+      "duration_seconds": 1501,
+      "channel_position": 293,
+      "url": "https://www.youtube.com/watch?v=IxqtCARc3Gg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "rhejfTFhd-Q",
+      "title": "Royal Kingdom Level 261-280 (Gameplay)",
+      "level_start": 261,
+      "level_end": 280,
+      "duration_seconds": 1554,
+      "channel_position": 294,
+      "url": "https://www.youtube.com/watch?v=rhejfTFhd-Q",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "av_XJR_UiNY",
+      "title": "Royal Kingdom Level 241-260 (Gameplay)",
+      "level_start": 241,
+      "level_end": 260,
+      "duration_seconds": 1472,
+      "channel_position": 295,
+      "url": "https://www.youtube.com/watch?v=av_XJR_UiNY",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "07sHCexsNXs",
+      "title": "Royal Kingdom Level 221-240 (Gameplay)",
+      "level_start": 221,
+      "level_end": 240,
+      "duration_seconds": 1361,
+      "channel_position": 296,
+      "url": "https://www.youtube.com/watch?v=07sHCexsNXs",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "1zemew9dRl8",
+      "title": "Royal Kingdom Level 201-220 (Gameplay)",
+      "level_start": 201,
+      "level_end": 220,
+      "duration_seconds": 1516,
+      "channel_position": 297,
+      "url": "https://www.youtube.com/watch?v=1zemew9dRl8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "xikAwbwYcmQ",
+      "title": "Royal Kingdom Level 2401-2500 (Full Gameplay)",
+      "level_start": 2401,
+      "level_end": 2500,
+      "duration_seconds": 7417,
+      "channel_position": 298,
+      "url": "https://www.youtube.com/watch?v=xikAwbwYcmQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "jVoDeWcF_SU",
+      "title": "Royal Kingdom Level 181-200 (Gameplay)",
+      "level_start": 181,
+      "level_end": 200,
+      "duration_seconds": 1208,
+      "channel_position": 299,
+      "url": "https://www.youtube.com/watch?v=jVoDeWcF_SU",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "lwHgGgvxIns",
+      "title": "Royal Kingdom Level 161-180 (Gameplay)",
+      "level_start": 161,
+      "level_end": 180,
+      "duration_seconds": 1437,
+      "channel_position": 300,
+      "url": "https://www.youtube.com/watch?v=lwHgGgvxIns",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "C-PEOuovKSs",
+      "title": "Royal Kingdom Level 141-160 (Gameplay)",
+      "level_start": 141,
+      "level_end": 160,
+      "duration_seconds": 1200,
+      "channel_position": 301,
+      "url": "https://www.youtube.com/watch?v=C-PEOuovKSs",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "LrxuAdGaB9A",
+      "title": "Royal Kingdom Level 2481-2500 (Gameplay)",
+      "level_start": 2481,
+      "level_end": 2500,
+      "duration_seconds": 1433,
+      "channel_position": 302,
+      "url": "https://www.youtube.com/watch?v=LrxuAdGaB9A",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "cVdVgDzGOHg",
+      "title": "Royal Kingdom Level 2461-2480 (Gameplay)",
+      "level_start": 2461,
+      "level_end": 2480,
+      "duration_seconds": 1474,
+      "channel_position": 303,
+      "url": "https://www.youtube.com/watch?v=cVdVgDzGOHg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "61cCH3AvY0A",
+      "title": "Royal Kingdom Level 2441-2460 (Gameplay)",
+      "level_start": 2441,
+      "level_end": 2460,
+      "duration_seconds": 1568,
+      "channel_position": 304,
+      "url": "https://www.youtube.com/watch?v=61cCH3AvY0A",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "uVnu5RMT33Y",
+      "title": "Royal Kingdom Level 2421-2440 (Gameplay)",
+      "level_start": 2421,
+      "level_end": 2440,
+      "duration_seconds": 1461,
+      "channel_position": 305,
+      "url": "https://www.youtube.com/watch?v=uVnu5RMT33Y",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Di_P_qPIBBA",
+      "title": "Royal Kingdom Level 2401-2420 (Gameplay)",
+      "level_start": 2401,
+      "level_end": 2420,
+      "duration_seconds": 1483,
+      "channel_position": 306,
+      "url": "https://www.youtube.com/watch?v=Di_P_qPIBBA",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "KwRJ1aXcQv8",
+      "title": "Royal Kingdom Level 1-100 (Full Gameplay)",
+      "level_start": 1,
+      "level_end": 100,
+      "duration_seconds": 6264,
+      "channel_position": 307,
+      "url": "https://www.youtube.com/watch?v=KwRJ1aXcQv8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "qCwb3oFbI_g",
+      "title": "Royal Kingdom Level 121-140 (Gameplay)",
+      "level_start": 121,
+      "level_end": 140,
+      "duration_seconds": 1429,
+      "channel_position": 308,
+      "url": "https://www.youtube.com/watch?v=qCwb3oFbI_g",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "7dPDBrl5cX8",
+      "title": "Royal Kingdom Level 101-120 (Gameplay)",
+      "level_start": 101,
+      "level_end": 120,
+      "duration_seconds": 1324,
+      "channel_position": 310,
+      "url": "https://www.youtube.com/watch?v=7dPDBrl5cX8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "jA19_atbiOw",
+      "title": "Royal Kingdom Level 81-100 (Gameplay)",
+      "level_start": 81,
+      "level_end": 100,
+      "duration_seconds": 1229,
+      "channel_position": 311,
+      "url": "https://www.youtube.com/watch?v=jA19_atbiOw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "9zwTkepGI9Q",
+      "title": "Royal Kingdom Level 61-80 (Gameplay)",
+      "level_start": 61,
+      "level_end": 80,
+      "duration_seconds": 1234,
+      "channel_position": 312,
+      "url": "https://www.youtube.com/watch?v=9zwTkepGI9Q",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "V-PXT7zQMrI",
+      "title": "Royal Kingdom Level 41-60 (Gameplay)",
+      "level_start": 41,
+      "level_end": 60,
+      "duration_seconds": 1257,
+      "channel_position": 313,
+      "url": "https://www.youtube.com/watch?v=V-PXT7zQMrI",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "wckdM70K2Ao",
+      "title": "Royal Kingdom Level 21-40 (Gameplay)",
+      "level_start": 21,
+      "level_end": 40,
+      "duration_seconds": 1303,
+      "channel_position": 314,
+      "url": "https://www.youtube.com/watch?v=wckdM70K2Ao",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "2urqlEvptX8",
+      "title": "Royal Kingdom Level 1-20 (Gameplay)",
+      "level_start": 1,
+      "level_end": 20,
+      "duration_seconds": 1242,
+      "channel_position": 315,
+      "url": "https://www.youtube.com/watch?v=2urqlEvptX8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "9CVWsws8-Dk",
+      "title": "Royal Kingdom Level 2301-2400 (Full Gameplay)",
+      "level_start": 2301,
+      "level_end": 2400,
+      "duration_seconds": 6865,
+      "channel_position": 316,
+      "url": "https://www.youtube.com/watch?v=9CVWsws8-Dk",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "oCDAC1H73Zw",
+      "title": "Royal Kingdom Level 2201-2300 (Full Gameplay)",
+      "level_start": 2201,
+      "level_end": 2300,
+      "duration_seconds": 6870,
+      "channel_position": 317,
+      "url": "https://www.youtube.com/watch?v=oCDAC1H73Zw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "EuFFc6vO2j8",
+      "title": "Royal Kingdom Level 2381-2400 (Gameplay)",
+      "level_start": 2381,
+      "level_end": 2400,
+      "duration_seconds": 1255,
+      "channel_position": 318,
+      "url": "https://www.youtube.com/watch?v=EuFFc6vO2j8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "CY1Oiro-p8I",
+      "title": "Royal Kingdom Level 2361-2380 (Gameplay)",
+      "level_start": 2361,
+      "level_end": 2380,
+      "duration_seconds": 1300,
+      "channel_position": 319,
+      "url": "https://www.youtube.com/watch?v=CY1Oiro-p8I",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "U0BlOcYf8bg",
+      "title": "Royal Kingdom Level 2341-2360 (Gameplay)",
+      "level_start": 2341,
+      "level_end": 2360,
+      "duration_seconds": 1507,
+      "channel_position": 320,
+      "url": "https://www.youtube.com/watch?v=U0BlOcYf8bg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "esrD5Xx5b3E",
+      "title": "Royal Kingdom Level 2321-2340 (Gameplay)",
+      "level_start": 2321,
+      "level_end": 2340,
+      "duration_seconds": 1411,
+      "channel_position": 321,
+      "url": "https://www.youtube.com/watch?v=esrD5Xx5b3E",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "ei536imzBS8",
+      "title": "Royal Kingdom Level 2301-2320 (Gameplay)",
+      "level_start": 2301,
+      "level_end": 2320,
+      "duration_seconds": 1393,
+      "channel_position": 322,
+      "url": "https://www.youtube.com/watch?v=ei536imzBS8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "9eqqLrDhAvE",
+      "title": "Royal Kingdom Level 2281-2300 (Gameplay)",
+      "level_start": 2281,
+      "level_end": 2300,
+      "duration_seconds": 1506,
+      "channel_position": 323,
+      "url": "https://www.youtube.com/watch?v=9eqqLrDhAvE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "7PZ1NQ0eRB0",
+      "title": "Royal Kingdom Level 2261-2280 (Gameplay)",
+      "level_start": 2261,
+      "level_end": 2280,
+      "duration_seconds": 1310,
+      "channel_position": 324,
+      "url": "https://www.youtube.com/watch?v=7PZ1NQ0eRB0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "rNlZ-SQp3Tg",
+      "title": "Royal Kingdom Level 2241-2260 (Gameplay)",
+      "level_start": 2241,
+      "level_end": 2260,
+      "duration_seconds": 1412,
+      "channel_position": 325,
+      "url": "https://www.youtube.com/watch?v=rNlZ-SQp3Tg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "ot-3FMUYMII",
+      "title": "Royal Kingdom Level 2221-2240 (Gameplay)",
+      "level_start": 2221,
+      "level_end": 2240,
+      "duration_seconds": 1370,
+      "channel_position": 326,
+      "url": "https://www.youtube.com/watch?v=ot-3FMUYMII",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "hnEkDRHNsN8",
+      "title": "Royal Kingdom Level 2201-2220 (Gameplay)",
+      "level_start": 2201,
+      "level_end": 2220,
+      "duration_seconds": 1275,
+      "channel_position": 327,
+      "url": "https://www.youtube.com/watch?v=hnEkDRHNsN8",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "UX8EI69PGZQ",
+      "title": "Royal Kingdom Level 2101-2200 (Full Gameplay)",
+      "level_start": 2101,
+      "level_end": 2200,
+      "duration_seconds": 6849,
+      "channel_position": 328,
+      "url": "https://www.youtube.com/watch?v=UX8EI69PGZQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "9PdhLq-qxTA",
+      "title": "Match Villans Level 16-30(Gameplay)",
+      "level_start": 16,
+      "level_end": 30,
+      "duration_seconds": 729,
+      "channel_position": 329,
+      "url": "https://www.youtube.com/watch?v=9PdhLq-qxTA",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Vh94mhPkI30",
+      "title": "Royal Kingdom Level 2181-2200 (Gameplay)",
+      "level_start": 2181,
+      "level_end": 2200,
+      "duration_seconds": 1303,
+      "channel_position": 330,
+      "url": "https://www.youtube.com/watch?v=Vh94mhPkI30",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "DzFZ_j-v1wA",
+      "title": "Royal Kingdom Level 2161-2180 (Gameplay)",
+      "level_start": 2161,
+      "level_end": 2180,
+      "duration_seconds": 1458,
+      "channel_position": 331,
+      "url": "https://www.youtube.com/watch?v=DzFZ_j-v1wA",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "98swUwDjdqE",
+      "title": "Royal Kingdom Level 2141-2160 (Gameplay)",
+      "level_start": 2141,
+      "level_end": 2160,
+      "duration_seconds": 1325,
+      "channel_position": 332,
+      "url": "https://www.youtube.com/watch?v=98swUwDjdqE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Csfy-Jvr68k",
+      "title": "Royal Kingdom Level 2121-2140 (Gameplay)",
+      "level_start": 2121,
+      "level_end": 2140,
+      "duration_seconds": 1377,
+      "channel_position": 333,
+      "url": "https://www.youtube.com/watch?v=Csfy-Jvr68k",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "HXPxFlW_qTI",
+      "title": "Royal Kingdom Level 2101-2020 (Gameplay)",
+      "level_start": 2101,
+      "level_end": 2020,
+      "duration_seconds": 1389,
+      "channel_position": 334,
+      "url": "https://www.youtube.com/watch?v=HXPxFlW_qTI",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "-6QG13T4pe4",
+      "title": "Royal Match Level 2451-2475 (Gameplay)",
+      "level_start": 2451,
+      "level_end": 2475,
+      "duration_seconds": 1547,
+      "channel_position": 335,
+      "url": "https://www.youtube.com/watch?v=-6QG13T4pe4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Ov1Fq3q88EY",
+      "title": "Royal Match Level 2426-2450+King's Nightmare (Gameplay)",
+      "level_start": 2426,
+      "level_end": 2450,
+      "duration_seconds": 1804,
+      "channel_position": 336,
+      "url": "https://www.youtube.com/watch?v=Ov1Fq3q88EY",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "lnnJa0ur9JY",
+      "title": "Match Villains Level 1-15 (First Gameplay)",
+      "level_start": 1,
+      "level_end": 15,
+      "duration_seconds": 670,
+      "channel_position": 341,
+      "url": "https://www.youtube.com/watch?v=lnnJa0ur9JY",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Mu_zAK_lG9Y",
+      "title": "Royal Match Level 2401-2425 (Gameplay)",
+      "level_start": 2401,
+      "level_end": 2425,
+      "duration_seconds": 1659,
+      "channel_position": 345,
+      "url": "https://www.youtube.com/watch?v=Mu_zAK_lG9Y",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "PpDr7_cJpbU",
+      "title": "Royal Match Level 2376-2400 (Gameplay)",
+      "level_start": 2376,
+      "level_end": 2400,
+      "duration_seconds": 1627,
+      "channel_position": 346,
+      "url": "https://www.youtube.com/watch?v=PpDr7_cJpbU",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "5M_X-jG3NPo",
+      "title": "Royal Match Level 2351-2375 (Gameplay)",
+      "level_start": 2351,
+      "level_end": 2375,
+      "duration_seconds": 1863,
+      "channel_position": 347,
+      "url": "https://www.youtube.com/watch?v=5M_X-jG3NPo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "KNsB1yJfhe4",
+      "title": "Royal Match Level 2326-2350+King's nightmare (Gameplay)",
+      "level_start": 2326,
+      "level_end": 2350,
+      "duration_seconds": 1676,
+      "channel_position": 348,
+      "url": "https://www.youtube.com/watch?v=KNsB1yJfhe4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "PbRDuq_LoaQ",
+      "title": "Royal Match Level 2301-2325 (New Gameplay)",
+      "level_start": 2301,
+      "level_end": 2325,
+      "duration_seconds": 1895,
+      "channel_position": 349,
+      "url": "https://www.youtube.com/watch?v=PbRDuq_LoaQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "86WTsiHxLHQ",
+      "title": "Royal Kingdom Level 2001-2100 (Full Gameplay)",
+      "level_start": 2001,
+      "level_end": 2100,
+      "duration_seconds": 7010,
+      "channel_position": 356,
+      "url": "https://www.youtube.com/watch?v=86WTsiHxLHQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "0G79sn4irYQ",
+      "title": "Royal Kingdom Level 2081-2100 (Gameplay)",
+      "level_start": 2081,
+      "level_end": 2100,
+      "duration_seconds": 1505,
+      "channel_position": 357,
+      "url": "https://www.youtube.com/watch?v=0G79sn4irYQ",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "m13xEfN4N4g",
+      "title": "Royal Kingdom Level 2061-2080 (Gameplay)",
+      "level_start": 2061,
+      "level_end": 2080,
+      "duration_seconds": 1342,
+      "channel_position": 358,
+      "url": "https://www.youtube.com/watch?v=m13xEfN4N4g",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "IJtlUUeeDHs",
+      "title": "Royal Kingdom Level 2041-2060 (Gameplay)",
+      "level_start": 2041,
+      "level_end": 2060,
+      "duration_seconds": 1490,
+      "channel_position": 362,
+      "url": "https://www.youtube.com/watch?v=IJtlUUeeDHs",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "tpuu-TROBXg",
+      "title": "Royal Kingdom Level 2021-2040 (Gameplay)",
+      "level_start": 2021,
+      "level_end": 2040,
+      "duration_seconds": 1454,
+      "channel_position": 363,
+      "url": "https://www.youtube.com/watch?v=tpuu-TROBXg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "ZWPLbpfwxCo",
+      "title": "Royal Kingdom Level 2001-2020 (Gameplay)",
+      "level_start": 2001,
+      "level_end": 2020,
+      "duration_seconds": 1220,
+      "channel_position": 369,
+      "url": "https://www.youtube.com/watch?v=ZWPLbpfwxCo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Z5m4qyZQVns",
+      "title": "Royal Kingdom Level 1901-2000 (Full Gameplay)",
+      "level_start": 1901,
+      "level_end": 2000,
+      "duration_seconds": 6572,
+      "channel_position": 372,
+      "url": "https://www.youtube.com/watch?v=Z5m4qyZQVns",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "4uLFHDtp1jM",
+      "title": "Royal Kingdom Level 1961-1980 (Gameplay)",
+      "level_start": 1961,
+      "level_end": 1980,
+      "duration_seconds": 1277,
+      "channel_position": 373,
+      "url": "https://www.youtube.com/watch?v=4uLFHDtp1jM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "p9IW-nF-oGo",
+      "title": "Royal Kingdom Level 1981-2000 (Gameplay)",
+      "level_start": 1981,
+      "level_end": 2000,
+      "duration_seconds": 1210,
+      "channel_position": 374,
+      "url": "https://www.youtube.com/watch?v=p9IW-nF-oGo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "9_qZG3fOrRs",
+      "title": "Royal Kingdom Level 1941-1960 (Gameplay)",
+      "level_start": 1941,
+      "level_end": 1960,
+      "duration_seconds": 1355,
+      "channel_position": 375,
+      "url": "https://www.youtube.com/watch?v=9_qZG3fOrRs",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "BbugyIjLapg",
+      "title": "Royal Kingdom Level 1921-1940 (Gameplay)",
+      "level_start": 1921,
+      "level_end": 1940,
+      "duration_seconds": 1338,
+      "channel_position": 376,
+      "url": "https://www.youtube.com/watch?v=BbugyIjLapg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "N2jfNUurSfE",
+      "title": "Royal Kingdom Level 1901-1920 (Gameplay)",
+      "level_start": 1901,
+      "level_end": 1920,
+      "duration_seconds": 1393,
+      "channel_position": 377,
+      "url": "https://www.youtube.com/watch?v=N2jfNUurSfE",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "9bDnaR6tpJo",
+      "title": "Royal Kingdom Level 1881-1900 (Gameplay)",
+      "level_start": 1881,
+      "level_end": 1900,
+      "duration_seconds": 1285,
+      "channel_position": 378,
+      "url": "https://www.youtube.com/watch?v=9bDnaR6tpJo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "WzXWD8An8R4",
+      "title": "Royal Kingdom Level 1861-1880 (Gameplay)",
+      "level_start": 1861,
+      "level_end": 1880,
+      "duration_seconds": 1312,
+      "channel_position": 379,
+      "url": "https://www.youtube.com/watch?v=WzXWD8An8R4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "zRQSEMyUGXo",
+      "title": "Royal Kingdom Level 1841-1860 (Gameplay)",
+      "level_start": 1841,
+      "level_end": 1860,
+      "duration_seconds": 1445,
+      "channel_position": 380,
+      "url": "https://www.youtube.com/watch?v=zRQSEMyUGXo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "i-LnJnzOTrM",
+      "title": "Royal Kingdom Level 1801-1820 (Gameplay)",
+      "level_start": 1801,
+      "level_end": 1820,
+      "duration_seconds": 1429,
+      "channel_position": 381,
+      "url": "https://www.youtube.com/watch?v=i-LnJnzOTrM",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "QJYVt3lcaMg",
+      "title": "Royal Kingdom Level 1821-1840 (Gameplay)",
+      "level_start": 1821,
+      "level_end": 1840,
+      "duration_seconds": 1463,
+      "channel_position": 382,
+      "url": "https://www.youtube.com/watch?v=QJYVt3lcaMg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "vh_FKw0NUBs",
+      "title": "Royal Kingdom Level 1541-1550 (Gameplay)",
+      "level_start": 1541,
+      "level_end": 1550,
+      "duration_seconds": 917,
+      "channel_position": 383,
+      "url": "https://www.youtube.com/watch?v=vh_FKw0NUBs",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "jGJ7XPYTEnw",
+      "title": "Royal Kingdom Level 1531-1540 (Gameplay)",
+      "level_start": 1531,
+      "level_end": 1540,
+      "duration_seconds": 781,
+      "channel_position": 384,
+      "url": "https://www.youtube.com/watch?v=jGJ7XPYTEnw",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "rP9mFGA3Ixs",
+      "title": "Royal Kingdom Level 1521-1530 (Gameplay)",
+      "level_start": 1521,
+      "level_end": 1530,
+      "duration_seconds": 882,
+      "channel_position": 385,
+      "url": "https://www.youtube.com/watch?v=rP9mFGA3Ixs",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "Oe3hVicwTYc",
+      "title": "Royal Kingdom Level 1511-1520 (Gameplay)",
+      "level_start": 1511,
+      "level_end": 1520,
+      "duration_seconds": 785,
+      "channel_position": 386,
+      "url": "https://www.youtube.com/watch?v=Oe3hVicwTYc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "gosvMCEsc1w",
+      "title": "Royal Kingdom Level 1501-1510 ITEM: Tablet\ud83d\udfe3 (Gameplay)",
+      "level_start": 1501,
+      "level_end": 1510,
+      "duration_seconds": 816,
+      "channel_position": 387,
+      "url": "https://www.youtube.com/watch?v=gosvMCEsc1w",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "ngqGvQQXmY0",
+      "title": "Royal Kingdom Level 1491-1500 (Gameplay)",
+      "level_start": 1491,
+      "level_end": 1500,
+      "duration_seconds": 792,
+      "channel_position": 388,
+      "url": "https://www.youtube.com/watch?v=ngqGvQQXmY0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "uoeOqbvLP-Q",
+      "title": "Royal Kingdom Level 1481-1490 (Gameplay)",
+      "level_start": 1481,
+      "level_end": 1490,
+      "duration_seconds": 821,
+      "channel_position": 389,
+      "url": "https://www.youtube.com/watch?v=uoeOqbvLP-Q",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "zhH7cSWKQBU",
+      "title": "Royal Kingdom Level 1471-1480 (Gameplay)",
+      "level_start": 1471,
+      "level_end": 1480,
+      "duration_seconds": 766,
+      "channel_position": 390,
+      "url": "https://www.youtube.com/watch?v=zhH7cSWKQBU",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "yL7ccN2enjY",
+      "title": "Royal Kingdom Level 1461-1470 (Gameplay)",
+      "level_start": 1461,
+      "level_end": 1470,
+      "duration_seconds": 797,
+      "channel_position": 391,
+      "url": "https://www.youtube.com/watch?v=yL7ccN2enjY",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "TqWuAJEDy28",
+      "title": "Royal Kingdom Level 1451-1460 (Gameplay)",
+      "level_start": 1451,
+      "level_end": 1460,
+      "duration_seconds": 782,
+      "channel_position": 392,
+      "url": "https://www.youtube.com/watch?v=TqWuAJEDy28",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "uOUQzOxS8N4",
+      "title": "Royal Kingdom Level 1441-1450 (Gameplay)",
+      "level_start": 1441,
+      "level_end": 1450,
+      "duration_seconds": 783,
+      "channel_position": 393,
+      "url": "https://www.youtube.com/watch?v=uOUQzOxS8N4",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "3Q-TTk7ZGJ0",
+      "title": "Royal Kingdom Level 1431-1440 (Gameplay)",
+      "level_start": 1431,
+      "level_end": 1440,
+      "duration_seconds": 844,
+      "channel_position": 394,
+      "url": "https://www.youtube.com/watch?v=3Q-TTk7ZGJ0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "394qKG7re-w",
+      "title": "Royal Kingdom Level 1421-1430 (Gameplay)",
+      "level_start": 1421,
+      "level_end": 1430,
+      "duration_seconds": 963,
+      "channel_position": 395,
+      "url": "https://www.youtube.com/watch?v=394qKG7re-w",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "1gWFqdSbQfY",
+      "title": "Royal Kingdom Level 1411-1420 (Gameplay)",
+      "level_start": 1411,
+      "level_end": 1420,
+      "duration_seconds": 806,
+      "channel_position": 399,
+      "url": "https://www.youtube.com/watch?v=1gWFqdSbQfY",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "laLjj6W4V-o",
+      "title": "Royal Kingdom Level 1401-1410 ITEMS: Diving Helmet & Octopuses (Gameplay)",
+      "level_start": 1401,
+      "level_end": 1410,
+      "duration_seconds": 864,
+      "channel_position": 400,
+      "url": "https://www.youtube.com/watch?v=laLjj6W4V-o",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "AN3ojV-l8lo",
+      "title": "Royal Kingdom Level 31-40 (Gameplay\ud83c\udfae)",
+      "level_start": 31,
+      "level_end": 40,
+      "duration_seconds": 588,
+      "channel_position": 401,
+      "url": "https://www.youtube.com/watch?v=AN3ojV-l8lo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "8aUQdHAkwMc",
+      "title": "Royal Kingdom Level 1391-1400 (Gameplay\ud83c\udfae)",
+      "level_start": 1391,
+      "level_end": 1400,
+      "duration_seconds": 814,
+      "channel_position": 413,
+      "url": "https://www.youtube.com/watch?v=8aUQdHAkwMc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "7gnfw2sbEtg",
+      "title": "Royal Kingdom Level 1381-1390 (Gameplay\ud83c\udfae)",
+      "level_start": 1381,
+      "level_end": 1390,
+      "duration_seconds": 926,
+      "channel_position": 415,
+      "url": "https://www.youtube.com/watch?v=7gnfw2sbEtg",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "NDNlxLGSSVc",
+      "title": "Royal Kingdom Level 1371-1380 (Gameplay)",
+      "level_start": 1371,
+      "level_end": 1380,
+      "duration_seconds": 791,
+      "channel_position": 418,
+      "url": "https://www.youtube.com/watch?v=NDNlxLGSSVc",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "9Z5XbSOkbZU",
+      "title": "Royal Kingdom Level 1361-1370 (Gameplay)",
+      "level_start": 1361,
+      "level_end": 1370,
+      "duration_seconds": 689,
+      "channel_position": 419,
+      "url": "https://www.youtube.com/watch?v=9Z5XbSOkbZU",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "EKpIwtyiAhs",
+      "title": "Royal Kingdom Level 1351-1360 (Gameplay\ud83c\udfae)",
+      "level_start": 1351,
+      "level_end": 1360,
+      "duration_seconds": 911,
+      "channel_position": 420,
+      "url": "https://www.youtube.com/watch?v=EKpIwtyiAhs",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "oRtCdm1ASgo",
+      "title": "Royal Kingdom Level 1321-1340 (Gameplay)",
+      "level_start": 1321,
+      "level_end": 1340,
+      "duration_seconds": 2253,
+      "channel_position": 426,
+      "url": "https://www.youtube.com/watch?v=oRtCdm1ASgo",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "yJzcB1_q-0E",
+      "title": "Royal Kingdom Level 1341-1350 (Gameplay)",
+      "level_start": 1341,
+      "level_end": 1350,
+      "duration_seconds": 1180,
+      "channel_position": 427,
+      "url": "https://www.youtube.com/watch?v=yJzcB1_q-0E",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "NekmeHC_L7Q",
+      "title": "Royal Kingdom Level 1301-1320 ITEM Gift Box\ud83c\udf81\ud83d\udc3b\u200d\u2744\ufe0f(Gameplay)",
+      "level_start": 1301,
+      "level_end": 1320,
+      "duration_seconds": 1948,
+      "channel_position": 428,
+      "url": "https://www.youtube.com/watch?v=NekmeHC_L7Q",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "ZU80hlX983U",
+      "title": "Royal Kingdom Level 21-30 (Gameplay)",
+      "level_start": 21,
+      "level_end": 30,
+      "duration_seconds": 842,
+      "channel_position": 430,
+      "url": "https://www.youtube.com/watch?v=ZU80hlX983U",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "QYoJ-KbH3_0",
+      "title": "Royal Kingdom Level 11-20 (Gameplay)",
+      "level_start": 11,
+      "level_end": 20,
+      "duration_seconds": 678,
+      "channel_position": 434,
+      "url": "https://www.youtube.com/watch?v=QYoJ-KbH3_0",
+      "source": "RasyaPlaysRK channel"
+    },
+    {
+      "id": "OwDykrQp1Z8",
+      "title": "Royal Kingdom Level 1-10 (First Gameplay)",
+      "level_start": 1,
+      "level_end": 10,
+      "duration_seconds": 867,
+      "channel_position": 435,
+      "url": "https://www.youtube.com/watch?v=OwDykrQp1Z8",
+      "source": "RasyaPlaysRK channel"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "reviewed_at": "2026-09-25",
+  "review_scope": "Royal Kingdom stratified sample for levels 3601-3700",
+  "result": "passed",
+  "sample_size": 40,
+  "accepted_count": 40,
+  "detected_exception_levels": [],
+  "resolved_exception_levels": [],
+  "ambiguous_levels": [],
+  "failed_count": 0,
+  "missing_count": 0,
+  "selection_policy": "Every multiple of 5 plus offsets 3, 7, 11, and 19 in each 20-level sub-block",
+  "resolution": "The deterministic 40-level sample passed independent visual QA without recaptures or unresolved exceptions.",
+  "contact_sheet": "/Users/victoria.serrano/.cache/codex/royal-kingdom/reviews/3601-3700/review-3601-3700.jpg",
+  "sample_metadata": "/Users/victoria.serrano/.cache/codex/royal-kingdom/reviews/3601-3700/sample-metadata.json"
+}

@@ -1,0 +1,34 @@
+{
+  "reviewed_at": "2026-09-25T00:05:21.902879+00:00",
+  "review_scope": "Royal Kingdom levels 4841-4860",
+  "result": "automated_passed",
+  "checks": [
+    "Exact expected level sequence",
+    "JPEG signature present for every board",
+    "Source URL and timestamp present for every level",
+    "No captured New item unlocked screen"
+  ],
+  "visual_review": "stratified_sample_passed",
+  "reviewed_levels": [
+    4841,
+    4842,
+    4843,
+    4844,
+    4845,
+    4846,
+    4847,
+    4848,
+    4849,
+    4850,
+    4851,
+    4852,
+    4853,
+    4854,
+    4855,
+    4856,
+    4857,
+    4858,
+    4859,
+    4860
+  ]
+}

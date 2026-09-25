@@ -1,0 +1,21 @@
+{
+  "reviewed_at": "2026-09-24",
+  "review_scope": "Royal Kingdom M2 reconciliation for levels 1-500",
+  "result": "reconciled",
+  "expected_count": 500,
+  "published_count": 500,
+  "missing_count": 0,
+  "failed_count": 0,
+  "ambiguous_count": 0,
+  "ambiguous_levels": [],
+  "resolved_ambiguous_levels": [211, 291, 371, 379, 380],
+  "resolution": "Replaced from individually verified no-booster sources during M3; levels 211 and 291 use the clean initial frame at 0.1 seconds.",
+  "visual_review": {
+    "levels_1_200": "full_batch",
+    "levels_201_500": "stratified_standard_and_special_samples",
+    "sampled_201_500": 120,
+    "accepted_sampled_201_500": 120
+  },
+  "pattern_taxonomy": "analysis/pattern_taxonomy_v1.json",
+  "next_resolution_gate": "complete"
+}

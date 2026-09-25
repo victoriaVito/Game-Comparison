@@ -1,0 +1,34 @@
+{
+  "reviewed_at": "2026-09-24T19:33:56.340812+00:00",
+  "review_scope": "Royal Kingdom levels 341-360",
+  "result": "automated_passed",
+  "checks": [
+    "Exact expected level sequence",
+    "JPEG signature present for every board",
+    "Source URL and timestamp present for every level",
+    "No captured New item unlocked screen"
+  ],
+  "visual_review": "pending_stratified_sample",
+  "reviewed_levels": [
+    341,
+    342,
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    351,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360
+  ]
+}

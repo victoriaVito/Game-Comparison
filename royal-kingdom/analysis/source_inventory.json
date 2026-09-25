@@ -1,0 +1,60 @@
+{
+  "checked_at": "2026-09-24",
+  "game": "Royal Kingdom",
+  "main_level_cap": {
+    "best_supported_value": 5300,
+    "confidence": "high",
+    "officially_published_exact_cap": false,
+    "basis": [
+      "Dream Games states that new levels are added every two weeks but does not publish an exact cap.",
+      "A range video covering levels 5281-5300 was uploaded on 2026-09-23.",
+      "Targeted searches found no Royal Kingdom gameplay for levels 5301, 5305, or 5310."
+    ],
+    "dynamic": true
+  },
+  "complete_video_coverage": {
+    "range_start": 1,
+    "range_end": 5300,
+    "status": "covered_by_multiple_sources",
+    "sources": [
+      {
+        "name": "RasyaPlaysRK channel",
+        "url": "https://www.youtube.com/channel/UCph27JIfhqHnu5hcJiLzW4g/videos",
+        "verified_range_coverage": 5280,
+        "verified_range_total": 5300,
+        "range_video_count": 311,
+        "missing_ranges": [[3541, 3560]],
+        "highest_verified_video": "https://www.youtube.com/watch?v=VxVkGN3KSWI"
+      },
+      {
+        "name": "RasyaPlaysRK corrected-title video",
+        "url": "https://www.youtube.com/watch?v=Cq-Y_rnbYis",
+        "verified_ranges": [[3541, 3560]]
+      }
+    ]
+  },
+  "supplementary_sources": [
+    {
+      "name": "Skillgaming Royal Kingdom playlist",
+      "url": "https://www.youtube.com/playlist?list=PLS7anecFfC0JanVhYva8F41U5PWQIpCgD",
+      "entries": 1098,
+      "title_range_min": 1,
+      "title_range_max": 1200,
+      "notes": "Individual no-booster videos; the playlist title range is not complete because 1098 level titles were parsed across levels 1-1200."
+    },
+    {
+      "name": "Bubunka Match 3 Gameplay playlist",
+      "url": "https://www.youtube.com/playlist?list=PLqw_nFRGFVOpjUUoSby3efCOfeSjRROQ4",
+      "entries": 98,
+      "advertised_range": [1, 1000],
+      "verified_visible_range_end": 670,
+      "notes": "Useful multi-level source, but the inspected playlist does not currently substantiate its advertised 1-1000 coverage."
+    }
+  ],
+  "official_update_source": "https://dreamgames.helpshift.com/hc/en/6-royal-kingdom-1676903479/faq/625-new-levels-1780382966/?p=all",
+  "limits": [
+    "The exact cap can change with the next content update.",
+    "YouTube title coverage does not prove every video is complete or extraction-ready until media validation runs.",
+    "Champions Arena repeats older levels and is not counted as additional numbered main levels."
+  ]
+}

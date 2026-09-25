@@ -1,0 +1,34 @@
+{
+  "reviewed_at": "2026-09-24T22:50:03.339633+00:00",
+  "review_scope": "Royal Kingdom levels 3281-3300",
+  "result": "automated_passed",
+  "checks": [
+    "Exact expected level sequence",
+    "JPEG signature present for every board",
+    "Source URL and timestamp present for every level",
+    "No captured New item unlocked screen"
+  ],
+  "visual_review": "stratified_sample_passed",
+  "reviewed_levels": [
+    3281,
+    3282,
+    3283,
+    3284,
+    3285,
+    3286,
+    3287,
+    3288,
+    3289,
+    3290,
+    3291,
+    3292,
+    3293,
+    3294,
+    3295,
+    3296,
+    3297,
+    3298,
+    3299,
+    3300
+  ]
+}

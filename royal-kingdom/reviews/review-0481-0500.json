@@ -1,0 +1,34 @@
+{
+  "reviewed_at": "2026-09-24T20:02:58.905431+00:00",
+  "review_scope": "Royal Kingdom levels 481-500",
+  "result": "automated_passed",
+  "checks": [
+    "Exact expected level sequence",
+    "JPEG signature present for every board",
+    "Source URL and timestamp present for every level",
+    "No captured New item unlocked screen"
+  ],
+  "visual_review": "pending_stratified_sample",
+  "reviewed_levels": [
+    481,
+    482,
+    483,
+    484,
+    485,
+    486,
+    487,
+    488,
+    489,
+    490,
+    491,
+    492,
+    493,
+    494,
+    495,
+    496,
+    497,
+    498,
+    499,
+    500
+  ]
+}

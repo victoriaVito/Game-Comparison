@@ -1,0 +1,21 @@
+{
+  "reviewed_at": "2026-09-24",
+  "review_scope": "Royal Kingdom stratified sample for levels 201-300",
+  "result": "passed_with_exceptions",
+  "sampling": {
+    "standard_levels": [
+      203, 207, 211, 219, 223, 227, 231, 239, 243, 247,
+      251, 259, 263, 267, 271, 279, 283, 287, 291, 299
+    ],
+    "kingdom_and_dark_kingdom_levels": [
+      205, 210, 215, 220, 225, 230, 235, 240, 245, 250,
+      255, 260, 265, 270, 275, 280, 285, 290, 295, 300
+    ]
+  },
+  "accepted_count": 38,
+  "ambiguous_levels": [211, 291],
+  "failed_count": 0,
+  "missing_count": 0,
+  "exception_reason": "A Magic Pot animation obscures part of the board before the first move.",
+  "resolution": "Recapture from the verified no-booster source during the level 1-1200 M3 reconciliation."
+}

@@ -1,0 +1,34 @@
+{
+  "reviewed_at": "2026-09-24T19:52:47.832230+00:00",
+  "review_scope": "Royal Kingdom levels 421-440",
+  "result": "automated_passed",
+  "checks": [
+    "Exact expected level sequence",
+    "JPEG signature present for every board",
+    "Source URL and timestamp present for every level",
+    "No captured New item unlocked screen"
+  ],
+  "visual_review": "pending_stratified_sample",
+  "reviewed_levels": [
+    421,
+    422,
+    423,
+    424,
+    425,
+    426,
+    427,
+    428,
+    429,
+    430,
+    431,
+    432,
+    433,
+    434,
+    435,
+    436,
+    437,
+    438,
+    439,
+    440
+  ]
+}

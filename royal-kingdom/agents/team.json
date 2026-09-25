@@ -1,0 +1,120 @@
+{
+  "version": "1.0",
+  "name": "Royal Kingdom Archive Analysis Team",
+  "orchestration": {
+    "coordinator": "archive_coordinator",
+    "publication_gate": "evidence_reviewer",
+    "execution_mode": "bounded_parallel",
+    "max_parallel_agents": 3,
+    "handoff_format": "structured_json",
+    "confidence_routing": {
+      "auto_accept_minimum": 0.85,
+      "targeted_review_minimum": 0.6,
+      "mandatory_review_below": 0.6
+    }
+  },
+  "agents": [
+    {
+      "id": "archive_coordinator",
+      "parent": null,
+      "kind": "coordinator",
+      "responsibility": "Create bounded assignments, track run state, merge approved outputs, and report blockers.",
+      "inputs": ["source_manifest", "analysis_request", "project_rules"],
+      "outputs": ["analysis_run", "assignments", "consolidated_status"],
+      "never": ["alter source evidence", "approve its own claims", "publish without review"]
+    },
+    {
+      "id": "source_ingestion",
+      "parent": "archive_coordinator",
+      "kind": "deterministic_worker",
+      "responsibility": "Register media, metadata, hashes, streams, technical quality, and provenance.",
+      "inputs": ["source_url", "local_media"],
+      "outputs": ["source_record", "media_integrity_report"],
+      "never": ["interpret gameplay", "bypass access controls"]
+    },
+    {
+      "id": "gameplay_observer",
+      "parent": "archive_coordinator",
+      "kind": "hybrid_worker",
+      "responsibility": "Segment levels and record visible moves, goals, blockers, boosters, outcomes, and candidate pause points.",
+      "inputs": ["source_record", "scoped_video_ranges"],
+      "outputs": ["gameplay_timeline", "observation_records"],
+      "never": ["infer player intent as fact", "hide unclassified intervals"]
+    },
+    {
+      "id": "analysis_lead",
+      "parent": "archive_coordinator",
+      "kind": "subagent_coordinator",
+      "responsibility": "Dispatch the same evidence package to specialized analysts and surface disagreements.",
+      "inputs": ["gameplay_timeline", "observation_records"],
+      "outputs": ["analysis_assignments", "disagreement_report"],
+      "never": ["resolve disagreements without evidence", "rewrite analyst provenance"]
+    },
+    {
+      "id": "strategy_analyst",
+      "parent": "analysis_lead",
+      "kind": "analyst",
+      "responsibility": "Explain observed player tactics, outcomes, alternatives, and repeated strategy patterns.",
+      "inputs": ["scoped_clips", "observation_records"],
+      "outputs": ["strategy_notes"],
+      "never": ["claim designer intent", "infer skill from one ambiguous action"]
+    },
+    {
+      "id": "monetization_analyst",
+      "parent": "analysis_lead",
+      "kind": "analyst",
+      "responsibility": "Record visible currencies, offers, purchases, continues, boosters, and payment pressure.",
+      "inputs": ["scoped_clips", "ui_frames", "observation_records"],
+      "outputs": ["monetization_evidence"],
+      "never": ["equate an offer with a purchase", "claim payment without transaction evidence"]
+    },
+    {
+      "id": "player_experience_analyst",
+      "parent": "analysis_lead",
+      "kind": "analyst",
+      "responsibility": "Assess pacing, clarity, agency, friction, tension, feedback, and tutorial quality as labelled impressions.",
+      "inputs": ["scoped_clips", "gameplay_timeline"],
+      "outputs": ["experience_notes"],
+      "never": ["present impressions as measured sentiment", "generalize beyond reviewed coverage"]
+    },
+    {
+      "id": "commentary_editor",
+      "parent": "archive_coordinator",
+      "kind": "editor",
+      "responsibility": "Convert evidence-backed findings into short, skippable, timestamped pause commentary.",
+      "inputs": ["strategy_notes", "monetization_evidence", "experience_notes"],
+      "outputs": ["commentary_script"],
+      "never": ["add unsupported claims", "remove uncertainty qualifiers"]
+    },
+    {
+      "id": "evidence_reviewer",
+      "parent": "archive_coordinator",
+      "kind": "independent_reviewer",
+      "responsibility": "Verify claim grounding, confidence, temporal alignment, monetization safety, and schema validity.",
+      "inputs": ["all_stage_outputs", "source_media"],
+      "outputs": ["review_report", "approved_package", "rejected_claims"],
+      "never": ["approve unsupported payment claims", "silently rewrite source evidence"]
+    },
+    {
+      "id": "archive_publisher",
+      "parent": "archive_coordinator",
+      "kind": "deterministic_worker",
+      "responsibility": "Publish reviewer-approved images, metadata, filters, and commentary to the local archive.",
+      "inputs": ["approved_package"],
+      "outputs": ["published_archive", "build_report"],
+      "never": ["publish rejected material", "change external permissions"]
+    }
+  ],
+  "handoffs": [
+    ["source_ingestion", "gameplay_observer"],
+    ["gameplay_observer", "analysis_lead"],
+    ["analysis_lead", "strategy_analyst"],
+    ["analysis_lead", "monetization_analyst"],
+    ["analysis_lead", "player_experience_analyst"],
+    ["strategy_analyst", "commentary_editor"],
+    ["monetization_analyst", "commentary_editor"],
+    ["player_experience_analyst", "commentary_editor"],
+    ["commentary_editor", "evidence_reviewer"],
+    ["evidence_reviewer", "archive_publisher"]
+  ]
+}

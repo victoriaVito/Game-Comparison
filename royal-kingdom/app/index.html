@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Royal Kingdom — Level Archive</title>
+  <style>
+    :root { color-scheme: dark; font-family: Inter, system-ui, sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #090b12; color: #f7f3e8; }
+    header { position: sticky; top: 0; z-index: 2; padding: 18px 24px; background: rgba(9,11,18,.94); border-bottom: 1px solid #292d3d; backdrop-filter: blur(14px); }
+    h1 { margin: 0 0 4px; font-size: 22px; }
+    .summary { color: #aeb5ca; font-size: 13px; }
+    .controls { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+    button { border: 1px solid #343a50; border-radius: 999px; padding: 8px 13px; background: #171b29; color: inherit; cursor: pointer; }
+    button.active { background: #e9b949; border-color: #e9b949; color: #191309; }
+    .watch { display: grid; grid-template-columns: minmax(280px, 420px) minmax(280px, 1fr); gap: 22px; padding: 24px; border-bottom: 1px solid #292d3d; background: #0e111b; }
+    video { width: 100%; max-height: 72vh; border-radius: 16px; background: #050608; }
+    .analysis { align-self: start; padding: 20px; border: 1px solid #343a50; border-radius: 16px; background: #151927; }
+    .analysis h2 { margin: 0 0 8px; font-size: 20px; }
+    .analysis h3 { margin: 20px 0 6px; color: #e9b949; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; }
+    .analysis p { margin: 0; color: #d3d8e7; line-height: 1.5; }
+    .analysis .limit { margin-top: 8px; color: #929bb5; font-size: 12px; }
+    .timeline { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+    .timeline button { border-radius: 9px; }
+    .auto-pause { display: flex; align-items: center; gap: 8px; margin-top: 16px; color: #aeb5ca; font-size: 13px; }
+    .team { padding: 24px; border-bottom: 1px solid #292d3d; }
+    .team h2 { margin: 0 0 4px; }
+    .team-summary { margin: 0 0 16px; color: #aeb5ca; }
+    .agent-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+    .agent { padding: 14px; border: 1px solid #292d3d; border-radius: 12px; background: #111521; }
+    .agent strong { display: block; margin-bottom: 6px; color: #e9b949; }
+    .agent small { color: #929bb5; }
+    .agent p { margin: 8px 0 0; color: #cbd1e3; font-size: 13px; line-height: 1.4; }
+    @media (max-width: 760px) { .watch { grid-template-columns: 1fr; } }
+    main { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 18px; padding: 24px; }
+    article { overflow: hidden; border: 1px solid #292d3d; border-radius: 16px; background: #111521; }
+    img { display: block; width: 100%; aspect-ratio: 9 / 16; object-fit: cover; background: #050608; }
+    .meta { padding: 12px 14px 14px; }
+    .level { font-weight: 750; }
+    .badges { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+    .badge { padding: 4px 7px; border-radius: 999px; background: #252a3b; color: #cbd1e3; font-size: 11px; }
+    .badge.tutorial { background: #452d6c; color: #eadcff; }
+    .empty { display: none; padding: 48px 24px; color: #aeb5ca; text-align: center; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Royal Kingdom — Level Archive</h1>
+    <div class="summary" id="summary">Loading pilot…</div>
+    <div class="controls" id="controls">
+      <button class="active" data-filter="all">All</button>
+      <button data-filter="standard">Standard</button>
+      <button data-filter="kingdom">Kingdom</button>
+      <button data-filter="dark_kingdom">Dark Kingdom</button>
+      <button data-filter="tutorial">Tutorials</button>
+    </div>
+  </header>
+  <section class="watch">
+    <video id="video" controls preload="metadata" src="video/source-nT-hcLmkddg.mp4"></video>
+    <aside class="analysis">
+      <h2 id="note-title">Watch with level-design analysis</h2>
+      <p id="note-gameplay">Play the video. It will pause at selected moments to explain how the player is approaching the level.</p>
+      <h3>Payment evidence</h3>
+      <p id="note-monetization">Loading evidence…</p>
+      <h3>Design impression</h3>
+      <p id="note-impression">Notes distinguish visible facts from interpretation.</p>
+      <p class="limit" id="evidence-limit"></p>
+      <label class="auto-pause"><input id="auto-pause" type="checkbox" checked> Pause automatically for analysis</label>
+      <div class="timeline" id="timeline"></div>
+    </aside>
+  </section>
+  <section class="team">
+    <h2>Specialized analysis team</h2>
+    <p class="team-summary" id="team-summary">Loading agent hierarchy…</p>
+    <div class="agent-grid" id="agent-grid"></div>
+  </section>
+  <main id="grid"></main>
+  <div class="empty" id="empty">No levels match this filter.</div>
+  <script>
+    const grid = document.querySelector('#grid');
+    const summary = document.querySelector('#summary');
+    const empty = document.querySelector('#empty');
+    const video = document.querySelector('#video');
+    const timeline = document.querySelector('#timeline');
+    const autoPause = document.querySelector('#auto-pause');
+    let levels = [];
+    let videoNotes = [];
+    const pausedNotes = new Set();
+    let activeFilter = 'all';
+    let manifestSignature = '';
+
+    function render(filter = activeFilter) {
+      activeFilter = filter;
+      const visible = levels.filter(level => filter === 'all' || (filter === 'tutorial' ? level.tutorial : level.level_type === filter));
+      grid.innerHTML = visible.map(level => `
+        <article>
+          <img loading="lazy" src="${level.board}" alt="Royal Kingdom level ${level.level} initial board">
+          <div class="meta">
+            <div class="level">Level ${level.level}</div>
+            <div class="badges">
+              <span class="badge">${level.level_type.replace('_', ' ')}</span>
+              ${level.tutorial ? '<span class="badge tutorial">tutorial</span>' : ''}
+              <span class="badge">${level.timestamp_seconds.toFixed(1)}s</span>
+            </div>
+          </div>
+        </article>`).join('');
+      empty.style.display = visible.length ? 'none' : 'block';
+    }
+
+    document.querySelector('#controls').addEventListener('click', event => {
+      const button = event.target.closest('button');
+      if (!button) return;
+      document.querySelectorAll('button').forEach(item => item.classList.remove('active'));
+      button.classList.add('active');
+      render(button.dataset.filter);
+    });
+
+    async function refreshManifest() {
+      const response = await fetch(`manifest.json?t=${Date.now()}`, { cache: 'no-store' });
+      const manifest = await response.json();
+      const signature = JSON.stringify(manifest.levels);
+      if (signature === manifestSignature) return;
+      manifestSignature = signature;
+      levels = manifest.levels;
+      const tutorials = levels.filter(level => level.tutorial).length;
+      const updatedAt = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+      summary.textContent = `${levels.length} / ${manifest.expected_levels} archived levels · ${tutorials} tutorials · live update ${updatedAt}`;
+      render();
+    }
+
+    refreshManifest();
+    setInterval(refreshManifest, 5000);
+
+    function showNote(note) {
+      document.querySelector('#note-title').textContent = note.title;
+      document.querySelector('#note-gameplay').textContent = note.gameplay;
+      document.querySelector('#note-monetization').textContent = note.monetization;
+      document.querySelector('#note-impression').textContent = note.impression;
+    }
+
+    fetch('video_notes.json').then(response => response.json()).then(data => {
+      videoNotes = data.notes;
+      document.querySelector('#note-monetization').textContent = data.monetization_summary.evidence;
+      document.querySelector('#evidence-limit').textContent = data.monetization_summary.limit;
+      timeline.innerHTML = videoNotes.map(note => `<button data-note="${note.id}">${Math.floor(note.timestamp_seconds / 60)}:${String(Math.floor(note.timestamp_seconds % 60)).padStart(2, '0')}</button>`).join('');
+    });
+
+    timeline.addEventListener('click', event => {
+      const button = event.target.closest('button');
+      if (!button) return;
+      const note = videoNotes.find(item => item.id === button.dataset.note);
+      video.currentTime = note.timestamp_seconds;
+      video.pause();
+      showNote(note);
+    });
+
+    video.addEventListener('timeupdate', () => {
+      const note = videoNotes.find(item => !pausedNotes.has(item.id) && video.currentTime >= item.timestamp_seconds && video.currentTime < item.timestamp_seconds + 1.5);
+      if (!note) return;
+      pausedNotes.add(note.id);
+      showNote(note);
+      if (autoPause.checked) video.pause();
+    });
+
+    fetch('team.json').then(response => response.json()).then(team => {
+      document.querySelector('#team-summary').textContent = `${team.agents.length} agents · ${team.handoffs.length} controlled handoffs · independent publication gate`;
+      document.querySelector('#agent-grid').innerHTML = team.agents.map(agent => `
+        <div class="agent">
+          <strong>${agent.id.replaceAll('_', ' ')}</strong>
+          <small>${agent.kind}${agent.parent ? ` · reports to ${agent.parent.replaceAll('_', ' ')}` : ''}</small>
+          <p>${agent.responsibility}</p>
+        </div>`).join('');
+    });
+  </script>
+</body>
+</html>

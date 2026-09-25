@@ -1,0 +1,12 @@
+{
+  "reviewed_at": "2026-09-24",
+  "review_scope": "Royal Kingdom stratified sample for levels 301-400",
+  "result": "passed_with_exceptions",
+  "sample_size": 40,
+  "accepted_count": 37,
+  "ambiguous_levels": [371, 379, 380],
+  "failed_count": 0,
+  "missing_count": 0,
+  "exception_reason": "A Magic Pot animation obscures part of the board before the first move.",
+  "resolution": "Recapture from the verified no-booster source during the level 1-1200 M3 reconciliation."
+}

@@ -1,0 +1,35 @@
+{
+  "reviewed_at": "2026-09-24T18:39:47.039710+00:00",
+  "review_scope": "Royal Kingdom levels 161-180",
+  "result": "passed",
+  "checks": [
+    "Exact expected level sequence",
+    "JPEG signature present for every board",
+    "Source URL and timestamp present for every level",
+    "No captured New item unlocked screen"
+  ],
+  "visual_review": "passed_full_batch",
+  "reviewed_levels": [
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180
+  ],
+  "visual_review_notes": "All captures show a playable pre-first-move state or initial Kingdom battle state."
+}

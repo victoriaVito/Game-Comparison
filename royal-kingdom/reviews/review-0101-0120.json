@@ -1,0 +1,35 @@
+{
+  "reviewed_at": "2026-09-24T18:24:47.658317+00:00",
+  "review_scope": "Royal Kingdom levels 101-120",
+  "result": "passed",
+  "checks": [
+    "Exact expected level sequence",
+    "JPEG signature present for every board",
+    "Source URL and timestamp present for every level",
+    "No captured New item unlocked screen"
+  ],
+  "visual_review": "passed_full_batch",
+  "reviewed_levels": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120
+  ],
+  "visual_review_notes": "All 20 captures show a playable pre-first-move state; selected pre-level boosters remain part of the observed player state."
+}

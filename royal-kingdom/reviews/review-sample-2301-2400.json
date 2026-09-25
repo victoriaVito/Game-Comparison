@@ -1,0 +1,36 @@
+{
+  "reviewed_at": "2026-09-24",
+  "review_scope": "Royal Kingdom stratified sample for levels 2301-2400",
+  "result": "passed_after_recapture",
+  "sample_size": 40,
+  "accepted_count": 40,
+  "detected_exception_levels": [
+    2323,
+    2339,
+    2343,
+    2350,
+    2351,
+    2371,
+    2379,
+    2380,
+    2400
+  ],
+  "resolved_exception_levels": [
+    2323,
+    2339,
+    2343,
+    2350,
+    2351,
+    2371,
+    2379,
+    2380,
+    2400
+  ],
+  "ambiguous_levels": [],
+  "failed_count": 0,
+  "missing_count": 0,
+  "selection_policy": "Every multiple of 5 plus offsets 3, 7, 11, and 19 in each 20-level sub-block",
+  "resolution": "Nine Magic Pot or active-effect captures were replaced from independently verified no-booster sources at the initial pre-move frame; the same 40-level sample passed on reinspection.",
+  "contact_sheet": "/Users/victoria.serrano/.cache/codex/royal-kingdom/reviews/2301-2400/review-2301-2400.jpg",
+  "sample_metadata": "/Users/victoria.serrano/.cache/codex/royal-kingdom/reviews/2301-2400/sample-metadata.json"
+}

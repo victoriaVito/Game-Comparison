@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "status": "calibrated",
+  "scope": "Observable initial-board geometry only",
+  "exclusions": [
+    "Difficulty",
+    "Expected success rate",
+    "Optimal strategy",
+    "Unseen mechanics"
+  ],
+  "traits": {
+    "compact_full_field": "One mostly contiguous play region with limited internal separation.",
+    "split_regions": "Two or more visibly disconnected play regions.",
+    "layered_bands": "The board is organized into distinct horizontal or vertical layers.",
+    "edge_channels": "Playable cells form narrow routes along one or more outer edges.",
+    "central_mass": "A large blocker or covered region dominates the board center.",
+    "open_center": "The central area is visibly empty while play regions surround it.",
+    "stair_step": "The playable boundary follows a stepped or diagonal progression.",
+    "asymmetric": "The major left and right board regions do not mirror each other."
+  },
+  "calibration_sample": [
+    {"level": 403, "traits": ["split_regions", "layered_bands"]},
+    {"level": 407, "traits": ["edge_channels", "central_mass"]},
+    {"level": 411, "traits": ["split_regions"]},
+    {"level": 419, "traits": ["central_mass", "open_center"]},
+    {"level": 423, "traits": ["split_regions", "layered_bands"]},
+    {"level": 427, "traits": ["split_regions", "open_center"]},
+    {"level": 431, "traits": ["layered_bands", "split_regions"]},
+    {"level": 439, "traits": ["central_mass", "edge_channels"]},
+    {"level": 443, "traits": ["asymmetric", "edge_channels"]},
+    {"level": 447, "traits": ["asymmetric", "layered_bands"]},
+    {"level": 451, "traits": ["compact_full_field"]},
+    {"level": 459, "traits": ["split_regions", "central_mass"]},
+    {"level": 463, "traits": ["compact_full_field", "layered_bands"]},
+    {"level": 467, "traits": ["asymmetric", "edge_channels"]},
+    {"level": 471, "traits": ["layered_bands"]},
+    {"level": 479, "traits": ["asymmetric", "edge_channels"]},
+    {"level": 483, "traits": ["stair_step", "edge_channels"]},
+    {"level": 487, "traits": ["split_regions", "central_mass"]},
+    {"level": 491, "traits": ["layered_bands", "split_regions"]},
+    {"level": 499, "traits": ["asymmetric", "edge_channels"]}
+  ]
+}
