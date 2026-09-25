@@ -250,7 +250,7 @@ Milestones:
 
 Next action: maintain the moving cap biweekly and process only newly verified numbered-level ranges.
 
-### TSK-006 — Publish the complete project to GitHub
+### TSK-007 — Publish the complete project to GitHub
 
 Status: `done`  
 Owner: Victoria Serrano  
