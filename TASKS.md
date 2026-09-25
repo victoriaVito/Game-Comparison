@@ -2,7 +2,7 @@
 
 Status: active  
 Owner: Victoria Serrano  
-Last updated: 2026-09-25 10:45 CEST  
+Last updated: 2026-09-25 11:03 CEST  
 Source of truth: this file  
 External repository: https://github.com/victoriaVito/Game-Comparison
 
@@ -252,7 +252,7 @@ Next action: maintain the moving cap biweekly and process only newly verified nu
 
 ### TSK-006 — Publish the complete project to GitHub
 
-Status: `in_progress`  
+Status: `done`  
 Owner: Victoria Serrano  
 Scope: Publish the complete Game Comparison workspace to `victoriaVito/Game-Comparison`, including both browsable level archives and the Royal Kingdom source video.
 
@@ -264,8 +264,8 @@ Acceptance criteria:
 - Local and remote commit IDs match after publication.
 - Representative Royal Match and Royal Kingdom JPEGs are readable from the published repository.
 
-Current evidence: project metadata and Royal Kingdom levels 1-5,000 are published; levels 5,001-5,300 and staging are committed locally. GitHub rejected the MP4 because the repository owner has no remaining LFS quota, so the publication route changed to a GitHub Release asset.  
-Next action: publish the final Royal Kingdom batch, upload the source-video release asset, publish Royal Match images in bounded batches, and verify the remote tree and representative artifacts.
+Current evidence: the complete asset commit was verified locally and on `origin/main`; the remote tree contains exactly 5,300 Royal Kingdom JPEGs and 13,087 Royal Match JPEGs. Representative images from both archives return the JPEG signature `ffd8ff`. The source-video Release asset is uploaded at 169,649,800 bytes with SHA-256 `7fed3e38ffc4edfc87920733c3f55d00c062058dcdcb9fb5664b957bbfbf44fc`.  
+Next action: use `victoriaVito/Game-Comparison` as the publication repository and keep future archive updates incremental.
 
 ## Completed tasks
 
