@@ -1,0 +1,125 @@
+{
+  "game": "Royal Kingdom",
+  "source": "https://www.youtube.com/watch?v=ehCGAiOeqTs",
+  "expected_range": [
+    56,
+    60
+  ],
+  "expected_levels": 5,
+  "captured_levels": 5,
+  "levels": [
+    {
+      "level": 56,
+      "board": "levels/level-0056.jpg",
+      "source_url": "https://www.youtube.com/watch?v=ehCGAiOeqTs",
+      "timestamp_seconds": 3.5,
+      "segment_start_seconds": 0.5,
+      "segment_end_seconds": 82.5,
+      "confidence": 0.9,
+      "method": "level_dialog_then_stable_moves",
+      "level_type": "standard",
+      "tutorial": false,
+      "tutorial_method": "ocr_instruction",
+      "flags": [
+        "calibration_batch",
+        "needs_visual_review"
+      ],
+      "ocr_text": [
+        "Goals",
+        "80",
+        "Moves",
+        "26"
+      ]
+    },
+    {
+      "level": 57,
+      "board": "levels/level-0057.jpg",
+      "source_url": "https://www.youtube.com/watch?v=ehCGAiOeqTs",
+      "timestamp_seconds": 86.5,
+      "segment_start_seconds": 82.5,
+      "segment_end_seconds": 168.5,
+      "confidence": 0.9,
+      "method": "level_dialog_then_stable_moves",
+      "level_type": "standard",
+      "tutorial": false,
+      "tutorial_method": "ocr_instruction",
+      "flags": [
+        "calibration_batch",
+        "needs_visual_review"
+      ],
+      "ocr_text": [
+        "Goals",
+        "50",
+        "Moves",
+        "28"
+      ]
+    },
+    {
+      "level": 58,
+      "board": "levels/level-0058.jpg",
+      "source_url": "https://www.youtube.com/watch?v=ehCGAiOeqTs",
+      "timestamp_seconds": 172.5,
+      "segment_start_seconds": 168.5,
+      "segment_end_seconds": 284.0,
+      "confidence": 0.9,
+      "method": "level_dialog_then_stable_moves",
+      "level_type": "standard",
+      "tutorial": false,
+      "tutorial_method": "ocr_instruction",
+      "flags": [
+        "calibration_batch",
+        "needs_visual_review"
+      ],
+      "ocr_text": [
+        "Goals",
+        "28",
+        "28",
+        "Moves",
+        "31"
+      ]
+    },
+    {
+      "level": 59,
+      "board": "levels/level-0059.jpg",
+      "source_url": "https://www.youtube.com/watch?v=ehCGAiOeqTs",
+      "timestamp_seconds": 288.0,
+      "segment_start_seconds": 284.0,
+      "segment_end_seconds": 375.0,
+      "confidence": 0.9,
+      "method": "level_dialog_then_stable_moves",
+      "level_type": "standard",
+      "tutorial": false,
+      "tutorial_method": "ocr_instruction",
+      "flags": [
+        "calibration_batch",
+        "needs_visual_review"
+      ],
+      "ocr_text": [
+        "Goals",
+        "Moves",
+        "25"
+      ]
+    },
+    {
+      "level": 60,
+      "board": "levels/level-0060.jpg",
+      "source_url": "https://www.youtube.com/watch?v=ehCGAiOeqTs",
+      "timestamp_seconds": 379.0,
+      "segment_start_seconds": 375.0,
+      "segment_end_seconds": 513.0,
+      "confidence": 0.9,
+      "method": "level_dialog_then_stable_moves",
+      "level_type": "dark_kingdom",
+      "tutorial": false,
+      "tutorial_method": "ocr_instruction",
+      "flags": [
+        "calibration_batch",
+        "needs_visual_review"
+      ],
+      "ocr_text": [
+        "Moves",
+        "27"
+      ]
+    }
+  ]
+}

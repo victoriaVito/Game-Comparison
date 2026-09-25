@@ -1,0 +1,46 @@
+{
+  "game": "Royal Kingdom",
+  "source": "https://www.youtube.com/watch?v=_oGvzy21hvo",
+  "expected_range": [
+    4750,
+    4750
+  ],
+  "expected_levels": 1,
+  "captured_levels": 1,
+  "levels": [
+    {
+      "level": 4750,
+      "board": "levels/level-4750.jpg",
+      "source_url": "https://www.youtube.com/watch?v=_oGvzy21hvo",
+      "timestamp_seconds": 3.0,
+      "segment_start_seconds": 2.0,
+      "segment_end_seconds": 67.5,
+      "confidence": 0.9,
+      "method": "level_dialog_then_stable_moves",
+      "level_type": "standard",
+      "tutorial": false,
+      "tutorial_method": "ocr_instruction",
+      "flags": [
+        "calibration_batch",
+        "needs_visual_review"
+      ],
+      "ocr_text": [
+        "Moves",
+        "140",
+        "Out of Lives!",
+        "Time to next life:",
+        "03:43",
+        "2",
+        "Use free lives",
+        "Refill",
+        "900",
+        "90%",
+        "OFF",
+        "Mythic Deal",
+        "23:18:15",
+        "2000",
+        "$ 0.99"
+      ]
+    }
+  ]
+}

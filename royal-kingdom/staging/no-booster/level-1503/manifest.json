@@ -1,0 +1,34 @@
+{
+  "game": "Royal Kingdom",
+  "source": "https://www.youtube.com/watch?v=d-JKZKywWFI",
+  "expected_range": [
+    1503,
+    1503
+  ],
+  "expected_levels": 1,
+  "captured_levels": 1,
+  "levels": [
+    {
+      "level": 1503,
+      "board": "levels/level-1503.jpg",
+      "source_url": "https://www.youtube.com/watch?v=d-JKZKywWFI",
+      "timestamp_seconds": 3.0,
+      "segment_start_seconds": 0.0,
+      "segment_end_seconds": 66.0,
+      "confidence": 0.9,
+      "method": "level_dialog_then_stable_moves",
+      "level_type": "standard",
+      "tutorial": false,
+      "tutorial_method": "ocr_instruction",
+      "flags": [
+        "calibration_batch",
+        "needs_visual_review"
+      ],
+      "ocr_text": [
+        "Goals",
+        "Moves",
+        "25"
+      ]
+    }
+  ]
+}

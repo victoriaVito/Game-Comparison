@@ -259,13 +259,13 @@ Scope: Publish the complete Game Comparison workspace to `victoriaVito/Game-Comp
 Acceptance criteria:
 
 - The GitHub `main` branch contains the project code, documentation, manifests, reviews, level images, and source metadata.
-- The source MP4 is stored through Git LFS rather than the regular Git object store.
+- The source MP4 is published as a GitHub Release asset because the repository owner's Git LFS quota is exhausted.
 - Nested source-repository Git metadata is excluded while its complete browsable working tree remains present.
 - Local and remote commit IDs match after publication.
 - Representative Royal Match and Royal Kingdom JPEGs are readable from the published repository.
 
-Current evidence: the destination repository was cloned, all visible project content was copied, nested `.git` metadata was excluded, and `*.mp4` is configured for Git LFS.  
-Next action: commit and push the project in bounded batches, then verify the remote tree and representative artifacts.
+Current evidence: project metadata and Royal Kingdom levels 1-5,000 are published; levels 5,001-5,300 and staging are committed locally. GitHub rejected the MP4 because the repository owner has no remaining LFS quota, so the publication route changed to a GitHub Release asset.  
+Next action: publish the final Royal Kingdom batch, upload the source-video release asset, publish Royal Match images in bounded batches, and verify the remote tree and representative artifacts.
 
 ## Completed tasks
 

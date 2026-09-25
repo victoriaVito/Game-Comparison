@@ -1,0 +1,129 @@
+{
+  "game": "Royal Kingdom",
+  "source": "https://www.youtube.com/watch?v=9MNRk8YRrdw",
+  "expected_range": [
+    26,
+    30
+  ],
+  "expected_levels": 5,
+  "captured_levels": 5,
+  "levels": [
+    {
+      "level": 26,
+      "board": "levels/level-0026.jpg",
+      "source_url": "https://www.youtube.com/watch?v=9MNRk8YRrdw",
+      "timestamp_seconds": 5.0,
+      "segment_start_seconds": 0.5,
+      "segment_end_seconds": 119.5,
+      "confidence": 0.9,
+      "method": "level_dialog_then_stable_moves",
+      "level_type": "standard",
+      "tutorial": false,
+      "tutorial_method": "ocr_instruction",
+      "flags": [
+        "calibration_batch",
+        "needs_visual_review"
+      ],
+      "ocr_text": [
+        "Goals",
+        "Moves",
+        "20"
+      ]
+    },
+    {
+      "level": 27,
+      "board": "levels/level-0027.jpg",
+      "source_url": "https://www.youtube.com/watch?v=9MNRk8YRrdw",
+      "timestamp_seconds": 124.0,
+      "segment_start_seconds": 119.5,
+      "segment_end_seconds": 204.0,
+      "confidence": 0.9,
+      "method": "level_dialog_then_stable_moves",
+      "level_type": "standard",
+      "tutorial": false,
+      "tutorial_method": "ocr_instruction",
+      "flags": [
+        "calibration_batch",
+        "needs_visual_review"
+      ],
+      "ocr_text": [
+        "Goals",
+        "+0",
+        "40",
+        "80",
+        "Moves",
+        "27"
+      ]
+    },
+    {
+      "level": 28,
+      "board": "levels/level-0028.jpg",
+      "source_url": "https://www.youtube.com/watch?v=9MNRk8YRrdw",
+      "timestamp_seconds": 208.5,
+      "segment_start_seconds": 204.0,
+      "segment_end_seconds": 286.5,
+      "confidence": 0.9,
+      "method": "level_dialog_then_stable_moves",
+      "level_type": "standard",
+      "tutorial": true,
+      "tutorial_method": "ocr_instruction",
+      "flags": [
+        "calibration_batch",
+        "needs_visual_review"
+      ],
+      "ocr_text": [
+        "Goals",
+        "40",
+        "Moves",
+        "25",
+        "Bomber Plane",
+        "Tapto select it!",
+        "Free"
+      ]
+    },
+    {
+      "level": 29,
+      "board": "levels/level-0029.jpg",
+      "source_url": "https://www.youtube.com/watch?v=9MNRk8YRrdw",
+      "timestamp_seconds": 290.5,
+      "segment_start_seconds": 286.5,
+      "segment_end_seconds": 375.0,
+      "confidence": 0.9,
+      "method": "level_dialog_then_stable_moves",
+      "level_type": "standard",
+      "tutorial": false,
+      "tutorial_method": "ocr_instruction",
+      "flags": [
+        "calibration_batch",
+        "needs_visual_review"
+      ],
+      "ocr_text": [
+        "Goals",
+        "18",
+        "Moves",
+        "26"
+      ]
+    },
+    {
+      "level": 30,
+      "board": "levels/level-0030.jpg",
+      "source_url": "https://www.youtube.com/watch?v=9MNRk8YRrdw",
+      "timestamp_seconds": 383.5,
+      "segment_start_seconds": 375.0,
+      "segment_end_seconds": 554.0,
+      "confidence": 0.9,
+      "method": "level_dialog_then_stable_moves",
+      "level_type": "dark_kingdom",
+      "tutorial": false,
+      "tutorial_method": "ocr_instruction",
+      "flags": [
+        "calibration_batch",
+        "needs_visual_review"
+      ],
+      "ocr_text": [
+        "Moves",
+        "33"
+      ]
+    }
+  ]
+}

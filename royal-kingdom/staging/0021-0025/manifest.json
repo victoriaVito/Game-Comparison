@@ -1,0 +1,126 @@
+{
+  "game": "Royal Kingdom",
+  "source": "https://www.youtube.com/watch?v=utyAuDvC6DI",
+  "expected_range": [
+    21,
+    25
+  ],
+  "expected_levels": 5,
+  "captured_levels": 5,
+  "levels": [
+    {
+      "level": 21,
+      "board": "levels/level-0021.jpg",
+      "source_url": "https://www.youtube.com/watch?v=utyAuDvC6DI",
+      "timestamp_seconds": 7.5,
+      "segment_start_seconds": 1.0,
+      "segment_end_seconds": 44.0,
+      "confidence": 0.9,
+      "method": "level_dialog_then_stable_moves",
+      "level_type": "standard",
+      "tutorial": false,
+      "tutorial_method": "ocr_instruction",
+      "flags": [
+        "calibration_batch",
+        "needs_visual_review"
+      ],
+      "ocr_text": [
+        "Goals",
+        "Moves",
+        "25"
+      ]
+    },
+    {
+      "level": 22,
+      "board": "levels/level-0022.jpg",
+      "source_url": "https://www.youtube.com/watch?v=utyAuDvC6DI",
+      "timestamp_seconds": 48.5,
+      "segment_start_seconds": 44.0,
+      "segment_end_seconds": 106.5,
+      "confidence": 0.9,
+      "method": "level_dialog_then_stable_moves",
+      "level_type": "standard",
+      "tutorial": false,
+      "tutorial_method": "ocr_instruction",
+      "flags": [
+        "calibration_batch",
+        "needs_visual_review"
+      ],
+      "ocr_text": [
+        "Goals",
+        "30",
+        "Moves",
+        "28"
+      ]
+    },
+    {
+      "level": 23,
+      "board": "levels/level-0023.jpg",
+      "source_url": "https://www.youtube.com/watch?v=utyAuDvC6DI",
+      "timestamp_seconds": 111.0,
+      "segment_start_seconds": 106.5,
+      "segment_end_seconds": 194.5,
+      "confidence": 0.9,
+      "method": "level_dialog_then_stable_moves",
+      "level_type": "standard",
+      "tutorial": true,
+      "tutorial_method": "ocr_instruction",
+      "flags": [
+        "calibration_batch",
+        "needs_visual_review"
+      ],
+      "ocr_text": [
+        "Goals",
+        "Moves",
+        "24",
+        "BIOEl",
+        "Wizard Hat",
+        "Tap to select it!",
+        "Free"
+      ]
+    },
+    {
+      "level": 24,
+      "board": "levels/level-0024.jpg",
+      "source_url": "https://www.youtube.com/watch?v=utyAuDvC6DI",
+      "timestamp_seconds": 198.5,
+      "segment_start_seconds": 194.5,
+      "segment_end_seconds": 281.0,
+      "confidence": 0.9,
+      "method": "level_dialog_then_stable_moves",
+      "level_type": "standard",
+      "tutorial": false,
+      "tutorial_method": "ocr_instruction",
+      "flags": [
+        "calibration_batch",
+        "needs_visual_review"
+      ],
+      "ocr_text": [
+        "Goals",
+        "Moves",
+        "24"
+      ]
+    },
+    {
+      "level": 25,
+      "board": "levels/level-0025.jpg",
+      "source_url": "https://www.youtube.com/watch?v=utyAuDvC6DI",
+      "timestamp_seconds": 287.5,
+      "segment_start_seconds": 281.0,
+      "segment_end_seconds": 425.0,
+      "confidence": 0.9,
+      "method": "level_dialog_then_stable_moves",
+      "level_type": "kingdom",
+      "tutorial": false,
+      "tutorial_method": "ocr_instruction",
+      "flags": [
+        "calibration_batch",
+        "needs_visual_review"
+      ],
+      "ocr_text": [
+        "Moves",
+        "36"
+      ]
+    }
+  ]
+}

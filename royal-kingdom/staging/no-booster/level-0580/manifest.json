@@ -1,0 +1,33 @@
+{
+  "game": "Royal Kingdom",
+  "source": "https://www.youtube.com/watch?v=OQUmNNeQEFo",
+  "expected_range": [
+    580,
+    580
+  ],
+  "expected_levels": 1,
+  "captured_levels": 1,
+  "levels": [
+    {
+      "level": 580,
+      "board": "levels/level-0580.jpg",
+      "source_url": "https://www.youtube.com/watch?v=OQUmNNeQEFo",
+      "timestamp_seconds": 0.1,
+      "segment_start_seconds": 0.0,
+      "segment_end_seconds": 72.44,
+      "confidence": 0.9,
+      "method": "explicit_initial_frame",
+      "level_type": "dark_kingdom",
+      "tutorial": false,
+      "tutorial_method": "ocr_instruction",
+      "flags": [
+        "calibration_batch",
+        "needs_visual_review"
+      ],
+      "ocr_text": [
+        "Moves",
+        "26"
+      ]
+    }
+  ]
+}
