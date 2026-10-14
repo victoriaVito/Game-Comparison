@@ -1,0 +1,5723 @@
+{
+  "game": "royal-match",
+  "range": [
+    13001,
+    13500
+  ],
+  "status": "prepared_not_visually_reviewed",
+  "requested": 500,
+  "available": 500,
+  "missing": [],
+  "sheets": [
+    {
+      "sheet": "levels-13001-13012.jpg",
+      "records": [
+        {
+          "level": 13001,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13001/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "bca8ee2f7e79740f81843f6182cad0b0e7d3238f6476926bf6023c45ecccf522",
+          "cell": 1
+        },
+        {
+          "level": 13002,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13002/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "a0e6d445dbe03bdc504086b5e986db2e14f9b9a04b2d2175ace34d1241190dd9",
+          "cell": 2
+        },
+        {
+          "level": 13003,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13003/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "df2f2b44b64ddbda8ecce6766346b1652df9ebcb782ac89d68d752157dfc90d0",
+          "cell": 3
+        },
+        {
+          "level": 13004,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13004/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "5339e646afaf5f9196079078d48576c3f193787cad5e110f4fbac89c664b51e2",
+          "cell": 4
+        },
+        {
+          "level": 13005,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13005/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "b6924aa05b9ee9ab86ac02bc4c731994d81206f0255d0aea40ffb8c5d370d577",
+          "cell": 5
+        },
+        {
+          "level": 13006,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13006/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "1c1badb073c3a0648e7c6d40abcfa260da477481cc02baa0176bb0724b4136fb",
+          "cell": 6
+        },
+        {
+          "level": 13007,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13007/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "bb70839b731c6014e72aa94662d105db83f5732688fe26d9e6957412fb495da9",
+          "cell": 7
+        },
+        {
+          "level": 13008,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13008/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "2f8ec04f9cd167808422387e5343a931f1206085c5f58b473cb56ea5369a5fac",
+          "cell": 8
+        },
+        {
+          "level": 13009,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13009/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "1d9363d69b5a9cb515278c1753c4a6940c8221daf6d072d5863a0753a009c585",
+          "cell": 9
+        },
+        {
+          "level": 13010,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13010/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "d835c320e2acc6ecbd82088d490b180f2525a12adb68af303e349803ee7f8373",
+          "cell": 10
+        },
+        {
+          "level": 13011,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13011/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "817e989a7bd5013126e4472c7b3829dcb996f1d7f05649f6ca80d0aec53cb06b",
+          "cell": 11
+        },
+        {
+          "level": 13012,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13012/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "cb6c8309324e9120dd0efead145b0ea469a67ecddac0475258a1be77ec98fe87",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13013-13024.jpg",
+      "records": [
+        {
+          "level": 13013,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13013/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "6a41584f0401bab621da44132ae41ccb643b674e0df54abd35467618efc57609",
+          "cell": 1
+        },
+        {
+          "level": 13014,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13014/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "6641197e533b41d40d7b3e65f1e4fea063499a17f31377c9fba99939d2525bfd",
+          "cell": 2
+        },
+        {
+          "level": 13015,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13015/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "6c9ee91ac65bd27d7ca95c54d912434c4059dce6db2d76abb422f92b9cbd5b02",
+          "cell": 3
+        },
+        {
+          "level": 13016,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13016/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "286bca9afedfb5997edbb329ddcef5393e5aafab742830806173df1e439a89ba",
+          "cell": 4
+        },
+        {
+          "level": 13017,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13017/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "0cb1a9fb95fc395ffb1352a290fe326066efea8b315e7dedc77d16af7b16a877",
+          "cell": 5
+        },
+        {
+          "level": 13018,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13018/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "109cc259802727cfef6fb3fc56c2c679df0f5e95a06c1149ecf51b17a1397765",
+          "cell": 6
+        },
+        {
+          "level": 13019,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13019/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "5941eca54d25be8d7b7deba9950051c2d463ce3f65ce2edf126653f5b5598e84",
+          "cell": 7
+        },
+        {
+          "level": 13020,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13020/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "bf67ebb64c81cf1ab2e57b616b69546ce0339e96d7827bf94d5b12a26a574cc3",
+          "cell": 8
+        },
+        {
+          "level": 13021,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13021/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "97e68173439c09883b4847d28e021ba0e4b9c7fd5b6dbb290c65d2982f7c2c81",
+          "cell": 9
+        },
+        {
+          "level": 13022,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13022/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "9f9bfea29d1b246057ede9d7295d2511abd3b305a0595eeba4b65bca36e500d5",
+          "cell": 10
+        },
+        {
+          "level": 13023,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13023/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "72ed3fb8c04450b7290bc29982582f8a939b222d5be870aed2ecd1cb0c0791d5",
+          "cell": 11
+        },
+        {
+          "level": 13024,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13024/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "f3d59f23b969cd756d22e3cd6b7eade50ab463a6582c36b57bb60b8c0c6554b1",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13025-13036.jpg",
+      "records": [
+        {
+          "level": 13025,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13025/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "4822fb0ae07685d7740af8f50365230d346d0b633a002872544d5b3cae46933a",
+          "cell": 1
+        },
+        {
+          "level": 13026,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13026/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "09206b9ec3fc9a064c69e8c8a99dec02fee312717af1b38b440fe5039ff318b0",
+          "cell": 2
+        },
+        {
+          "level": 13027,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13027/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "7138179873dc2b1c390b7c6e701e27ca45b41af54e983b611ee8be7a4128029e",
+          "cell": 3
+        },
+        {
+          "level": 13028,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13028/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "14574dd2e569680693d9f43d250cb65f00983edb5879f0bd0abe4ad71f8b66a4",
+          "cell": 4
+        },
+        {
+          "level": 13029,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13029/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "8240e7c2e52b00828cc5d440392444aaa9842c05148169ae99a1046db8293461",
+          "cell": 5
+        },
+        {
+          "level": 13030,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13030/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "7a5fad2503d9392060dd905c4e99296c5a4318dc8c47dd29c4a5c6bfffc3a654",
+          "cell": 6
+        },
+        {
+          "level": 13031,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13031/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "e923f7a75dff60b97a810a366294bc033e877b8fcdc5c614aaf0991d935fd29f",
+          "cell": 7
+        },
+        {
+          "level": 13032,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13032/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "ab1273172f59185938ddf440fbf4779b050ef1e94f65749f27c8dfce3d8e15c9",
+          "cell": 8
+        },
+        {
+          "level": 13033,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13033/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "8f9ffc21ac98f8992e1ee3446340603c6fbed6e0a68667dae1f094d9c81bff70",
+          "cell": 9
+        },
+        {
+          "level": 13034,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13034/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "d0c79b49ce580528601a897e7af005f6e449bd642ddabc6e0255011223b90cf5",
+          "cell": 10
+        },
+        {
+          "level": 13035,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13035/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "10391b262b1abbf6c8fbef07fe1309913ffaaf1712e85cfb3f7a7ce2cbc73ad6",
+          "cell": 11
+        },
+        {
+          "level": 13036,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13036/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "2b1fe7e30a8f3c0e46cf0f0658ccc0c426fecfb7db57216054884a49ade54d6f",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13037-13048.jpg",
+      "records": [
+        {
+          "level": 13037,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13037/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "17c57beb57921b1c9c03f3aff14f504e3239481fa92ada536b5772054306e7d6",
+          "cell": 1
+        },
+        {
+          "level": 13038,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13038/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "d14eca181707807b6e73dba1f8dab348b3437842a7ed536af95dd1769c231e35",
+          "cell": 2
+        },
+        {
+          "level": 13039,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13039/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "1b99b18143bac8b047aae05c813067f0b8208cb56882ab7ad8db8e3d3351fa32",
+          "cell": 3
+        },
+        {
+          "level": 13040,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13040/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "be201ea45c78012acb2a0ac03243be133f39137a2913d266c439f9e9c63f8d51",
+          "cell": 4
+        },
+        {
+          "level": 13041,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13041/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "4336b0c75c65c52861b4ee387800b2778fa25a15220f5b50185cfe6187b91d72",
+          "cell": 5
+        },
+        {
+          "level": 13042,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13042/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "b82add2ba16aab478ddaa70151f3a3387e10615bd3e693cd951b9bcb872eb38e",
+          "cell": 6
+        },
+        {
+          "level": 13043,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13043/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "1884b75d1914407dc1d306d3a415716075b3d3d89bcaccc7abb6447a52a85d08",
+          "cell": 7
+        },
+        {
+          "level": 13044,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13044/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "95a2ed1468eceaad96b2f5738763601f881252506cdbe220cf8b681f16f6e8b2",
+          "cell": 8
+        },
+        {
+          "level": 13045,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13045/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "dbee66774d7f7eb7dae5f61aa478f09220946187b129dcbc5ecdecb06aeddabd",
+          "cell": 9
+        },
+        {
+          "level": 13046,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13046/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "2c51e719662b04d4c180d206559578b4f325dc50e23486d9d8583402ff2336ff",
+          "cell": 10
+        },
+        {
+          "level": 13047,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13047/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "1fb3be7f81cc1ad2d2e6c2f74736697e064dfb8dc58d82df64f212de972da670",
+          "cell": 11
+        },
+        {
+          "level": 13048,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13048/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "69196220edf903b416deb95e6d7fa1cd9430726fd0162f96bde112a4b5cefad2",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13049-13060.jpg",
+      "records": [
+        {
+          "level": 13049,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13049/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "028d1738486803d601903e1c169b122525c36b9194f6a84884b2831a16ba4af5",
+          "cell": 1
+        },
+        {
+          "level": 13050,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13050/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "0fd93be390d5229f5e958b7dd722deac7dfddb0c3446421bbd8acc63ccec8693",
+          "cell": 2
+        },
+        {
+          "level": 13051,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13051/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "682f4ac01447c1a59fa3597081c1b150eb1934a320d085ab91575e19e6f59bba",
+          "cell": 3
+        },
+        {
+          "level": 13052,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13052/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "7f7718462dd26dc77efa5719c5e3fdd2e284bb46f5501c4a4678428ac1f75e93",
+          "cell": 4
+        },
+        {
+          "level": 13053,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13053/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "e2e958b398a2e75c42c61406f996473cbe0eecdce08654d01a870f0288841c97",
+          "cell": 5
+        },
+        {
+          "level": 13054,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13054/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "51a0f2477ca85979044e5e0b85282990a933b4efd2bc4f3832ea861c63558066",
+          "cell": 6
+        },
+        {
+          "level": 13055,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13055/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "21aae13913cb5b499b9d4872f162d40561dd118db92ce8a65d0463f821021d93",
+          "cell": 7
+        },
+        {
+          "level": 13056,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13056/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "0d81528b534caf403ae2b9792cf07d4b691d47e00caa3832869ef3f116beb73c",
+          "cell": 8
+        },
+        {
+          "level": 13057,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13057/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "36a92cc1a6f1cb040accf289ec09af3406d425bbecdad776c2d59023d5d70cec",
+          "cell": 9
+        },
+        {
+          "level": 13058,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13058/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "ba834524d22980444a129ebc4909904df2d420823fdad6d7a9ea01eaa5a67609",
+          "cell": 10
+        },
+        {
+          "level": 13059,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13059/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "9e6150a29eae8b4424364cebdaf12486b946793ad5fd1ed3fcff4e4828af4cb6",
+          "cell": 11
+        },
+        {
+          "level": 13060,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13060/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "107edde4f3c8509fe95c1a5f75cc347dbbfd5657c91bb94c9efb0cf625c6a699",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13061-13072.jpg",
+      "records": [
+        {
+          "level": 13061,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13061/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "7d144f7b816fb4e187c95c03cf6a731423ba3753b8d18b91a25d9504aefbe6e5",
+          "cell": 1
+        },
+        {
+          "level": 13062,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13062/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "df2b89bf7f16b4df9ecfc063f5e779824bcf4b8d41a267013a3386da3333e6c6",
+          "cell": 2
+        },
+        {
+          "level": 13063,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13063/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "8d2e74c536c1987fb14dffc2d34525015ea352aee9711c68ae3add246833d603",
+          "cell": 3
+        },
+        {
+          "level": 13064,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13064/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "fdd2f7db312b9f1892df6a1bb2072cd162dbf011f126b9a7c5039f5b186b36f2",
+          "cell": 4
+        },
+        {
+          "level": 13065,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13065/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "3b2d3d8a4a8220f468237def74612423692ff8b83ea2ff122effb8f6a3c9a9e1",
+          "cell": 5
+        },
+        {
+          "level": 13066,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13066/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "3c6cd34cbd51c82b139884ab130077fe9ca134bbe12f2817269b326016e656f3",
+          "cell": 6
+        },
+        {
+          "level": 13067,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13067/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "a64198b7b15deb403ab103bb78da5b3cade604596013ed8767eda173ebc52f41",
+          "cell": 7
+        },
+        {
+          "level": 13068,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13068/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "27337fc9b4957ec044f579d93d70a28a0158692c365de86409da54049b9f0e1d",
+          "cell": 8
+        },
+        {
+          "level": 13069,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13069/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "5aedc2aba3cab59317302075c06fcc39b729dc1ad44f1ae909bb5180f6ee926c",
+          "cell": 9
+        },
+        {
+          "level": 13070,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13070/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "b089238f0bc195c251136da677ae7aacca5c524b99a6883efe8fe95bdac00f68",
+          "cell": 10
+        },
+        {
+          "level": 13071,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13071/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "f9803a5f44a9cdc0d8d4f74dd545622ba6c082dbf39ec35479ee19f3e7709e97",
+          "cell": 11
+        },
+        {
+          "level": 13072,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13072/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "5c17c8c88370f73cb342eab3ca6989d31f9262d2ba37dfc6d95ed729b0455dbb",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13073-13084.jpg",
+      "records": [
+        {
+          "level": 13073,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13073/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "b953735f5f3ad8863784a58475316d040c020de309b4bd11a88e0104936b779c",
+          "cell": 1
+        },
+        {
+          "level": 13074,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13074/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "4d3d72d9d472ec4917d141638bf88e32a60e0dee2ba09be782b91e9f59e544a8",
+          "cell": 2
+        },
+        {
+          "level": 13075,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13075/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "778fa928943a294b87eb53dec53d310e2e1f812dece407ae355cfc5a3b2311b1",
+          "cell": 3
+        },
+        {
+          "level": 13076,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13076/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "8784216259e5569cb2cc6bfa364174e77b91437a06630c8b12055bb7e7f819ae",
+          "cell": 4
+        },
+        {
+          "level": 13077,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13077/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "931dc33960eb6568da4911353f938344fb58eecd26b718ba35e41767bbc2695f",
+          "cell": 5
+        },
+        {
+          "level": 13078,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13078/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "dcb1c1b2d9eed6c989fc4e29f7e73f771061b780b7e97e8f9cc508eca889c8cb",
+          "cell": 6
+        },
+        {
+          "level": 13079,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13079/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "127f34a488bf4ee182749f84e3a86db87d487df0ec2ef54b3927119773b6cac1",
+          "cell": 7
+        },
+        {
+          "level": 13080,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13080/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "41010b4183b5fd027628a976b702398402e075d28360491764d6bad1fe6c3da2",
+          "cell": 8
+        },
+        {
+          "level": 13081,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13081/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "6bb2fdf06800022f1fcc5cb3f6ab677814cf65945c2bb9a969990f2899652aa8",
+          "cell": 9
+        },
+        {
+          "level": 13082,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13082/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "a51a3dd45e8417d66dc7fe9440f71b5f79f9907f1825a7e958403868f911896d",
+          "cell": 10
+        },
+        {
+          "level": 13083,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13083/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "bfbb9b579ce07fc226f068a77f1ca835f2fbbe530a7b489ceaee23492af9013e",
+          "cell": 11
+        },
+        {
+          "level": 13084,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13084/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "86251baf98e5943b76199e0f9ed63f66f28c33402377c429dd9fbc08f038e0ef",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13085-13096.jpg",
+      "records": [
+        {
+          "level": 13085,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13085/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "35387298f7f0c266a6e72fbb8571714513787a27c90484d42c18e40529143b78",
+          "cell": 1
+        },
+        {
+          "level": 13086,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13086/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "c99a66a096c35a6a4cc6ebf8dc3310363ac9a29ea98abc053c819d0405ac3aa9",
+          "cell": 2
+        },
+        {
+          "level": 13087,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13087/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "f10a2ff4fbcaeafa2aa3adf079343bd31f1d29fee629174fbb2354314521b656",
+          "cell": 3
+        },
+        {
+          "level": 13088,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13088/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "4d4d3631f868dbb239f98182bb6507ddcec3954481f58cfa2c95844b9f356bd2",
+          "cell": 4
+        },
+        {
+          "level": 13089,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13089/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "60857563ef80386941f2e5b7779d7ec2e9888c05effdb6e1488a6f7dceb8720c",
+          "cell": 5
+        },
+        {
+          "level": 13090,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13090/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "00d43893634d3285691f3797f80e6ee69a5b0b785c7221a1153fd54021527ca5",
+          "cell": 6
+        },
+        {
+          "level": 13091,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13091/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "6147d884cf8fbbc93ef70a790b91900bdae376df7612def22244ee5ccc716ff7",
+          "cell": 7
+        },
+        {
+          "level": 13092,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13092/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "ffca9c0a62324aa5f2cceb83f3777884303cb73276f2b1bef37fa05cc9e778c9",
+          "cell": 8
+        },
+        {
+          "level": 13093,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13093/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "b3a4177b72a94c1a0c1f10b352c86591c1da7ab72e4e7ffda0bd71037ad00fcc",
+          "cell": 9
+        },
+        {
+          "level": 13094,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13094/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "3ed8edea8f3f859251cbf1c4bb756678828a29e862232b0d607c6ad612f275c6",
+          "cell": 10
+        },
+        {
+          "level": 13095,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13095/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "e5483d99912f9c0073ee0c447e31d608736051180e0b35aa5689e514b041a5d8",
+          "cell": 11
+        },
+        {
+          "level": 13096,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13096/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "8e39e53459d06960cc34513132b22f7ba69b1c38e472adc64503bd3f965ff918",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13097-13108.jpg",
+      "records": [
+        {
+          "level": 13097,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13097/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "32eb4b7ca820779149f900a14bc793392812bc17159cc62dfe8000eaeeba0dd5",
+          "cell": 1
+        },
+        {
+          "level": 13098,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13098/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "ca51146d78000f0e41cb5856c961755d7d80d51537628dd714207507c8cfdab3",
+          "cell": 2
+        },
+        {
+          "level": 13099,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13099/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "137267498542ea255313cf5c895bb31341d0e6cbb0fd0f67a22e6b7dd8bc976a",
+          "cell": 3
+        },
+        {
+          "level": 13100,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13100/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "7c505c303621d78c742ac6d57dce5ef4334a4ae44ca72501b3ae0bfbe95e8d2e",
+          "cell": 4
+        },
+        {
+          "level": 13101,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13101/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "7a8a94a70faf0f610b38e03814203f4afe3c3c4e4f44271f7c5077f419bdbad9",
+          "cell": 5
+        },
+        {
+          "level": 13102,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13102/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "193faaed9df64fdb969599e067a266816654a30dc6f02f8a8d76b2d812a6660f",
+          "cell": 6
+        },
+        {
+          "level": 13103,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13103/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "726afa32da5a24a244efa6e82aa302434b8840cbc389329195da88e10f7ab2c3",
+          "cell": 7
+        },
+        {
+          "level": 13104,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13104/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "b875cc8bcb03a2ec9ecb29d16d127236e216886dd983eec5272d6fc1a7f2edf9",
+          "cell": 8
+        },
+        {
+          "level": 13105,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13105/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "30c9ca9c09d07635182b1fdcf10c2bd1c2804e3e9c08dec7c0191e5f73498382",
+          "cell": 9
+        },
+        {
+          "level": 13106,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13106/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "324a7de2f3c211b67af5e3091826837f4c7c4bbc4c2d041a7d8cd7bc8395c3bb",
+          "cell": 10
+        },
+        {
+          "level": 13107,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13107/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "cf982eaeb1f2e614b5d08111027ab968f1badb2c97db57bfa81e5105fc357284",
+          "cell": 11
+        },
+        {
+          "level": 13108,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13108/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "a0211ecded7246eeb68de14d2f403b8d7e54e8ead79a59406732a1d55df31386",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13109-13120.jpg",
+      "records": [
+        {
+          "level": 13109,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13109/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "5120d0a102743299c49fd216a83cf6df3cfbd6841f8ec161b0ece2bcc75e36e9",
+          "cell": 1
+        },
+        {
+          "level": 13110,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13110/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "114fbdb807433531b40a16796c1c43b30352ae7fcf2293ce4791503170bf3bbc",
+          "cell": 2
+        },
+        {
+          "level": 13111,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13111/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "6ce8678ec1b7e0fa2c8ec7e9bfb8aea49b2f54bacb6005e9777b952fb6ef9383",
+          "cell": 3
+        },
+        {
+          "level": 13112,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13112/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "527d1a06046c3d4f303760960768665b95b1044b56764e96340f269a3cdc7e39",
+          "cell": 4
+        },
+        {
+          "level": 13113,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13113/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "cfedea5c19fe944e98471fa71d35e4bf2ab4574be38bc7d49872510849cc187b",
+          "cell": 5
+        },
+        {
+          "level": 13114,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13114/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "fbfb7334a37e915f7a7386bcaf9124d5fdcc9dcc9dcd189a83f9a2c150b1c408",
+          "cell": 6
+        },
+        {
+          "level": 13115,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13115/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "7b92770883b396d8c6e6893575721222ffdf98ffce338e95b7555cd309e5fd67",
+          "cell": 7
+        },
+        {
+          "level": 13116,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13116/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "6a534cabb4f1109c2aea207497b0e64cf9cdbb6d3902047308b4dc17ba5436b4",
+          "cell": 8
+        },
+        {
+          "level": 13117,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13117/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "557c6424404e763c5e4bc838188e8439e1e4ea61a822bcf9232546a979054eb3",
+          "cell": 9
+        },
+        {
+          "level": 13118,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13118/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "6f42193186298344ec273d20d6a2b0ef8a93021115aeabc240a15e56ddfd3048",
+          "cell": 10
+        },
+        {
+          "level": 13119,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13119/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "5ed6e70cfeb9580edde3d976c1d10cfd518cb52dac1e82d38522c08cdc11c28f",
+          "cell": 11
+        },
+        {
+          "level": 13120,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13120/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "e82e171a5abc6f8f849e07d2c359b38d682519dfc853561454cf07c0558e2a54",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13121-13132.jpg",
+      "records": [
+        {
+          "level": 13121,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13121/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "32d3f36acbab05f4a8ca461110f908e04a400ddc5018fd9c1faebfd5089a11be",
+          "cell": 1
+        },
+        {
+          "level": 13122,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13122/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "10ed75a5b78f1e280d6e5ad0474d6c4862fc649c5178eefef787bb215c99da8d",
+          "cell": 2
+        },
+        {
+          "level": 13123,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13123/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "83e2e4501404b085d9f2d410cdff20e9dd38b8fec58139f8821c0f41b36cba76",
+          "cell": 3
+        },
+        {
+          "level": 13124,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13124/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "98c1e5c1226e0ade3b790a3a086f97f6a4a62e5ebf22111e2f93d1fd5e5740f3",
+          "cell": 4
+        },
+        {
+          "level": 13125,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13125/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "4e88dee29338cb364588ec9a875fee858918c221546f81d280ac258626c3512e",
+          "cell": 5
+        },
+        {
+          "level": 13126,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13126/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "c6d553d56a4fa1dccc820f50b4e8c3c59f11a5654972aec2d800739c00e69d9b",
+          "cell": 6
+        },
+        {
+          "level": 13127,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13127/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "30b72c8cc0d74b749a63e398a116071fc890c6c88501c4ef001a5156ed15b28b",
+          "cell": 7
+        },
+        {
+          "level": 13128,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13128/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "74984dce478cea9a11c3ef11c8c3066408aff6e2278c58025279d99a08a61b52",
+          "cell": 8
+        },
+        {
+          "level": 13129,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13129/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "c0f49570946568f81b41509bee70c0cff247d53ab41cc8e54db711f04859ead9",
+          "cell": 9
+        },
+        {
+          "level": 13130,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13130/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "260ac259148ed29f0ace9e3f7dec887c42cbeb1368f39e4977971837fc85d8f6",
+          "cell": 10
+        },
+        {
+          "level": 13131,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13131/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "e66425f7b4616c5fb7db38e7db859b780cd2c82cf9adfb056a99a44450415f82",
+          "cell": 11
+        },
+        {
+          "level": 13132,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13132/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "4190f5509ead080046da7d9a1a8dd686f82afc4ed32d60b929719384cf30d94d",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13133-13144.jpg",
+      "records": [
+        {
+          "level": 13133,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13133/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "d5ecec87cc757eb32d14b83c1b6fa52e36c2cdb899234f0b429213b7296209fd",
+          "cell": 1
+        },
+        {
+          "level": 13134,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13134/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "5c22fce8be93a9b93e144440179c7c5583b8de0d25283f9c797a1b065ac8e1ba",
+          "cell": 2
+        },
+        {
+          "level": 13135,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13135/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "58af6b2fa15c5c1c501da7c479bfb433cf491b79565f31cbfb2715f01ab40701",
+          "cell": 3
+        },
+        {
+          "level": 13136,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13136/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "12d84d394caf6b7c005c110792b8c109045cd02d088c4888bda970c832087525",
+          "cell": 4
+        },
+        {
+          "level": 13137,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13137/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "ad208a8ac858e199f18ba3a1a6d0f1fc9db33da7911c27ce7ee4df3d6800e355",
+          "cell": 5
+        },
+        {
+          "level": 13138,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13138/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "79e81f17242ae0f840289ae5454abe669f0bd990fc6960e95f40b91abc5d8eb7",
+          "cell": 6
+        },
+        {
+          "level": 13139,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13139/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "2b5e9e51b81f76e98d1b4d39c223725dbb70dda7abaf35a4d497b52291263750",
+          "cell": 7
+        },
+        {
+          "level": 13140,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13140/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "c29d4d67eab44e8e6188e9936447c1cea58ca895a9c205e5395ce1190696aa20",
+          "cell": 8
+        },
+        {
+          "level": 13141,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13141/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "bf649ff1f493557c955f322bb78a82a8467a5d0f9df7318a0b06567d266807df",
+          "cell": 9
+        },
+        {
+          "level": 13142,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13142/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "912c4e40a46316f5e694a83919f90dd50c2794dd3e2cec58182c4614d511caa1",
+          "cell": 10
+        },
+        {
+          "level": 13143,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13143/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "5bd3373a07438f085243826aeb66584878e22b86f298a44c0e166d06302adc14",
+          "cell": 11
+        },
+        {
+          "level": 13144,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13144/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "3eba7959e9ee144aec8da3e615a8fb5760caac35eb55e073c7563b4fc47c2f8f",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13145-13156.jpg",
+      "records": [
+        {
+          "level": 13145,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13145/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "8cd1ef9d6f1629d84deb5b9d7b0aa99250f6f19f8949f4d0c425498aa10a25fa",
+          "cell": 1
+        },
+        {
+          "level": 13146,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13146/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "12f4be9ea6ff50160b8af55ae8081b30efca40dadc33637de921e64c20e05b6b",
+          "cell": 2
+        },
+        {
+          "level": 13147,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13147/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "2a7b377273e89e6c8e4a462910bce4ecb397f5bab11bba2c076885802b4b5a90",
+          "cell": 3
+        },
+        {
+          "level": 13148,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13148/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "5e0ef51010b52de63ef0b9010bd492e8698e7934bb4d152dc1c0f1d98e794592",
+          "cell": 4
+        },
+        {
+          "level": 13149,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13149/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "bd87ee17dd3cb4bc251bee1a719b6759d59912f1b7980f6c0f4649d4b671d825",
+          "cell": 5
+        },
+        {
+          "level": 13150,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13150/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "d2c918329d39e917ae8cabef8dc0e7a714254c52247dddf8c196b06635b5324b",
+          "cell": 6
+        },
+        {
+          "level": 13151,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13151/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "51c197eb7e2337dad5430ebb7c6534f806d4c348673a3d338553c1b6568fe678",
+          "cell": 7
+        },
+        {
+          "level": 13152,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13152/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "6ce36c86d4748c95f42c50ef92a5adc45b0bf633f1c579baa7f5538d67b4317c",
+          "cell": 8
+        },
+        {
+          "level": 13153,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13153/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "1421ceb4b3d6d5f8e327af5a5dfac8c19817f018b188f9ac4fc325441dbee2da",
+          "cell": 9
+        },
+        {
+          "level": 13154,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13154/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "1a8784d708c5daa02f04cbe64d886bb0029f711f53606982cc5860858ac2adde",
+          "cell": 10
+        },
+        {
+          "level": 13155,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13155/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "6f4df1ee5ac8c9884c8e44432720b4a0eb8c443ea9eec9ab6e89ef327f458321",
+          "cell": 11
+        },
+        {
+          "level": 13156,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13156/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "15f518813de29ee8ec294c55a61bf46c63bb272155ba4b2847cbab586748903e",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13157-13168.jpg",
+      "records": [
+        {
+          "level": 13157,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13157/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "ee618a13bef74259bd83ca5148eb4f41429e6b3f31d47ff179e8ba3c34f91869",
+          "cell": 1
+        },
+        {
+          "level": 13158,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13158/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "22d154e46e42341f07346ceea2143828eb8bc1fae3bab4ee6195540991fe0efd",
+          "cell": 2
+        },
+        {
+          "level": 13159,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13159/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "138c77a9276d907d6889a76bb6d79a53f49d756e098d623f22da41f202f2517e",
+          "cell": 3
+        },
+        {
+          "level": 13160,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13160/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "498514160f462b55e727fc1f848ad660caaf4f6aaf1901ca745cf75083943002",
+          "cell": 4
+        },
+        {
+          "level": 13161,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13161/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "2d8661d657ed2ea154dedd419f7b3ce3c05c743a1350d5c347b95041ef6135f0",
+          "cell": 5
+        },
+        {
+          "level": 13162,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13162/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "b5d44db05ce424a6395dbf8ebc4c78dad354e4963a234ce70a41ecfd8f980380",
+          "cell": 6
+        },
+        {
+          "level": 13163,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13163/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "7d08134401a40d0e0d94adb0c29c411026c13e14664977decc095d52148acf6f",
+          "cell": 7
+        },
+        {
+          "level": 13164,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13164/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "423c88d52b3fedcac849026a57e966d909ee966ad0c839ac2827deb29c309cd0",
+          "cell": 8
+        },
+        {
+          "level": 13165,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13165/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "aec9145b9b841070c099d5f051e6dc821c6f83378b640e019dd623962a361905",
+          "cell": 9
+        },
+        {
+          "level": 13166,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13166/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "d5c1821e1825dc9b26985ebead0a25e132d9e3344bea8cad3f02cbc34042d353",
+          "cell": 10
+        },
+        {
+          "level": 13167,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13167/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "9bc8b8809ccdb6c0e53232d12e31bfc727aa93f17c58b6863b1b2c89afaf9dd6",
+          "cell": 11
+        },
+        {
+          "level": 13168,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13168/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "c4f04e726d8844552f33196b2f5845471910ec5ea1fc88c618ebe9fe21b98c5f",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13169-13180.jpg",
+      "records": [
+        {
+          "level": 13169,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13169/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "33fa7de7bfbd1119c656f29a246d4075ef78ef99d7523356b22a7c1a4a75b6d6",
+          "cell": 1
+        },
+        {
+          "level": 13170,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13170/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "de0925beaef6d5a27ce926ebda5652611e03b4280a93810528ba825e1b1c8a75",
+          "cell": 2
+        },
+        {
+          "level": 13171,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13171/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "21a507e2ccac8d590c8efa130697018f72ec38d5392521502984547f133b549c",
+          "cell": 3
+        },
+        {
+          "level": 13172,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13172/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "e8e4eff47d065d76bfd8f2e094c2f1afb45b99d24be76de8588eacc7bc18cd71",
+          "cell": 4
+        },
+        {
+          "level": 13173,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13173/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "0289cdcc79b57048e22a22721b9095d57c0f9c8eb5a3c0f5763730e8f8fe3b70",
+          "cell": 5
+        },
+        {
+          "level": 13174,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13174/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "da5996625869bba6af234efb2585f507965efd9afbb9845c666d61ab93dc0961",
+          "cell": 6
+        },
+        {
+          "level": 13175,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13175/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "5df9d24e4cb852fac6821104e252160f5e0dcc3febcc3e5e1344e6793bca345c",
+          "cell": 7
+        },
+        {
+          "level": 13176,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13176/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "421a9590280ba3c18404f64faaa6e9d8b94a5285c689936905fda11036ef37b6",
+          "cell": 8
+        },
+        {
+          "level": 13177,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13177/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "d67afd5e951a5cc04b6f4dd3d973edf9f9df115b88a01b98c8dbc9003ee658f7",
+          "cell": 9
+        },
+        {
+          "level": 13178,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13178/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "681defad0c2f1d71e592290fd330593e3d8a759326c371357bd7adc5a402728f",
+          "cell": 10
+        },
+        {
+          "level": 13179,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13179/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "e769ad3a30a25d2b083e15a1b05773aeba978a4dd2de070961f70f0d2699b7c1",
+          "cell": 11
+        },
+        {
+          "level": 13180,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13180/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "c4ff5991743384a612f96fa5bd0ded7e6d28101d9a253bef00397778d451a438",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13181-13192.jpg",
+      "records": [
+        {
+          "level": 13181,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13181/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "d5c9ca1fe69604983ab3e7950337e5f474fe76a3b41261b70897ed6ac1c2105e",
+          "cell": 1
+        },
+        {
+          "level": 13182,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13182/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "9799ad42ec4e07c5cc87637653107dcb3fb56d908dabf074d037e675a990bbe5",
+          "cell": 2
+        },
+        {
+          "level": 13183,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13183/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "c4903f0faff0eedbc34bd61649e7bd7ccd4b9224586f084b58cd13bd01a0c9d2",
+          "cell": 3
+        },
+        {
+          "level": 13184,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13184/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "036250854e5d2d0b45a28698a0f38e973a5d2d7b80d94bbefa1e85c0e8309e56",
+          "cell": 4
+        },
+        {
+          "level": 13185,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13185/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "fc47fc7009310e52caa71e7fb4d24ffd6df61c03a1147380d9515e188ef2a7b5",
+          "cell": 5
+        },
+        {
+          "level": 13186,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13186/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "7561fef8a04b9317003e39a2e60f951c226f915f95c8bcb3efef4524a86958c7",
+          "cell": 6
+        },
+        {
+          "level": 13187,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13187/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "ebb91356b8c794b95d7ba26930220ebd497dc85017e28a8acddb6d7bcfe1bec0",
+          "cell": 7
+        },
+        {
+          "level": 13188,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13188/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "120c6c64511f391546ad4beccda29d00cfae12966ef7544a066bed643d4c174e",
+          "cell": 8
+        },
+        {
+          "level": 13189,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13189/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "dd0ba8314e5cacbf0ff823c5caabefd868077739e23e26b723f87af800cc6f64",
+          "cell": 9
+        },
+        {
+          "level": 13190,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13190/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "3a5a9642be571d10e0ce014e53daada4857e49f03126c68252d36908291a86be",
+          "cell": 10
+        },
+        {
+          "level": 13191,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13191/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "8f1e7ae621721dfdeb0abdfccc70dfd8bc52515f57751b0594fd1a667579f818",
+          "cell": 11
+        },
+        {
+          "level": 13192,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13192/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "c104a45cfa00a5b2940e4370592586846c0a02b9d1ce4f2e7e58b7ec2ce53e1f",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13193-13204.jpg",
+      "records": [
+        {
+          "level": 13193,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13193/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "47077513550c049df8a0cf644e6b84d58343f47c2ac66776b59aaa57d23212b7",
+          "cell": 1
+        },
+        {
+          "level": 13194,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13194/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "fa6e2b010ba3fe2787098e533d1f3676ab6388b3463395a5815b50ed3372529a",
+          "cell": 2
+        },
+        {
+          "level": 13195,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13195/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "2a6dccac04329bd6784eb7143e079ab6dcc2d5e67cca3ba33e88bf40cbe6ae4e",
+          "cell": 3
+        },
+        {
+          "level": 13196,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13196/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "b07e52e365967925f2b831bec63aca728178b13f21ecfdda90072b5c19e5dac9",
+          "cell": 4
+        },
+        {
+          "level": 13197,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13197/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "eca10a02d005067bf8af865675ecf983be7994f5baab1ba5c620a6f97e7e6de0",
+          "cell": 5
+        },
+        {
+          "level": 13198,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13198/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "d2d563b1725ed0ca1c7af8db3abe3b4d24702a08ee977a04761af521461dd870",
+          "cell": 6
+        },
+        {
+          "level": 13199,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13199/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "5673fd18dd2b81c10c1724832a0f86efa4bc3a291ee64baec906fbc4c04051c2",
+          "cell": 7
+        },
+        {
+          "level": 13200,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13200/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "f9f23bd9b95bbfa408e4dfd96c88bbec8d9bd8104a191891977661d61330ffd3",
+          "cell": 8
+        },
+        {
+          "level": 13201,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13201/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "9cb6087e1d7504754fce5bad2c7940bdf468ef2c4a1e83f9d0ee7258ddb5b5e1",
+          "cell": 9
+        },
+        {
+          "level": 13202,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13202/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "9fa12b8ffae2befa658cd27a7c9380f70a2eb1f14008acf1d5eda07d8eda7635",
+          "cell": 10
+        },
+        {
+          "level": 13203,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13203/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "d56e3d7e8a678f19d8961be5c7cecb5d4bb475b49cf46345accf552c4aa02043",
+          "cell": 11
+        },
+        {
+          "level": 13204,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13204/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "95180d16b5c9009b675734906b92e1dba6b2935dbfa7f971351fa76239e62a22",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13205-13216.jpg",
+      "records": [
+        {
+          "level": 13205,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13205/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "c86f4423d107af42e22a5f974bc7cf9896e330fee35cebe0a4c083725af53b22",
+          "cell": 1
+        },
+        {
+          "level": 13206,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13206/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "f89b381980d0e4b85544904fd4aee2f6ce3489b53ef1ec6b039970bfe72f682f",
+          "cell": 2
+        },
+        {
+          "level": 13207,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13207/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "ee0faac142d8aee4573a675800fe8ec239c6f9d31ede794b7f942ae3c40672cf",
+          "cell": 3
+        },
+        {
+          "level": 13208,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13208/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "bc55f9ceb267d5a1310e9918e5a8ca2ef2023753c9a4486eb624aa593ec90009",
+          "cell": 4
+        },
+        {
+          "level": 13209,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13209/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "dbd4f0792202c9203ceef142fda721400cdc21402c4ffaaf37524c8a76617211",
+          "cell": 5
+        },
+        {
+          "level": 13210,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13210/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "3629fc8492207008b760c39e335b35f34445226fdebddc7d53ec26a242263abe",
+          "cell": 6
+        },
+        {
+          "level": 13211,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13211/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "28922110e0f5d5503dea680da62fa0afb6078e3497ae40f2e3f08ba693eef274",
+          "cell": 7
+        },
+        {
+          "level": 13212,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13212/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "72b74cfbfd32215c0aa5921aaa8023d9f2729418578c3d7b94caae14c29df3d8",
+          "cell": 8
+        },
+        {
+          "level": 13213,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13213/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "e0ba7cdaff6d4fba9a85cb050e476dab3f0641969770a2e38c2ddcecf03e171a",
+          "cell": 9
+        },
+        {
+          "level": 13214,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13214/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "768a94fa8b7d8735f7197844e84f1219af609c271387bb2aad8ca9ce0fd2bd57",
+          "cell": 10
+        },
+        {
+          "level": 13215,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13215/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "a90a4ee4ba27592f551b2f3205b91d70eda8e69d6ec83b1017c82549f2a01864",
+          "cell": 11
+        },
+        {
+          "level": 13216,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13216/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "6cb418342eb9d2884193d967103684edc72382153d8e5a4dfba6fdb56751379b",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13217-13228.jpg",
+      "records": [
+        {
+          "level": 13217,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13217/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "afa36ccc1a14e153dffffdba529b54caf6860f4694a0144d58496f8f126a4633",
+          "cell": 1
+        },
+        {
+          "level": 13218,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13218/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "96e2fc0b249a3a20c4981fcdb15187087362e1edcb301eb0f32ca3cf40f04b37",
+          "cell": 2
+        },
+        {
+          "level": 13219,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13219/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "dc71ad0412c402d99826ffc99b093382ad0e43cdaefa84f11d8248597ce3a26b",
+          "cell": 3
+        },
+        {
+          "level": 13220,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13220/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "6585ca5db8c8aef5ff96dc028fe8bdba5a5438c6f8c8da5a014f2c31172a1bb5",
+          "cell": 4
+        },
+        {
+          "level": 13221,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13221/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "758ed8421dff34a8e5cda7cf92bf5c30dcdd0641af433d52741bacc8882da858",
+          "cell": 5
+        },
+        {
+          "level": 13222,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13222/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "a8a14ffaee87039de79e5dd0f7e6d90d8c1dec20faea3e59aa04915c2e176166",
+          "cell": 6
+        },
+        {
+          "level": 13223,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13223/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "3941c19c8f00040797edf33eea4b8612f2e6f1a91e0560a0e70730b0603dee48",
+          "cell": 7
+        },
+        {
+          "level": 13224,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13224/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "ffb5fe6342749bdd0e52f491358ccbc2d951d50d19aa3a199aa7f3499b39f37b",
+          "cell": 8
+        },
+        {
+          "level": 13225,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13225/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "3bc6b01f70f3c56bb89812414a5956dd05d9f1bc4d3a25ff8ee9ae0e7344034e",
+          "cell": 9
+        },
+        {
+          "level": 13226,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13226/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "169b6347cd330a8f081e13c125d2db75be435315316894d66c6150e7255e8426",
+          "cell": 10
+        },
+        {
+          "level": 13227,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13227/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "a8ad0ab37810e233ac7cbe98ee3986de1145baf31e0d093e12b413447d55107a",
+          "cell": 11
+        },
+        {
+          "level": 13228,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13228/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "e5330eb20d2c0a172845a4cabe61af5f8c54a74effc774a73cef98ad4aaf9f66",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13229-13240.jpg",
+      "records": [
+        {
+          "level": 13229,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13229/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "35a7ea8679c2d528386da4673e8860846515abad94081f019caf678d4c8234b4",
+          "cell": 1
+        },
+        {
+          "level": 13230,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13230/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "1621f04d3fb216216545fce9cebb75a1ea854364adffeaa751e18d45c618c0a3",
+          "cell": 2
+        },
+        {
+          "level": 13231,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13231/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "a68b7ee5f755244fecb8738a5a81e3fd465c57a943dbf4ad1a87282f6f092ed5",
+          "cell": 3
+        },
+        {
+          "level": 13232,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13232/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "99d9cba35267bd2faab22a160068114d39583deb391c073983163822f23f94d1",
+          "cell": 4
+        },
+        {
+          "level": 13233,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13233/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "88652bbb939dfa9deb1a919dfa744b494a843b5af7590d163588e46f00324a84",
+          "cell": 5
+        },
+        {
+          "level": 13234,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13234/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "94db17523b4b445ebc60858bead78963ec186a634ad471423463fc784e709e45",
+          "cell": 6
+        },
+        {
+          "level": 13235,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13235/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "eb8394f264bbf629fa6c9d06bfbe93514a52989726c7012399fb11c37202e7aa",
+          "cell": 7
+        },
+        {
+          "level": 13236,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13236/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "68b4e3653510324ab913525bebf9e8586ff2cf0dc522ec7a0a5d29f8a48cb3f4",
+          "cell": 8
+        },
+        {
+          "level": 13237,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13237/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "f9b43079018b12a3277f2094bad93028f80e7d3088cf3a390e541f9a63e68d07",
+          "cell": 9
+        },
+        {
+          "level": 13238,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13238/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "719ba9460a817ae6dcbabcb6358b2b1da474ae64365678303ca770094bd3a49d",
+          "cell": 10
+        },
+        {
+          "level": 13239,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13239/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "b7638e9cd58aba7280efa49719bf651f1180054f225598d9582a3b4d02d82d98",
+          "cell": 11
+        },
+        {
+          "level": 13240,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13240/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "2ef67ef3b8c6bb294d2b58e38f98579d1e69a9b23921a2405823a1d0e19199b2",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13241-13252.jpg",
+      "records": [
+        {
+          "level": 13241,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13241/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "59c0c721a906459c899edaea8e6fe7cded2f557460e6bc74ce72ecff15841edd",
+          "cell": 1
+        },
+        {
+          "level": 13242,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13242/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "653ea34031c12303a96db3394ff6e69c418d72529a649c507ee9c9c8e24ae0c5",
+          "cell": 2
+        },
+        {
+          "level": 13243,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13243/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "61cf53c1c035a997bb61d23ae9877c9fe6cf300e013c04eed24968a64d05cf3f",
+          "cell": 3
+        },
+        {
+          "level": 13244,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13244/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "f18daf1b278fa3cb2603285eb5eb7e492b5c694b8d4090f8ea47e36a7cf16924",
+          "cell": 4
+        },
+        {
+          "level": 13245,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13245/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "d390f6fbb1e31bab8ca77656b65223754b5e9be11fd53aa85b6c0e2804b09897",
+          "cell": 5
+        },
+        {
+          "level": 13246,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13246/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "01ecb92313cd2b72103bae1a60d235d4232b3f9c2b0e46f3952c675d2d3f0f1d",
+          "cell": 6
+        },
+        {
+          "level": 13247,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13247/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "ce98edb3cfbf26f03668fc3035002c8425d7324012a03fa6c272ee3e7be9a55d",
+          "cell": 7
+        },
+        {
+          "level": 13248,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13248/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "44fc5dcab25c428850e80c10e71fdfd34f702ae5a904593e07b22c13533790ed",
+          "cell": 8
+        },
+        {
+          "level": 13249,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13249/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "0fade2c30d63ada35d5ab97ace0ac65a4436143b3736b8c3aa1b38ff3ced152b",
+          "cell": 9
+        },
+        {
+          "level": 13250,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13250/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "dac37d9b6664b76eaf9696169392a3e82ead2a5c913cdb714d8ed8499bc51d03",
+          "cell": 10
+        },
+        {
+          "level": 13251,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13251/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "da2b3778ea2296298b862301d28dfbe8854bb0ba5f2cea95303296df9c8ee652",
+          "cell": 11
+        },
+        {
+          "level": 13252,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13252/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "9dce20ef46d1966fa78d46b16819b276e2c1c9348394bff7f0fb45b92922f03c",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13253-13264.jpg",
+      "records": [
+        {
+          "level": 13253,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13253/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "ae7799dd2e4ae847da47ca51c1390ade24b45e87b8323c0ca1427627e81cc08f",
+          "cell": 1
+        },
+        {
+          "level": 13254,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13254/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "477042bd8085186eaf8414678ea567517c0d4286a413ecc432bfdc8646ed5418",
+          "cell": 2
+        },
+        {
+          "level": 13255,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13255/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "8e5abff6972e84ee04535008a6dfaf34b6eae2900de1e9bbbfcf55294fb0f4bf",
+          "cell": 3
+        },
+        {
+          "level": 13256,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13256/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "30b37a869088b3465dd4fabdc99be8f5064da60fa951c9fad66f533ef0347ae8",
+          "cell": 4
+        },
+        {
+          "level": 13257,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13257/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "81d69835f2f9b5ff087052692fca4b4ab86e9a4e4b9a7e4364ab6fd7d9d2b46b",
+          "cell": 5
+        },
+        {
+          "level": 13258,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13258/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "891409b76df521ed33d1eda60c802f8836cbad8f7adc1a639c72a48f58d6e8b1",
+          "cell": 6
+        },
+        {
+          "level": 13259,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13259/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "45b06648245908c162b0441f50462db9a95a42117073b509b656611b7f460be9",
+          "cell": 7
+        },
+        {
+          "level": 13260,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13260/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "be226ed4259f40e34edb212780f73e48c47b56343eb04681b9c7b1e7b6f03e80",
+          "cell": 8
+        },
+        {
+          "level": 13261,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13261/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "c0a1ef04cb1927d2b0d8629a2bb21df8407ab15f00362dfa31914d7511901727",
+          "cell": 9
+        },
+        {
+          "level": 13262,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13262/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "bcfbc33bcc69a0f4383af50023516024816d591691a8ee144ddaee5c54e14198",
+          "cell": 10
+        },
+        {
+          "level": 13263,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13263/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "130d01a1f35754e49405503c8a73a72c2d4a014a9a143c6526873d3b2ef64aa8",
+          "cell": 11
+        },
+        {
+          "level": 13264,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13264/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "8d53f16b08d3501cdef76b4f1605f4f9b16cc3dab2277ada16de07f69ed0ba9b",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13265-13276.jpg",
+      "records": [
+        {
+          "level": 13265,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13265/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "0ab14d4f8fd6bbf779f0e9424ffa0427e2ba73739e0005999078199be5dadf12",
+          "cell": 1
+        },
+        {
+          "level": 13266,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13266/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "8f2dca7bf37999cfb6c6271ec16580510bdbc287cbe23645e57ad9beb02aee10",
+          "cell": 2
+        },
+        {
+          "level": 13267,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13267/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "5c0aff0080df610717ff88a32a343ff930e5da2d300a3cd09ae6d635c2a97ec2",
+          "cell": 3
+        },
+        {
+          "level": 13268,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13268/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "254e12feb92dad7babf94b5b12be08a4b852e8731673816922c3d3de6bb10177",
+          "cell": 4
+        },
+        {
+          "level": 13269,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13269/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "55af37f1c5583a2709a4223805010ebff960c6bc11c737c4dd9288aeeb9799f1",
+          "cell": 5
+        },
+        {
+          "level": 13270,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13270/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "ff6c25c7746c803d0c3b12bd4734d4c45b2a7d4f1bb86cfa5c94b72227e54a85",
+          "cell": 6
+        },
+        {
+          "level": 13271,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13271/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "fc397a0b259b01f120c6875949581f89a382c7759706d94b580d973bbf1f77d6",
+          "cell": 7
+        },
+        {
+          "level": 13272,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13272/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "d8d8b817a16b00e0663c84ecc063e2e1f0b3d80690769183b26fbddaaedb7b0b",
+          "cell": 8
+        },
+        {
+          "level": 13273,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13273/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "4ec0ce5a4f5863ae4b9d09185caa830ed7727a57a15156b04ecab45b949fbffb",
+          "cell": 9
+        },
+        {
+          "level": 13274,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13274/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "7b5cdf17b40ed3ea4b6caa5730546e2a4b1b1c54e556547a9c93e33d6b675033",
+          "cell": 10
+        },
+        {
+          "level": 13275,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13275/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "dfc1f73da9af44013472eddb90c09d8478bcb19e47d5616793e22ad8867d4249",
+          "cell": 11
+        },
+        {
+          "level": 13276,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13276/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "c23ae1ee2b0682e1916c015e0889dead6c918fac67a88f49418207c82eda5e56",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13277-13288.jpg",
+      "records": [
+        {
+          "level": 13277,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13277/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "56a702a5c30275b4d4d4053910d0f6dada09f978fafb0f1b96723d1a5d4a4b84",
+          "cell": 1
+        },
+        {
+          "level": 13278,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13278/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "de8e03b7cba3a76422a148cbc3e41f4ea6c4f855cbf32da66ed1ae66a1a9efef",
+          "cell": 2
+        },
+        {
+          "level": 13279,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13279/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "626baceb2f60283290c165ba356f67dd319281cc1e794ff11c1a27869d9ef397",
+          "cell": 3
+        },
+        {
+          "level": 13280,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13280/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "a76eb47d04cedb77652066ef6d4ee1e6ba4af917c166ae253313e1453a51b8d9",
+          "cell": 4
+        },
+        {
+          "level": 13281,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13281/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "2fb5f64905b7a232a87762910f863ec063acdba2d5c0fd80eecd47dbecb0262d",
+          "cell": 5
+        },
+        {
+          "level": 13282,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13282/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "67564bdc4fc301d08e5e8556c902371de11e69d2fcde3726aaae0979dd1d2828",
+          "cell": 6
+        },
+        {
+          "level": 13283,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13283/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "3bdd41530a5d5eba98ddd8796518b19cf04d18d67ad5140e6f1d187fe0614a2a",
+          "cell": 7
+        },
+        {
+          "level": 13284,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13284/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "163486bdd557a1962c8fd8b19721770c8b58897cda621e1f68f5801c204ce402",
+          "cell": 8
+        },
+        {
+          "level": 13285,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13285/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "6a8163980fe17ca0b19aa4e68991f49495d70e71a83745dc57e90bfbaf33f9aa",
+          "cell": 9
+        },
+        {
+          "level": 13286,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13286/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "ae37f61a542a998b8e8b8318b0b97dc8776871f5d27a29f8fdf82a35d6634b1d",
+          "cell": 10
+        },
+        {
+          "level": 13287,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13287/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "bc31ff07cb77871546b02aa5489ebf946f1e3b56d46f19b2166deb763c150593",
+          "cell": 11
+        },
+        {
+          "level": 13288,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13288/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "95665c78477ea99c1102f75ee072c88da71392d29b367688165b1fa575d6b44a",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13289-13300.jpg",
+      "records": [
+        {
+          "level": 13289,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13289/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "41cc2e29b03a939b1c67ea1299c78ecd16edd14a54c48f937d2b7533c53dc479",
+          "cell": 1
+        },
+        {
+          "level": 13290,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13290/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "875b4f21b67ec7e5a151e02f35ceb9117a737b79bcf3d758d3d73c22c620ff7b",
+          "cell": 2
+        },
+        {
+          "level": 13291,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13291/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "dc8d15dbe776a6927c06735e3422252bbeabff8715f48d4d7dbef890e9331254",
+          "cell": 3
+        },
+        {
+          "level": 13292,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13292/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "984aec262f1c028247bac6f7a2009b7a8480adf2bbddca3ad3379b8402d8db0a",
+          "cell": 4
+        },
+        {
+          "level": 13293,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13293/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "745145f82588bd8d9d7f8057d8c0ce2bd7c93a1f823e733c081fd2a4607ebb52",
+          "cell": 5
+        },
+        {
+          "level": 13294,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13294/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "d00bce73ecc60bb2e9d82712dac2cf7804b90c3308592b92121645b0c640902e",
+          "cell": 6
+        },
+        {
+          "level": 13295,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13295/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "bdccdb62a5dd40ab6817c5526ae51347bb2f53977f68d7c00dd9fedd2ab7a3ad",
+          "cell": 7
+        },
+        {
+          "level": 13296,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13296/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "82cc8ef9a4be5f110f298fde36158e908a29e190044a3d93d9b01a96e3f09719",
+          "cell": 8
+        },
+        {
+          "level": 13297,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13297/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "b155d163c561095562ae24e6d578baa88ba1f15163a74d8f4c26eaac3171cc67",
+          "cell": 9
+        },
+        {
+          "level": 13298,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13298/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "4e199a8670939f8b4bd35f3540dfbe2291dd072e2de14704a0e6068ab5141c2e",
+          "cell": 10
+        },
+        {
+          "level": 13299,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13299/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "03a7dc7abb066a1a53351178d66ce7f5f714d9196c8c9d2e6be23f6d4980f24b",
+          "cell": 11
+        },
+        {
+          "level": 13300,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13300/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "cb4db2ac4f69fae0381bb06c6f426ea72d4b0c8e886a5d8253fe5d5e817854f5",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13301-13312.jpg",
+      "records": [
+        {
+          "level": 13301,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13301/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "34aa0eb2bc46d0e6f51ab95fca318f1cf7fe0838e5d5b687427d995ee397d136",
+          "cell": 1
+        },
+        {
+          "level": 13302,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13302/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "0dd4bce35803bf178ddc554e6c99f039ccd7463728c6b52d931a574301fd800e",
+          "cell": 2
+        },
+        {
+          "level": 13303,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13303/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "3bfb60da664e036a8f093d0bf891b1771eb08b6d1b6565c6a83f3204a254412a",
+          "cell": 3
+        },
+        {
+          "level": 13304,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13304/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "bd1c34a49cc35d6ca1e568feddc423ba73c1969655cac12f2b8ec8c5225bbbcc",
+          "cell": 4
+        },
+        {
+          "level": 13305,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13305/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "5aedbe3caf82c04b77bdf19b6e72f3034d35b9ebd3d6ff1fdf5bcd3a9d76c0fc",
+          "cell": 5
+        },
+        {
+          "level": 13306,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13306/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "6a9e5897ec30adaac4c6e59690485e81afd48be47518a81663ac2fd97841f0da",
+          "cell": 6
+        },
+        {
+          "level": 13307,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13307/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "c67a6925f6c1848e9c1940f8050810f232e58b9c649db97061e4f0146cf0eeb2",
+          "cell": 7
+        },
+        {
+          "level": 13308,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13308/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "9500efa69e4187083ffd2d815d6904de6b08a68f71f3e7c17a09629c50a7f2f7",
+          "cell": 8
+        },
+        {
+          "level": 13309,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13309/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "3e214a67328972fb7802d6efcf7535925144bb772a9a496781caaecf9f045496",
+          "cell": 9
+        },
+        {
+          "level": 13310,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13310/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "20a6d6dbcbc8a014be20513b02c3576187132a725c70db62206e2e23083adbf5",
+          "cell": 10
+        },
+        {
+          "level": 13311,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13311/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "320c9121013aacc1048b58ca551bd1d1d12258ccefb495c37c7e48c08774b3c9",
+          "cell": 11
+        },
+        {
+          "level": 13312,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13312/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "b558db49d7c4e359a2bad1db9d411cff98f5760caec020ea1dacf4618dbd6440",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13313-13324.jpg",
+      "records": [
+        {
+          "level": 13313,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13313/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "37314355e2530f7d01e376cdb6d44dddb11e1914d77a5fd9740e5b6165c66c2e",
+          "cell": 1
+        },
+        {
+          "level": 13314,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13314/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "6341a4ffee1d240a65bb474f80a8784f8d15bfa18b10dac57840b1c9c6fa1e30",
+          "cell": 2
+        },
+        {
+          "level": 13315,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13315/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "d13a3cb198681a9b0e5b2a2bec9d3bdc9e40fb5a84c795f0830d60d0bde2da33",
+          "cell": 3
+        },
+        {
+          "level": 13316,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13316/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "05cfb4e1d697cc63cb28445c963f67b4783f4e7e0a8b3cda1d219d0e6396db92",
+          "cell": 4
+        },
+        {
+          "level": 13317,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13317/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "b8559202cba26cfbe30004327995512f33737866ccbfb550847312d95ac0aaa9",
+          "cell": 5
+        },
+        {
+          "level": 13318,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13318/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "84cb130c0a2820286ecb1ac2b09de6f982ffad6e49be2253025eb8fac01a2442",
+          "cell": 6
+        },
+        {
+          "level": 13319,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13319/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "f683dbb68aa31fcde584445005891388cff5618455fc46d1843913117b12417f",
+          "cell": 7
+        },
+        {
+          "level": 13320,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13320/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "4f4d98ac7bd41ce89ea1bc1d520747e9ca0f322565ff3bbbb53065b7ee6222e2",
+          "cell": 8
+        },
+        {
+          "level": 13321,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13321/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "e890369ce5617923090c8b6e05b2c68ee6f4ed41c72231680d4625371dd19dfd",
+          "cell": 9
+        },
+        {
+          "level": 13322,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13322/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "49666dd60c662e4985a7d6ea1649ffe747184151b63054c4cdaf8de9fe307600",
+          "cell": 10
+        },
+        {
+          "level": 13323,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13323/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "ee82c2b78e951f29619c9172b883023290a672f47d5102de8e9f71eda954ad55",
+          "cell": 11
+        },
+        {
+          "level": 13324,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13324/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "a37e9eb9c98f1e0fb39cfccdf6d74e78d9bac8b600111408ec01469fbd8210f9",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13325-13336.jpg",
+      "records": [
+        {
+          "level": 13325,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13325/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "975b5c0ca38a7b39563e32a1ffc76b71f5957e79a898074e0f99466a255a2ee8",
+          "cell": 1
+        },
+        {
+          "level": 13326,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13326/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "9f475a73418757d7357b6a1c3786e2aa9ca7c3d949458fd09b7219caf9f2e829",
+          "cell": 2
+        },
+        {
+          "level": 13327,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13327/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "999a15331bf84be0ef584ddf709dbedf1a065f854aaeb254431b2508131b53cb",
+          "cell": 3
+        },
+        {
+          "level": 13328,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13328/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "b347c556f32659c456e317c601e59838d21c2eba34444e69b6fbc86c8413cf14",
+          "cell": 4
+        },
+        {
+          "level": 13329,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13329/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "911d96210d78da9cecdcafbb2416bad30f63bcacebd86e8fdd1b07ed102c26ce",
+          "cell": 5
+        },
+        {
+          "level": 13330,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13330/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "81c5e7ede6821948aa1a317fb891e39f34dd75fcca4af590e2d5892e351b47fe",
+          "cell": 6
+        },
+        {
+          "level": 13331,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13331/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "a2cf764788ea35079583fad5dae4a47497ce2a04b7c26656d27c188761c8feea",
+          "cell": 7
+        },
+        {
+          "level": 13332,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13332/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "bdb6fd13d268311fef363a82f30b723083aa40f173d183081cdc48e762fb2d86",
+          "cell": 8
+        },
+        {
+          "level": 13333,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13333/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "0c31a5bd4831234d0418e0da973a8f91b61ed05fa5c46a8f7867937a2bca39ae",
+          "cell": 9
+        },
+        {
+          "level": 13334,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13334/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "9d152610b714cf36b61a38bffb17bd084b6311ec7bf035e708676eb3ba4812c7",
+          "cell": 10
+        },
+        {
+          "level": 13335,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13335/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "15c67df524cbd5fa02259b9fd4c1ad9248c5009025c35ee5a6b5f2149d5db65d",
+          "cell": 11
+        },
+        {
+          "level": 13336,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13336/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "481cf9c99fc6239c03f6344e32058e6e77a7b0ae3959a3955cf88cbc7824044c",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13337-13348.jpg",
+      "records": [
+        {
+          "level": 13337,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13337/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "d3d3c76cbc33bf7b5b2eda897e32a3866d4c06ebd6f755173d3158800cb45072",
+          "cell": 1
+        },
+        {
+          "level": 13338,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13338/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "196dd1d7964dee7282d8164471dae9092a318feb0a6e3e07f6492f9837d3b3b7",
+          "cell": 2
+        },
+        {
+          "level": 13339,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13339/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "3f6e6b700853905e0b95190b9204055f9ad509af43ff2b777eda0c0ee8b8a164",
+          "cell": 3
+        },
+        {
+          "level": 13340,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13340/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "3404e567e66eec299a4c1a692b21e88d1b97e07ee63b141f0c8d861cb57ecd42",
+          "cell": 4
+        },
+        {
+          "level": 13341,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13341/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "74ed31ec49f28cad4e505723d1bfae900620295a9f10f2ba9c3805c002e8aa7a",
+          "cell": 5
+        },
+        {
+          "level": 13342,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13342/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "71a2d4b280c2581c75a461aab3c6208e2a98c342be2e83ccde1059625f198c81",
+          "cell": 6
+        },
+        {
+          "level": 13343,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13343/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "fe6ef3722dbe0d52e9798806b7d51c3c56fbd71c78126f9304bbb19a00bf8d8b",
+          "cell": 7
+        },
+        {
+          "level": 13344,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13344/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "79a611d954334a76a9f9c9d43dd008f98d728b729a038d86a70dea591e1c9c13",
+          "cell": 8
+        },
+        {
+          "level": 13345,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13345/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "6735a52b9fbae7cf5d954664060a84c9ec51bc2035cb20cf429e157d7ff4db9e",
+          "cell": 9
+        },
+        {
+          "level": 13346,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13346/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "157d91ee9ae33a19bdf11f29b152c13b398e34853f8185c1d17102dce0959dc0",
+          "cell": 10
+        },
+        {
+          "level": 13347,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13347/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "0cecc54d16d52c8771c4eb0967742460d1d4d8e33a6f8eefa3aec9c39309bad8",
+          "cell": 11
+        },
+        {
+          "level": 13348,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13348/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "3decd61f4d553bb16ccaedd8948df2296f09ab731ff11b34f5ecfbb2cfbc274d",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13349-13360.jpg",
+      "records": [
+        {
+          "level": 13349,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13349/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "61f1f237d33f44512daa2d0026f6aa9cbdb003db8e96960b29ef0eda8cbd6c5a",
+          "cell": 1
+        },
+        {
+          "level": 13350,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13350/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "e765b4a3f9ee215581134a9d17e9df015e6cef97213f2c3e05543c4591d67a7e",
+          "cell": 2
+        },
+        {
+          "level": 13351,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13351/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "53bd12c337e8b669c481b883360ef64e29679a88735f7bf975a0f8c086fcf2fd",
+          "cell": 3
+        },
+        {
+          "level": 13352,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13352/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "c4a0b6452c34e6a895cee1f3912a9965bd8293fe4d3ac09b629c67939f4d7769",
+          "cell": 4
+        },
+        {
+          "level": 13353,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13353/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "c03eeea207f6a100e2ddc1302c0da35bb690e2aba2c175ac1d4d48245dccc8fe",
+          "cell": 5
+        },
+        {
+          "level": 13354,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13354/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "e8c73a897234217eead18104a7afdc05c697c105ba013733f3bc8b2157939f27",
+          "cell": 6
+        },
+        {
+          "level": 13355,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13355/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "3e8147786120ed04bd0cd69c3ae42c413355c7180a2bab049fc4e455a7cd0946",
+          "cell": 7
+        },
+        {
+          "level": 13356,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13356/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "bd06295f798e448dc5a7da2f7956060d68a13f271cb133a8e4d584a3cbc283ea",
+          "cell": 8
+        },
+        {
+          "level": 13357,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13357/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "a58d8f53535e18c71837f34424156daad6528e6e150e508eb23d410e3c50357e",
+          "cell": 9
+        },
+        {
+          "level": 13358,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13358/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "3beef5940ddee5305df8b9944b089ef1755dc12f959c3afa9c6158698ccc828b",
+          "cell": 10
+        },
+        {
+          "level": 13359,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13359/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "5d3d07599c2492483724a21ea781d4d8fb1821c0af190dcc5fe2efea11b796fb",
+          "cell": 11
+        },
+        {
+          "level": 13360,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13360/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "4a419056db946867617afb1cefaabc1a2862d57f96780861dbff8469784ac6eb",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13361-13372.jpg",
+      "records": [
+        {
+          "level": 13361,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13361/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "19a9121ccda563245dd3e6694b246fc34e163eb92af547f32a6107ae37ec4612",
+          "cell": 1
+        },
+        {
+          "level": 13362,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13362/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "3b50f16c78dc25d2a0434b5ae53999528e71ad65050ecc4f5c9aed2d7388e34d",
+          "cell": 2
+        },
+        {
+          "level": 13363,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13363/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "cca8e287082bf7c81a3a051ed31ca4c529355c92e517be709e6c9c462f35f17b",
+          "cell": 3
+        },
+        {
+          "level": 13364,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13364/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "8aa46c6c5fc16525bb9bbb7fdf0b8da8a0851a4e93e315bddcf7c21c45f5027b",
+          "cell": 4
+        },
+        {
+          "level": 13365,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13365/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "cf04c4f39a72315395cead8c7a8ff5248c6521ee6c4ae778d0de2e23464354a5",
+          "cell": 5
+        },
+        {
+          "level": 13366,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13366/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "023da372fe05df131232307465606d80a454b81d4466db398ee3388a88e7cf03",
+          "cell": 6
+        },
+        {
+          "level": 13367,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13367/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "7659f658366890528336daf128386a3d151769fc6891689fa576bec9ee27a7a0",
+          "cell": 7
+        },
+        {
+          "level": 13368,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13368/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "0bd7b26be77e92904ae708ce2c7c9f6e1e56c730ad41022058fb8b087084b008",
+          "cell": 8
+        },
+        {
+          "level": 13369,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13369/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "36cbd29043a49843be27259050103c95b0e753f6b44e8a946bc7a04d001325b0",
+          "cell": 9
+        },
+        {
+          "level": 13370,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13370/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "4f068543f0e8eda8d11c5d179261af14a3beb5e69a5127860303de9ffe6ffe15",
+          "cell": 10
+        },
+        {
+          "level": 13371,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13371/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "0b1cd462f227e34056ba8d9983c9badff7202f0537ef942d1076ff9ea36f5ee5",
+          "cell": 11
+        },
+        {
+          "level": 13372,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13372/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "c2b7ae8cd2d0834650981e827dccaaf5f147be2cf24fb3d9bc564d7256fa931d",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13373-13384.jpg",
+      "records": [
+        {
+          "level": 13373,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13373/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "f5749c3432734ea957069b0e01374a11359fd1326bfd312cb2807879e290d977",
+          "cell": 1
+        },
+        {
+          "level": 13374,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13374/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "1eee1daa271daf40632a03ee97bba8224b253c7e246803c52878081666b93319",
+          "cell": 2
+        },
+        {
+          "level": 13375,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13375/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "d8460e4630c7ac6a3da51a472e861da1d5482c38e231e76f15f4319dea5f287d",
+          "cell": 3
+        },
+        {
+          "level": 13376,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13376/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "70c1666d30049f5731576bb4b7e930e0f3e7194f126353b73780b8aefc2c2488",
+          "cell": 4
+        },
+        {
+          "level": 13377,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13377/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "955e4b6ef557874d8f8cc81b89add4366a8652c155959787acf1545ba6d67094",
+          "cell": 5
+        },
+        {
+          "level": 13378,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13378/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "8963a30a56805968416ac0728f067b93f64b1812d5fb655ee6c1511eaecee5df",
+          "cell": 6
+        },
+        {
+          "level": 13379,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13379/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "e76c53d015eb399dbac1b1de0568452175fa029c8f6790c5e43244595ea835a4",
+          "cell": 7
+        },
+        {
+          "level": 13380,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13380/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "dea7813ccd87e2ba8698cb326dd151491bdcc6c987c815540857184383b1b61b",
+          "cell": 8
+        },
+        {
+          "level": 13381,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13381/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "099406e82e4c52ac25937c2ea3543292bb67f7f967f52447fa270ff76d4f63e2",
+          "cell": 9
+        },
+        {
+          "level": 13382,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13382/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "534fb3e3f94069ef8deab654844b82c9afbc88df4196a3a9d31f7527e10e3cc6",
+          "cell": 10
+        },
+        {
+          "level": 13383,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13383/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "e194e5852ce33997b188616df30cf0c80b7f204f6e8b20698adc6f776e4cff92",
+          "cell": 11
+        },
+        {
+          "level": 13384,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13384/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "fc255c212cbb808279a04d8cd6e4fab7b81cc249595d7ace29ddd415fb957b48",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13385-13396.jpg",
+      "records": [
+        {
+          "level": 13385,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13385/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "ab448bbb43424c8958d0a5752dc586b6dbf275531054940a92ae63783718d7d7",
+          "cell": 1
+        },
+        {
+          "level": 13386,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13386/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "9a1f95409ca951a3fccbd0f04c84a5988466375b58037d1d09d296fc33fef765",
+          "cell": 2
+        },
+        {
+          "level": 13387,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13387/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "3c0aad90adf731b4de7a796910b9a7a14a7c8253fde25d0b928072aa0a48899a",
+          "cell": 3
+        },
+        {
+          "level": 13388,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13388/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "38e6947f6cb33737a58f31fb77d92a401a9f2c330b91d3e56caed7a2ccb571bb",
+          "cell": 4
+        },
+        {
+          "level": 13389,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13389/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "b434c32dd194f6da7b9c566dcf7b9f5e6cebe0ce2e1e0bc643467ecc6a65b7a3",
+          "cell": 5
+        },
+        {
+          "level": 13390,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13390/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "ad3d1f992e5a3897e1eaddbc4c3827e548675276fa48f2fb3b2616ab0c981d0a",
+          "cell": 6
+        },
+        {
+          "level": 13391,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13391/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "652d430f463eb2bc22e6ccc6e5b92dcdbd2509d717d6eba37e6d553e21a8873a",
+          "cell": 7
+        },
+        {
+          "level": 13392,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13392/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "a7299e26e7968ded76eebc51677a869962578c19d88dd67ec510f423381ae7ee",
+          "cell": 8
+        },
+        {
+          "level": 13393,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13393/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "577e645a22747acc27e94d958f8ff87bf201fea2ddfb403d28b4ec443933d6ca",
+          "cell": 9
+        },
+        {
+          "level": 13394,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13394/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "8357d05176b9c28fbbe75ad78ad3cb4cb4683de2f0b7c9ffc467cc0db5f8a6d1",
+          "cell": 10
+        },
+        {
+          "level": 13395,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13395/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "eb33c35c0c6dc1465cf6fa6d13ab67f19017fe19f592d2d41ff388d3221fbdba",
+          "cell": 11
+        },
+        {
+          "level": 13396,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13396/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "daffc414fb040c2dda1721c79beeb231f681b87c23f82ca84503178354eb0c38",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13397-13408.jpg",
+      "records": [
+        {
+          "level": 13397,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13397/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "8876185a311bb0a62361776a9933d819f7fe0c74162009945c6d9780034d46fc",
+          "cell": 1
+        },
+        {
+          "level": 13398,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13398/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "8a278d3e5fc83f1c5265cf03ee34fae8ed72dcb0190e0d4610ed236bb7a3fc1c",
+          "cell": 2
+        },
+        {
+          "level": 13399,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13399/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "1239b547d7db924929bdf720ed489171a262e77bc7fa8e609ca964212ad1b33b",
+          "cell": 3
+        },
+        {
+          "level": 13400,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13400/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "b66c2124d0d1b299a3209e265515eb2b47387bf6b633d828a2da381a50a3ad28",
+          "cell": 4
+        },
+        {
+          "level": 13401,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13401/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "dbe55dfe4d553a8635b39d3ec91cb04486b7f954afc9e6790e8bb43492586753",
+          "cell": 5
+        },
+        {
+          "level": 13402,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13402/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "cb3582f574f9bac6718f99d5375fec1d650f8bb669b3176bb38d0d0a1fb454b3",
+          "cell": 6
+        },
+        {
+          "level": 13403,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13403/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "ab62491930a5d92ca43ddbb33681fdf00c7c65ecbe5f81785bd21739e5bf4a08",
+          "cell": 7
+        },
+        {
+          "level": 13404,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13404/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "7b17d95e5970319d7b4075189321eb42f4aa5f2c0e49377ceb266ec252fd2132",
+          "cell": 8
+        },
+        {
+          "level": 13405,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13405/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "46c8281600b0b993713dda0be24d30b5de36dfd3224e0e50223b1972015aa550",
+          "cell": 9
+        },
+        {
+          "level": 13406,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13406/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "29333b08f1f6aece7ce9543607e83ef3efcf9eae8357dad567bd52c2911088d2",
+          "cell": 10
+        },
+        {
+          "level": 13407,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13407/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "1a7b8952c13d7f5d665238d0aff2e032ba10db757e927c4fff8e83c096e7d32c",
+          "cell": 11
+        },
+        {
+          "level": 13408,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13408/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "bc9984ee32f0bf87e736fe7d3a82688dfa097236cc3c6140028ca59643ebb828",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13409-13420.jpg",
+      "records": [
+        {
+          "level": 13409,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13409/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "ebf3c192ca8e9d59b16565ec19c47b45d3cb18a788ca63d40670b3c50366973a",
+          "cell": 1
+        },
+        {
+          "level": 13410,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13410/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "a4b64f2a1659757cef4106487581ac6550b91d764c54f152cb006a971f312bc3",
+          "cell": 2
+        },
+        {
+          "level": 13411,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13411/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "939cb382cc860d969f469db2303eb4d8d65f82bad498d610bc260f0c700322d1",
+          "cell": 3
+        },
+        {
+          "level": 13412,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13412/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "8a439bb359254d3ffd6ecfba22f70a7ee71ebde3bb03c7a5a3e52c6a7e133f61",
+          "cell": 4
+        },
+        {
+          "level": 13413,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13413/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "1a6577be434ed0ad2fe5d602530873c1e08423b75d57c3fea47790b790ffdad4",
+          "cell": 5
+        },
+        {
+          "level": 13414,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13414/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "56261dc08aeba44921f60c666a13130293d2755ea4a73c65f8baeef3c52822d5",
+          "cell": 6
+        },
+        {
+          "level": 13415,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13415/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "c4486f86de5ced83524d298ee4d4f383acc6ed974487d43e5f81ea802ab42644",
+          "cell": 7
+        },
+        {
+          "level": 13416,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13416/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "b404da8865e30b0c2a381c554b3d12f18498319bec9a5c7319bdacbbe607db81",
+          "cell": 8
+        },
+        {
+          "level": 13417,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13417/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "5048e967ff34f189dfc17fd60c802225bec717092a2924abcfd91cd489985c7a",
+          "cell": 9
+        },
+        {
+          "level": 13418,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13418/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "e4c8412acf40a8a0c34466a57354893e3a3c531d3fae2cdfb7944b7faeb03713",
+          "cell": 10
+        },
+        {
+          "level": 13419,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13419/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "cb106a0c1b77574ba4258c928f78ffb28a5db89f7514d3196151a033dd5aac7a",
+          "cell": 11
+        },
+        {
+          "level": 13420,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13420/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "3ac62a0e6d19ee2a90f386a1467200517a9dadfec99a9de55e80b1868c5d0354",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13421-13432.jpg",
+      "records": [
+        {
+          "level": 13421,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13421/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "03dba738e26d8690bbc8e2ff209394cefdd9e951ea67ae0b1eb8c69b394179ae",
+          "cell": 1
+        },
+        {
+          "level": 13422,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13422/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "c71629f6ca22914b1e17ebfa2e81b2539940dcbe014d839cd7fa1a28a854b199",
+          "cell": 2
+        },
+        {
+          "level": 13423,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13423/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "175703dc7e4789e6979bbef54232592687dc4a31f16d3f25c429aefb7a7c499d",
+          "cell": 3
+        },
+        {
+          "level": 13424,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13424/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "80c1d4a05ec6538f8ca49b870ccf6c9efee4d980c46205760b6273f1b7582db6",
+          "cell": 4
+        },
+        {
+          "level": 13425,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13425/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "f7cf0b3a2990227b8b8b3167e96a2f80498f057bde419dd3326ff8523c588f80",
+          "cell": 5
+        },
+        {
+          "level": 13426,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13426/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "59bc92c529ad941496da194873beb7f9298847a80a940077a087de47c7c902e0",
+          "cell": 6
+        },
+        {
+          "level": 13427,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13427/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "e5c1701765b0a57ab5447fd24ad39365116317e35bb682f93bb24f2da921bf53",
+          "cell": 7
+        },
+        {
+          "level": 13428,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13428/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "970b25380c5e22719f4b9cac625495d729dc5e02d09da6b9116ff65754011a4e",
+          "cell": 8
+        },
+        {
+          "level": 13429,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13429/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "90a39792a80b2bd7def56ed004a0328a305e0fba064ce255bba64865b8cc2645",
+          "cell": 9
+        },
+        {
+          "level": 13430,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13430/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "fedfcac5b59cd70c5a8f432c54b12170a7902c1f9c1982dd372e2e9b7763e762",
+          "cell": 10
+        },
+        {
+          "level": 13431,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13431/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "dd9168dd72621f460b04b914bea33a55117a4085985ae757a18985d5c77724d8",
+          "cell": 11
+        },
+        {
+          "level": 13432,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13432/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "08f4ce314caa12f16b3434542d59f562eaca5b3eeecea411728ccb6ae1bc220d",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13433-13444.jpg",
+      "records": [
+        {
+          "level": 13433,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13433/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "3ee1c2796f1d5693abcc58ac7419a97135067ac532f662f0f4d8f006f62b4089",
+          "cell": 1
+        },
+        {
+          "level": 13434,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13434/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "13659c9c3061746df10829410b96de3dd6a09850af19e8346758cdc28fbad295",
+          "cell": 2
+        },
+        {
+          "level": 13435,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13435/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "0e3cfcd862997c0b9c6b6576f8de18f049615e44e50e6993baa3a955c8efc649",
+          "cell": 3
+        },
+        {
+          "level": 13436,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13436/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "9e6b46ea6a3d7402df48c912e44787ea6abf32b82c52143b27d83548bbe10294",
+          "cell": 4
+        },
+        {
+          "level": 13437,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13437/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "1319d9b39f87d93f6375316f222bdc9cf640ebaa2e2aa1165da486f69922886e",
+          "cell": 5
+        },
+        {
+          "level": 13438,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13438/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "e372b8e2b5dc9248a2e1df2175eb978691c4a0e48008f0269e16538fca72c008",
+          "cell": 6
+        },
+        {
+          "level": 13439,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13439/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "c9864e9269b019c326858d268a6b56155522c892e7ccfcaa6814a54ec88c098a",
+          "cell": 7
+        },
+        {
+          "level": 13440,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13440/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "adeb9b973809ff7faa0c50e1ba04afa1d7e4b7faab3d73c7e6ca3bd03d3e1932",
+          "cell": 8
+        },
+        {
+          "level": 13441,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13441/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "34bfa0793166ae64ce27e6ae53e012b34c358e27a0fabd33d750a9fce37acdee",
+          "cell": 9
+        },
+        {
+          "level": 13442,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13442/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "5dab0ed328d58dfce9bb45a34ef061bdaac36995ce918d7540e721b7c6f22c07",
+          "cell": 10
+        },
+        {
+          "level": 13443,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13443/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "162cc32003333a06165581f1f125cfb8d6552a5d3af29af02ea43698d7944531",
+          "cell": 11
+        },
+        {
+          "level": 13444,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13444/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "9ff19d34108ec739c8fc7e51e014aec89b9261b079f5938d5fcc9a7f0d03bde1",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13445-13456.jpg",
+      "records": [
+        {
+          "level": 13445,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13445/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "5df1fb4671c96b139c29cb2f6ec7fd3caef8c0f0c9fd0bcbb486d901674967f7",
+          "cell": 1
+        },
+        {
+          "level": 13446,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13446/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "0ea93e23e56d8022825ce603f7388aa9045ccf010e0453289c813cac5f79f2a7",
+          "cell": 2
+        },
+        {
+          "level": 13447,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13447/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "017f9535fe4c6277b312922be46aa8c4a815e02afff9d9c19b8bfce026c2a5c3",
+          "cell": 3
+        },
+        {
+          "level": 13448,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13448/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "95b0f5ae1754bd0349a0cc248e04beac68fd192e9d708a87faf2e5a6c4ccc2f0",
+          "cell": 4
+        },
+        {
+          "level": 13449,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13449/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "23ed5028b84486e43259d07ae8657df3d0e20227551c096992a5fd361f8f93b3",
+          "cell": 5
+        },
+        {
+          "level": 13450,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13450/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "8fea5d916435df6ad987e4fc0d9878629b9ac584795e862e12a440a6eb5c4b55",
+          "cell": 6
+        },
+        {
+          "level": 13451,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13451/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "60ca1435fbe773f7b350b24d52618dfaadac6753ea76f0c136ec55bce25f583b",
+          "cell": 7
+        },
+        {
+          "level": 13452,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13452/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "ae34dc4add52e9b392ccc3761b43854c1d4ab0c28b436cc8092dcca2dd04413e",
+          "cell": 8
+        },
+        {
+          "level": 13453,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13453/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "5eb13470e5ccc49f34eae3c0a4807e4f116e41d118796ad0f15e04d6b86cd37f",
+          "cell": 9
+        },
+        {
+          "level": 13454,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13454/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "a74b600de07ac513ca69dad41156942a906866c09ab031a7eb55baed2c9efa8a",
+          "cell": 10
+        },
+        {
+          "level": 13455,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13455/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "70b03c321411e7eab55eb02381e8e950138dd8110d73a6a90f9a1ec5f00ff5a1",
+          "cell": 11
+        },
+        {
+          "level": 13456,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13456/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "12111c0c8474ba175014d6e98df9fbe54a70c3c4dce92cf85ce19db9fca8aa1f",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13457-13468.jpg",
+      "records": [
+        {
+          "level": 13457,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13457/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "9d2c769208be47461aca61db561f1d845f5919efff98fee127f0a4786aa98fc8",
+          "cell": 1
+        },
+        {
+          "level": 13458,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13458/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "8a49fd1e47bc836b3de6fde8feec5be680cb50731654369c74ccf9e2c9122920",
+          "cell": 2
+        },
+        {
+          "level": 13459,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13459/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "4746338265f06dbb509ed2cb561ddca7cb021cc4e2c360a46d50247c7e56aa62",
+          "cell": 3
+        },
+        {
+          "level": 13460,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13460/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "40123f3d2071945837a9b8f64d76d37669941e5bf2d4cc306c8eadf4e325a700",
+          "cell": 4
+        },
+        {
+          "level": 13461,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13461/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "4bc135b622a68c28d07f79c3c5b3bdd93efb43ec26e3c5cd68fd65e8ee976255",
+          "cell": 5
+        },
+        {
+          "level": 13462,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13462/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "ae81ab25c8d0ff0156b98bcdcfe6eaa03405ced200c59af5bb2a5c07c6c71968",
+          "cell": 6
+        },
+        {
+          "level": 13463,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13463/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "2d81b855fd95ed8151fd972dec9546ba9ee363ecffffae64c13077b709c12a37",
+          "cell": 7
+        },
+        {
+          "level": 13464,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13464/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "2ccbe829cb26e6dcff5e54fe6e82494710eb116545d444267c1510cefe4d3b02",
+          "cell": 8
+        },
+        {
+          "level": 13465,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13465/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "ee4fa3436d7bbaecfcac1b83e5ad5aec582db28109b8def0ffb4d5985d2eec56",
+          "cell": 9
+        },
+        {
+          "level": 13466,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13466/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "b8d6bc59ea2f4cf55e3934e3885cad7fa359a607ef691cd76b160e23b064f7cb",
+          "cell": 10
+        },
+        {
+          "level": 13467,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13467/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "da56d0bcd235d79a11b1f7a571c0a7443407f769f8ec451d0dac77806bb02a7f",
+          "cell": 11
+        },
+        {
+          "level": 13468,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13468/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "074bb59f2890f683e291fa40ef3f786124d54f70a745070acee3b51858da467d",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13469-13480.jpg",
+      "records": [
+        {
+          "level": 13469,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13469/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "5837d7c00659da3f6890f28c52b8450f9509b10e0ba8ecc37ed6ae5601bb2713",
+          "cell": 1
+        },
+        {
+          "level": 13470,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13470/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "315099e5d9bc3ec9ce853311afd281ac9cc3340cb4694253eeb9580cca4fa507",
+          "cell": 2
+        },
+        {
+          "level": 13471,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13471/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "c0c19f4d7c6294c61ab1d4828de4b63bdbbe720295af9b6ec7dc9bdd6e7e5b26",
+          "cell": 3
+        },
+        {
+          "level": 13472,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13472/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "5cb7dd1fbaad23bd68ca1e2f33c95e39e46bd9c312dffe5e001c7682110a97d0",
+          "cell": 4
+        },
+        {
+          "level": 13473,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13473/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "74a2756bc5f853cbd57deefe57e651dd28f42542f76c533331318d0829790b6a",
+          "cell": 5
+        },
+        {
+          "level": 13474,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13474/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "1f9439875c2f7ee39ebc04cbe583348335ca567fffa18eecec91550b70f482c7",
+          "cell": 6
+        },
+        {
+          "level": 13475,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13475/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "89068231b9c4f46b74b8f7ed52ab5e7b5e6aad6707c0dabe177f9cffc1057d05",
+          "cell": 7
+        },
+        {
+          "level": 13476,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13476/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "a5d37ae4eb39553fa61bd18fe4fdafdd4108b2fa52bce735d1ad7b1df6526fdd",
+          "cell": 8
+        },
+        {
+          "level": 13477,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13477/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "1da5eff01b2041b4a5403fb96ab25d653532e0d00da638a33ec69a6714e9dfd4",
+          "cell": 9
+        },
+        {
+          "level": 13478,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13478/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "2e2b9e8556cda28a0f17984e54aa8e5d6335c2b0fc041932f82bbe62b24eb8e4",
+          "cell": 10
+        },
+        {
+          "level": 13479,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13479/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "01f178af0208e6c3d79dc9119c1cb33ac68b749c11889326e6d6358205c79d42",
+          "cell": 11
+        },
+        {
+          "level": 13480,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13480/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "b8adee7c0733354f0ab2f1638f5b16a59e524185bdec00b31a3232b87dc198a1",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13481-13492.jpg",
+      "records": [
+        {
+          "level": 13481,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13481/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "520f85bbe3d8c1f685ac7a07e4b0c19d819738af148737b7a3f4235bd0304dea",
+          "cell": 1
+        },
+        {
+          "level": 13482,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13482/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "57f256d5cb9aafaf7719d66454172a18283a8409f3860e7ff6510ded6b8ff7aa",
+          "cell": 2
+        },
+        {
+          "level": 13483,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13483/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "de6f4344c666cab12387121931d470588302de2f9a1d15b4d8e738a6c57dd8eb",
+          "cell": 3
+        },
+        {
+          "level": 13484,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13484/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "ef83334ef402efc01dcb799519d4502cfe5321f7648c185f8075da74c49d20d7",
+          "cell": 4
+        },
+        {
+          "level": 13485,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13485/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "d47a398332dac42c6a23c8451bc7b66ddc449e36b7cbf8c831fcc1ba6fcddd34",
+          "cell": 5
+        },
+        {
+          "level": 13486,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13486/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "4ced0c99391c868c84f5d2806024fff603df92b3bfc9f93eff91b7bb05f1c0f5",
+          "cell": 6
+        },
+        {
+          "level": 13487,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13487/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "c4d6c2fcc2a6ae08b9d1ab52f07799959db0bf95518a39e539800725ff5230e7",
+          "cell": 7
+        },
+        {
+          "level": 13488,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13488/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "84a81f0a9ef632bde1e330bccd334febffb2a3b04b8471b471a880d046c78fd4",
+          "cell": 8
+        },
+        {
+          "level": 13489,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13489/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "9ac93df65bac2877e3816b29a27d09664b85aa7a37207bd609d5004069d45c41",
+          "cell": 9
+        },
+        {
+          "level": 13490,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13490/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "a53cdaa934d8c886a4d45927392382fdfcf0e71da79fcaec1e58ad919d6c586e",
+          "cell": 10
+        },
+        {
+          "level": 13491,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13491/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "0787fcb373e6191209bd3c2febdd0dcb59f6c99763a6985d9f7265bb3a519476",
+          "cell": 11
+        },
+        {
+          "level": 13492,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13492/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "a20bf789a22d7d428c5bf6840e773f7e0daf4d02a6d3446ae79dc44ee4fa23ef",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "sheet": "levels-13493-13500.jpg",
+      "records": [
+        {
+          "level": 13493,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13493/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "6fa7dfa4087bb773cd4336d846880658ebf38ef426046150131a76ff49634c4d",
+          "cell": 1
+        },
+        {
+          "level": 13494,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13494/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "805b3daa8d92981b62e775367bb9f3de0c12a385fc997be5c9f64830a980046d",
+          "cell": 2
+        },
+        {
+          "level": 13495,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13495/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "8086fd98a8223c99ab733c69a9cdea80fdd3d882902a0b3cd91affe7f0558495",
+          "cell": 3
+        },
+        {
+          "level": 13496,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13496/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "3c573606aa4d563c3e4c22d15fade3bed9e94a99f68ef8cbf16a81dcbb91bf53",
+          "cell": 4
+        },
+        {
+          "level": 13497,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13497/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "4db4b98885d20b4a696421cd8f9b0e04072ef883d87a926f02b157c88db0b2b4",
+          "cell": 5
+        },
+        {
+          "level": 13498,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13498/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "7558ec898447dba3f5ca250bef8b7b56900efe0c34755791ea3ec09545584fe1",
+          "cell": 6
+        },
+        {
+          "level": 13499,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13499/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "cc65e7fe3839d8095566e44dc16fbc7b28323861e180a2859d1ba85f69a86f24",
+          "cell": 7
+        },
+        {
+          "level": 13500,
+          "status": "available_not_reviewed",
+          "image": "sources/royal-match-level-archive/levels/13500/board.jpg",
+          "dimensions": [
+            413,
+            896
+          ],
+          "sha256": "d795cfaf741a00d82c08496c779ebf2b35df9b8cf721a492d8ef6cf418979b48",
+          "cell": 8
+        }
+      ]
+    }
+  ]
+}

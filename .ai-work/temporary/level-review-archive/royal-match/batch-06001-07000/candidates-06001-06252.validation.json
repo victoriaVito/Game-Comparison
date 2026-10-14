@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "range": [
+    6001,
+    6252
+  ],
+  "rows": 252,
+  "inspected_sheets": 21,
+  "inspected_images": 237,
+  "counts": {
+    "reviewed": 227,
+    "partial": 10,
+    "missing": 15
+  },
+  "checks": [
+    "exact_contract_fields",
+    "numeric_order_and_range",
+    "repository_relative_paths",
+    "manifest_paths_and_hashes",
+    "original_image_sha256",
+    "needs_review_only",
+    "unknown_verified_claims",
+    "null_hypotheses",
+    "missing_evidence_nullability"
+  ]
+}

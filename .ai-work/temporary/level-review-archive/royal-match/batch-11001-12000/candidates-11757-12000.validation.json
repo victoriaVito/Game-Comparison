@@ -1,0 +1,55 @@
+{
+  "coverage": [
+    11757,
+    12000
+  ],
+  "rows": 244,
+  "inspection_counts": {
+    "reviewed": 240,
+    "partial": 4
+  },
+  "partial_levels": [
+    11832,
+    11859,
+    11926,
+    11985
+  ],
+  "needs_review": 244,
+  "accepted": 0,
+  "missing": 0,
+  "uninspected": 0,
+  "inspected_sheets": [
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11757-11768.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11769-11780.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11781-11792.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11793-11804.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11805-11816.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11817-11828.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11829-11840.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11841-11852.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11853-11864.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11865-11876.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11877-11888.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11889-11900.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11901-11912.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11913-11924.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11925-11936.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11937-11948.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11949-11960.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11961-11972.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11973-11984.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11985-11996.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11997-12000.jpg"
+  ],
+  "original_resolution_followups": [
+    "sources/royal-match-level-archive/levels/11780/board.jpg",
+    "sources/royal-match-level-archive/levels/11804/board.jpg",
+    "sources/royal-match-level-archive/levels/11901/board.jpg",
+    "sources/royal-match-level-archive/levels/11993/board.jpg"
+  ],
+  "source_hashes_verified": 244,
+  "contract_fields_verified": true,
+  "all_verified_claims_unknown": true,
+  "all_hypotheses_null": true,
+  "output_sha256": "d3b49db8094dbc18f717731339cd7f010f22c0962d356b604adc49dc940c0e6e"
+}

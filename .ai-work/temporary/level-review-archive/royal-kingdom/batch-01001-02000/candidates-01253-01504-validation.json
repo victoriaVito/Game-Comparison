@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "records": 252,
+  "visually_inspected_sheets": 21,
+  "counts": {
+    "reviewed": 226,
+    "partial": 26
+  },
+  "source_sha256_verified": 252,
+  "exact_contract_fields": true,
+  "numeric_order_verified": true,
+  "no_accepted_labels": true,
+  "all_hypotheses_null": true,
+  "output_sha256": "00ccfea5f583da9179760b6ebd6febd34978ce5d2229c88a8878cd6dfaaf7e27"
+}

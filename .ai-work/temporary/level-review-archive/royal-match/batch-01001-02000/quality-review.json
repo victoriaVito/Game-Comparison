@@ -1,0 +1,102 @@
+{
+  "status": "needs_review",
+  "sample": [
+    {
+      "level": 1001,
+      "image_path": "sources/royal-match-level-archive/levels/01001/board.jpg",
+      "result": "supported",
+      "evidence": "Original inspected. Candidate: compact_full_field; upper-right colored rectangle, safe-like left column and bottom row, bottom-right recess. Observed: four large safes down the left and three further safes across the bottom; seven rows of pieces occupy the upper-right area. The missing upper-left corner and bottom-right corner show background floor, not covered cells. The safes touch the tile field; they do not establish disconnected regions. The compact tag and observation are supported. Both hypotheses are null."
+    },
+    {
+      "level": 1127,
+      "image_path": "sources/royal-match-level-archive/levels/01127/board.jpg",
+      "result": "uncertain",
+      "evidence": "Original inspected. Candidate: asymmetric, edge_channels; two metal strips, three stacked green patches, lantern rails, lower-right tile wing and upper-center recess. Observed: two tall silver columns terminate in purple outlets; lanterns occupy the left outer column and the column immediately right of the second pipe. Three flower-covered green squares fill the lower space between the pipes, and a three-column tile wing extends right only below the upper recess. The upper recess exposes the treasure-room background and is genuinely absent board, not green coverage or pipe cells. Asymmetry and the descriptive layout are supported. edge_channels is less secure: the apparent rails consist of lantern objects rather than visible narrow routes of matchable tiles; their underlying cell accessibility is not established by this still. Both hypotheses are null."
+    },
+    {
+      "level": 1252,
+      "image_path": "sources/royal-match-level-archive/levels/01252/board.jpg",
+      "result": "supported",
+      "evidence": "Original inspected. Candidate: asymmetric; offset pink left wings, pale blockers, central jars, upper-right tiles and blue covers ending at red containers. Observed: pink round objects fill an upper-left three-by-two patch and a lower-left three-by-two patch; vertical purple-backed yellow/white objects occupy different left strips. Paw-marked jars form a central three-by-three cluster with single jars protruding above and below. Six blue tank-like units with red bases step down the right. Floor is exposed in the upper central notch and below the protruding bottom jar; neither notch is a central blocker mass. Left and right regions visibly differ, supporting asymmetric. No stair_step tag is claimed from the stepped tank arrangement. Both hypotheses are null."
+    },
+    {
+      "level": 1253,
+      "image_path": "sources/royal-match-level-archive/levels/01253/board.jpg",
+      "result": "uncertain",
+      "evidence": "Original inspected. Candidate: no geometry tags; upper-right tiles descend in steps beside a solid yellow lower-left region and five dark circular units at far left. Observed: five dark blue vessels with gold rings stack at the far left. The orange/yellow area occupies the lower-left portion and meets ordinary pieces along a diagonal stair-shaped interface. That interface is occupied yellow coverage beside tiles, not a staircase of missing play cells. The actual outline has an upper-left recess followed by a broad lower rectangle. Withholding stair_step is appropriate. The yellow area's uninterrupted rendering prevents independent cell-by-cell interpretation, so the observation is broadly supported but exact coverage and geometry remain uncertain. Both hypotheses are null."
+    },
+    {
+      "level": 1379,
+      "image_path": "sources/royal-match-level-archive/levels/01379/board.jpg",
+      "result": "uncertain",
+      "evidence": "Original inspected. Candidate: open_center; two upper metal towers around an empty upper-center gap, bridge below and separate paw-cell lower feet. Observed: four red bird-like objects cap four silver pipes grouped as two side towers. A wide upper notch exposes the room. Below it, shields, crowns and other pieces bridge left to right, with yellow/white objects on purple-backed side cells. Two-by-two paw-jar feet descend at each lower corner around another floor notch. The observation is supported, but open_center is ambiguous under the taxonomy: the empty regions are upper and lower notches while the middle bridge contains tiles, not one empty central area. No central_mass or split_regions is justified merely by the pipes or separated lower feet. Both hypotheses are null.",
+      "candidate_correction": {
+        "geometry_tags": [],
+        "review_note": "Proposed only: withhold open_center pending a consistent definition for opposing notches around an occupied middle bridge."
+      }
+    },
+    {
+      "level": 1504,
+      "image_path": "sources/royal-match-level-archive/levels/01504/board.jpg",
+      "result": "conflict",
+      "evidence": "Original inspected. Candidate: asymmetric; three blue seat-like units at left and three tall metal columns 'with red feet', thin wooden bridge and right tile rectangle. Observed: three large blue units stack vertically on the left, three silver pipes dominate the middle, and a single wooden-block column joins the pipes to the three-column right tile field over the middle rows. The pipe terminals are purple grille-like outlets with red/orange internal bars, not red container feet. Background grass is visible below the wooden bridge and below the blue units; these are external recesses, not blocked cells. The asymmetric tag and main layout are supported; the red-foot description conflicts with the visible outlet appearance. Both hypotheses are null.",
+      "candidate_correction": {
+        "observation": "Three blue seat-like units stack on the left beside three tall silver pipes with purple grille-like outlets; a single wooden-block column bridges their middle rows to a narrow right tile rectangle, with exposed background below the bridge and left units."
+      }
+    },
+    {
+      "level": 1505,
+      "image_path": "sources/royal-match-level-archive/levels/01505/board.jpg",
+      "result": "supported",
+      "evidence": "Original inspected. Candidate: split_regions, layered_bands; upper purple-character block with blue side tanks and chest floor separated from lower tile rectangle. Observed: a four-by-five array of purple animal-like objects is flanked by two large blue units per side and ends in a continuous row of red chests. A full-width strip of exposed grass/path separates that upper field from the lower rectangle. The lower field has four bottle trays, two stacked at each side, around ordinary pieces. The strip has no cells or bridging blocker objects, supporting actual disconnected regions and horizontal bands. This is an ordinary target/moves match board, not a boss arena. Both hypotheses are null."
+    },
+    {
+      "level": 1631,
+      "image_path": "sources/royal-match-level-archive/levels/01631/board.jpg",
+      "result": "supported",
+      "evidence": "Original inspected. Candidate: asymmetric, layered_bands; cream left column and two bottle trays connect upper and lower right regions around an empty horizontal strip. Observed: cream stone-like blocks form a tall two-column left field with a narrowed section beside each protruding bottle tray. The upper right field contains two bow columns, middle ordinary pieces and two right blue diamond-latch columns; the lower right field contains purple-and-white jars surrounding middle pieces. A real background slit separates the two right fields, but the left block column remains continuous and joins both trays. Thus the slit does not prove split_regions. Asymmetry and distinct bands are supported; purple objects are occupied jar cells, not missing board. Both hypotheses are null."
+    },
+    {
+      "level": 1756,
+      "image_path": "sources/royal-match-level-archive/levels/01756/board.jpg",
+      "result": "supported",
+      "evidence": "Original inspected. Candidate: layered_bands; upper tiles and side bottle trays above six pipes with staggered ends, central bottle tray above purple stem. Observed: two full rows of ordinary pieces top the field; two side bottle trays flank more pieces beneath. Three pipes on each side run down from purple outlets, and the inner pipes stop earlier than the outer pipes. A central bottle tray caps a two-column, five-row purple-object stem. Floor wedges between pipe groups and stem are genuinely absent cells. The occupied pipe ends and actual lower outline both descend in steps, but the candidate only claims layered_bands, which is supported. The purple stem is occupied objects rather than an empty central notch. Both hypotheses are null."
+    },
+    {
+      "level": 1757,
+      "image_path": "sources/royal-match-level-archive/levels/01757/board.jpg",
+      "result": "conflict",
+      "evidence": "Original inspected. Candidate: compact_full_field, layered_bands; 'purple covered cells fill the lower rectangle around three central columns of stacked objects.' Observed: four bottle trays frame upper ordinary tiles. Purple faceted rock-like objects fill the lower side cells; three central columns contain three rows of purple cylindrical objects and three rows of dark blue vessels. Directly above those cylinders, a three-cell-wide horizontal opening shows the room background and has no rocks, cylinders or tile faces. Consequently the lower rectangle is not filled as described: the candidate omits an internal empty slot at its upper center. The field remains connected around the slot, so compact_full_field and layered_bands are not themselves disproved; this small slot is not evidence that the whole center is open. Both hypotheses are null.",
+      "candidate_correction": {
+        "observation": "Four bottle trays frame upper colored tiles. Lower purple rock-like objects flank three central columns of purple cylinders and dark vessels, with a three-cell-wide empty horizontal slot immediately above the cylinders."
+      }
+    },
+    {
+      "level": 1879,
+      "image_path": "sources/royal-match-level-archive/levels/01879/board.jpg",
+      "result": "supported",
+      "evidence": "Original inspected. Candidate: asymmetric; roof-covered left column joins two pink-framed tile rectangles around an empty right horizontal slot. Observed: a broad orange roof-textured field extends continuously down the left side. Two right tile fields have pink swirl-object borders, with exposed grass/path in the horizontal space between them. That empty slot stops at the orange field, so left coverage connects both right fields; roof coverage is not an empty gap. The upper rectangle reaches farther upward than the roof and the lower rectangle farther downward. The asymmetric tag and absence of split_regions are supported. Both hypotheses are null."
+    },
+    {
+      "level": 2000,
+      "image_path": "sources/royal-match-level-archive/levels/02000/board.jpg",
+      "result": "conflict",
+      "evidence": "Original inspected. Candidate: compact_full_field; four green quadrants with outer coin columns and 'central bombs connect the upper and lower halves between two horizontal empty side slots.' Observed: green crown-marked covered cells and purple animal-like objects occupy four blocks. Continuous outer coin columns connect the upper and lower blocks vertically. Two color-bomb objects sit centrally at the separating band: the lower bomb adjoins the first row of both lower blocks, while the upper bomb sits between the side slots with no cell directly above it. A tall background slit also separates the two upper blocks, and a lower background slit lies below the lower bomb. Therefore the central bombs do not directly connect upper and lower halves as claimed; vertical connection is through the outside coin columns. The narrow connections and extensive internal gaps also make compact_full_field questionable under 'limited internal separation.' The Reward header and king portrait do not establish a boss arena: visible cells, coins and bombs form a match/reward grid. Both hypotheses are null.",
+      "candidate_correction": {
+        "geometry_tags": [],
+        "observation": "Four green-covered blocks contain purple animal-like objects. Continuous outer coin columns join upper and lower blocks; two central color bombs occupy the middle band, with the lower bomb joining the lower blocks horizontally. Empty upper and lower central slits and two horizontal side slots expose the background.",
+        "review_note": "Proposed only: reconsider compact_full_field because substantial internal gaps leave narrow connections. Do not replace it with split_regions: the outer coin columns and lower central bomb visibly connect the field."
+      }
+    }
+  ],
+  "limitations": [
+    "This is a bounded sample, not full independent validation of the 1,000 levels. Twelve distinct available originals were rendered and inspected, using the first, middle (zero-based length//2), and last available row of each of the four shards: 1001, 1127, 1252; 1253, 1379, 1504; 1505, 1631, 1756; 1757, 1879, 2000.",
+    "validation.json contains an empty repeated_observations list; it highlights no additional repeated-category levels. Distinct wording was not treated as visual correctness evidence.",
+    "Results compare candidate observations and geometry tags with actual originals. All twelve sampled candidates have null difficulty_hypothesis and strategy_hypothesis; no hypothesis specificity could therefore be tested, and no strategies, difficulty measurements or inferred hypotheses were added.",
+    "Supported means the sampled visible description and claimed geometry are supported, not that labels are accepted, every possible tag has been assigned, or covered-cell contents and mechanics are independently known.",
+    "Uncertainty remains about lantern-rail accessibility, the uninterrupted yellow area's underlying cells, and whether opposing notches meet the intended open_center definition. Blocker identities are described visually rather than authenticated from mechanics documentation.",
+    "The level 1504 conflict is a localized outlet-appearance correction; level 1757 omits a real internal gap; level 2000 misattributes upper/lower connectivity and has a questionable compact tag. These conflicts are preserved beside the original candidate claims rather than silently corrected.",
+    "No sampled original shows a boss arena. King portraits, target headers and the level 2000 reward header alone do not establish one.",
+    "candidate_correction entries are unaccepted proposals only. Shards, index, validation, source images, trackers and application files were not edited."
+  ]
+}

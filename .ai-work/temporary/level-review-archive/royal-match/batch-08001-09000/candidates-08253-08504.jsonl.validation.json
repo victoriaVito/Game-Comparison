@@ -1,0 +1,46 @@
+{
+  "range": [
+    8253,
+    8504
+  ],
+  "rows": 252,
+  "all_review_status": "needs_review",
+  "numbered_sheets_rendered": 21,
+  "originals_rendered": [
+    8254,
+    8301,
+    8327,
+    8352,
+    8450,
+    8502,
+    8504
+  ],
+  "inspection_counts": {
+    "reviewed": 213,
+    "partial": 38,
+    "missing": 1
+  },
+  "missing_levels": [
+    8496
+  ],
+  "source_hashes_verified": 251,
+  "contract_validation": "passed",
+  "hypotheses_nonnull": 0,
+  "accepted_rows": 0,
+  "postinspection_updates": {
+    "partial_cyan_overlay_levels": [
+      8277,
+      8284,
+      8313,
+      8320,
+      8336,
+      8344,
+      8379,
+      8391,
+      8412,
+      8420,
+      8429
+    ]
+  },
+  "output_sha256": "47899ead20ff4035aec874837e6b1f7111a38882aff57d0e0113624f28fef01b"
+}

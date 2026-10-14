@@ -1,0 +1,21 @@
+{
+  "range": [4001, 4252],
+  "visually_inspected_sheets": 21,
+  "visually_inspected_images": 252,
+  "reviewed": 229,
+  "partial": 23,
+  "missing": 0,
+  "needs_review": 252,
+  "accepted": 0,
+  "validation": {
+    "exact_contract_fields": true,
+    "integer_schema_version_2": true,
+    "numeric_order_and_complete_range": true,
+    "manifest_paths_hashes_and_cells_match": true,
+    "original_source_sha256_recomputed": 252,
+    "permitted_geometry_vocabulary": true,
+    "verified_claims_unknown": true,
+    "hypotheses_null": true
+  },
+  "scope_note": "All 21 assigned contact sheets were rendered with image views. Each sheet was checkpointed after its observations were saved. Partial cases retain explicit overlay occlusion; no accepted or externally verified claims were created."
+}

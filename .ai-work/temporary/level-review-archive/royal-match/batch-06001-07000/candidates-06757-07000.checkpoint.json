@@ -1,0 +1,42 @@
+{
+  "inspected_sheets": [
+    "levels-6757-6768.jpg",
+    "levels-6769-6780.jpg",
+    "levels-6781-6792.jpg",
+    "levels-6793-6804.jpg",
+    "levels-6805-6816.jpg",
+    "levels-6817-6828.jpg",
+    "levels-6829-6840.jpg",
+    "levels-6841-6852.jpg",
+    "levels-6853-6864.jpg",
+    "levels-6865-6876.jpg",
+    "levels-6877-6888.jpg",
+    "levels-6889-6900.jpg",
+    "levels-6901-6912.jpg",
+    "levels-6913-6924.jpg",
+    "levels-6925-6936.jpg",
+    "levels-6937-6948.jpg",
+    "levels-6949-6960.jpg",
+    "levels-6961-6972.jpg",
+    "levels-6973-6984.jpg",
+    "levels-6985-6996.jpg",
+    "levels-6997-7000.jpg"
+  ],
+  "saved_rows": 244,
+  "last_level": 7000,
+  "inspection_counts": {
+    "reviewed": 192,
+    "partial": 17,
+    "missing": 35
+  },
+  "validation": {
+    "status": "passed",
+    "rows": 244,
+    "exact_fields": true,
+    "ordered_range": [
+      6757,
+      7000
+    ],
+    "source_hashes_verified": 209
+  }
+}

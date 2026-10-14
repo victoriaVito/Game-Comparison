@@ -1,0 +1,103 @@
+{
+  "status": "needs_review",
+  "sample": [
+    {
+      "level": 9001,
+      "image_path": "sources/royal-match-level-archive/levels/09001/board.jpg",
+      "result": "supported",
+      "evidence": "The image shows a shallow, full-width grid of tiles at the top, with continuous rows and a cave/lava scene below rather than a second play area. This matches the candidate observation and compact_full_field tag."
+    },
+    {
+      "level": 9137,
+      "image_path": "sources/royal-match-level-archive/levels/09137/board.jpg",
+      "result": "conflict",
+      "evidence": "The main narrow tile strip is centered and visibly continues into the lower board; side target/cabinet areas flank it. The candidate instead places the descending lane at the right and describes broad empty space separating it from lower target cells. The center is occupied, so open_center is not supported by this image.",
+      "candidate_correction": {
+        "observation": "A central vertical tile strip connects the upper and lower portions of the board, with side target and cabinet areas; the screenshot does not show the candidate's right-edge lane or an empty center."
+      }
+    },
+    {
+      "level": 9252,
+      "image_path": "sources/royal-match-level-archive/levels/09252/board.jpg",
+      "result": "supported",
+      "evidence": "A broad rectangular grid remains continuous from the upper tiles into the lower rows of pale egg-like covered cells and floral blockers; no empty gap separates the bottom tier. This supports the observation and compact_full_field tag."
+    },
+    {
+      "level": 9253,
+      "image_path": "sources/royal-match-level-archive/levels/09253/board.jpg",
+      "result": "supported",
+      "evidence": "The upper board has stacked tile rows; long blue vertical cells occupy much of the lower/outer columns, while pink cells form a left-side band and extend along the bottom. This is consistent with the candidate's stacked-row and vertical-lane description and layered_bands tag."
+    },
+    {
+      "level": 9379,
+      "image_path": "sources/royal-match-level-archive/levels/09379/board.jpg",
+      "result": "conflict",
+      "evidence": "The full-width grid has a conspicuous middle band of brown drawer/chest-like blockers and lower rows of large blue vault-like blockers. The candidate calls the center band purple, which is not visible in the original image; the broad rectangular field itself is present.",
+      "candidate_correction": {
+        "observation": "A nearly full rectangular tile grid has a central band of brown drawer-like blockers and large blue vault-like blockers in the lower rows."
+      }
+    },
+    {
+      "level": 9504,
+      "image_path": "sources/royal-match-level-archive/levels/09504/board.jpg",
+      "result": "supported",
+      "evidence": "A broad rectangular grid includes pale square blockers interspersed with purple pot-like cells; the lower rows remain within the same outlined board. This matches the candidate observation and compact_full_field tag."
+    },
+    {
+      "level": 9505,
+      "image_path": "sources/royal-match-level-archive/levels/09505/board.jpg",
+      "result": "conflict",
+      "evidence": "The original shows a left-side tile area, vertical floral strips, and four large cyan covered square cells arranged in the center/right, with a purple container at lower right. The candidate calls the cyan squares 'vaults' and describes two lower vaults in each of two rows; that object identification and grouping are not borne out by the image.",
+      "candidate_correction": {
+        "observation": "A left-side tile area sits beside floral strips and four large cyan covered square cells arranged in the center/right; a purple container is visible at lower right. Avoid identifying the cyan cells as vaults."
+      }
+    },
+    {
+      "level": 9631,
+      "image_path": "sources/royal-match-level-archive/levels/09631/board.jpg",
+      "result": "conflict",
+      "evidence": "The visible board is a narrow central tile strip with grey, horizontally oriented cabinet/drawer obstacles extending at two levels on both sides. The candidate's claim that large orange-brown panels occupy the left and right sides does not match those visible objects or the board layout.",
+      "candidate_correction": {
+        "observation": "A narrow central tile strip is flanked by grey horizontal cabinet-like obstacles at two levels; the visible side areas are mostly background. No large orange-brown side panels are evident."
+      }
+    },
+    {
+      "level": 9756,
+      "image_path": "sources/royal-match-level-archive/levels/09756/board.jpg",
+      "result": "conflict",
+      "evidence": "The asymmetric board has ordinary tiles on the left and large solid cyan covered squares on the right, separated by floral columns; a purple container is at the lower right. The candidate describes narrow blue-and-purple channels filling the right side, but the prominent blue shapes are broad square obstacles, not narrow channels.",
+      "candidate_correction": {
+        "observation": "A left-side tile field contrasts with broad cyan covered square obstacles and floral columns on the right; a purple container sits at lower right. The major layout is asymmetric."
+      }
+    },
+    {
+      "level": 9757,
+      "image_path": "sources/royal-match-level-archive/levels/09757/board.jpg",
+      "result": "supported",
+      "evidence": "Tiles form a central vertical strip that broadens across the upper section; grey cabinet-like obstacles sit to either side at the crossbar and lower area. No separate outer playing region is visible, consistent with the candidate's conservative empty tag list."
+    },
+    {
+      "level": 9882,
+      "image_path": "sources/royal-match-level-archive/levels/09882/board.jpg",
+      "result": "conflict",
+      "evidence": "The visible play grid is confined to the upper portion of the screenshot, ending in a row of brown wooden blockers. Below it is background; no lower blue containers or pale covered cells are visible. This directly conflicts with the candidate's claimed lower section.",
+      "candidate_correction": {
+        "observation": "A compact upper grid of tiles ends in a row of brown wooden blockers; the lower screen is background rather than a visible second play section."
+      }
+    },
+    {
+      "level": 10000,
+      "image_path": "sources/royal-match-level-archive/levels/10000/board.jpg",
+      "result": "uncertain",
+      "evidence": "Large orange panels dominate the bounded board area, with brown-looking gaps between them, while coin cells line both outer edges and two special cells are visible on the left. The candidate's 'no distinct tile-playing region' is plausible for the main field but too categorical to settle the status of the visible edge cells from this screenshot alone."
+    }
+  ],
+  "limitations": [
+    "This is a stratified visual sample of 12 available originals: first, middle, and last available levels from each of the four shards. It does not establish the correctness of the remaining batch records.",
+    "The index lists 974 available images and 26 missing levels; unavailable originals were not sampled.",
+    "All candidate rows remain needs_review. No labels were promoted, and the candidate shards were not changed.",
+    "No directly cited local evidence verified difficulty or strategy; both remain unknown in the sampled records.",
+    "An exact-text scan found one repeated missing-source observation shared by levels 9846–9850 and 9859. This is an appropriate repeated status for unavailable images, not evidence of six separate visual inspections; validation.json reports an empty repeated_observations list.",
+    "Image-specific candidate corrections above are review notes only. The Match taxonomy remains candidate vocabulary, and this sample does not accept it or resolve uncertain labels."
+  ]
+}

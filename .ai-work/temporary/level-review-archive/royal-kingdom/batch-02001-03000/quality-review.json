@@ -1,0 +1,117 @@
+{
+  "status": "needs_review",
+  "sample": [
+    {
+      "level": 2001,
+      "image_path": "royal-kingdom/levels/level-2001.jpg",
+      "result": "supported",
+      "evidence": "The candidate describes a rectangular board with broad tile rows divided by thin, full-width flower rows, and its tags are compact_full_field and layered_bands. The original shows a continuous rectangular grid with three horizontal flower strips and a flower row along the bottom; this supports both tags. Candidate difficulty/strategy hypotheses are null and verified fields are unknown; the image cannot establish either.",
+      "candidate_correction": {}
+    },
+    {
+      "level": 2127,
+      "image_path": "royal-kingdom/levels/level-2127.jpg",
+      "result": "conflict",
+      "evidence": "The candidate tags layered_bands and describes two leafy panels, a narrow tile column, flower lanes, horizontal lower rails, and shield trays. Those structures are visible. However, its claim that a floating piece overlaps the tile cap is not supported: the red piece is suspended above the board with a visible gap and does not cover the top row. Candidate difficulty/strategy hypotheses are null and verified fields are unknown; the image cannot establish either.",
+      "candidate_correction": {
+        "observation": "Two large vertical leafy panels are separated by a narrow tile column and flower lanes; horizontal purple rails cross the lower middle above shield trays. A red piece floats above the board without covering it."
+      }
+    },
+    {
+      "level": 2252,
+      "image_path": "royal-kingdom/levels/level-2252.jpg",
+      "result": "uncertain",
+      "evidence": "The original clearly shows a narrow left-side tile strip, an uneven wedge of columns, and a descending staircase-shaped outer boundary with background outside it; this supports stair_step and asymmetric. The candidate also tags layered_bands, but the visible arrangement is primarily repeated vertical columns, not clearly distinct horizontal or vertical layers as defined by the taxonomy. That additional tag is uncertain rather than demonstrably wrong. Candidate difficulty/strategy hypotheses are null and verified fields are unknown; the image cannot establish either.",
+      "candidate_correction": {
+        "geometry_tags": [
+          "stair_step",
+          "asymmetric"
+        ],
+        "review_note": "Withhold layered_bands unless a reviewer can establish distinct board layers rather than repeated blocker columns."
+      }
+    },
+    {
+      "level": 2253,
+      "image_path": "royal-kingdom/levels/level-2253.jpg",
+      "result": "supported",
+      "evidence": "The candidate tags layered_bands and describes an upper leafy rectangle around two rows of pieces, followed by a broad purple-covered lower area, chain columns, and bottom trays. The original shows those stacked horizontal zones. The purple-covered cells and chains are occupied/blocked cells, not empty gaps, so they do not establish split_regions. Candidate difficulty/strategy hypotheses are null and verified fields are unknown; the image cannot establish either.",
+      "candidate_correction": {}
+    },
+    {
+      "level": 2379,
+      "image_path": "royal-kingdom/levels/level-2379.jpg",
+      "result": "conflict",
+      "evidence": "The candidate tags open_center and says a large top-center opening is flanked by tile arms. In the original, the central three-column area is occupied by orange-ring cells; the two visible empty notches lie on either side of that central mass, and the lower rows connect across the board. This does not support an empty center or disconnected regions. Candidate difficulty/strategy hypotheses are null and verified fields are unknown; the image cannot establish either.",
+      "candidate_correction": {
+        "geometry_tags": [],
+        "observation": "A central block of orange-ring cells sits between two tall side strips; two vertical background notches flank that occupied center, and the lower rows span across the board."
+      }
+    },
+    {
+      "level": 2504,
+      "image_path": "royal-kingdom/levels/level-2504.jpg",
+      "result": "conflict",
+      "evidence": "The candidate tags layered_bands and describes a bottom-center opening, green covered lower legs, and blue side strips. The original instead shows a fully bounded rectangular grid; its rightmost columns contain metallic covered cells, while ordinary pieces and pot-like cells occupy the other columns. There are no visible lower legs or deep bottom-center opening. The candidate appears to mistake blocker placement for the board boundary. Candidate difficulty/strategy hypotheses are null and verified fields are unknown; the image cannot establish either.",
+      "candidate_correction": {
+        "geometry_tags": [
+          "compact_full_field"
+        ],
+        "observation": "A rectangular grid is filled throughout; metallic covered cells occupy the right-side columns, while mixed match pieces fill the remaining cells."
+      }
+    },
+    {
+      "level": 2505,
+      "image_path": "royal-kingdom/levels/level-2505.jpg",
+      "result": "supported",
+      "evidence": "The candidate tags compact_full_field and identifies a rectangular lower match grid with jars among surrounding tiles. The original confirms a continuous rectangular grid. The stone wall, grass, and two pits above it belong to the separate boss/scene area, not to gaps in the match grid; the candidate correctly keeps them outside its board description. Candidate difficulty/strategy hypotheses are null and verified fields are unknown; the image cannot establish either.",
+      "candidate_correction": {}
+    },
+    {
+      "level": 2631,
+      "image_path": "royal-kingdom/levels/level-2631.jpg",
+      "result": "supported",
+      "evidence": "The candidate leaves geometry_tags empty and describes three tall orange-cell prongs, two deep top notches, pale figures at the prong tops, and a narrow bottom row connecting the form. These features are visible in the original; the notches are background gaps, while the bottom row visibly connects the board. Withholding a categorical tag is reasonable here. Candidate difficulty/strategy hypotheses are null and verified fields are unknown; the image cannot establish either.",
+      "candidate_correction": {}
+    },
+    {
+      "level": 2756,
+      "image_path": "royal-kingdom/levels/level-2756.jpg",
+      "result": "supported",
+      "evidence": "The candidate tags compact_full_field and asymmetric and describes a rectangular boundary with mixed pieces, a staggered middle strip, a diagonal band of gold-colored cells, and covered cells on the right. The original confirms a filled rectangular board with visibly uneven left/right contents; the right-side covers are blockers within the board, not an empty cutout. Candidate difficulty/strategy hypotheses are null and verified fields are unknown; the image cannot establish either.",
+      "candidate_correction": {}
+    },
+    {
+      "level": 2757,
+      "image_path": "royal-kingdom/levels/level-2757.jpg",
+      "result": "supported",
+      "evidence": "The candidate tags split_regions and layered_bands and describes a shallow upper tile area, a broad empty horizontal gap, and a lower stone-filled rectangle. The original shows two horizontally stacked board areas separated by visible background with no intervening cells; the lower stone cells are blockers, not the gap. This supports both tags. Candidate difficulty/strategy hypotheses are null and verified fields are unknown; the image cannot establish either.",
+      "candidate_correction": {}
+    },
+    {
+      "level": 2879,
+      "image_path": "royal-kingdom/levels/level-2879.jpg",
+      "result": "supported",
+      "evidence": "The candidate tags asymmetric and describes a left tile lane adjoining a differently arranged middle/right section with horizontal blue rails and dark edge sockets. The original shows those unequal contents within a connected board footprint; the dark sockets and colored covers are cells/blockers, not evidence of empty separated regions. Candidate difficulty/strategy hypotheses are null and verified fields are unknown; the image cannot establish either.",
+      "candidate_correction": {}
+    },
+    {
+      "level": 3000,
+      "image_path": "royal-kingdom/levels/level-3000.jpg",
+      "result": "conflict",
+      "evidence": "The candidate tags compact_full_field and says the lower tile wings join across the middle. In the original, the lower match grid is visibly divided into left and right tile groups by a continuous vertical background gap; no cells bridge that gap. The upper chains, figures, and glowing beams belong to a separate boss arena above the match grid and should not be used as its geometry. Candidate difficulty/strategy hypotheses are null and verified fields are unknown; the image cannot establish either.",
+      "candidate_correction": {
+        "geometry_tags": [
+          "split_regions"
+        ],
+        "observation": "The lower match grid consists of left and right tile groups separated by a continuous vertical empty gap. The chained, glowing arena above is a separate boss area, not part of that match grid."
+      }
+    }
+  ],
+  "limitations": [
+    "This is a visual quality sample, not independent validation of the full 1,000-level batch. It samples the first, middle, and last available level in each of the four shards (12 distinct levels total).",
+    "All 12 selected original images were inspected directly. No labels were accepted and no candidate shard was edited.",
+    "The batch validation lists no repeated_observations, so there were no explicitly highlighted repeated-category descriptions to add to this sample.",
+    "The sampled candidate rows have verified_difficulty and verified_strategy set to unknown and both speculative hypotheses null. Initial-board screenshots do not establish measured difficulty, success rate, or optimal strategy.",
+    "The ratings assess the sampled observations and geometry tags only; they do not establish the accuracy of unsampled descriptions, tags, or hypotheses."
+  ]
+}

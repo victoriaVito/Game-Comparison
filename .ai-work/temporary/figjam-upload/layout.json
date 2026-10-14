@@ -1,0 +1,182 @@
+[
+ {
+  "game": "royal-match",
+  "tag": "compact_full_field",
+  "n": 1693,
+  "cols": 56,
+  "x": -8000,
+  "y": 4000,
+  "w": 12240,
+  "h": 12210
+ },
+ {
+  "game": "royal-match",
+  "tag": "split_regions",
+  "n": 1182,
+  "cols": 47,
+  "x": 4640,
+  "y": 4000,
+  "w": 10296,
+  "h": 10260
+ },
+ {
+  "game": "royal-match",
+  "tag": "layered_bands",
+  "n": 2485,
+  "cols": 67,
+  "x": 15336,
+  "y": 4000,
+  "w": 14616,
+  "h": 14940
+ },
+ {
+  "game": "royal-match",
+  "tag": "edge_channels",
+  "n": 166,
+  "cols": 18,
+  "x": 30352,
+  "y": 4000,
+  "w": 4032,
+  "h": 4020
+ },
+ {
+  "game": "royal-match",
+  "tag": "central_mass",
+  "n": 662,
+  "cols": 35,
+  "x": 34784,
+  "y": 4000,
+  "w": 7704,
+  "h": 7530
+ },
+ {
+  "game": "royal-match",
+  "tag": "open_center",
+  "n": 320,
+  "cols": 25,
+  "x": 42888,
+  "y": 4000,
+  "w": 5544,
+  "h": 5190
+ },
+ {
+  "game": "royal-match",
+  "tag": "stair_step",
+  "n": 528,
+  "cols": 31,
+  "x": 48832,
+  "y": 4000,
+  "w": 6840,
+  "h": 7140
+ },
+ {
+  "game": "royal-match",
+  "tag": "asymmetric",
+  "n": 4397,
+  "cols": 90,
+  "x": 56072,
+  "y": 4000,
+  "w": 19584,
+  "h": 19230
+ },
+ {
+  "game": "royal-match",
+  "tag": "untagged",
+  "n": 1654,
+  "cols": 55,
+  "x": 76056,
+  "y": 4000,
+  "w": 12024,
+  "h": 12210
+ },
+ {
+  "game": "royal-kingdom",
+  "tag": "compact_full_field",
+  "n": 1079,
+  "cols": 45,
+  "x": -8000,
+  "y": 24430,
+  "w": 9864,
+  "h": 9480
+ },
+ {
+  "game": "royal-kingdom",
+  "tag": "split_regions",
+  "n": 667,
+  "cols": 35,
+  "x": 2264,
+  "y": 24430,
+  "w": 7704,
+  "h": 7920
+ },
+ {
+  "game": "royal-kingdom",
+  "tag": "layered_bands",
+  "n": 1236,
+  "cols": 48,
+  "x": 10368,
+  "y": 24430,
+  "w": 10512,
+  "h": 10260
+ },
+ {
+  "game": "royal-kingdom",
+  "tag": "edge_channels",
+  "n": 52,
+  "cols": 10,
+  "x": 21280,
+  "y": 24430,
+  "w": 2304,
+  "h": 2460
+ },
+ {
+  "game": "royal-kingdom",
+  "tag": "central_mass",
+  "n": 410,
+  "cols": 28,
+  "x": 23984,
+  "y": 24430,
+  "w": 6192,
+  "h": 5970
+ },
+ {
+  "game": "royal-kingdom",
+  "tag": "open_center",
+  "n": 122,
+  "cols": 15,
+  "x": 30576,
+  "y": 24430,
+  "w": 3384,
+  "h": 3630
+ },
+ {
+  "game": "royal-kingdom",
+  "tag": "stair_step",
+  "n": 232,
+  "cols": 21,
+  "x": 34360,
+  "y": 24430,
+  "w": 4680,
+  "h": 4800
+ },
+ {
+  "game": "royal-kingdom",
+  "tag": "asymmetric",
+  "n": 1227,
+  "cols": 48,
+  "x": 39440,
+  "y": 24430,
+  "w": 10512,
+  "h": 10260
+ },
+ {
+  "game": "royal-kingdom",
+  "tag": "untagged",
+  "n": 275,
+  "cols": 23,
+  "x": 50352,
+  "y": 24430,
+  "w": 5112,
+  "h": 4800
+ }
+]

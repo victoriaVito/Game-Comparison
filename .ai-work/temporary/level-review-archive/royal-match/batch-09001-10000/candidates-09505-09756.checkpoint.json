@@ -1,0 +1,32 @@
+{
+  "assigned_range": [
+    9505,
+    9756
+  ],
+  "reviewed_sheets": [
+    "levels-9505-9516.jpg",
+    "levels-9517-9528.jpg",
+    "levels-9529-9540.jpg",
+    "levels-9541-9552.jpg",
+    "levels-9553-9564.jpg",
+    "levels-9565-9576.jpg",
+    "levels-9577-9588.jpg",
+    "levels-9589-9600.jpg",
+    "levels-9601-9612.jpg",
+    "levels-9613-9624.jpg",
+    "levels-9625-9636.jpg",
+    "levels-9637-9648.jpg",
+    "levels-9649-9660.jpg",
+    "levels-9661-9672.jpg",
+    "levels-9673-9684.jpg",
+    "levels-9685-9696.jpg",
+    "levels-9697-9708.jpg",
+    "levels-9709-9720.jpg",
+    "levels-9721-9732.jpg",
+    "levels-9733-9744.jpg",
+    "levels-9745-9756.jpg"
+  ],
+  "record_count": 252,
+  "checkpoint_rule": "Updated after each inspected sheet; only reviewed source images are counted.",
+  "output_sha256": "7892f31ac9508a21f36529524058920b0ac127f9907c439c3366204404fc5c2f"
+}

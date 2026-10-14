@@ -1,1 +1,6 @@
 royal-kingdom/videos/*.mp4
+
+# Local level-review scratch media (large third-party captures)
+.ai-work/**/*.jpg
+.ai-work/**/*.pyc
+.ai-work/**/__pycache__/

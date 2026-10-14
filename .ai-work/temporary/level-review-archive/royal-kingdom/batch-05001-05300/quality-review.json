@@ -1,0 +1,96 @@
+{
+  "status": "needs_review",
+  "sample": [
+    {
+      "level": 5001,
+      "image_path": "royal-kingdom/levels/level-5001.jpg",
+      "result": "supported",
+      "evidence": "Candidate tag compact_full_field and its central-strip observation match the original: one narrow, continuous vertical strip of colored match tiles is visibly flanked by broad columns of purple-framed brown crates/cabinets. I see no empty interior gap in that strip. Candidate difficulty_hypothesis and strategy_hypothesis are both null."
+    },
+    {
+      "level": 5043,
+      "image_path": "royal-kingdom/levels/level-5043.jpg",
+      "result": "supported",
+      "evidence": "Candidate tag asymmetric is supported by the original's uneven layout: a tall stack at the far left, a large green-covered area across the center/right, and different pale-blue panels and crate columns below. The upper-middle background opening described is visible; the green-covered region is broad rather than a small isolated tile patch, but the observation captures the main arrangement. Both candidate hypotheses are null."
+    },
+    {
+      "level": 5085,
+      "image_path": "royal-kingdom/levels/level-5085.jpg",
+      "result": "supported",
+      "evidence": "Candidate compact_full_field and the lower-board description are supported: the lower gold-edged field is a continuous rectangle of colored tiles, with brown circular blockers along both outer columns and green circular covers in the center. Three small figures sit in the distinct upper arena, above two separated character/turret groups. Both candidate hypotheses are null."
+    },
+    {
+      "level": 5126,
+      "image_path": "royal-kingdom/levels/level-5126.jpg",
+      "result": "supported",
+      "evidence": "Candidate tags asymmetric and layered_bands fit the original's visibly unequal upper-left tile pocket and upper-right bowl-filled area, separated by tall white columns, above the dense lower-right striped structure. The broad background recess below the left tiles is visible and is not itself a blocker. Both candidate hypotheses are null."
+    },
+    {
+      "level": 5169,
+      "image_path": "royal-kingdom/levels/level-5169.jpg",
+      "result": "uncertain",
+      "evidence": "Candidate tags split_regions, asymmetric, and stair_step. The original is asymmetric and contains a left-hand stepped arrangement, but the diagonal chain of small figures on brown cells at upper-right is visibly separated by background. From the image alone I cannot establish whether that chain is a disconnected playable region or an obstacle arrangement; likewise, the left-side steps may describe obstacles rather than the playable boundary. The split_regions and stair_step tags therefore remain unverified, not confirmed by wording. Both candidate hypotheses are null."
+    },
+    {
+      "level": 5211,
+      "image_path": "royal-kingdom/levels/level-5211.jpg",
+      "result": "uncertain",
+      "evidence": "Candidate tag central_mass is supported by the broad purple-stone cross and central vertical column. However, the candidate calls the bottom-center feature an empty notch; the original shows a conspicuous turquoise/green striped vertical feature there, so its status as empty background versus a cell/feature is not clear at this resolution. Bright effects also cover some upper-right cells, consistent with partial inspection. Both candidate hypotheses are null."
+    },
+    {
+      "level": 5252,
+      "image_path": "royal-kingdom/levels/level-5252.jpg",
+      "result": "conflict",
+      "evidence": "Candidate tags central_mass, stair_step, and layered_bands. The central purple blocker mass and horizontal lower bands are visible, but the gold-edged play-field outline is broadly rectangular; the conspicuous steps belong to the blocker/tile arrangement, not a clearly stepped playable boundary. The stair_step tag is not supported under the taxonomy's boundary-based definition. Both candidate hypotheses are null.",
+      "candidate_correction": {
+        "geometry_tags": [
+          "central_mass",
+          "layered_bands"
+        ]
+      }
+    },
+    {
+      "level": 5253,
+      "image_path": "royal-kingdom/levels/level-5253.jpg",
+      "result": "conflict",
+      "evidence": "Candidate tag asymmetric is supported. Its observation places two blue-tray stacks on the far right; the original instead shows two large pale-blue rectangular panels low on the left and lower-middle (approximately x=10–93 and x=181–262 in the 405px image), while the far-right area contains colored tiles and green-covered cells. This is a concrete location/object mismatch. Both candidate hypotheses are null.",
+      "candidate_correction": {
+        "observation": "Two stacked tile pockets occupy the left, with a small downward tile extension. Purple-framed blockers and a broad green-covered region occupy the center/right; colored tiles continue across the upper-right. Two large pale-blue rectangular panels sit low on the left and lower-middle, with crate columns nearby. Background openings are visible, but their play-cell connectivity is uncertain."
+      }
+    },
+    {
+      "level": 5265,
+      "image_path": "royal-kingdom/levels/level-5265.jpg",
+      "result": "conflict",
+      "evidence": "Candidate tag compact_full_field may fit the outlined board, but the observation says circular targets, doll-like objects, and yellow platforms are in a separate arena above. The original shows the board immediately below the HUD: colored-tile/strip columns at left, a large magenta gridded region at upper-right, and a lower-right pale jigsaw-like panel beside a green vertical strip. No separate upper boss arena or the claimed object cluster is visible. Whether the magenta cells are blocked cells or empty gaps cannot be resolved here. Both candidate hypotheses are null.",
+      "candidate_correction": {
+        "observation": "The visible board begins directly below the HUD. Colored tiles and tall patterned columns occupy the left; a large magenta gridded area is at upper-right, and a pale jigsaw-like panel occupies lower-right beside a green vertical strip. No separate upper boss arena is visible. The magenta and panel regions' play-cell status is uncertain."
+      }
+    },
+    {
+      "level": 5276,
+      "image_path": "royal-kingdom/levels/level-5276.jpg",
+      "result": "supported",
+      "evidence": "Candidate asymmetric tag and observation match the original: tiles cluster at upper-left; purple plus-marked blockers and flower strips continue below; a red covered rectangle occupies upper-right above a large beige panel. The narrow background recess beside the panel is visible; the red covered rectangle is occupied artwork, not an empty gap. Both candidate hypotheses are null."
+    },
+    {
+      "level": 5288,
+      "image_path": "royal-kingdom/levels/level-5288.jpg",
+      "result": "supported",
+      "evidence": "Candidate asymmetric tag is supported by the original's unequal tile patch at upper-left, tall red-striped structures through the center/left, and paired large blue panels with a purple strip on the right. The small framed interruptions in the center are visible; their precise play-cell connectivity is not asserted. Both candidate hypotheses are null."
+    },
+    {
+      "level": 5300,
+      "image_path": "royal-kingdom/levels/level-5300.jpg",
+      "result": "supported",
+      "evidence": "Candidate compact_full_field and its explicit arena separation are supported: a wide, regular lower rectangle is filled with colored tiles and has no obvious internal gaps or blocker bands; the robot, two flanking figures, and curved yellow-ring row are in the distinct upper boss arena and were correctly excluded from match-grid geometry. Both candidate hypotheses are null."
+    }
+  ],
+  "limitations": [
+    "This is a 12-image sample, not independent validation of all 300 candidates; the sample deliberately covers first, middle, and last available rows of both shards plus evenly spaced rows.",
+    "The originals were inspected at 405x720. Visual evidence cannot resolve every covered cell's playability or connectivity; explicitly uncertain cases remain unresolved.",
+    "All sampled candidates had null difficulty_hypothesis and strategy_hypothesis, so there were no such claims to test; no hypotheses were invented.",
+    "validation.json reported no repeated_observations, so there were no highlighted repeated-category descriptions to add beyond the distributed sample.",
+    "Conflicts are preserved as candidate-versus-image evidence in this report only; no shard labels or source records were changed."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "inspected_sheets": [
+    "levels-7253-7264.jpg",
+    "levels-7265-7276.jpg",
+    "levels-7277-7288.jpg",
+    "levels-7289-7300.jpg",
+    "levels-7301-7312.jpg",
+    "levels-7313-7324.jpg",
+    "levels-7325-7336.jpg",
+    "levels-7337-7348.jpg",
+    "levels-7349-7360.jpg",
+    "levels-7361-7372.jpg",
+    "levels-7373-7384.jpg",
+    "levels-7385-7396.jpg",
+    "levels-7397-7408.jpg",
+    "levels-7409-7420.jpg",
+    "levels-7421-7432.jpg",
+    "levels-7433-7444.jpg",
+    "levels-7445-7456.jpg",
+    "levels-7457-7468.jpg",
+    "levels-7469-7480.jpg",
+    "levels-7481-7492.jpg",
+    "levels-7493-7504.jpg"
+  ],
+  "rows_saved": 252,
+  "counts": {
+    "reviewed": 205,
+    "partial": 3,
+    "missing": 44
+  },
+  "validation": "Passed exact fields, numeric order, 21 inspected sheet checkpoints, repository-relative source and sheet paths, and actual source SHA-256 checks."
+}

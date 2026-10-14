@@ -1,0 +1,27 @@
+{
+  "game": "royal-match",
+  "records": 500,
+  "inspection_counts": {
+    "reviewed": 455,
+    "partial": 45
+  },
+  "available_images_have_recorded_inspection": true,
+  "accepted_labels": 0,
+  "limitation": "Structural and hash validation does not independently prove visual fidelity.",
+  "range": [
+    13001,
+    13500
+  ],
+  "review_status": "needs_review",
+  "repeated_observations": [],
+  "classification_complete": false,
+  "quality_review": {
+    "sample_size": 12,
+    "results": {
+      "supported": 9,
+      "conflict": 2,
+      "uncertain": 1
+    },
+    "limitation": "Sampled review is not full independent geometry validation."
+  }
+}

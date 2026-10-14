@@ -1,0 +1,101 @@
+{
+  "status": "needs_review",
+  "sample": [
+    {
+      "level": 5001,
+      "image_path": "sources/royal-match-level-archive/levels/05001/board.jpg",
+      "result": "supported",
+      "evidence": "Candidate tags compact_full_field and layered_bands. The original shows one rectangular, contiguous cell field: match tiles across upper rows, three green round devices within the middle rows, and drawer units occupying broad lower rows. The lower units are blockers in the field, not empty gaps or a boundary break; the observation that there is no internal gap is consistent. Both candidate hypotheses are null."
+    },
+    {
+      "level": 5126,
+      "image_path": "sources/royal-match-level-archive/levels/05126/board.jpg",
+      "result": "uncertain",
+      "evidence": "Candidate tag asymmetric is supported by the visibly unequal left and right portions. Its observation describes stepped left-side cells leading to upper and lower cupboard/tube pockets, with an empty horizontal slot below a chest row. The original shows two large right-side areas wrapped by bright purple tracks, separated by a visible horizontal dark-background gap, while occupied egg/crate rows fill much of the left and lower portions. The track structures and visible gap must not be conflated; covered junctions make exact connectivity uncertain. Both candidate hypotheses are null."
+    },
+    {
+      "level": 5252,
+      "image_path": "sources/royal-match-level-archive/levels/05252/board.jpg",
+      "result": "supported",
+      "evidence": "Candidate tags split_regions and layered_bands. The original shows two tall, separate cell panels divided by a full-height vertical strip of exposed background; neither panel is merely separated by blockers. Within each panel, rows of tiles and covered cells form visible horizontal bands. The described left/right contents and clear empty gap match the image. Both candidate hypotheses are null."
+    },
+    {
+      "level": 5253,
+      "image_path": "sources/royal-match-level-archive/levels/05253/board.jpg",
+      "result": "supported",
+      "evidence": "Candidate tag asymmetric. The original has an upper-left tile area, a narrow vertical flower-filled divider, a broad upper-right block of purple covered cells, and distinct lower-left and lower-right structures; the major left and right portions do not mirror. The divider and covered cells are visible occupied cells, not proof of an empty split. The candidate observation captures the unequal lower extents and visible contents. Both candidate hypotheses are null."
+    },
+    {
+      "level": 5361,
+      "image_path": "sources/royal-match-level-archive/levels/05361/board.jpg",
+      "result": "supported",
+      "evidence": "Candidate tag layered_bands. The original shows two upper tile blocks with a shallow empty notch between them, but two full-width rows of egg-shaped cells continue across and connect the sides. Lower rows contain blue/yellow covered cells around a widening cream-blocker pyramid. The cross-board rows are occupied cells rather than gaps; the candidate description and layered-bands label match. Both candidate hypotheses are null."
+    },
+    {
+      "level": 5504,
+      "image_path": "sources/royal-match-level-archive/levels/05504/board.jpg",
+      "result": "conflict",
+      "evidence": "Candidate tags layered_bands and asymmetric fit the visible bands and uneven left/right layout, but its observation says two red-blocker rows connect across a central blue device. The original instead shows bright pink/purple horizontal track-like strips in the middle-right and a separate blue drawer band running near the bottom; there are no two red rows bridging a central blue device as described. These are object-level differences, not merely alternate wording. Both candidate hypotheses are null.",
+      "candidate_correction": {
+        "observation": "A tall left-side column and purple striped tracks sit beside an upper-right tile area; two bright pink/purple horizontal track strips occupy the middle-right, while a blue drawer row spans near the bottom above tan cells."
+      }
+    },
+    {
+      "level": 5505,
+      "image_path": "sources/royal-match-level-archive/levels/05505/board.jpg",
+      "result": "conflict",
+      "evidence": "Candidate tag asymmetric is supported by the strongly unequal left and right board sections, but the observation identifies tall blue drawer rails surrounding pink bent tubes. The original shows a large left panel of dark-blue chained cells, extensive pink square-covered cells on the right, a small blue framed tile at the lower junction, and purple/white striped rails along the left and bottom; the claimed blue drawer rails and bent tubes are not visible. Pink coverings obscure underlying cells, consistent with the candidate partial status, but do not make those object identifications supported. Both candidate hypotheses are null.",
+      "candidate_correction": {
+        "observation": "An asymmetric board has a chained dark-blue panel on the left and large pink square-covered blocks on the right; a blue framed tile sits at the lower junction, with purple/white striped rails along the left and bottom. Covered cells obscure some connectivity."
+      }
+    },
+    {
+      "level": 5630,
+      "image_path": "sources/royal-match-level-archive/levels/05630/board.jpg",
+      "result": "uncertain",
+      "evidence": "Candidate leaves geometry_tags empty and describes paired red-curtain banks around a narrow central tile lane, with purple cells crossing the midpoint and lower stem. The original visibly has two broad rectangular curtain-covered banks and a narrow vertical central column of ordinary pieces and purple cells connecting the upper and lower portions. The empty-tag choice is cautious, but the heavy curtain coverage prevents reliable inference about the underlying play-cell connectivity; the image does not justify treating the banks themselves as empty gaps. The candidate observation is broadly consistent; both hypotheses are null."
+    },
+    {
+      "level": 5756,
+      "image_path": "sources/royal-match-level-archive/levels/05756/board.jpg",
+      "result": "conflict",
+      "evidence": "Candidate tags asymmetric and stair_step, and describes flower blocks as a stepped lower-left boundary. The original outer cell outline remains broad and rectangular down to a full-width bottom row of brown blockers. The stepped contours visible inside the lower board come from blocker/object placement, not a staircase in the playable boundary, so stair_step is not supported. The visible composition is not perfectly mirrored, so the candidate asymmetric tag is retained as plausible. Both candidate hypotheses are null.",
+      "candidate_correction": {
+        "geometry_tags": [
+          "asymmetric"
+        ],
+        "observation": "The board retains a broad rectangular outer boundary with a full-width bottom row; lower blocker groups create internal contours, not a stepped playable edge."
+      }
+    },
+    {
+      "level": 5757,
+      "image_path": "sources/royal-match-level-archive/levels/05757/board.jpg",
+      "result": "conflict",
+      "evidence": "Candidate tag compact_full_field is plausible, and its observation itself calls the upper field crown-shaped and says it widens in steps toward the middle, with a narrower lower extension. The original confirms a connected field whose outer boundary begins narrow at the top, widens in visible steps, then narrows into the lower collector/wheel extension. Under the taxonomy, that visible boundary progression supports stair_step; omitting it conflicts with the candidate’s own image description. Both candidate hypotheses are null.",
+      "candidate_correction": {
+        "geometry_tags": [
+          "compact_full_field",
+          "stair_step"
+        ]
+      }
+    },
+    {
+      "level": 5878,
+      "image_path": "sources/royal-match-level-archive/levels/05878/board.jpg",
+      "result": "supported",
+      "evidence": "Candidate tags asymmetric and layered_bands. The original has an upper-left tile block and different right-side red trays, with horizontal crate rows between them; lower cream-blocker rows and cyan columns form further visible bands. Left/right regions are plainly unequal, and the bands are visible without mistaking crates or covered cells for empty gaps. The candidate observation about an upper-left patch, intervening crate rows, right tray, and lower rows matches the image. Both candidate hypotheses are null."
+    },
+    {
+      "level": 6000,
+      "image_path": "sources/royal-match-level-archive/levels/06000/board.jpg",
+      "result": "uncertain",
+      "evidence": "Candidate tags split_regions and open_center, describing separate yellow-object outlines reading 6, 0, 0, and 0. The original has a Reward-only coin objective and repeated pale sack-like objects arranged along purple/gold loop-shaped structures, with a separate right-hand column; it does not resemble an ordinary colored-tile match grid. Several enclosed interiors are empty, but those repeated cavities do not by themselves establish the taxonomy’s singular open-center arrangement, and it is unclear whether this is a special arena layout or disconnected match regions. The numeric reading and both tags therefore remain unverified; both candidate hypotheses are null."
+    }
+  ],
+  "limitations": [
+    "This is a 12-image sample, not full independent validation of the 1,000-level batch. Samples are the first, middle, and last available rows of each of the four shards; originals were inspected directly.",
+    "The batch validation.json reports repeated_observations as an empty list, so it highlights no repeated-category descriptions to add. No additional repeated-description sample was inferred from wording alone.",
+    "All 12 sampled candidate records have null difficulty_hypothesis and strategy_hypothesis; there were no hypotheses to compare. No difficulty or strategy claims were independently assessed.",
+    "Some object identities and underlying connectivity remain obscured by coverings, particularly at 5127, 5630, and 6000; these cases are marked uncertain rather than treated as verified."
+  ]
+}

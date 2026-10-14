@@ -1,0 +1,117 @@
+{
+  "status": "needs_review",
+  "sample": [
+    {
+      "level": 4001,
+      "image_path": "royal-kingdom/levels/level-4001.jpg",
+      "result": "supported",
+      "evidence": "Original shows a continuous rectangular tile grid; the top row contains paired purple jar-like blockers in repeated pairs, while ordinary colored tiles fill the middle and lower rows without empty gaps. This supports compact_full_field and the candidate observation. Difficulty and strategy hypotheses are null."
+    },
+    {
+      "level": 4127,
+      "image_path": "royal-kingdom/levels/level-4127.jpg",
+      "result": "uncertain",
+      "evidence": "Original has upper match tiles bounded by wooden crates, a horizontal crate band, and large purple-covered areas at both lower sides around a central vertical object. Layered bands are visible, but the largest covered masses are lateral rather than centered; central_mass is not clearly supported by the image-specific layout. The observation broadly matches; difficulty and strategy hypotheses are null."
+    },
+    {
+      "level": 4252,
+      "image_path": "royal-kingdom/levels/level-4252.jpg",
+      "result": "conflict",
+      "evidence": "Original-resolution image shows the complete lower edge of the board, including the bottom row of purple blockers and the two clock-like objectives; no counter/UI overlay covers that edge. The wheel icon is in the top Goals bar, not an overlay over the board. Purple blockers occupy a broad lower-center mass, while the side clock cells remain visible. The candidate observation’s overlay claim is false; its layered_bands tag is plausible, and central_mass is also visually supported. Difficulty and strategy hypotheses are null.",
+      "candidate_correction": {
+        "geometry_tags": [
+          "layered_bands",
+          "central_mass"
+        ],
+        "observation": "A compact upper tile block broadens into side regions with clock objectives; a broad purple-covered mass occupies the lower center. The full bottom board edge is visible, with no overlay obscuring it."
+      }
+    },
+    {
+      "level": 4253,
+      "image_path": "royal-kingdom/levels/level-4253.jpg",
+      "result": "conflict",
+      "evidence": "The original has a colored-tile pocket at upper left adjoining a much larger pink masonry/blocker field, with purple planter-like cells and gold circular centers in the right and lower regions. It does not show the candidate’s purple jars across upper-left/center or red target rings wrapping blue inset panels at middle-left and lower-right. The broad outer field is mostly contiguous, so compact_full_field is not rejected solely because obstacles divide its appearance. Difficulty and strategy hypotheses are null.",
+      "candidate_correction": {
+        "observation": "A colored-tile pocket at upper left adjoins a broad pink masonry field; purple planter-like cells and gold circular centers are arranged through the right and lower regions. No blue inset panels or red target rings are visible."
+      }
+    },
+    {
+      "level": 4379,
+      "image_path": "royal-kingdom/levels/level-4379.jpg",
+      "result": "conflict",
+      "evidence": "The colored-tile pocket is at upper right, not upper left. Large white horizontal rollers occupy the upper-left and middle portions, and the lower left/right regions are green panels with circular red 10 markers, not orange target cells. The overall arrangement is asymmetric. The supposed two-step outer boundary is not clearly distinguishable from the stepped placement of obstacles, so stair_step is not substantiated by this image. Difficulty and strategy hypotheses are null.",
+      "candidate_correction": {
+        "geometry_tags": [
+          "asymmetric",
+          "layered_bands"
+        ],
+        "observation": "White horizontal rollers fill the upper-left and middle bands; a colored-tile pocket occupies the upper right. Two lower green panels with circular red 10 markers are separated by a narrow central column. Do not infer stair_step from the obstacle arrangement alone."
+      }
+    },
+    {
+      "level": 4504,
+      "image_path": "royal-kingdom/levels/level-4504.jpg",
+      "result": "conflict",
+      "evidence": "Original shows tall white/cream rail-like columns around a prominent central blue snowflake box, with rows of purple eye-shaped objects beneath it and colored tile pockets at the outer sides. There are no four green-covered corner blocks. The side recesses are open background, distinct from the occupied central blocker mass. layered_bands fits; central_mass is also supported. Difficulty and strategy hypotheses are null.",
+      "candidate_correction": {
+        "geometry_tags": [
+          "layered_bands",
+          "central_mass"
+        ],
+        "observation": "White rail-like columns flank a large central blue snowflake box and rows of purple eye-shaped blockers; colored tile pockets remain at the sides, with open recesses beside the central structure."
+      }
+    },
+    {
+      "level": 4505,
+      "image_path": "royal-kingdom/levels/level-4505.jpg",
+      "result": "supported",
+      "evidence": "The screenshot clearly separates an upper boss arena (ladder, short row of pots, two castles and bridge) from the lower rectangular match grid. In the lower grid, repeated brown pot columns alternate with colored tile columns. Both compact_full_field and layered_bands fit the visible layout. Difficulty and strategy hypotheses are null."
+    },
+    {
+      "level": 4631,
+      "image_path": "royal-kingdom/levels/level-4631.jpg",
+      "result": "conflict",
+      "evidence": "The original’s center is dominated by a large blue snowflake box, framed by vertical white/cream rails; purple eye-shaped blockers extend below it and colored tile strips lie at the sides. Shallow turquoise recesses are visible above and below the box, not a completely open center. layered_bands fits, but the salient central blocker mass is not tagged. Difficulty and strategy hypotheses are null.",
+      "candidate_correction": {
+        "geometry_tags": [
+          "layered_bands",
+          "central_mass"
+        ],
+        "observation": "Vertical rail-like columns frame a large central blue snowflake box; turquoise recesses sit above and below it, purple eye-shaped blockers continue beneath, and colored tiles remain along the outer sides."
+      }
+    },
+    {
+      "level": 4756,
+      "image_path": "royal-kingdom/levels/level-4756.jpg",
+      "result": "conflict",
+      "evidence": "The original has an upper-left colored-tile pocket, a broad pink masonry cross/band structure, and purple planter-like cells with gold centers on the right and lower portions. The candidate calls the central structure red-covered and describes red boxes in the upper-left and lower center; those red boxes are not visible (the obvious red pieces are ordinary diamond tiles). The asymmetric tag is supported, but those blocker/color claims are not. Difficulty and strategy hypotheses are null.",
+      "candidate_correction": {
+        "observation": "An upper-left colored-tile pocket meets a broad pink masonry cross/band; purple planter-like cells with gold centers occupy the right and lower portions. Red diamond tiles are distinct from the pink masonry blockers."
+      }
+    },
+    {
+      "level": 4757,
+      "image_path": "royal-kingdom/levels/level-4757.jpg",
+      "result": "supported",
+      "evidence": "Original shows tall lavender curtain-like blockers at both edges, brown column blockers beside the central colored-tile route, and a visible stepped lower-left sand boundary. Empty background notches at the sides are distinct from the adjacent occupied cells. This supports the candidate’s asymmetric winding route and stair_step label as a board-boundary feature, not merely blocker placement. Difficulty and strategy hypotheses are null."
+    },
+    {
+      "level": 4879,
+      "image_path": "royal-kingdom/levels/level-4879.jpg",
+      "result": "supported",
+      "evidence": "Original shows horizontal white roller-like bars in upper-left/middle bands beside an upper-right tile pocket and a red/gold object. Two large lower panels with circular 10 markers are separated by a narrow central column; shallow empty slots sit above them. This supports layered_bands and the candidate’s visible arrangement. Difficulty and strategy hypotheses are null."
+    },
+    {
+      "level": 5000,
+      "image_path": "royal-kingdom/levels/level-5000.jpg",
+      "result": "supported",
+      "evidence": "Original clearly has a separate boss arena at the top with ice-like targets and platforms, above a lower rectangular match grid of patterned blockers. Within the lower grid, left/right recesses are visibly empty while the central vertical line contains occupied red/gold objects; those are not empty notches. The boss arena is not part of the match grid. compact_full_field is plausible for the lower field; difficulty and strategy hypotheses are null."
+    }
+  ],
+  "limitations": [
+    "This is a bounded visual sample of 12 distinct levels, chosen as the first, middle, and last available row of each of the four shards; it is not independent validation of the full 1,000-level batch.",
+    "The batch validation.json reports no repeated_observations, so there were no validation-highlighted repeated-category descriptions to add to the sample.",
+    "All 12 selected candidate records have null difficulty_hypothesis and strategy_hypothesis; there were no image-specific candidate hypotheses in this sample to assess. Difficulty, success rate, and optimal strategy are outside the visual evidence reviewed here.",
+    "Small icons and blocker identities are described by visible appearance only; no gameplay or unseen-mechanic claims are verified."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "sheet": "levels-9961-9972.jpg",
+  "range": [
+    9961,
+    9972
+  ],
+  "records_written": 12,
+  "output": "candidates-09757-10000.jsonl",
+  "output_sha256": "140740eea53c11e0798410b9d7748e5f22ca6b3863cf8bd24d1b7fc4b047561f",
+  "status": "checkpointed_after_visual_inspection"
+}

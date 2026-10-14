@@ -1,0 +1,95 @@
+{
+  "status": "needs_review",
+  "sample": [
+    {
+      "level": 13001,
+      "image_path": "sources/royal-match-level-archive/levels/13001/board.jpg",
+      "result": "supported",
+      "evidence": "The rendered grid is a contiguous rectangle: five rows of colored tiles, a full-width row of downward arrows, then several full-width rows of beige square blockers. No empty background gap splits the field; compact_full_field and layered_bands fit the visible arrangement."
+    },
+    {
+      "level": 13126,
+      "image_path": "sources/royal-match-level-archive/levels/13126/board.jpg",
+      "result": "conflict",
+      "evidence": "The candidate calls the tile area a narrow upper-center patch. In the original, colored tiles occupy multiple rows across nearly the full board width, including both left and right sides; paired covered groups and columns become prominent lower down. This is a materially broader upper tile field than stated.",
+      "candidate_correction": {
+        "observation": "Colored tiles span several upper rows across nearly the full board width. Paired covered groups and tall framed columns occupy much of the lower sides, with central devices and a short lower-center gap.",
+        "geometry_tags": [
+          "layered_bands"
+        ]
+      }
+    },
+    {
+      "level": 13252,
+      "image_path": "sources/royal-match-level-archive/levels/13252/board.jpg",
+      "result": "supported",
+      "evidence": "The image shows a broad left-side mass of brown square blockers beside a narrower right tile strip, then drawer-like blockers below with a visible central floor notch. The notch is empty background, not a central blocker; the candidate correctly avoids central_mass and split_regions."
+    },
+    {
+      "level": 13253,
+      "image_path": "sources/royal-match-level-archive/levels/13253/board.jpg",
+      "result": "supported",
+      "evidence": "The visible board has a broad upper tile area above tall blue framed columns at lower left and floral-covered squares at lower right; horizontal blue separators visibly divide the floral groups. The upper-right sparkle and lower-right glow obscure details, consistent with partial inspection; layered_bands is supported."
+    },
+    {
+      "level": 13288,
+      "image_path": "sources/royal-match-level-archive/levels/13288/board.jpg",
+      "result": "supported",
+      "evidence": "A broad connected tile field fills the upper board and narrows toward the central brick device at the bottom. Large framed rotor-like blockers appear in pairs at the left and right sides, with green background notches near the lower sides; the field remains connected above them, supporting compact_full_field rather than split_regions."
+    },
+    {
+      "level": 13324,
+      "image_path": "sources/royal-match-level-archive/levels/13324/board.jpg",
+      "result": "conflict",
+      "evidence": "The candidate describes a narrow upper tile column widening into a bridge. The original instead visibly has several broad upper rows with ordinary colored tiles spanning most of the board width before large orange covered blocks and tall columns interrupt the lower area. The upper-column description is not supported.",
+      "candidate_correction": {
+        "observation": "Several broad upper rows of colored tiles span most of the board width; large orange covered blocks and tall framed columns interrupt the irregular lower area.",
+        "geometry_tags": [
+          "asymmetric"
+        ]
+      }
+    },
+    {
+      "level": 13359,
+      "image_path": "sources/royal-match-level-archive/levels/13359/board.jpg",
+      "result": "supported",
+      "evidence": "The rendered board shows the main covered chain along the left and bottom, an upper-right tile patch, and a small device patch between them. Unoccupied scene-background gaps are visibly present between these patches, rather than separation inferred only from blocker colors; split_regions and asymmetric are supported."
+    },
+    {
+      "level": 13376,
+      "image_path": "sources/royal-match-level-archive/levels/13376/board.jpg",
+      "result": "supported",
+      "evidence": "The original shows horizontal tiers: upper colored tiles, central framed/covered structures and side groups, followed by lower duck-case and paw-covered rows. The board has no evident empty-background split, and the single layered_bands tag is consistent with the visible organization."
+    },
+    {
+      "level": 13394,
+      "image_path": "sources/royal-match-level-archive/levels/13394/board.jpg",
+      "result": "supported",
+      "evidence": "A tall left-side run of cabinets and paw-marked covers contrasts with the upper-right colored tiles/cylinders and lower-right paw rows. The upper and lower rows are visibly layered; the left/right mismatch supports asymmetric."
+    },
+    {
+      "level": 13429,
+      "image_path": "sources/royal-match-level-archive/levels/13429/board.jpg",
+      "result": "supported",
+      "evidence": "The original has colored tiles and white rockets at the top, extensive dark rock/blocker coverage through the central and lower board, and strapped vertical columns around parts of that mass. Those blockers occupy the center (not an empty notch), so central_mass and layered_bands are supported."
+    },
+    {
+      "level": 13465,
+      "image_path": "sources/royal-match-level-archive/levels/13465/board.jpg",
+      "result": "supported",
+      "evidence": "The upper-left yellow-marked cells contrast with a tall rounded-covered area and broad floral-covered lower rows. A narrow green background notch rises between lower covered legs around the central cases. The notch is not a central blocker and does not by itself establish split_regions; asymmetric and layered_bands match the visible board."
+    },
+    {
+      "level": 13500,
+      "image_path": "sources/royal-match-level-archive/levels/13500/board.jpg",
+      "result": "uncertain",
+      "evidence": "The screenshot visibly contains gold-disc rows around the outer top and lower U-shaped portions, with background gaps at the sides, plus a separate central three-column tile rectangle in a broad illustrated opening. It is unclear from this image whether the outer disc structures are part of the match-grid playable cells or separate arena/event presentation; therefore the candidate split_regions label cannot be confirmed as a match-grid classification."
+    }
+  ],
+  "limitations": [
+    "This is a visual sample of 12 levels, not verification of every row in the 500-level batch; no labels are promoted and the batch remains needs_review.",
+    "The taxonomy was treated as candidate vocabulary only. Difficulty and strategy remain unknown because this review found no directly cited local evidence for either.",
+    "The source validation lists repeated_observations as empty, and an exact-text scan of candidate observations found no duplicated observation strings; no repeated-observation warning was found in the inspected batch.",
+    "Level 13500 may depict a distinct arena/event presentation; the image alone does not establish that its outer gold-disc structures are match-grid cells."
+  ]
+}

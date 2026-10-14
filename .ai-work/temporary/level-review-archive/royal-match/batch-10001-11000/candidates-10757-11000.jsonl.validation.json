@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "coverage": [
+    10757,
+    11000
+  ],
+  "rows": 244,
+  "reviewed": 234,
+  "partial": 10,
+  "missing": 0,
+  "not_reviewed": 0,
+  "needs_review": 244,
+  "accepted": 0,
+  "rendered_numbered_sheets": 21,
+  "original_followup_levels": [
+    10775,
+    10944,
+    11000
+  ],
+  "checks": [
+    "Exact numeric order and complete contract fields",
+    "Repository-relative image and sheet paths, indexed cell and source SHA-256",
+    "All 244 original source hashes recomputed locally",
+    "Allowed candidate vocabulary, no accepted rows",
+    "Unknown verified difficulty and strategy; null hypotheses",
+    "All 21 sheet checkpoints present and coverage counts consistent"
+  ],
+  "output_sha256": "0417b58360d466896d4308684f6a278f51f77d234bf7cadbb5d1a52906c42619"
+}

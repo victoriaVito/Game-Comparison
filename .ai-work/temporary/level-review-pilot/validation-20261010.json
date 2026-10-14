@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "status": "candidate_review_requires_geometry_validation",
+  "structural_validation": {
+    "command": "python3 .ai-work/temporary/level-review-pilot/validate_reviews.py --verify-hashes",
+    "result": "passed",
+    "scope": "Exact numeric coverage, required fields, allowed tags, source paths, sheet cells, and original SHA-256 hashes",
+    "limitation": "Does not independently verify visual fidelity or hypothesis correctness"
+  },
+  "royal_match": {
+    "records": 1000,
+    "recorded_inspection_counts": {"reviewed": 995, "partial": 2, "missing": 3},
+    "unique_reviewed_observations_by_shard": [499, 496]
+  },
+  "royal_kingdom": {
+    "records": 1000,
+    "recorded_inspection_counts": {"reviewed": 972, "partial": 28, "missing": 0},
+    "unique_reviewed_observations_by_shard": [483, 496],
+    "quality_issue_history": "The original 505-1000 shard used eight observation templates across 489 reviewed rows. The same reviewer revised all 496 observations, marked every row needs_review, removed its hypotheses, and removed some stair_step tags.",
+    "quality_issue": "Direct parent spot inspection still finds candidate tags inconsistent with the visible board or v1 taxonomy. Distinct observation wording does not establish correct geometry classification.",
+    "follow_up": "Review the candidate geometry conflicts and partial cases before acceptance or scaling. No additional agent rerun was started.",
+    "parent_visual_spot_check": {
+      "sheet_paths": [
+        ".ai-work/temporary/level-review-pilot/royal-kingdom/sheets-20261009/levels-0505-0516.jpg",
+        ".ai-work/temporary/level-review-pilot/royal-kingdom/sheets-20261009/levels-0997-1000.jpg"
+      ],
+      "conflicts": [
+        {
+          "level": 507,
+          "status": "needs_review",
+          "candidate_tags": ["asymmetric", "split_regions"],
+          "visible_evidence": "The colored upper tile bank is a continuous rectangle across left and right. The blue-and-gold vertical strip begins below its central bottom edge between two collection trays.",
+          "conflict": "The description says two tile banks separated by blockers, but the upper bank is connected; the visible strip and trays do not establish split_regions.",
+          "candidate_alternative": ["compact_full_field", "layered_bands"]
+        },
+        {
+          "level": 999,
+          "status": "needs_review",
+          "candidate_tags": ["split_regions", "asymmetric"],
+          "visible_evidence": "The lower field contains covered cells and vertical tubes directly adjacent to one another, with colored cells above the right side; no empty gap separating left and right is visible.",
+          "conflict": "Different blockers or covered cells alone do not establish disconnected playable regions. Withhold split_regions without clearer boundary evidence.",
+          "candidate_alternative": ["asymmetric"]
+        },
+        {
+          "level": 1000,
+          "status": "needs_review",
+          "candidate_tags": ["central_mass", "layered_bands"],
+          "visible_evidence": "The lower colored field surrounds an empty central rocky notch with stepped edges. The upper boss arena is separate from the match field.",
+          "conflict": "The central notch is visibly empty, not a blocker mass within the grid; central_mass is unsupported by this image. Boss-arena structure should not silently become match-board geometry.",
+          "candidate_alternative": ["open_center", "stair_step"]
+        }
+      ],
+      "limitation": "A small direct spot check; alternatives remain candidates, and no full independent rereview is claimed."
+    },
+    "level_1_correction": "New candidate compact_full_field contradicts historical split_regions; original output remains preserved."
+  },
+  "accepted_labels": 0,
+  "later_batches_started": false
+}

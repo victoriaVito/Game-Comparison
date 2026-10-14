@@ -1,0 +1,15 @@
+{
+  "validation": "passed",
+  "row_count": 252,
+  "level_range": [
+    5001,
+    5252
+  ],
+  "inspection_counts": {
+    "reviewed": 210,
+    "partial": 42
+  },
+  "inspected_sheet_count": 21,
+  "original_sha256_verified": 252,
+  "exact_contract_fields": true
+}

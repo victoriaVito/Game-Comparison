@@ -1,0 +1,24 @@
+{
+  "schema_version": 2,
+  "output_path": ".ai-work/temporary/level-review-archive/royal-match/batch-10001-11000/candidates-10253-10504.jsonl",
+  "coverage": [
+    10253,
+    10504
+  ],
+  "rows": 252,
+  "inspection_counts": {
+    "reviewed": 251,
+    "partial": 1,
+    "missing": 0,
+    "not_reviewed": 0
+  },
+  "needs_review": 252,
+  "accepted": 0,
+  "sheets_rendered": 21,
+  "originals_rendered": 10,
+  "source_hashes_verified": 252,
+  "unknown_difficulty_and_strategy": 252,
+  "null_hypotheses": 252,
+  "validation_passed": true,
+  "jsonl_sha256": "b9088e6655d462266307bc594328073b3699850e5932cc5e4dd904754e26e2db"
+}

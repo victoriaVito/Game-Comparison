@@ -1,0 +1,15 @@
+{
+  "rows": 252,
+  "sheets_visually_inspected": 21,
+  "inspection_counts": {
+    "reviewed": 234,
+    "partial": 18
+  },
+  "review_status_counts": {
+    "needs_review": 252
+  },
+  "source_hashes_verified": 252,
+  "contract_fields_verified": true,
+  "numeric_order_verified": true,
+  "missing": 0
+}

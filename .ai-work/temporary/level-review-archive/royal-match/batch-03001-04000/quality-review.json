@@ -1,0 +1,100 @@
+{
+  "status": "needs_review",
+  "sample": [
+    {
+      "level": 3001,
+      "image_path": "sources/royal-match-level-archive/levels/03001/board.jpg",
+      "result": "supported",
+      "evidence": "Original inspected. Candidate compact_full_field and the description of one central red tray and two bottom corner trays agree with the image: a rectangular gold perimeter contains colored tiles above and beside the central two-row duck tray, and a three-column tile bridge between the two lower duck trays. These occupied trays are blockers/fixtures, not empty holes or disconnected play regions. Both candidate hypotheses are null; no strategy or difficulty claim is made."
+    },
+    {
+      "level": 3127,
+      "image_path": "sources/royal-match-level-archive/levels/03127/board.jpg",
+      "result": "supported",
+      "evidence": "Original inspected. Candidate split_regions and central_mass agree: two separately outlined wide rectangles are divided by a visible background strip. In the upper rectangle, purple stones expand from one near-center stone to a broad bottom row, with white paw-marked jars along the sloping sides. This triangular obstacle arrangement is inside a rectangular play boundary, not a stair_step boundary. The lower rectangle contains a top row of red animal pieces, a white jar row, purple stones and two gray drawers. The central mass is occupied, not an empty notch. Both hypotheses are null."
+    },
+    {
+      "level": 3252,
+      "image_path": "sources/royal-match-level-archive/levels/03252/board.jpg",
+      "result": "uncertain",
+      "evidence": "Original inspected. Candidate partial inspection, empty tag list and low confidence are appropriate: two large green curtains marked 8 and 10 obscure the side areas. The visible three-column central tower contains colored tiles over three elongated blue columns, with dark round fixtures and red boxes beneath; the exposed lower perimeter narrows through ledges to one dark bottom fixture. Candidate observation matches exposed content, but neither hidden side connectivity nor the complete boundary can be verified. Do not promote stair_step from the exposed base to the entire concealed board. Both hypotheses are null."
+    },
+    {
+      "level": 3253,
+      "image_path": "sources/royal-match-level-archive/levels/03253/board.jpg",
+      "result": "uncertain",
+      "evidence": "Original inspected. Candidate layered_bands is supported by a left colored upper block over brown crates, central metal columns with monkey-symbol pieces between them, and right red animal pieces above blue/yellow ringed pieces. A blue horizontal panel interrupts the central strip. Candidate central_mass and 'central covered strip' are less certain: the visible center is heterogeneous, including individually visible monkey-symbol cells, metal cylinders and a panel, rather than a uniform concealed mass. There is no background hole at the panel. A centrally dominant fixture grouping is plausible, but treating all center cells as covered is not demonstrated by this still. Both hypotheses are null.",
+      "candidate_correction": {
+        "review_status": "needs_review",
+        "confidence": "low",
+        "review_note": "Retain layered_bands as visibly supported; central_mass and the characterization of monkey-symbol cells as covered require semantic review. This proposal does not alter the candidate shard."
+      }
+    },
+    {
+      "level": 3379,
+      "image_path": "sources/royal-match-level-archive/levels/03379/board.jpg",
+      "result": "supported",
+      "evidence": "Original inspected. Candidate layered_bands and asymmetric match four large blue dome fixtures at the far left, yellow bottle boxes stacked above and below the middle, purple striped jars in middle columns, and a colored right lobe. Dark purple arrow-marked cells occupy the left-middle recess, so it is not an empty separating gap. The right gold perimeter really steps outward near the upper colored rows and inward below them; this is boundary geometry, distinct from the stepped arrangement of jars. Left and right major regions do not mirror. Both hypotheses are null."
+    },
+    {
+      "level": 3504,
+      "image_path": "sources/royal-match-level-archive/levels/03504/board.jpg",
+      "result": "supported",
+      "evidence": "Original inspected. Candidate split_regions and layered_bands agree with three independently outlined vertical regions. Two wide side rectangles each contain a single colored tile column between long brown occupied cover strips. A narrow middle column contains purple recessed squares and dark round fixtures at its top and bottom. Two full-height background strips separate the middle from the side rectangles; these are genuine empty gaps, not brown blocked columns. Vertical organization supports layered_bands; different cover lengths do not imply staircase play boundaries. Both hypotheses are null."
+    },
+    {
+      "level": 3505,
+      "image_path": "sources/royal-match-level-archive/levels/03505/board.jpg",
+      "result": "conflict",
+      "evidence": "Original inspected. Candidate asymmetric is supported: the left colored two-column strip, central brown crates and right pink-shell cells are visibly unlike one another. However, candidate inspection_status reviewed, occlusion none and 'a tall green counter panel sits beyond the grid' overstate visibility. The right-hand object is a large hanging green curtain with a chain and 47 badge, aligned with the board edge, concealing whatever lies behind it; this is not evidence that it sits outside the grid. True background notches are visible above and below the central crate area, whereas the curtain is an opaque cover, not an empty gap. Crates have a stepped arrangement, but complete right boundary geometry is hidden. Both hypotheses are null.",
+      "candidate_correction": {
+        "inspection_status": "partial",
+        "occlusion": "partial",
+        "confidence": "low",
+        "geometry_tags": ["asymmetric"],
+        "observation": "Visible left colored columns join central brown crates and right pink-shell cells. Background notches interrupt the upper and lower center outline. A tall green curtain marked 47 conceals the right area; cells and connectivity behind it are unverified.",
+        "review_note": "Proposed correction only; preserve the original beyond-grid claim and occlusion none in the candidate shard for review."
+      }
+    },
+    {
+      "level": 3631,
+      "image_path": "sources/royal-match-level-archive/levels/03631/board.jpg",
+      "result": "supported",
+      "evidence": "Original inspected. Candidate central_mass is supported by a broad occupied blue-cell region spanning the center and lower rows, with yellow bow-like contents in upper blue cells and red/gold horizontal bands across lower blue cells. Ordinary colored tiles occupy the upper-left region; purple arrow-marked cells dominate the right and bottom edges. Gold-outlined background notches occur at the top near the right, the lower left, and beside the bottom-right dark fixtures. Those notches are empty, but the blue center is occupied and must not be tagged open_center. Candidate description matches this distinction. Both hypotheses are null."
+    },
+    {
+      "level": 3756,
+      "image_path": "sources/royal-match-level-archive/levels/03756/board.jpg",
+      "result": "supported",
+      "evidence": "Original inspected. Candidate asymmetric and layered_bands agree with a colored upper-right rectangle over two rows of brown crates, a beige stone band extending left across the middle, and a lower brown covered region containing four gray drawers over a beige bottom row. The right-middle notch under the yellow fixture marked 9 shows background and no cell contents; it is a real empty notch rather than another brown cover. Brown central cells and drawer bodies remain occupied. The upper-right block and lower-left projection are visibly asymmetric. Both hypotheses are null."
+    },
+    {
+      "level": 3757,
+      "image_path": "sources/royal-match-level-archive/levels/03757/board.jpg",
+      "result": "supported",
+      "evidence": "Original inspected. Candidate stair_step is justified by actual gold-outlined boundary shifts: the upper tile rectangle begins at the far left, the middle fixture band begins one cell farther right and extends farther right, and the lower purple-stone rectangle begins another cell farther right and reaches the far-right edge. Thus the outline progresses diagonally rather than merely showing stepped obstacle placement. Paired green animal fixtures flank the blue central panel and the top of the stone region; dark round fixtures occupy the lower center. The panel is an occupied fixture, not an empty central hole. Both hypotheses are null."
+    },
+    {
+      "level": 3884,
+      "image_path": "sources/royal-match-level-archive/levels/03884/board.jpg",
+      "result": "supported",
+      "evidence": "Original inspected. Candidate asymmetric and its description agree with a left colored strip beside a tall yellow central region, five green animal blocks staggered along its right edge, and a far-right column alternating three large safes with red animal-piece blocks. Background openings occur above and below intermediate connections, while a gray cracked square occupies the recess between the middle animal block and middle safe; that square is not an empty notch. The yellow central area is visibly filled/occupied, not open_center. This is a cell-based match board with safes, not a boss arena. Both hypotheses are null."
+    },
+    {
+      "level": 4000,
+      "image_path": "sources/royal-match-level-archive/levels/04000/board.jpg",
+      "result": "supported",
+      "evidence": "Original inspected. Candidate split_regions and '4 and three rectangular loops' match four gold-outlined booster-cell groups arranged as 4000 in a two-by-two layout. The upper-left group forms 4; the other three contain long background holes inside rectangular loops. Full background gaps separate the upper and lower groups and the left and right groups. Coin cells attach to the far-left corners of the left groups and far-right corners of the right groups. Reward 0 appears in the header. These are disconnected celebratory cell arrangements, not a boss arena or one central blocker mass. Both hypotheses are null."
+    }
+  ],
+  "limitations": [
+    "This is a bounded sampled review, not full independent validation of levels 3001-4000. Twelve distinct original board.jpg images were rendered and visually inspected; no sheet preparation or structural result was treated as visual evidence.",
+    "Selection used first, middle (zero-based available-row count divided by two), and last available rows in each of the four shards: 3001/3127/3252, 3253/3379/3504, 3505/3631/3756, and 3757/3884/4000. Missing levels 3776-3785 were excluded when computing the last shard's available-row midpoint.",
+    "validation.json has no repeated_observations entries, so there were no additional highlighted repeated-category descriptions to sample. Wording diversity was not used as correctness evidence.",
+    "Counts: 9 supported, 1 conflict, 2 uncertain. Supported means the sampled visible claims are consistent, not that tags are exhaustive or blocker identities and mechanics are independently established. No unsupported geometry tag was invented to force a conflict; the concrete conflict at 3505 concerns concealment and visibility classification.",
+    "Green curtains prevent verification of hidden board extent and connectivity at 3252 and 3505. A source-resolution still does not remove those curtains. Central covered-cell semantics remain uncertain at 3253.",
+    "All twelve sampled difficulty_hypothesis and strategy_hypothesis fields are null. There were no non-null hypotheses in this sample to test for image specificity or generic category wording, and no measured difficulty or optimal strategy is inferred.",
+    "Blocker names are descriptive visual references, not verified mechanic identifications. Empty background gaps, occupied blocked cells, stepped play outlines, central fixture masses, and non-arena cell arrangements were assessed separately.",
+    "Candidate corrections are review proposals only. Original candidate observations and classifications are preserved alongside the observed disagreements in this report; shards, trackers, source images and app state were not edited. No labels are accepted."
+  ]
+}

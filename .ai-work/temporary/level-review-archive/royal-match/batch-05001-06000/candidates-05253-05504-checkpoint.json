@@ -1,0 +1,33 @@
+{
+  "shard": ".ai-work/temporary/level-review-archive/royal-match/batch-05001-06000/candidates-05253-05504.jsonl",
+  "last_saved_level": 5504,
+  "saved_rows": 252,
+  "inspected_sheets": [
+    "levels-5253-5264.jpg",
+    "levels-5265-5276.jpg",
+    "levels-5277-5288.jpg",
+    "levels-5289-5300.jpg",
+    "levels-5301-5312.jpg",
+    "levels-5313-5324.jpg",
+    "levels-5325-5336.jpg",
+    "levels-5337-5348.jpg",
+    "levels-5349-5360.jpg",
+    "levels-5361-5372.jpg",
+    "levels-5373-5384.jpg",
+    "levels-5385-5396.jpg",
+    "levels-5397-5408.jpg",
+    "levels-5409-5420.jpg",
+    "levels-5421-5432.jpg",
+    "levels-5433-5444.jpg",
+    "levels-5445-5456.jpg",
+    "levels-5457-5468.jpg",
+    "levels-5469-5480.jpg",
+    "levels-5481-5492.jpg",
+    "levels-5493-5504.jpg"
+  ],
+  "reviewed": 201,
+  "partial": 16,
+  "missing": 35,
+  "status": "complete",
+  "validation": "252 ordered rows; exact contract fields; all 217 available original image hashes verified; 21 sheets rendered with image tools."
+}

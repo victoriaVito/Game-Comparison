@@ -1,0 +1,15 @@
+{
+  "status": "validated",
+  "levels": 252,
+  "sheets": 21,
+  "counts": {
+    "reviewed": 231,
+    "partial": 21
+  },
+  "source_hashes_verified": 252,
+  "range": [
+    4505,
+    4756
+  ],
+  "output_sha256": "336db361ace67a22d3e373bcec26623b743bebe81ef27f4cba96e8237629838b"
+}

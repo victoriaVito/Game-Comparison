@@ -1,0 +1,116 @@
+{
+  "schema_version": 2,
+  "status": "needs_review",
+  "sample": [
+    {
+      "level": 8001,
+      "image_path": "sources/royal-match-level-archive/levels/08001/board.jpg",
+      "result": "supported",
+      "evidence": "The original shows four full-width tile rows, a six-chest horizontal row with recessed shoulders, and six pink-shell rows below. Tall numbered brown containers occupy the lower field's left upper and right lower edges. This supports the candidate's layered_bands and its explicit rejection of a complete separating gap; the shoulder recesses do not divide the grid."
+    },
+    {
+      "level": 8136,
+      "image_path": "sources/royal-match-level-archive/levels/08136/board.jpg",
+      "result": "supported",
+      "evidence": "The match grid has single-cell high outer shoulders and successive one-cell downward steps toward a central top recess. Pale wrapped round pieces follow those steps, with more scattered among lower tiles, and the bottom grid edge is straight. stair_step describes the actual playable top boundary, not a blocker staircase. The treasure chest in the recess and brick arena with a 17 counter below are outside the match grid, consistent with the candidate's separation of the arena."
+    },
+    {
+      "level": 8252,
+      "image_path": "sources/royal-match-level-archive/levels/08252/board.jpg",
+      "result": "conflict",
+      "evidence": "An outlined upper-center rectangle contains two blue structures, with visible treasure-background space beneath it before the lower grid begins. Both outer columns contain stacked cream-and-purple paw-marked jars, not figurines as the candidate states. Wrapped round pieces and colored tiles occupy the lower field, and a green curtain marked 30 hides its bottom center. split_regions and layered_bands are supported for the visible arrangement, but the object description needs correction and the curtain prevents inspection of its interior.",
+      "candidate_correction": {
+        "geometry_tags": ["split_regions", "layered_bands"],
+        "observation": "Two blue structures occupy a separate upper-center rectangle above a visible background gap. Stacked paw-marked jars form the outer columns of the lower board; colored tiles and pale wrapped round pieces occupy its exposed center. A green curtain marked 30 conceals the bottom-center interior.",
+        "inspection_status": "partial",
+        "occlusion": "partial",
+        "confidence": "low"
+      }
+    },
+    {
+      "level": 8253,
+      "image_path": "sources/royal-match-level-archive/levels/08253/board.jpg",
+      "result": "conflict",
+      "evidence": "Colored tiles occupy the upper-left area, while angular purple blocks dominate the center and lower field; they are not the candidate's dark round covers. White double-door cupboards descend diagonally from the upper right toward the lower left and also occupy the bottom right. Two helmeted figures and a green circular panel are visible. Small right and lower edge cutouts do not establish separate islands. central_mass and asymmetric remain supported, but the candidate misdescribes both block shape and cupboard placement.",
+      "candidate_correction": {
+        "geometry_tags": ["central_mass", "asymmetric"],
+        "observation": "Upper-left colored tiles border a central and lower mass of angular purple blocks. White double-door cupboards form a descending diagonal from upper right toward lower left, with additional cupboards along the bottom right. Two helmeted figures and a green circular panel interrupt the lower block field; small edge cutouts do not prove disconnected play regions.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "level": 8378,
+      "image_path": "sources/royal-match-level-archive/levels/08378/board.jpg",
+      "result": "supported",
+      "evidence": "A central stack of black purple-rimmed pots is flanked by pink square blocks and flower-covered vertical strips. The flower strips narrow into lower stems between broad left and right tile fields, with a white cupboard on each lower side and pink blocks at both bottom corners. This supports central_mass and the candidate's visible description. The center is occupied, not an empty notch, and no background gap separates the side tile fields."
+    },
+    {
+      "level": 8504,
+      "image_path": "sources/royal-match-level-archive/levels/08504/board.jpg",
+      "result": "supported",
+      "evidence": "The upper outlined rectangle has an orange roof-like strip across its top, four rows of red mushrooms at each side, and an occupied brown textured center. A visible full-width background gap separates the lower outlined rectangle, whose two orange panels flank a vertical roof-like strip. Both split_regions and layered_bands are supported; the brown center is not an empty opening and the lower rectangle is not inferred to be a boss arena."
+    },
+    {
+      "level": 8505,
+      "image_path": "sources/royal-match-level-archive/levels/08505/board.jpg",
+      "result": "conflict",
+      "evidence": "Three tile rows occupy the upper-left pocket; blue hanging-item and yellow hanging-item panels project on the right. Below the tiles there are FIVE cyan horizontal strips with alternating red end housings, rather than the candidate's four. Four white double-door cupboards are staggered at the bottom, with visible floor recesses between them. layered_bands is supported, but the explicitly counted strip observation is wrong.",
+      "candidate_correction": {
+        "geometry_tags": ["layered_bands"],
+        "observation": "A three-row upper-left tile pocket sits above five cyan horizontal strips with alternating red end housings. Blue and yellow hanging-item panels project on the right. Four white double-door cupboards are staggered along the bottom, with visible floor recesses between their lower edges.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "level": 8627,
+      "image_path": "sources/royal-match-level-archive/levels/08627/board.jpg",
+      "result": "supported",
+      "evidence": "Three upper tile rows sit above three white rocket-shaped pieces on the left and brown chest cells toward the right. A horizontal numbered 10 bar caps a lower-left red fleur-de-lis field. On the right, burgundy panels marked 13 and 18 enclose cylindrical objects, separated by a row of white rockets and red emblems. This supports layered_bands and the candidate's partial-inspection caveat; panel interiors are not reconstructed as visible cells."
+    },
+    {
+      "level": 8750,
+      "image_path": "sources/royal-match-level-archive/levels/08750/board.jpg",
+      "result": "supported",
+      "evidence": "The upper tile grid has red-and-gold capped pieces on both lower shoulders around a cyan square panel projecting downward at center. A visible background band still runs between that projection and the lower purple-block rectangle. The lower rectangle contains two cyan corner panels and upper-side counter objects marked 16 and 27. This supports split_regions and layered_bands through actual empty separation, not merely contrasting blocker colors."
+    },
+    {
+      "level": 8776,
+      "image_path": "sources/royal-match-level-archive/levels/08776/board.jpg",
+      "result": "conflict",
+      "evidence": "The upper field has a recessed top row, a central column of purple square pieces, and exposed tiles above blue covered cells and a lower brown chest mass. Four large rounded cyan blocks occupy the lower left and right sides: these are bounded occupied objects, not the candidate's paired cyan gaps. The actual empty gap is the bottom-center notch between chest feet. layered_bands is plausible, but calling the cyan blocks gaps incorrectly describes the visible boundary.",
+      "candidate_correction": {
+        "geometry_tags": ["layered_bands"],
+        "observation": "A tile field with a recessed top row and central purple-square column sits above blue covered cells and a lower chest mass. Two large rounded cyan blocks occupy each lower side. Chest feet flank a visible empty bottom-center notch; the cyan blocks themselves are not background gaps.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "level": 8888,
+      "image_path": "sources/royal-match-level-archive/levels/08888/board.jpg",
+      "result": "conflict",
+      "evidence": "Two left tile columns border brown chests, a box containing colored cylinders, and FIVE numbered vertical containers: two marked 3 above the box, one marked 2 to its right, and two marked 3 below it. The candidate says four numbered bars. Five helmeted figures and purple square pieces occupy the right, whose outer boundary steps outward toward the middle and inward again below. asymmetric and stair_step are supported by the playable outline, but the container count needs correction.",
+      "candidate_correction": {
+        "geometry_tags": ["asymmetric", "stair_step"],
+        "observation": "Two left tile columns border brown chests and a colored-cylinder box surrounded by five numbered vertical containers, four marked 3 and one marked 2. Five helmeted figures and purple square pieces occupy the right, whose playable outer edge widens in steps toward the middle before narrowing below.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "level": 9000,
+      "image_path": "sources/royal-match-level-archive/levels/09000/board.jpg",
+      "result": "supported",
+      "evidence": "Four separately outlined rectangular fleur-de-lis fields have both horizontal and vertical background gaps between them. The upper-left field contains a small square opening and a wider horizontal opening; the other three contain tall vertical slots. Outer rails contain discs on the upper-left and lower-right fields and striped pieces on the other two. split_regions and the candidate's holes are supported; 'alternate' is valid across island rails, not as alternation within each individual rail."
+    }
+  ],
+  "limitations": [
+    "This is a bounded independent sample of 12 available original images, not proof of correctness of the whole 8001-9000 batch. Results are 7 supported, 5 conflict, and 0 uncertain; supported means the sampled visible claims, not an accepted classification.",
+    "The first, middle, and last available records were selected within each shard using the lower median of the available-record sequence: 8001/8136/8252, 8253/8378/8504, 8505/8627/8750, and 8776/8888/9000. The third shard ends with missing sources, so its last available record is 8750; the tail starts with missing sources, so its first available record is 8776. Twelve distinct originals were rendered directly; contact sheets were not substituted for originals.",
+    "The index reports 953 available sources and 47 missing levels across the batch. Missing levels were excluded from this visual sample and receive no inferred board description.",
+    "All 1000 candidate records retain integer schema_version 2 and review_status needs_review. This report also remains needs_review. Candidate shards, source images, pilot, apps, manifests, historical batches, and trackers were not edited; conflicts and proposed corrections remain alongside the original candidates only in this report.",
+    "Royal Kingdom v1 supplies candidate geometry vocabulary for Royal Match, not an accepted Match taxonomy. Visible occupied blockers do not prove disconnected regions; stair_step requires steps in the playable boundary, central_mass describes occupied coverage, and boss arenas remain separate from match grids.",
+    "Opaque curtain and panel interiors at 8252 and 8627 cannot be inspected from these screenshots. Supported visible arrangements do not establish hidden cells, gameplay connectivity, or mechanics.",
+    "Every sampled candidate has unknown verified difficulty and strategy, empty verified_evidence, and null difficulty_hypothesis and strategy_hypothesis. No directly cited local evidence was supplied to justify changing those fields; this report adds no difficulty or strategy inference.",
+    "validation.json reports repeated_observations as an empty list. An independent exact-text count of observations for all 953 available candidates also found no duplicates. Missing-source boilerplate was excluded. Repeated generic wording such as tile fields, lower blocks, and candidate-vocabulary caveats is not proof of inspection; unique wording likewise does not prove accuracy, as the sampled object/count conflicts demonstrate.",
+    "Structural validation and matching hashes verify provenance and record shape, not visual fidelity. Proposed corrections are visible-description suggestions only, not promotions or accepted labels."
+  ]
+}

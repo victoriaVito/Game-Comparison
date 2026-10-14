@@ -1,0 +1,24 @@
+{
+  "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-08001-09000/sheets/levels-8493-8504.jpg",
+  "visually_rendered": true,
+  "saved_levels": [
+    8493,
+    8494,
+    8495,
+    8496,
+    8497,
+    8498,
+    8499,
+    8500,
+    8501,
+    8502,
+    8503,
+    8504
+  ],
+  "saved_total": 252,
+  "counts": {
+    "reviewed": 224,
+    "partial": 27,
+    "missing": 1
+  }
+}

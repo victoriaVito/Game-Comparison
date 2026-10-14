@@ -1,0 +1,20 @@
+{
+  "last_inspected_sheet": "levels-1493-1504.jpg",
+  "last_level": 1504,
+  "inspected_sheets": 21,
+  "saved_rows": 252,
+  "reviewed": 246,
+  "partial": 6,
+  "missing": 0,
+  "partial_levels": [1256, 1383, 1408, 1445, 1448, 1503],
+  "validation": {
+    "status": "passed",
+    "exact_contract_fields": true,
+    "numeric_range_complete": true,
+    "manifest_paths_and_cells_matched": true,
+    "original_source_sha256_verified": 252,
+    "all_rows_need_review": true,
+    "verified_claims_unknown": true,
+    "hypotheses_null": true
+  }
+}

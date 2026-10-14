@@ -1,0 +1,2677 @@
+{
+  "schema_version": 2,
+  "game": "royal-match",
+  "range": [
+    9253,
+    9504
+  ],
+  "completed_sheets": [
+    "levels-9253-9264.jpg",
+    "levels-9265-9276.jpg",
+    "levels-9277-9288.jpg",
+    "levels-9289-9300.jpg",
+    "levels-9301-9312.jpg",
+    "levels-9313-9324.jpg",
+    "levels-9325-9336.jpg",
+    "levels-9337-9348.jpg",
+    "levels-9349-9360.jpg",
+    "levels-9361-9372.jpg",
+    "levels-9373-9384.jpg",
+    "levels-9385-9396.jpg",
+    "levels-9397-9408.jpg",
+    "levels-9409-9420.jpg",
+    "levels-9421-9432.jpg",
+    "levels-9433-9444.jpg",
+    "levels-9445-9456.jpg",
+    "levels-9457-9468.jpg",
+    "levels-9469-9480.jpg",
+    "levels-9481-9492.jpg",
+    "levels-9493-9504.jpg"
+  ],
+  "reviewed": {
+    "9253": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "The playable board fills most of the screen width in stacked upper rows; the lower half has long narrow blue vertical lanes, with pink blocker cells concentrated along the left and lower edges.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9254": {
+      "geometry_tags": [
+        "central_mass"
+      ],
+      "observation": "A compact, nearly square field forms a ring of tiles around a large solid orange-brown central block; a separate horizontal brick-like blocker band sits beneath the ring.",
+      "confidence": "high",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9255": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "The board is divided visually into tall vertical strips: a narrow left tile lane, a central purple track-like area, and tile columns on the right, with a broad dark red band across the lower portion.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9256": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "A broad rectangular tile field is broken into vertical columns and short horizontal rows; solid brown blocker panels interrupt the upper-right and lower sections, with narrow tile pockets at the bottom.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9257": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "A large orange-brown blocker panel occupies the center-left; playable tiles form a narrow strip along its left edge and a taller, denser region on the right, with small separated pockets at the bottom.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9258": {
+      "geometry_tags": [
+        "layered_bands",
+        "central_mass"
+      ],
+      "observation": "A nearly rectangular tile grid surrounds a tall cyan feature in the lower center; repeated cake-like blockers fill broad horizontal bands near the top and bottom of the board.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9259": {
+      "geometry_tags": [
+        "asymmetric"
+      ],
+      "observation": "Tiles occupy an upper band and narrow side lanes around several large blank orange-brown panels; the lower middle contains two separated blue-framed pockets rather than a continuous tile block.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9260": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "A large brown-orange block fills most of the central and lower board, leaving a narrow tile strip at the upper left and a taller tile-and-blocker area on the right.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9261": {
+      "geometry_tags": [
+        "asymmetric",
+        "edge_channels"
+      ],
+      "observation": "A dense tile area sits on the right, while the left side has only a thin vertical tile lane and a small lower cluster; broad unfilled gaps separate those visible play areas.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9262": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "The board is a wide rectangular arrangement with repeated horizontal rows of pale cake-like blockers across its upper, middle, and lower sections, interspersed with narrow tile columns and small side pockets.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9263": {
+      "geometry_tags": [
+        "asymmetric",
+        "central_mass"
+      ],
+      "observation": "Tiles cluster in an upper-left rectangular field and in smaller lower side pockets; a large orange-brown blocker mass cuts through the center and right, leaving visibly uneven playable extents.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9264": {
+      "geometry_tags": [
+        "split_regions"
+      ],
+      "observation": "Two tall, narrow tile columns stand at the far left and far right of the board, separated by a broad visibly empty central gap; the lower edge also has a shallow horizontal tile strip.",
+      "confidence": "high",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9265": {
+      "geometry_tags": [
+        "asymmetric"
+      ],
+      "observation": "A broad tile rectangle occupies the upper center-left; a deep orange-brown empty panel fills much of the right and lower center, with a small detached tile pocket near the bottom left.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9266": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Tiles form a dense central rectangle, with a short top row and small detached lower pockets; pale square blockers interrupt the left and lower margins.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9267": {
+      "geometry_tags": [
+        "asymmetric",
+        "layered_bands"
+      ],
+      "observation": "The playable tiles are concentrated in upper and middle vertical strips; broad dark red blocker lanes run down the center-left and far right, and small tile pockets remain near the lower left.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9268": {
+      "geometry_tags": [
+        "asymmetric"
+      ],
+      "observation": "A wide tile field fills the upper-right and central board, while a large brown-orange panel removes most of the left side; a small green circular feature is embedded near the center-right.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9269": {
+      "geometry_tags": [
+        "asymmetric"
+      ],
+      "observation": "Only a narrow tile row spans the top and a short lower strip is playable; a large dark green empty chamber occupies the left and middle, with a separate tile strip at the right.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9270": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Three broad horizontal rows of pale square blockers cross the board, separating short tile strips; a narrow vertical column of colored pieces runs down the right edge.",
+      "confidence": "high",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9271": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Tiles occupy narrow vertical lanes between repeated white gate-like blockers; the gates form staggered horizontal and vertical rows through the center and lower right.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9272": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Several thick horizontal flower-like blocker bands divide the board into stacked tile rows, with a broader uninterrupted tile area across the upper half.",
+      "confidence": "high",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9273": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "A dense tile area occupies the upper left and center; a large orange pebble-textured blocker field fills the middle-right, while smaller tile and blocker pockets sit along the lower edge.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9274": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "The board has several vertical tile lanes separated by tall pale-purple striped blockers; short horizontal tile bands and small framed pockets break up the lower half.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9275": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "A flower-bordered rectangular board surrounds two matching blue square blockers near the center; tiles fill the central lanes and a small bottom-center cluster, with open brown gaps at both lower corners.",
+      "confidence": "high",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9276": {
+      "geometry_tags": [
+        "compact_full_field"
+      ],
+      "observation": "A mostly contiguous rectangular tile field fills the board in repeated vertical columns; a few translucent blue-green cells and framed blockers interrupt the lower-right edge but do not create separate regions.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9277": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "The upper half is arranged as a broad tile rectangle; below it, pale cake-like blockers create a horizontal band, with a narrow tile lane along the right and small lower pockets.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9278": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "Tiles form a dense, tall field along the left and center, while several large brown-orange blocker panels occupy the upper-right and lower-right; a small tile pocket sits at bottom left.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9279": {
+      "geometry_tags": [
+        "compact_full_field"
+      ],
+      "observation": "A nearly full-width tile field is organized in regular rows around scattered brown blocker cells and one green circular feature near the right-center; there is no broad empty gap through the board.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9280": {
+      "geometry_tags": [],
+      "observation": "Tiles run in a continuous rectangular perimeter around a large cyan central loop; narrow lanes and short gaps interrupt the outer ring at the left and right edges.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9281": {
+      "geometry_tags": [
+        "asymmetric",
+        "stair_step"
+      ],
+      "observation": "The tile area descends in a stepped diagonal from the upper-left toward the lower-right, with small side pockets and blockers set along the changing boundary.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9282": {
+      "geometry_tags": [
+        "stair_step",
+        "asymmetric"
+      ],
+      "observation": "Tile rows form a stepped, narrowing central shape with detached side columns; pale gate blockers and brown empty panels interrupt the lower-left and right margins.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9283": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "A large orange-brown panel dominates the center-left; playable tiles occupy a narrow left-side vertical strip and an irregular area on the right with several small pockets.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9284": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Two large dark red rectangular panels sit one above the other, with yellow horizontal goal-like bars inside them; tile lanes run across the top and right edge and in a narrow middle strip.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9285": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "The board is packed with tiles in stacked horizontal bands; repeated purple bow-like blockers form continuous vertical columns through much of the field, with small bottom pockets.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9286": {
+      "geometry_tags": [
+        "asymmetric",
+        "split_regions"
+      ],
+      "observation": "A flower border encloses two separated inner tile zones, one at the upper center and another along the lower-right; a broad empty brown opening on the lower-left visibly divides the zones.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9287": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "The board is arranged in regular vertical columns of large blue, cyan, and red pieces, with thin brown panels and narrow tile strips along the right and bottom edges.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9288": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "A broad field of colored pieces is split into a left half and a right half by a narrow central brown lane; small rectangular blockers and a lower-right framed pocket sit along the bottom.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9289": {
+      "geometry_tags": [
+        "layered_bands",
+        "edge_channels"
+      ],
+      "observation": "Tiles fill the center in stacked rows while narrow green-framed lanes run along both outer edges; several small numbered pockets sit at the lower edge.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9290": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Pale green patterned blocker squares repeat in alternating blocks across the board, separated by short rows and columns of colored tiles; the pattern continues into the lower half.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9291": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "A broad rectangular tile field is crossed by repeated vertical pink lanes and short horizontal blockers, creating a regular set of narrow bands through the center.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9292": {
+      "geometry_tags": [
+        "stair_step",
+        "asymmetric"
+      ],
+      "observation": "A large brown stepped mass covers the left and central board; playable tiles remain mainly in a stepped upper-right region and a narrow lower-right strip.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9293": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "Tiles occupy an upper band and several mid-board columns; orange-brown panels dominate the left and lower center, leaving a smaller tile section on the right.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9294": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Tiles run in horizontal and vertical lanes around broad cyan rectangular panels; smaller framed blockers and boxed pockets interrupt the lower rows.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9295": {
+      "geometry_tags": [
+        "asymmetric"
+      ],
+      "observation": "Flower-patterned strips form tall separated lanes on the left, while most colored tiles cluster in the middle and right; large empty dark-green gaps remain between these areas.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9296": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "Narrow colored tile columns run down the center and bottom, flanked by very wide dark-red vertical panels; a cyan framed blocker and small side pockets sit on the right.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9297": {
+      "geometry_tags": [
+        "edge_channels",
+        "asymmetric"
+      ],
+      "observation": "A narrow vertical tile lane follows the far left edge, while the larger right-side tile area descends in a stepped outline around several brown blocker panels.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9298": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "Tiles fill the upper rows and left side; broad cyan and brown panels occupy much of the lower center and right, with only a small tile pocket near the bottom.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9299": {
+      "geometry_tags": [
+        "central_mass"
+      ],
+      "observation": "A large orange cross-shaped solid region occupies the center; colored tiles lie in a horizontal strip above and in two separate cyan-framed pockets below.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9300": {
+      "geometry_tags": [
+        "compact_full_field"
+      ],
+      "observation": "A nearly rectangular tile grid fills the board; orange circular features repeat across the upper middle, and a pair of narrow brown panels interrupt the lower-center rows.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9301": {
+      "geometry_tags": [
+        "stair_step",
+        "layered_bands"
+      ],
+      "observation": "Playable strips descend in a stepped staircase from the upper-left toward the lower-right; small groups of colored tiles alternate with patterned blocker columns along the steps.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9302": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "A wide upper tile section sits above repeated horizontal blocker bands; broad cyan bars occupy the lower middle, with small tile columns at the sides.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9303": {
+      "geometry_tags": [
+        "split_regions"
+      ],
+      "observation": "Several small tile islands sit at the upper corners and in two framed pockets near the center; a large open floor gap separates these from the lower row of short tile strips.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9304": {
+      "geometry_tags": [
+        "compact_full_field"
+      ],
+      "observation": "A regular rectangular grid of colored tiles fills nearly the entire board, with only a few small blockers or special cells interspersed and no broad internal gap.",
+      "confidence": "high",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9305": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "Tiles are concentrated in upper and left-side bands; a broad brown panel fills the center-right, while striped blockers and small tile pockets line the bottom.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9306": {
+      "geometry_tags": [
+        "central_mass"
+      ],
+      "observation": "A compact tile rectangle sits inside a broad brown frame, with a cyan border around the central field and a horizontal band of pale blockers below it.",
+      "confidence": "high",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9307": {
+      "geometry_tags": [
+        "asymmetric",
+        "edge_channels"
+      ],
+      "observation": "A narrow central vertical tile lane is bordered by floral strips; only a few tiles and small framed pockets appear at the far right and lower corners.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9308": {
+      "geometry_tags": [
+        "compact_full_field"
+      ],
+      "observation": "Colored tiles cover most of a wide rectangular field; a cyan and brown feature interrupts the central lower rows, while the right edge has an orange textured blocker column.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9309": {
+      "geometry_tags": [
+        "compact_full_field"
+      ],
+      "observation": "A dense rectangular grid fills the board from edge to edge; varied blockers appear as isolated cells within the colored rows rather than as a wide dividing gap.",
+      "confidence": "high",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9310": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "Several long purple-and-white striped vertical blockers divide the board into narrow tile columns; brown panels occupy parts of the left and center, leaving most pieces on the right.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9311": {
+      "geometry_tags": [
+        "compact_full_field"
+      ],
+      "observation": "A broad tile rectangle spans the upper and central board, with a large cyan horizontal blocker near the lower edge and small pink tile pockets beneath it.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9312": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "A large orange-brown blocker mass occupies the center and lower-left; tile columns remain on the left and right, separated by a tall dark-red panel and several small framed pockets.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9313": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "Colored tiles occupy staggered vertical lanes in the upper and middle field; long glowing purple channels run down the left and center, with dense blockers in a narrow lower strip.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9314": {
+      "geometry_tags": [
+        "asymmetric"
+      ],
+      "observation": "A narrow tile strip stands at the left, a wide brown empty panel fills the center, and the right side holds a tall tile grid with a few isolated lower pockets.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9315": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "The left side is a broad cyan-framed area with two vertical tile lanes; the right half is divided into repeated dark-red columns and purple-striped vertical bands.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9316": {
+      "geometry_tags": [
+        "compact_full_field",
+        "layered_bands"
+      ],
+      "observation": "A nearly full rectangular grid is organized in repeated rows, with pale cake-like cells and white gate blockers interspersed across the field.",
+      "confidence": "high",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9317": {
+      "geometry_tags": [
+        "split_regions"
+      ],
+      "observation": "A few colored tile groups occupy separate upper and lower framed areas; a wide visible floor gap lies between the upper scattered cells and the two dense lower compartments.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9318": {
+      "geometry_tags": [
+        "asymmetric",
+        "central_mass"
+      ],
+      "observation": "Tiles occupy a small central-left rectangle and a narrow lower strip; a very large brown-orange panel dominates the upper-right, with isolated framed blockers near the bottom.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9319": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Flower-patterned strips form nested horizontal and vertical paths around a small central row of tiles; the inner middle is not a broad empty opening.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9320": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "Large brown-orange and dark-red panels dominate the center and right; small tile blocks remain in the upper-left and in a narrow lower-right lane.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9321": {
+      "geometry_tags": [
+        "compact_full_field",
+        "layered_bands"
+      ],
+      "observation": "A nearly full-width rectangular tile grid sits below a horizontal brick-like blocker band at the top; the remaining cells form regular rows.",
+      "confidence": "high",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9322": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "A broad brown panel occupies the central column and divides the left tile block from smaller right-side pockets; short horizontal brown panels extend into the lower area.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9323": {
+      "geometry_tags": [
+        "layered_bands",
+        "central_mass"
+      ],
+      "observation": "Tiles run in a narrow upper and side grid around a tall central blue-and-brown blocker structure; several cyan lanes and small lower pockets complete the board.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9324": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "A broad colored-tile grid fills the left and center, while tall dark-red panels occupy the right; short tile strips and framed pockets sit along the lower-right edge.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9325": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Tall purple-and-white channels descend on both sides of a narrow center column; cyan square blockers sit across the upper and middle rows, with small tile pockets at the lower corners.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9326": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Colored tiles form a broad rectangular field around four white gate-like blockers near the center; brown cabinet-like cells make short horizontal and vertical bands across the board.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9327": {
+      "geometry_tags": [
+        "asymmetric",
+        "layered_bands"
+      ],
+      "observation": "A large purple tile block fills the upper-left, while ordinary tile columns occupy the center and right; short horizontal blocker bands cross the middle and lower rows.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9328": {
+      "geometry_tags": [
+        "layered_bands",
+        "edge_channels"
+      ],
+      "observation": "Several long narrow blue lanes run vertically from the top; short colored-tile rows and blocker cells are concentrated in a separate compact panel at the right.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9329": {
+      "geometry_tags": [
+        "asymmetric"
+      ],
+      "observation": "A wide tile area fills the upper-left and center, while small columns and framed pockets remain at the far right; large brown empty gaps separate the lower pockets.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9330": {
+      "geometry_tags": [
+        "central_mass",
+        "layered_bands"
+      ],
+      "observation": "A broad brown-orange blocker panel occupies the center; colored tiles form two upper clusters and a lower horizontal band with small separated pockets beneath.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9331": {
+      "geometry_tags": [
+        "layered_bands",
+        "central_mass"
+      ],
+      "observation": "Tiles and purple blockers alternate across horizontal rows; a large orange-brown central panel divides the board, with narrow playable strips on either side.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9332": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "Several large orange-brown panels dominate the left and center; pale green patterned squares sit inside them, while the right edge holds a taller, denser tile grid.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9333": {
+      "geometry_tags": [
+        "compact_full_field"
+      ],
+      "observation": "A dense rectangular tile grid covers most of the board, flanked by narrow framed side columns; the lower edge retains a continuous row of playable cells.",
+      "confidence": "high",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9334": {
+      "geometry_tags": [
+        "split_regions",
+        "asymmetric"
+      ],
+      "observation": "A tall tile section occupies the left, while separate tile clusters and blocker panels sit on the right; a wide visible background gap divides the two sides.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9335": {
+      "geometry_tags": [
+        "compact_full_field"
+      ],
+      "observation": "A broad rectangular tile area fills the center and right, with orange-brown blockers along the left edge and scattered special cells embedded within the rows.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9336": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "A large tile rectangle occupies the right half; tall blue channels and cyan framed panels line the left, with a substantial unfilled area below them.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9337": {
+      "geometry_tags": [
+        "asymmetric",
+        "central_mass"
+      ],
+      "observation": "Large cyan square panels occupy the upper-left and lower-left; colored tiles cluster in a tall field on the right with a narrow central column connecting the visible board sections.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9338": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "A full rectangular field is arranged in horizontal rows, with pale cake-like blockers filling most of the middle and lower bands and colored tiles concentrated near the top and bottom edges.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9339": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Two large cyan rectangular panels sit on the left and lower-right; tile rows run through the central column and along the upper and lower margins.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9340": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "Playable pieces form a narrow upper-right horizontal band and several small lower-left cells; tall purple-and-white columns and broad empty floor dominate the center.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9341": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "Two large orange-brown panels fill the upper-left and upper-right; a tile strip crosses the middle and small framed clusters sit in the lower corners.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9342": {
+      "geometry_tags": [
+        "compact_full_field",
+        "layered_bands"
+      ],
+      "observation": "A broad tile rectangle fills the upper and central board in regular rows, with a continuous brick-like blocker band across the bottom.",
+      "confidence": "high",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9343": {
+      "geometry_tags": [
+        "asymmetric",
+        "layered_bands"
+      ],
+      "observation": "Narrow glowing purple lanes divide the left and center into vertical strips; a wide orange-brown panel occupies the right, with small cyan and tile pockets near the center.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9344": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "The field consists of repeated vertical columns of pale patterned blockers and colored tiles; dark-red framed panels interrupt several columns along the right edge.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9345": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "Large orange-brown panels occupy both outer sides, leaving a tall narrow central column of tiles and several small framed pockets between them.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9346": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "A dense tile grid fills the left side; a very large brown-orange panel occupies the center and right, with only a thin strip of colored tiles along the lower edge.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9347": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "A large yellow-orange T-shaped region occupies the center; tiles run across the upper side lanes and in narrow lower columns around two cyan-framed pockets.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9348": {
+      "geometry_tags": [
+        "compact_full_field"
+      ],
+      "observation": "A nearly edge-to-edge rectangular grid of colored tiles fills the board; a few pale blockers and small framed objects are scattered within the rows.",
+      "confidence": "high",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9349": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "Long purple blocker strips and broad brown panels occupy the left and middle; a smaller upper-right tile rectangle and lower-right compartments remain playable.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9350": {
+      "geometry_tags": [
+        "asymmetric",
+        "central_mass"
+      ],
+      "observation": "A dense tile field occupies the upper-left, while large brown panels fill the lower center and right; only small framed clusters remain along the right edge.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9351": {
+      "geometry_tags": [
+        "compact_full_field"
+      ],
+      "observation": "A compact central rectangular tile field is surrounded by open teal floor; assorted blockers form an internal pattern, with a small detached framed tile pocket at the upper-left.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9352": {
+      "geometry_tags": [
+        "compact_full_field",
+        "layered_bands"
+      ],
+      "observation": "A full rectangular grid of colored tiles and purple round cells surrounds a central cross-like arrangement of blue framed blockers; the lower rows remain continuous.",
+      "confidence": "high",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9353": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "Tall cyan columns and framed pockets divide the board into narrow vertical lanes; colored tiles occupy the upper center and small lower compartments.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9354": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "A broad upper tile block is flanked by tall brown panels; small colored tile clusters sit near the bottom, separated by large open floor gaps.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9355": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "A broad dark-red and orange-brown structure occupies the central and lower board; scattered tile rows remain along the upper and side edges, with framed blue pockets below.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9356": {
+      "geometry_tags": [
+        "layered_bands",
+        "central_mass"
+      ],
+      "observation": "Rows of green patterned blockers and colored tiles fill the upper half; multiple large blue framed panels occupy the lower center and sides.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9357": {
+      "geometry_tags": [
+        "compact_full_field"
+      ],
+      "observation": "A dense grid of cyan square panels covers most of the board, with small colored tile cells interspersed in the gaps and a few purple blockers at the edges.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9358": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "Narrow vertical lanes of tiles and blockers run down the left and right sides; a large brown central panel and stepped lower pockets interrupt the board.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9359": {
+      "geometry_tags": [
+        "central_mass",
+        "layered_bands"
+      ],
+      "observation": "Tiles fill narrow columns along both sides and a broad upper band; a large orange textured blocker mass occupies the lower center, crossed by dark-red horizontal strips.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9360": {
+      "geometry_tags": [
+        "compact_full_field",
+        "layered_bands"
+      ],
+      "observation": "A nearly full rectangular tile field forms regular rows around several blue square blockers and a wide group of purple crown cells in the lower middle.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9361": {
+      "geometry_tags": [
+        "compact_full_field",
+        "layered_bands"
+      ],
+      "observation": "A regular rectangular tile grid fills the board; blue framed blockers repeat in the lower rows, with green panels and small framed cells along the bottom.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9362": {
+      "geometry_tags": [
+        "asymmetric",
+        "central_mass"
+      ],
+      "observation": "Colored tiles occupy the upper center and left; a large brown-orange panel fills the lower-right, while a separate dense tile pocket remains at the lower-left.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9363": {
+      "geometry_tags": [
+        "asymmetric",
+        "central_mass"
+      ],
+      "observation": "Tiles form a central upper rectangle and a small upper-left cluster; a large brown panel dominates the lower half, with cyan and red blockers around the edges.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9364": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Tall purple-and-white channels trace stepped paths down the left and center; paired cyan framed features and rows of pale blockers occupy the lower-right.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9365": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "A dense tile block occupies the upper-right; a large orange-brown panel fills the lower-left and center, with a smaller isolated tile strip at the far left.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9366": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "Two wide dark-red panels fill the left side one above the other; a narrow right column holds colored tiles above a group of pale square blockers.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9367": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "A regular board of dark-blue square cells is interleaved with horizontal rows of colored tiles; short blocker bands cross the lower middle.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9368": {
+      "geometry_tags": [
+        "asymmetric",
+        "layered_bands"
+      ],
+      "observation": "Colored tiles occupy a tall narrow left lane and a central strip; several broad cyan panels fill the right half, including a stacked lower-right block.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9369": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "A large orange-brown central panel dominates the board; colored tiles remain in narrow strips at the top and right, while purple blockers and framed pockets line the left edge.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9370": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "A small upper-left tile rectangle sits between tall brown panels; glowing purple paths and scattered tile columns continue down the center and right.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9371": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "A dense upper tile field is separated from the lower board by a wide brown horizontal panel; a narrow central lane and smaller lower pockets remain visible.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9372": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "Colored tiles fill a broad upper-right field; tall dark-red panels run down the left and center, with a small lower-right column and framed cells.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9373": {
+      "geometry_tags": [
+        "compact_full_field"
+      ],
+      "observation": "A dense rectangular grid of colored tiles and occasional blockers fills nearly the entire board, with only a few small interruptions in the regular rows.",
+      "confidence": "high",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9374": {
+      "geometry_tags": [
+        "compact_full_field",
+        "layered_bands"
+      ],
+      "observation": "A central rectangular tile grid sits above a continuous brick-like band along the bottom; small tan blockers border the right edge of the board.",
+      "confidence": "high",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9375": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "A compact upper tile rectangle sits above and between several large blue framed blockers; the blockers form horizontal and vertical bands through the lower half.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9376": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Alternating purple cells and pale patterned blockers form a dense, mostly continuous grid, with short horizontal runs of colored tiles near the center.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9377": {
+      "geometry_tags": [
+        "compact_full_field",
+        "layered_bands"
+      ],
+      "observation": "A full rectangular tile grid is organized into even rows; flower-patterned cells form a horizontal band through the lower middle.",
+      "confidence": "high",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9378": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "Large brown-orange panels dominate the upper center and right; a small tile column remains on the left and a lower strip of blockers and pieces spans the bottom.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9379": {
+      "geometry_tags": [
+        "compact_full_field"
+      ],
+      "observation": "A nearly full rectangular tile grid has a repeated purple band through its center and scattered special cells in the upper and lower rows.",
+      "confidence": "high",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9380": {
+      "geometry_tags": [
+        "split_regions",
+        "asymmetric"
+      ],
+      "observation": "Small flower-bordered tile islands sit near the upper-left and across the lower edge; broad visible teal floor gaps separate these groups from the central area.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9381": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "A large orange-brown panel fills most of the left half; a dense tile field occupies the right, with a cyan framed feature near the lower center.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9382": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "A glowing purple track crosses the central tile area in long horizontal and vertical runs; colored tiles and small blockers fill the surrounding grid.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9383": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "A wide tile rectangle fills the upper and middle rows; two broad dark-red panels occupy the lower edge beneath a row of pale patterned blockers.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9384": {
+      "geometry_tags": [
+        "asymmetric",
+        "layered_bands"
+      ],
+      "observation": "A large brown-orange vertical panel occupies the left side; the remaining right and central area is a dense rectangular grid of colored tiles.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9385": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "A tall purple-and-white L-shaped channel fills the left side; colored tiles occupy a compact upper-right block, with pale blocker rows along the bottom.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9386": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "A broad tile band runs across the upper board; multiple blue framed panels and large brown blockers occupy the lower half, leaving only a narrow central lane.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9387": {
+      "geometry_tags": [
+        "central_mass",
+        "layered_bands"
+      ],
+      "observation": "Rows of pale patterned blockers and colored tiles fill the upper half; a broad brown panel spans the middle, above dark-red lower panels and small framed pockets.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9388": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Two matching tile compartments sit to the left and right of a central section; rows of dark-red panels and blue framed blockers separate upper and lower compartments.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9389": {
+      "geometry_tags": [
+        "compact_full_field"
+      ],
+      "observation": "A nearly full rectangular grid of colored pieces fills the board, with blue orb-like cells scattered through the rows and a few small framed blockers near the bottom.",
+      "confidence": "high",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9390": {
+      "geometry_tags": [
+        "central_mass",
+        "compact_full_field"
+      ],
+      "observation": "A broad tile field fills most of the board around a large cyan-blue central framed panel; isolated tan blockers interrupt the upper rows.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9391": {
+      "geometry_tags": [
+        "central_mass"
+      ],
+      "observation": "A very large brown central panel divides narrow tile-and-blocker columns at the left and right; a small pink cluster occupies the lower middle.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9392": {
+      "geometry_tags": [
+        "compact_full_field",
+        "layered_bands"
+      ],
+      "observation": "A regular grid of tiles fills almost the whole board; a narrow vertical band of pink cells and special tiles runs down the center.",
+      "confidence": "high",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9393": {
+      "geometry_tags": [
+        "asymmetric"
+      ],
+      "observation": "A broad left-side brown panel and a narrower lower blocker band contrast with the dense colored-tile field on the right.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9394": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "Several narrow vertical tile columns are divided by brown panels; purple blockers and small cyan or tan pockets form short horizontal bands across the lower half.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9395": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "Long purple-and-white vertical channels occupy the left and center; the right side has short rows of tiles and pale square blockers.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9396": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "A tile grid fills the left and upper board; a tall right-side block of pale green patterned cells forms a distinct vertical section, with a short blocker row below.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9397": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Colored tiles form horizontal rows around two central columns of white gate-like blockers; blue framed cells and small blockers sit along the bottom edge.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The numbered board is visible on the sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9398": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "A tall purple-and-white striped lane occupies the left; a broad right-side tile grid is broken by large brown and dark-red panels below.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The numbered board is visible on the sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9399": {
+      "geometry_tags": [
+        "asymmetric"
+      ],
+      "observation": "Tiles fill a broad left-side field and a narrow right strip; two large green framed panels with numbered markers occupy the center and right, separated by a wide gap.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The numbered board is visible on the sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9400": {
+      "geometry_tags": [],
+      "observation": "Gold coin-like cells fill repeated horizontal bands across the board, with narrow tile strips and short blank gaps between the bands; no clear play-area geometry label is supported.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The numbered board is visible on the sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9401": {
+      "geometry_tags": [
+        "compact_full_field",
+        "layered_bands"
+      ],
+      "observation": "A dense rectangular tile grid fills the upper and middle board; four wide colored horizontal bands and narrow side columns occupy the lower rows.",
+      "confidence": "high",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The numbered board is visible on the sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9402": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Tall colored tube-like columns alternate with narrow pale blocker strips; a row of matching tube cells repeats across the bottom.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The numbered board is visible on the sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9403": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "Tall green and pale vertical panels alternate through the board; brown blockers and scattered tiles occupy the center and lower rows.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The numbered board is visible on the sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9404": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Repeated pale cake-like blockers form broad horizontal rows between tile strips; vertical orange and green panels divide the center and right side.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The numbered board is visible on the sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9405": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Long green and yellow vertical lanes frame a broad central tile rectangle, with horizontal colored bands and small round cells across the lower area.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The numbered board is visible on the sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9406": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Tall blue, red, and green panels form narrow vertical columns around a central tile strip; several horizontal rows of blockers cross the lower half.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The numbered board is visible on the sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9407": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "A broad upper tile area sits above several framed blocker cells and brown panels; the right half has a narrower, more interrupted tile section.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The numbered board is visible on the sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9408": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "A large orange cross-shaped panel occupies the upper center; colored tiles form side and lower rows, while flower-patterned columns line the right edge.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The numbered board is visible on the sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9409": {
+      "geometry_tags": [
+        "split_regions",
+        "asymmetric"
+      ],
+      "observation": "A purple-and-white channel runs along the left beside a dense right tile rectangle; broad visible teal-floor gaps separate the left lane, right field, and lower edge.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9410": {
+      "geometry_tags": [
+        "central_mass",
+        "layered_bands"
+      ],
+      "observation": "A large brown central panel is enclosed by red horizontal blocker strips; only narrow tile columns remain along the left and right edges.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9411": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Colored tiles and tall cylinder-like panels form repeated vertical lanes, with brown blocker cells and short horizontal rows near the bottom.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9412": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Several rows of colored tiles are interleaved with tall cylinder-like columns; broad cyan horizontal panels cross the upper-middle and lower-middle.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9413": {
+      "geometry_tags": [
+        "compact_full_field",
+        "layered_bands"
+      ],
+      "observation": "A broad, nearly continuous tile grid spans the board; pale cake-like blockers and a narrow pink cell strip form repeated horizontal bands.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9414": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Colored tiles sit in a central horizontal band, while large green framed sections with numbered markers occupy the left and lower center; smaller tile pockets appear at the right.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9415": {
+      "geometry_tags": [
+        "central_mass"
+      ],
+      "observation": "A large orange textured cross occupies the center, bordered by vertical rows of colored tiles and several blue framed panels near the lower edge.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9416": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "Tiles form a broad upper field around three cyan framed panels; a narrow right-side lane and lower cyan horizontal panel continue the board unevenly.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9417": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Colored tiles fill the upper half around pale cake-like cells; a broad central blue framed area and several narrow lower columns create horizontal layers.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9418": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Tall colored tube-like panels are arranged in three horizontal tiers; narrow tile rows and small framed cells fill the gaps between them.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9419": {
+      "geometry_tags": [],
+      "observation": "A large green framed central area with a numbered marker is surrounded by a continuous border of tiles and pale blockers; the center itself has no visible colored-tile grid.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9420": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "Two tall dark-red panels dominate the left and center, with a large orange textured blocker at the right; a narrow vertical strip of tiles and framed cells remains between them.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9421": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "A dense upper-left tile block contrasts with a large orange-brown lower-left panel; a narrower right tile strip and cyan framed pockets sit beside it.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9422": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "Tiles fill narrow columns on the left; a large orange panel and dark-red framed area dominate the center and right, with small blockers at the lower edge.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9423": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "Purple-and-white vertical lanes frame a large central green section with numbered markers; colored tiles occupy the upper and lower bands, with an uneven small right-side pocket.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9424": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "A broad upper tile band sits above repeated blue framed panels and short purple blocker rows; the lower section is arranged as separated horizontal strips.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9425": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "Brown and purple blockers form tall narrow columns on the left; colored tiles fill the center and right, with mushroom-like blocker cells concentrated on the right edge.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9426": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Tall blue columns and a red framed lane divide the board into narrow vertical tile strips; small lower pockets and short horizontal blockers interrupt the columns.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9427": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "A dense upper tile grid leads into a central lower path bordered by pale blockers and flower-patterned cells; small blue-framed pockets sit at the bottom.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9428": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "Purple blocker lanes run down the left; colored tiles occupy the center, while large cyan panels and striped paths dominate the right and lower board.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9429": {
+      "geometry_tags": [
+        "compact_full_field",
+        "asymmetric"
+      ],
+      "observation": "A dense tile field fills the left and upper board; several large blue framed panels occupy the right side, with a few small tan blocker cells between them.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9430": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Tall colored tube-like columns repeat across three horizontal tiers, separated by broad blue platforms and small tile rows.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9431": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Colored tiles form a central rectangular grid with an orange textured vertical strip at the left and red framed blocker cells along the bottom.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9432": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "A broad upper tile grid sits above two lower rectangular cell groups, cyan on the left and pink on the right, divided by a narrow central lane.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9433": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "A dense tile grid fills the left and upper board; long colored vertical panels and framed cells form repeated columns, with small tile lanes along the lower edge.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9434": {
+      "geometry_tags": [
+        "compact_full_field",
+        "layered_bands"
+      ],
+      "observation": "A nearly full rectangular grid of colored and purple cells continues into the lower half, where large blue framed blockers interrupt several rows.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9435": {
+      "geometry_tags": [
+        "central_mass"
+      ],
+      "observation": "A large orange pebble-textured mass covers most of the center and lower board; colored tile rows remain across the top and in narrow side pockets.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9436": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "A tile field occupies the upper middle between tall blue outer columns; broad orange-brown panels and a central green marker section divide the lower board.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9437": {
+      "geometry_tags": [
+        "asymmetric",
+        "edge_channels"
+      ],
+      "observation": "Tall brown panels occupy the left and center; colored tiles form a dense vertical region on the right, with a few small edge pockets.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9438": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "A large orange panel dominates the central and left board; the remaining colored tiles form a narrow upper-right block and small lower-right pockets.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9439": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "A narrow left-side tile lane and a broad right tile rectangle are separated by a tall brown blocker strip; short rows of blockers cross the lower board.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9440": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Four tall blue cylinder-like columns frame a central round feature; pink cells and short colored-tile rows fill the gaps and lower edge.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9441": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Repeated vertical colored panels and narrow tile strips form columns across the board; horizontal red and blue bands run through the lower rows.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9442": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "A broad central tile field is surrounded by large green framed sections and repeated purple blockers; several narrow passages and small edge pockets remain visible.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9443": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Two large red-and-blue framed objects occupy the center; colored tiles fill the side lanes and upper rows, with a tan blocker strip below.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9444": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "A very large orange-brown panel fills most of the right side; colored tiles occupy the left half and a narrow strip between the panel and board edge.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9445": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Pink and colored tile rows fill a broad upper field; cyan framed pockets and large blue panels interrupt the center and lower corners.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet; level 9452 was additionally checked at original resolution. Geometry labels are tentative; difficulty and strategy are unverified."
+    },
+    "9446": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "Tall pale gate and striped panels occupy the left half; colored tiles form a narrower upper-right field above a wide cyan lower panel.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet; level 9452 was additionally checked at original resolution. Geometry labels are tentative; difficulty and strategy are unverified."
+    },
+    "9447": {
+      "geometry_tags": [
+        "stair_step",
+        "asymmetric"
+      ],
+      "observation": "A stepped line of playable tiles descends diagonally along the right side of a large brown central region; small tile strips remain near the lower edge.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet; level 9452 was additionally checked at original resolution. Geometry labels are tentative; difficulty and strategy are unverified."
+    },
+    "9448": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "A dense rectangular tile field is crossed by purple vertical panels and short horizontal blocker bands; pale cells and framed pockets occupy the lower rows.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet; level 9452 was additionally checked at original resolution. Geometry labels are tentative; difficulty and strategy are unverified."
+    },
+    "9449": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Long green and blue vertical lanes occupy the left and center; narrow columns of tiles and blockers fill the spaces between them, with a short lower tile band.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet; level 9452 was additionally checked at original resolution. Geometry labels are tentative; difficulty and strategy are unverified."
+    },
+    "9450": {
+      "geometry_tags": [
+        "split_regions"
+      ],
+      "observation": "Several small cyan-framed tile groups sit in distinct positions across the board, separated by broad visible floor gaps and large empty background panels.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet; level 9452 was additionally checked at original resolution. Geometry labels are tentative; difficulty and strategy are unverified."
+    },
+    "9451": {
+      "geometry_tags": [
+        "compact_full_field",
+        "layered_bands"
+      ],
+      "observation": "A dense rectangular grid fills nearly the whole board; purple cells form a central vertical band among the colored tiles and blue framed blockers.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet; level 9452 was additionally checked at original resolution. Geometry labels are tentative; difficulty and strategy are unverified."
+    },
+    "9452": {
+      "geometry_tags": [
+        "split_regions",
+        "layered_bands"
+      ],
+      "observation": "Two tall, matching tile grids occupy the far left and right, separated by a broad empty central gap; a brick-like blocker band spans the bottom.",
+      "confidence": "high",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet; level 9452 was additionally checked at original resolution. Geometry labels are tentative; difficulty and strategy are unverified."
+    },
+    "9453": {
+      "geometry_tags": [
+        "compact_full_field"
+      ],
+      "observation": "A mostly continuous rectangular field of colored and blue round cells fills the board, with framed paired blockers arranged in a horizontal band across the lower middle.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet; level 9452 was additionally checked at original resolution. Geometry labels are tentative; difficulty and strategy are unverified."
+    },
+    "9454": {
+      "geometry_tags": [
+        "compact_full_field",
+        "layered_bands"
+      ],
+      "observation": "Pale cake-like blockers fill repeated horizontal rows across most of the grid, interspersed with colored tiles and blue framed cells along the bottom.",
+      "confidence": "high",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet; level 9452 was additionally checked at original resolution. Geometry labels are tentative; difficulty and strategy are unverified."
+    },
+    "9455": {
+      "geometry_tags": [
+        "asymmetric",
+        "central_mass"
+      ],
+      "observation": "Colored tiles fill the upper and right areas; a broad brown panel and several framed cells occupy the center-left, with smaller tile pockets along the bottom.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet; level 9452 was additionally checked at original resolution. Geometry labels are tentative; difficulty and strategy are unverified."
+    },
+    "9456": {
+      "geometry_tags": [
+        "asymmetric",
+        "central_mass"
+      ],
+      "observation": "A large brown-orange panel occupies the upper-left; tiles and framed cells form an irregular band through the center and right, with a separate lower-left pocket.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet; level 9452 was additionally checked at original resolution. Geometry labels are tentative; difficulty and strategy are unverified."
+    },
+    "9457": {
+      "geometry_tags": [
+        "asymmetric"
+      ],
+      "observation": "Colored tiles occupy a central and right-side field; a broad open teal area fills the left, with a narrow tile lane along its upper edge.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9458": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "A large brown panel dominates the center-left; tiles and pale blockers are concentrated in narrow vertical lanes on the right and in small lower pockets.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9459": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "A broad orange panel fills the center and a pebble-textured blocker mass occupies the lower middle; colored tiles remain in narrow upper and side strips.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9460": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Matching tall framed columns stand on both sides of a central tile field; colored tiles and small blockers are arranged in repeated horizontal rows between them.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9461": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "A dense upper tile area leads into repeated purple lanes and framed compartments in the lower half; the board is arranged in clear horizontal tiers.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9462": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "A broad rectangular tile grid is arranged in rows above a continuous brick-like bottom band; a narrow vertical blocker strip runs down the center.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9463": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "Colored tiles occupy narrow lanes at the left and right; a large green framed central section with a numbered marker separates the two sides.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9464": {
+      "geometry_tags": [
+        "compact_full_field"
+      ],
+      "observation": "A regular rectangular grid of colored tiles fills nearly the entire board; cyan and yellow framed blockers cluster in the lower-right corner.",
+      "confidence": "high",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9465": {
+      "geometry_tags": [
+        "compact_full_field",
+        "layered_bands"
+      ],
+      "observation": "Pale cake-like blockers and colored tiles fill an almost full grid; blue framed cells and round features repeat along the lower rows.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9466": {
+      "geometry_tags": [
+        "compact_full_field"
+      ],
+      "observation": "A broad rectangular tile field fills the center and sides, with large cyan panels and small framed blockers embedded in the lower half.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9467": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "Tiles occupy the upper and right side; large brown-orange panels dominate the lower center and left, with small framed pockets near the bottom.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9468": {
+      "geometry_tags": [
+        "compact_full_field",
+        "layered_bands"
+      ],
+      "observation": "A nearly full tile grid has pale patterned blockers in repeated rows; tan panels and narrow vertical columns interrupt the lower-middle section.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9469": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Two matching cyan-framed vertical lanes flank a narrow central tile area; small lower compartments sit on both sides beneath the upper tile rows.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9470": {
+      "geometry_tags": [
+        "split_regions"
+      ],
+      "observation": "Two framed marker panels sit on the left and lower-left, while a small tile column occupies the upper-right; wide visible teal-floor gaps separate these areas.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9471": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "A narrow upper tile band sits between large orange textured blocker masses; the lower board steps down through several brown panels and small side lanes.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9472": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Tall green framed lanes stand on both sides of a central set of narrow tile columns; pale blockers and small pieces form repeated horizontal rows.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9473": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "Purple channels run along the left and bottom around tall dark-red panels; colored tiles occupy a stepped upper-right field and small side pockets.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9474": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "A cyan vertical lane fills the left side; colored tiles and blue framed panels occupy the right and lower board, divided by broad brown panels.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9475": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Colored tiles form a compact upper cluster above several large dark-red panels and small framed lower pockets; a narrow blocker strip lies between the tiers.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9476": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Tall tube-like columns, orange-brown panels, and short tile rows alternate vertically across the board, with narrow playable lanes between them.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9477": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Blue cylinder-like cells occupy tall side columns; colored tiles fill a broad central grid, with small framed cells along the upper edge.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9478": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Purple-and-white striped channels border a central tile field on both sides; blue framed cells and a short lower tile row interrupt the otherwise stacked layout.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9479": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Rows of pale patterned blockers and colored tiles cover the upper and middle board; flower-patterned strips and tan blockers form lower horizontal bands.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9480": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "Large orange-brown panels occupy the center and right; only narrow vertical columns of tiles and blockers remain along the left and far-right edges.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9481": {
+      "geometry_tags": [
+        "asymmetric",
+        "layered_bands"
+      ],
+      "observation": "A dense tile field fills the left and upper center; several green framed panels with numbered markers occupy the right and lower portions, separated by a narrow tile lane.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9482": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Rows of colored tiles and pale blockers surround multiple white gate-like panels; purple cells form short horizontal bands through the center.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9483": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "Large orange-brown panels dominate the center and right; a small colored tile area remains at the upper-left and a narrow column of pieces runs down the right edge.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9484": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "A broad tile grid fills the upper board; purple channels, cyan framed panels, and blue blockers form repeated horizontal and vertical layers below.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9485": {
+      "geometry_tags": [
+        "compact_full_field",
+        "layered_bands"
+      ],
+      "observation": "A near-full rectangular tile grid is crossed by pale blockers and a central column of narrow orange panels; the lower rows remain connected across the board.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9486": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "Colored tiles fill the upper and right portions; repeated tube-like blockers and framed panels occupy the left and lower rows, leaving an uneven stepped boundary.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9487": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Long cyan vertical channels separate narrow tile columns; broad red and blue framed panels occupy the lower center and sides.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9488": {
+      "geometry_tags": [
+        "layered_bands",
+        "asymmetric"
+      ],
+      "observation": "Purple and blue blocker cells form a tall left-side block; the right half contains several narrow tile columns and a small lower pocket.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9489": {
+      "geometry_tags": [
+        "compact_full_field"
+      ],
+      "observation": "A dense rectangular tile field fills most of the board around cyan framed panels; striped columns and small purple blockers sit along the lower edge.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9490": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Several framed compartments sit in vertical columns, with colored tiles in the upper and lower center and broad brown panels separating the sections.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9491": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Tall colored tube-like panels form repeated vertical columns; tiles and small blockers fill horizontal rows between the columns.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9492": {
+      "geometry_tags": [
+        "compact_full_field",
+        "layered_bands"
+      ],
+      "observation": "A nearly full rectangular grid of colored tiles surrounds a tall green framed central section; a brick-like blocker band spans the bottom.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9493": {
+      "geometry_tags": [
+        "split_regions",
+        "asymmetric"
+      ],
+      "observation": "A purple-and-white vertical channel occupies the left; a separate tile field fills the upper-right and center, with broad visible teal-floor gaps between the channel and lower pockets.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9494": {
+      "geometry_tags": [
+        "central_mass",
+        "asymmetric"
+      ],
+      "observation": "A large orange-brown panel dominates the center and lower board; purple cells and colored tiles form a compact upper-left block and a narrow right-side lane.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9495": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Purple-and-white channels form repeated horizontal and vertical runs around cyan framed panels; colored tiles occupy narrow rows between the channels.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9496": {
+      "geometry_tags": [
+        "compact_full_field",
+        "layered_bands"
+      ],
+      "observation": "A dense rectangular grid of colored tiles and pale patterned blockers fills the board in repeated rows; a few purple cells interrupt the lower band.",
+      "confidence": "high",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9497": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Colored tiles fill the upper grid; broad cyan horizontal panels and dark-red strips form stacked lower bands with a framed blocker at the right.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9498": {
+      "geometry_tags": [
+        "asymmetric"
+      ],
+      "observation": "A tile grid occupies the left side, while large green framed sections with numbered markers fill the center and right; a narrow tile strip runs between the sections.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9499": {
+      "geometry_tags": [
+        "central_mass",
+        "layered_bands"
+      ],
+      "observation": "Tiles occupy the upper rows and both side lanes; a large brown-orange blocker mass fills the center-lower board, with narrow red and blue panels near the bottom.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9500": {
+      "geometry_tags": [],
+      "observation": "Gold coin-like cells form repeated rows across the upper and side sections; colored tiles and long brown-red panels occupy the central and lower bands, so no geometry tag is assigned.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9501": {
+      "geometry_tags": [
+        "asymmetric"
+      ],
+      "observation": "A tile field occupies the left and upper center; a large green framed region with numbered markers fills the right-center, and a narrow tile column remains at the far right.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9502": {
+      "geometry_tags": [
+        "split_regions"
+      ],
+      "observation": "Small red tile groups sit in separated columns on the left, divided from a large green framed central region by broad visible empty background gaps.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9503": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Purple-and-white channels curve around cyan central panels; colored tiles and small framed cells occupy the left and right margins in stacked bands.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    },
+    "9504": {
+      "geometry_tags": [
+        "compact_full_field",
+        "layered_bands"
+      ],
+      "observation": "A broad rectangular tile field is interspersed with pale square blockers and purple round cells; the lower rows remain continuous across most of the board.",
+      "confidence": "medium",
+      "inspection_status": "reviewed",
+      "occlusion": "none",
+      "review_note": "The full board is visible on the numbered sheet. Geometry labels are tentative visual descriptors; difficulty and strategy are unverified."
+    }
+  },
+  "last_committed_level": 9504,
+  "committed_count": 252,
+  "output_sha256": "9b1ca7b3307019c32af552bd6a3ace7b3343061d0f5ecdb4024cac29e8287d52"
+}

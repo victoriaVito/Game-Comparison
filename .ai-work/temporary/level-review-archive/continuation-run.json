@@ -1,0 +1,16 @@
+{
+  "runId": "c4d016de-2893-4b9b-9502-003dcca6a126",
+  "previousRunId": "ce1d0808-da7b-411c-9dd0-9006db4413bd",
+  "status": "running",
+  "scope": {
+    "quality_only": [
+      7001,
+      8000
+    ],
+    "visual_review": [
+      8001,
+      13500
+    ]
+  },
+  "accepted_labels": 0
+}

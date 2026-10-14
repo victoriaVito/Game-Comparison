@@ -1,0 +1,106 @@
+{
+  "schema_version": 2,
+  "status": "needs_review",
+  "sample": [
+    {
+      "level": 12001,
+      "image_path": "sources/royal-match-level-archive/levels/12001/board.jpg",
+      "result": "uncertain",
+      "evidence": "The original shows a continuous rectangular outline: single wooden side columns surround five upper rows of colored tiles, three large red framed blockers span the middle, and wooden cells fill the bottom. These visible features support compact_full_field and layered_bands. Bright effects cover the lower-right wooden cells and several upper-left cells; the candidate correctly records partial inspection, but a complete cell reading remains unresolved. Both verified fields are unknown and both hypotheses are null; no difficulty or strategy is inferred."
+    },
+    {
+      "level": 12127,
+      "image_path": "sources/royal-match-level-archive/levels/12127/board.jpg",
+      "result": "supported",
+      "evidence": "The upper rectangle has three full tile rows above a narrower central tile area flanked by teal cylinders marked 1; two cyan spheres stack in the central column. An unobstructed lava/background band separates this rectangle from the lower three-row strip of owl-faced covers around a stone-framed device marked 20. The gap, not the different blocker colors, supports split_regions; the upper/lower arrangement supports layered_bands. This agrees with the candidate observation. Verified difficulty and strategy remain unknown, with null hypotheses."
+    },
+    {
+      "level": 12252,
+      "image_path": "sources/royal-match-level-archive/levels/12252/board.jpg",
+      "result": "conflict",
+      "evidence": "The original supports the candidate's alternating tall mushroom columns and narrow tile lanes, purple-backed bottle-symbol borders, and bottom floor notches. The four large framed groups in the lower band visibly contain red round vessel-like objects with yellow tops, not identifiable fruit as claimed by 'four fruit boxes'. layered_bands remains supported; no empty gap divides the occupied upper lanes. This is an object-description conflict, not evidence of disconnection. Verified fields are unknown and hypotheses null.",
+      "candidate_correction": {
+        "review_status": "needs_review",
+        "observation": "Narrow colored-tile lanes alternate with tall red mushroom columns between purple-backed bottle-symbol borders. Four framed groups of red rounded objects with yellow tops and red-yellow covered cells occupy the lower band around purple-backed bottle-symbol blocks. Short floor notches separate lower projections; no empty gap splits the occupied upper lanes. The identities of the framed red objects are unverified."
+      }
+    },
+    {
+      "level": 12253,
+      "image_path": "sources/royal-match-level-archive/levels/12253/board.jpg",
+      "result": "conflict",
+      "evidence": "The tall rectangular outline is continuous. A central colored-tile strip sits between wooden columns, with purple-backed yellow objects farther outward. Barrel-shaped cells appear at exactly three heights on each outer side: top, middle, and bottom. The candidate says four barrel cells on each side, which conflicts with the six visible barrel-shaped cells in total. The vertical material bands support layered_bands, not split_regions. Verified fields are unknown and hypotheses null.",
+      "candidate_correction": {
+        "review_status": "needs_review",
+        "observation": "A tall continuous rectangle has a central colored-tile strip, vertical wooden columns beside it, and purple-backed covered cells at both outer sides. Three barrel-shaped cells appear on each outer side, at the top, middle, and bottom."
+      }
+    },
+    {
+      "level": 12354,
+      "image_path": "sources/royal-match-level-archive/levels/12354/board.jpg",
+      "result": "supported",
+      "evidence": "The upper field has red ribbon-covered columns and a teal cylinder marked 9 on the left, colored tiles on the right, and cyan spherical objects along its lower row. A broad blue horizontal object crosses the board beneath it; below are ribbon-covered cells and two cyan sphere columns. Two blue dome-shaped objects project from the lower-left at different horizontal positions, with visible background beside the lower one. These unequal left/right regions and upper/lower bands support asymmetric and layered_bands. The candidate's turquoise 'tiles' are best read as a loose visual description, not a verified mechanic. Verified fields stay unknown and hypotheses null."
+    },
+    {
+      "level": 12504,
+      "image_path": "sources/royal-match-level-archive/levels/12504/board.jpg",
+      "result": "supported",
+      "evidence": "The original has two narrow colored-tile arms above and two below a broad occupied middle tile rectangle. Visible background slots enter from top center and bottom center; matching pink-covered outer columns and gray-ringed objects flank the middle. Two devices marked 42 cap the bottom outer corners. The central middle field is occupied and connects the arms, so neither open_center nor split_regions is justified. The candidate's empty geometry list and specific notch description are conservative and supported. Verified difficulty/strategy are unknown and hypotheses null."
+    },
+    {
+      "level": 12505,
+      "image_path": "sources/royal-match-level-archive/levels/12505/board.jpg",
+      "result": "supported",
+      "evidence": "The upper colored-tile rectangle is flanked by paired blue/green vertical tubes. Wooden covered cells and four large red clock-faced boxes occupy the lower area, surrounding a bottom-center framed group of yellow hanging objects. A visible horizontal floor-colored notch is immediately above that central group, and shallow side recesses also occur at this height. This agrees with the candidate's layout and supports layered_bands. The small notch does not make the occupied middle a central_mass or an open_center claim. Verified fields are unknown and hypotheses null."
+    },
+    {
+      "level": 12631,
+      "image_path": "sources/royal-match-level-archive/levels/12631/board.jpg",
+      "result": "supported",
+      "evidence": "The continuous central colored-tile strip is bordered by purple jars and short side wings. Four blue framed propeller-like objects occupy upper/lower wing positions. A large framed group of hanging blue objects projects on the left, while a horizontal blue emblem box projects on the right at a higher position, with a separate circular-emblem device at bottom-right. Background recesses between the wings are visible but do not cut through the central strip. These unequal major left/right regions support asymmetric and match the candidate. Verified fields remain unknown and hypotheses null."
+    },
+    {
+      "level": 12756,
+      "image_path": "sources/royal-match-level-archive/levels/12756/board.jpg",
+      "result": "conflict",
+      "evidence": "The original shows a continuous three-column central tile strip bordered by mushroom columns. Two white/red rounded objects cap matching upper shoulders, two clock-faced boxes protrude at the same height, and six blue propeller-like boxes form three matched left/right pairs below. The outer playable outline and major blocker regions mirror each other. Individual colored tiles differ, but that does not support the candidate's asymmetric tag. Its concrete observation of staggered wings and side recesses is otherwise supported. Verified fields are unknown and hypotheses null.",
+      "candidate_correction": {
+        "review_status": "needs_review",
+        "geometry_tags": [],
+        "review_note": "The major left/right regions and playable outline are mirrored. Remove asymmetric; different individual tile colors are not evidence of asymmetric board geometry. Retain the observation of side recesses and a continuous central tile strip."
+      }
+    },
+    {
+      "level": 12757,
+      "image_path": "sources/royal-match-level-archive/levels/12757/board.jpg",
+      "result": "uncertain",
+      "evidence": "A colored-tile strip occupies the left, two blue vertical objects sit beside it, and a tall owl-covered rectangle occupies the right. A visible background slot separates the upper left and right areas, but a large red hat overlay covers the slot's lower end and several central cells. Bright effects also obscure left-side tiles. The bottom has a smaller red square device and a larger purple/red framed device. These visible vertical bands support layered_bands, but connectivity beneath the hat cannot be resolved. The candidate correctly withholds split_regions and records partial occlusion; do not treat the upper slot alone as proof of disconnected whole regions. Verified fields are unknown and hypotheses null."
+    },
+    {
+      "level": 12879,
+      "image_path": "sources/royal-match-level-archive/levels/12879/board.jpg",
+      "result": "conflict",
+      "evidence": "The original shows a central-right colored-tile lane bordered by purple jars, with top-center and bottom-center background notches. Four separate orange panels run down the left in alternating horizontal positions: upper inset, outer upper-middle, outer lower-middle, and bottom inset. One full-height orange panel occupies the right. The candidate's count of three small left panels is incorrect. The unequal major regions support asymmetric and the vertical organization supports layered_bands. The competition progress bar above the grid is not part of the playable boundary. Verified fields are unknown and hypotheses null.",
+      "candidate_correction": {
+        "review_status": "needs_review",
+        "observation": "A central-right colored-tile lane is framed by purple jar columns. Four separate orange panels occupy alternating positions down the left, while one full-height orange panel occupies the right. Background notches enter from top center and bottom center; the competition progress bar above is outside the match grid."
+      }
+    },
+    {
+      "level": 13000,
+      "image_path": "sources/royal-match-level-archive/levels/13000/board.jpg",
+      "result": "supported",
+      "evidence": "Two upper islands of purple/pale figure-covered cells form bent outlines resembling 1 and 3, with visible background between them. A broad unobstructed background band separates both upper islands from the lower figure-covered field. The lower field has a rectangular empty hole on each side and a central downward extension containing two vertically stacked multicolored boosters. This supports split_regions through actual empty gaps and layered_bands through the upper/lower arrangement, as the candidate states. The reward header and competition bar are outside the grid; no separate arena is being counted as a play region. Verified fields are unknown and hypotheses null."
+    }
+  ],
+  "limitations": [
+    "This bounded review rendered 12 distinct original available images, three from each shard: first, middle available entry using zero-based floor(n/2), and last available entry. For the second shard the available sequence skips missing levels 12451-12500, producing 12253, 12354, and 12504. The tail shard already supplies three available samples, so no additional levels were needed.",
+    "Results: 6 supported, 4 conflict, and 2 uncertain. Supported means the sampled visible description and tags are supported, not that the label is accepted. All candidates and the report remain needs_review. Corrections are suggestions preserved alongside unchanged candidates.",
+    "The index reports 950 available and 50 missing images within the 1000-level batch. These 12 samples do not establish correctness of the remaining 938 available records or resolve the 50 missing records.",
+    "Every sampled original image hash matches its index entry. Structural validation and image hashes prove identity/schema consistency, not visual correctness or prior inspection.",
+    "Repeated-observation warning check: validation.json reports no repeated observations, and an independent exact-string comparison of all 950 available candidate observations likewise found no duplicates. This does not test paraphrased/template repetition, and unique wording is not proof of image inspection or correctness.",
+    "All 1000 candidate rows use integer schema_version 2 and needs_review. Both verified fields are unknown throughout the batch, with no non-null difficulty or strategy hypotheses. This review adds no difficulty or strategy claim; static screenshots do not establish measured difficulty, optimal strategy, success rate, or unseen mechanics.",
+    "The Royal Kingdom taxonomy is only candidate vocabulary for Royal Match. Blocker colors do not establish split_regions; obstacle steps do not establish stair_step; an empty notch does not establish central_mass. Headers, competition bars, and any separate boss arena must remain outside match-grid geometry.",
+    "Activation effects and the hat overlay prevent complete interpretation of levels 12001 and 12757. Small object identities remain visual descriptions, not verified game mechanics.",
+    "Only quality-review.json was created. Source images, candidate shards, sheet index, validation, pilot, apps, manifests, historical batches, and trackers were not modified; no downloads, installations, network calls, commits, pushes, or additional agents were used."
+  ]
+}

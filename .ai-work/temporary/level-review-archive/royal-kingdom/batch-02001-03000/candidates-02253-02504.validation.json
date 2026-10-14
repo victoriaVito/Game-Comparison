@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "range": [
+    2253,
+    2504
+  ],
+  "rows": 252,
+  "visually_inspected_sheets": 21,
+  "inspection_counts": {
+    "reviewed": 232,
+    "partial": 20
+  },
+  "original_sha256_verified": 252,
+  "required_fields_verified": true,
+  "all_needs_review": true
+}

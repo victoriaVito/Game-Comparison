@@ -1,0 +1,27 @@
+{
+  "game": "royal-kingdom",
+  "records": 1000,
+  "inspection_counts": {
+    "reviewed": 891,
+    "partial": 109
+  },
+  "available_images_have_recorded_inspection": true,
+  "accepted_labels": 0,
+  "limitation": "Structural and hash validation does not independently prove visual fidelity.",
+  "range": [
+    2001,
+    3000
+  ],
+  "review_status": "needs_review",
+  "repeated_observations": [],
+  "classification_complete": false,
+  "quality_review": {
+    "sample_size": 12,
+    "results": {
+      "supported": 7,
+      "conflict": 4,
+      "uncertain": 1
+    },
+    "limitation": "Sampled review is not full independent geometry validation."
+  }
+}

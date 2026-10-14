@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "completed_sheets": [
+    "levels-10505-10516.jpg",
+    "levels-10517-10528.jpg",
+    "levels-10529-10540.jpg",
+    "levels-10541-10552.jpg",
+    "levels-10553-10564.jpg",
+    "levels-10565-10576.jpg",
+    "levels-10577-10588.jpg",
+    "levels-10589-10600.jpg",
+    "levels-10601-10612.jpg",
+    "levels-10613-10624.jpg",
+    "levels-10625-10636.jpg",
+    "levels-10637-10648.jpg",
+    "levels-10649-10660.jpg",
+    "levels-10661-10672.jpg",
+    "levels-10673-10684.jpg",
+    "levels-10685-10696.jpg",
+    "levels-10697-10708.jpg",
+    "levels-10709-10720.jpg",
+    "levels-10721-10732.jpg",
+    "levels-10733-10744.jpg",
+    "levels-10745-10756.jpg"
+  ],
+  "saved_range": [
+    10505,
+    10756
+  ],
+  "saved_rows": 252,
+  "status": "complete",
+  "counts": {
+    "reviewed": 166,
+    "partial": 85,
+    "missing": 1,
+    "not_reviewed": 0
+  },
+  "original_resolution_followups": [
+    10509,
+    10512,
+    10556,
+    10559,
+    10612,
+    10629,
+    10676,
+    10702,
+    10735,
+    10742,
+    10751
+  ],
+  "all_assigned_numbered_sheets_rendered": true,
+  "jsonl_sha256": "e952fee57af49b3e61cb44c3204871c0bac68da59ce00fa01c108a1513691a8c"
+}

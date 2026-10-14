@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "range": [2757, 3000],
+  "saved_rows": 244,
+  "visually_inspected_sheets": 21,
+  "inspection_counts": {
+    "reviewed": 232,
+    "partial": 12,
+    "missing": 0,
+    "not_reviewed": 0
+  },
+  "review_status": "needs_review",
+  "checks": [
+    "Exact contract field set and integer schema_version 2",
+    "Complete ordered numeric range without duplicates",
+    "All source paths, sheet paths, cell indices and SHA-256 values match manifest",
+    "All 244 source image hashes independently recomputed",
+    "Geometry tags limited to permitted vocabulary",
+    "Partial inspection status matches explicit partial occlusion",
+    "Verified difficulty and strategy unknown; verified evidence empty",
+    "Difficulty and strategy hypotheses null"
+  ]
+}

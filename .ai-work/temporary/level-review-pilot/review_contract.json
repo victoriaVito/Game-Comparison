@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "status": "candidate_contract",
+  "range": [1, 1000],
+  "games": ["royal-match", "royal-kingdom"],
+  "geometry_tags": [
+    "compact_full_field", "split_regions", "layered_bands", "edge_channels",
+    "central_mass", "open_center", "stair_step", "asymmetric"
+  ],
+  "record_fields": {
+    "schema_version": "integer 2 (not a string)",
+    "game": "royal-match or royal-kingdom",
+    "level": "numeric source level",
+    "review_status": "candidate or needs_review; never accepted",
+    "inspection_status": "reviewed, partial, not_reviewed, or missing",
+    "image_path": "repository-relative original image path, or null if missing",
+    "image_sha256": "hash from sheet index, or null if missing",
+    "sheet_path": "repository-relative sheet actually inspected, or null",
+    "cell": "one-based sheet cell, or null",
+    "geometry_tags": "list of permitted tags supported by this image",
+    "observation": "concise visible evidence; distinguish boundary from blocker placement",
+    "occlusion": "none, partial, severe, or unknown",
+    "confidence": "high, medium, low, or unknown",
+    "verified_difficulty": "unknown unless a cited local source directly labels difficulty",
+    "verified_strategy": "unknown unless a cited local source supports the stated strategy",
+    "verified_evidence": "list of local source references; empty when both verified fields are unknown",
+    "difficulty_hypothesis": "null or object with inference=true, statement, confidence, rationale",
+    "strategy_hypothesis": "null or object with inference=true, statement, confidence, rationale",
+    "review_note": "ambiguities, missing evidence, or original-resolution follow-up"
+  },
+  "rules": [
+    "Only mark inspected images reviewed or partial. A prepared sheet or source-derived feature is not inspection.",
+    "Use partial when overlays prevent full board interpretation, and needs_review for uncertain observations.",
+    "Retain hypotheses as speculative; do not infer measured difficulty, success rate, or optimal strategy.",
+    "The eight tags are candidate vocabulary for Royal Match and unchanged v1 vocabulary for Royal Kingdom.",
+    "A stepped blocker boundary alone does not justify stair_step, and blockers alone do not prove split_regions.",
+    "Record missing levels explicitly and checkpoint every inspected sheet before opening more.",
+    "Preserve historical outputs; write new shard JSONL files only."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "game": "royal-match",
+  "assigned_range": [
+    5505,
+    5756
+  ],
+  "last_checkpointed_level": 5756,
+  "inspected_sheets": [
+    "levels-5505-5516.jpg",
+    "levels-5517-5528.jpg",
+    "levels-5529-5540.jpg",
+    "levels-5541-5552.jpg",
+    "levels-5553-5564.jpg",
+    "levels-5565-5576.jpg",
+    "levels-5577-5588.jpg",
+    "levels-5589-5600.jpg",
+    "levels-5601-5612.jpg",
+    "levels-5613-5624.jpg",
+    "levels-5625-5636.jpg",
+    "levels-5637-5648.jpg",
+    "levels-5649-5660.jpg",
+    "levels-5661-5672.jpg",
+    "levels-5673-5684.jpg",
+    "levels-5685-5696.jpg",
+    "levels-5697-5708.jpg",
+    "levels-5709-5720.jpg",
+    "levels-5721-5732.jpg",
+    "levels-5733-5744.jpg",
+    "levels-5745-5756.jpg"
+  ],
+  "rows_saved": 252,
+  "inspection_counts": {
+    "reviewed": 156,
+    "partial": 66,
+    "missing": 30,
+    "not_reviewed": 0
+  },
+  "status": "completed_assigned_visual_inspection",
+  "validation": "252 ordered rows, exact contract fields, manifest paths and hashes checked; 21 sheets rendered with image tools."
+}

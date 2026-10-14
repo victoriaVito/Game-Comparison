@@ -1,0 +1,101 @@
+{
+  "status": "needs_review",
+  "sample": [
+    {
+      "level": 10001,
+      "image_path": "sources/royal-match-level-archive/levels/10001/board.jpg",
+      "result": "supported",
+      "evidence": "The original shows a broad rectangular outer boundary, upper colored tiles, and three full-width bottom rows of pale banded round objects. Additional round objects flank the central wooden target at its bottom edge. The central target is a separate boss footprint, not an ordinary blocker mass or an inferred hidden tile region. The surrounding side and bottom grid connects visibly; compact_full_field and layered_bands are consistent with this visible layout. The candidate correctly avoids central_mass and split_regions."
+    },
+    {
+      "level": 10127,
+      "image_path": "sources/royal-match-level-archive/levels/10127/board.jpg",
+      "result": "uncertain",
+      "evidence": "Yellow curved objects line the upper outer columns and parts of the inner sides; rockets sit above two drawers on each lower side. Purple upward-arrow cells flank the red flower-marked device at bottom center. These visible upper/lower groupings support layered_bands. A large floating red lid, central device, and bright vertical beam obscure the central transition and some rockets. The candidate's partial inspection, severe occlusion and low confidence are appropriate; the complete central playable boundary cannot be independently established from this frame."
+    },
+    {
+      "level": 10252,
+      "image_path": "sources/royal-match-level-archive/levels/10252/board.jpg",
+      "result": "supported",
+      "evidence": "Four tall blue, green, yellow and red tubes occupy the upper portion, with colored tile lanes between them. Five lower rows contain brown metal-fronted compartments interspersed with purple potted domes, including alternating diagonally offset positions and exposed outer-side domes. A pale glow brightens lower-right surfaces, although the bottom outline remains readable. This supports the candidate's upper/lower layered_bands and conservative partial flag; the diagonal obstacle arrangement does not establish a stepped playable boundary."
+    },
+    {
+      "level": 10253,
+      "image_path": "sources/royal-match-level-archive/levels/10253/board.jpg",
+      "result": "supported",
+      "evidence": "The wide upper tile rectangle contains colored tiles and purple bottles. Below it, two brown rectangular side panels flank a two-row central stack of yellow curved objects. Two full-width yellow-object rows sit above four bottom drawers, separated centrally by a narrow two-object column. The occupied outline remains contiguous with no background gap crossing it. These details agree with the candidate and support compact_full_field and layered_bands."
+    },
+    {
+      "level": 10379,
+      "image_path": "sources/royal-match-level-archive/levels/10379/board.jpg",
+      "result": "supported",
+      "evidence": "The left colored-tile pocket has three-column pink spiral-cap blocks above and below. A short vertical pink strip extends along the middle-right side of the tile pocket, adjoining the brown-bordered right strip containing four stacked green floral panels. Visible background recesses interrupt that central area above and below the pink bridge, rather than separating the entire field. The different left and right layouts support asymmetric; the candidate correctly does not infer split_regions from the contrasting materials."
+    },
+    {
+      "level": 10504,
+      "image_path": "sources/royal-match-level-archive/levels/10504/board.jpg",
+      "result": "conflict",
+      "evidence": "The upper-left white-orange objects and the tall right-side white-orange columns visibly have pointed noses, circular orange emblems and fins: they are rocket-shaped objects, not merely cones as described in the candidate. Two teal numbered machines occupy the lower-left side; a colored-tile strip and teal balls lie centrally. On the right, two tall purple chevron columns alternate with rocket-shaped columns, and each purple column terminates in a dark square socket. The asymmetric and vertical layered_bands tags remain supported, but the observation's cone terminology and singular dark-square description lose visible detail.",
+      "candidate_correction": {
+        "review_status": "needs_review",
+        "observation": "A short upper-left block of white-orange rocket-shaped objects sits above two teal numbered machines. A central-left colored-tile strip borders teal balls. Two tall purple chevron columns alternate with rocket-shaped columns on the right; the purple columns terminate in two dark square sockets beside beige bottom blocks.",
+        "geometry_tags": ["asymmetric", "layered_bands"]
+      }
+    },
+    {
+      "level": 10505,
+      "image_path": "sources/royal-match-level-archive/levels/10505/board.jpg",
+      "result": "supported",
+      "evidence": "The upper central tile pocket is flanked by brown blocks. Its outer shoulders widen in steps into a broader lower block band with red-and-gold emblem columns at both edges. Below that band, a narrow central emblem-and-compartment stem runs between two square panels of yellow and red hanging lamps. Background recesses sit beside the stem above those panels, but the stem connects the lower assembly to the upper field. This matches the candidate's layered_bands description; stair_step could additionally describe the visible upper shoulders, but its omission is not evidence that the supplied tag is false."
+    },
+    {
+      "level": 10630,
+      "image_path": "sources/royal-match-level-archive/levels/10630/board.jpg",
+      "result": "conflict",
+      "evidence": "A purple-ball outer frame encloses a row of black hat-shaped objects with magenta rims, not the candidate's 'top ring row'. Immediately below that row is a full horizontal strip of visible room background, absent from the observation. It does not split the whole field because the outer purple-ball columns continue down both sides. A central colored-tile pocket borders blue vertical slabs and three descending inner purple-ball columns. Two short green curtains with pendants marked 6 conceal bottom-corner contents. layered_bands and partial inspection remain defensible, but the top-object description and omitted internal empty strip require correction.",
+      "candidate_correction": {
+        "review_status": "needs_review",
+        "observation": "A purple-ball outer frame surrounds an upper row of black hat-shaped objects with magenta rims. A horizontal background strip lies beneath that row, with continuous purple-ball side columns connecting around it. A central colored-tile pocket borders blue vertical slabs; three inner purple-ball columns descend between blue strips. Green curtains with pendants marked 6 conceal the bottom corners.",
+        "geometry_tags": ["layered_bands"],
+        "inspection_status": "partial",
+        "occlusion": "partial"
+      }
+    },
+    {
+      "level": 10756,
+      "image_path": "sources/royal-match-level-archive/levels/10756/board.jpg",
+      "result": "supported",
+      "evidence": "A three-column central tile rectangle is surrounded on both sides and below by a U-shaped purple-white striped tube. Taller side wings contain orange-white rockets and dark-purple rock-like objects. A large top-center background notch stops above the recessed central tiles, while the bottom tube connects the side wings. Lower outer panels are blue on the left and red-star patterned on the right. The candidate's layered_bands and notch description match the original; the notch is empty space, not a central blocker mass, and it does not establish disconnected regions."
+    },
+    {
+      "level": 10757,
+      "image_path": "sources/royal-match-level-archive/levels/10757/board.jpg",
+      "result": "supported",
+      "evidence": "Two tall red-covered columns occupy the upper-left area alongside an upper-right colored-tile rectangle. Pink spiral caps connect around several purple vault-like squares and a teal numbered safe on the right. Background slots interrupt the lower outline between the hanging feet, but pink cells visibly connect the main assembly higher up. This agrees with the candidate's asymmetric tag and empty-bottom-slot description without supporting split_regions."
+    },
+    {
+      "level": 10879,
+      "image_path": "sources/royal-match-level-archive/levels/10879/board.jpg",
+      "result": "supported",
+      "evidence": "The upper-left tile field adjoins two tall brown columns and a right-edge stack of three white cupboards. A brown perimeter surrounds a wide lower orange roof-tile-like covering, with a short orange stem at bottom center. A one-row background recess under the left tile shoulder stops before the rightmost tile columns, leaving a connection to the lower field. These visible unequal left/right structures support asymmetric and match the candidate; different blocker materials alone are not disconnection."
+    },
+    {
+      "level": 11000,
+      "image_path": "sources/royal-match-level-archive/levels/11000/board.jpg",
+      "result": "supported",
+      "evidence": "Gold coins and TNT occupy three separate stepped regions. The upper region begins with a broad three-row cap and descends outward at its sides; the middle region rises to a single central TNT square and broadens into lower side arms; the bottom region has a central TNT tip over a short filled base. Visible stepped strips of room background separate these regions, unlike mere changes in blocker color. Both split_regions and stair_step are supported by the actual playable outlines, matching the candidate."
+    }
+  ],
+  "limitations": [
+    "This bounded review rendered 12 distinct repository-original images with the image viewer: first, middle and last available records in each of the four shards. The third shard has 251 available images and its middle sample is 10630; 10646 is missing. The fully available tail shard supplies three samples, so no additional tail samples were necessary.",
+    "All sampled original paths were taken from sheets/index.json and matched candidate paths. Each sampled original SHA-256 matched both the index and candidate. Hash agreement establishes source identity, not visual correctness.",
+    "Results: 9 supported, 2 conflict, 1 uncertain. Supported means the sampled visible description and supplied geometry tags are defensible, not that every possible tag is present or every mechanic identity is verified. Candidate corrections are proposals retained alongside the unchanged source candidates.",
+    "All 1000 candidate rows have integer schema_version 2 and review_status needs_review. No candidate was modified or promoted. The Royal Kingdom taxonomy is only candidate vocabulary for Royal Match.",
+    "No exact repeated nonempty observation strings were found across the four shards, consistent with validation.json's empty repeated_observations list. Repeated stock review notes and recurring upper/lower descriptive forms are not independent proof of inspection; unique wording does not establish visual fidelity.",
+    "All 12 sampled candidates retain unknown verified_difficulty and verified_strategy, empty verified_evidence, and null difficulty_hypothesis and strategy_hypothesis. No new hypotheses or difficulty/strategy claims are introduced; move counts and visual HUD appearance are not direct evidence of verified difficulty or strategy.",
+    "The central area of 10127 remains obscured. Mild lighting effects on 10252 and covered lower corners on 10630 limit cell-level interpretation. No hidden cells or mechanics are inferred.",
+    "The central boss target in 10001 is assessed separately from the surrounding match grid. Empty notches are distinguished from central blocker masses; stepped blocker placement is not treated as stair_step unless the playable outline itself steps.",
+    "The index remains marked prepared_not_visually_reviewed while candidate rows record inspections; these inherited statuses were not changed. Structural validation cannot establish the fidelity of unsampled observations.",
+    "This sample does not prove correctness of the other 987 available images or the entire batch. Only batch 10001-11000 was sampled; no other batches, sources, pilot, applications, manifests, historical outputs or trackers were edited."
+  ]
+}

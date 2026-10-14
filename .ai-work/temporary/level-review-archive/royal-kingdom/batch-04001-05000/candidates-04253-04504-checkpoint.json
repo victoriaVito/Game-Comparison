@@ -1,0 +1,41 @@
+{
+  "status": "complete",
+  "range": [
+    4253,
+    4504
+  ],
+  "saved_rows": 252,
+  "inspected_sheets": 21,
+  "inspection_counts": {
+    "reviewed": 230,
+    "partial": 22
+  },
+  "missing": 0,
+  "uninspected": 0,
+  "last_saved_level": 4504,
+  "validated_original_sha256": 252,
+  "output_sha256": "06cb7c78c4ddd8bf2e3938c5a8d828fdc3fe6efbc87cd41b7c99eeef49ae3184",
+  "inspected_sheet_paths": [
+    ".ai-work/temporary/level-review-archive/royal-kingdom/batch-04001-05000/sheets/levels-4253-4264.jpg",
+    ".ai-work/temporary/level-review-archive/royal-kingdom/batch-04001-05000/sheets/levels-4265-4276.jpg",
+    ".ai-work/temporary/level-review-archive/royal-kingdom/batch-04001-05000/sheets/levels-4277-4288.jpg",
+    ".ai-work/temporary/level-review-archive/royal-kingdom/batch-04001-05000/sheets/levels-4289-4300.jpg",
+    ".ai-work/temporary/level-review-archive/royal-kingdom/batch-04001-05000/sheets/levels-4301-4312.jpg",
+    ".ai-work/temporary/level-review-archive/royal-kingdom/batch-04001-05000/sheets/levels-4313-4324.jpg",
+    ".ai-work/temporary/level-review-archive/royal-kingdom/batch-04001-05000/sheets/levels-4325-4336.jpg",
+    ".ai-work/temporary/level-review-archive/royal-kingdom/batch-04001-05000/sheets/levels-4337-4348.jpg",
+    ".ai-work/temporary/level-review-archive/royal-kingdom/batch-04001-05000/sheets/levels-4349-4360.jpg",
+    ".ai-work/temporary/level-review-archive/royal-kingdom/batch-04001-05000/sheets/levels-4361-4372.jpg",
+    ".ai-work/temporary/level-review-archive/royal-kingdom/batch-04001-05000/sheets/levels-4373-4384.jpg",
+    ".ai-work/temporary/level-review-archive/royal-kingdom/batch-04001-05000/sheets/levels-4385-4396.jpg",
+    ".ai-work/temporary/level-review-archive/royal-kingdom/batch-04001-05000/sheets/levels-4397-4408.jpg",
+    ".ai-work/temporary/level-review-archive/royal-kingdom/batch-04001-05000/sheets/levels-4409-4420.jpg",
+    ".ai-work/temporary/level-review-archive/royal-kingdom/batch-04001-05000/sheets/levels-4421-4432.jpg",
+    ".ai-work/temporary/level-review-archive/royal-kingdom/batch-04001-05000/sheets/levels-4433-4444.jpg",
+    ".ai-work/temporary/level-review-archive/royal-kingdom/batch-04001-05000/sheets/levels-4445-4456.jpg",
+    ".ai-work/temporary/level-review-archive/royal-kingdom/batch-04001-05000/sheets/levels-4457-4468.jpg",
+    ".ai-work/temporary/level-review-archive/royal-kingdom/batch-04001-05000/sheets/levels-4469-4480.jpg",
+    ".ai-work/temporary/level-review-archive/royal-kingdom/batch-04001-05000/sheets/levels-4481-4492.jpg",
+    ".ai-work/temporary/level-review-archive/royal-kingdom/batch-04001-05000/sheets/levels-4493-4504.jpg"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "completed_needs_review",
+  "range": [
+    3001,
+    3252
+  ],
+  "rows": 252,
+  "visually_inspected_sheets": 21,
+  "inspection_counts": {
+    "reviewed": 176,
+    "partial": 76
+  },
+  "missing": 0,
+  "not_reviewed": 0,
+  "all_contract_fields_validated": true,
+  "manifest_paths_hashes_cells_validated": true,
+  "numeric_order_validated": true,
+  "accepted": 0,
+  "hypotheses": 0
+}

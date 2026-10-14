@@ -1,0 +1,134 @@
+[
+  {
+    "level": 12511,
+    "previous": {
+      "geometry_tags": [
+        "split_regions",
+        "layered_bands"
+      ],
+      "observation": "Two rectangular panels are separated by a clear horizontal empty gap. Each has a tile field on the left and four grass-covered squares on the right, with bright purple pipes wrapping around their edges and lower sides.",
+      "review_note": "Visual candidate only. Small blocker identities remain uncertain; tags describe visible geometry, not validated Match taxonomy. No cited difficulty or strategy evidence."
+    },
+    "refined": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "observation": "Two broad panels each have left tiles and four right grass-covered squares beside purple pipes. A horizontal empty recess lies between their left portions, but two short purple tube cells on the right visibly bridge the upper and lower panels; separate regions are therefore not established.",
+      "review_note": "Original rendered: sources/royal-match-level-archive/levels/12511/board.jpg. The right-hand purple tube bridge resolves the sheet-scale connectivity ambiguity. Bright lower-right grass glare limits small-content identification, but the panel boundary remains visible. No difficulty or strategy evidence."
+    }
+  },
+  {
+    "level": 12542,
+    "previous": {
+      "geometry_tags": [
+        "open_center",
+        "layered_bands"
+      ],
+      "review_note": "Visual candidate only. Small blocker identities remain uncertain; tags describe visible geometry, not validated Match taxonomy. No cited difficulty or strategy evidence."
+    },
+    "refined": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "review_note": "Visual candidate only. Small blocker identities remain uncertain; tags describe visible geometry, not validated Match taxonomy. No cited difficulty or strategy evidence. open_center withheld: visible exterior/side recesses or small holes do not establish a predominantly empty central area."
+    }
+  },
+  {
+    "level": 12586,
+    "previous": {
+      "observation": "Six horizontal strips alternate down the screen with clear empty corridors between them. The top strip has tiles, the second has tiles ending in a green circular device, and four lower offset strips contain pink round blockers; pale cyan borders outline each strip.",
+      "review_note": "Visual candidate only. Small blocker identities remain uncertain; tags describe visible geometry, not validated Match taxonomy. No cited difficulty or strategy evidence."
+    },
+    "refined": {
+      "observation": "A detached top tile strip sits above a second tile strip ending in a green circular device. That device touches the right end of a pink-round-blocker strip immediately below. Three further pink-round strips alternate positions down the screen with clear empty horizontal gaps separating them.",
+      "review_note": "Original rendered: sources/royal-match-level-archive/levels/12586/board.jpg. The second and third strips touch at the green device; split_regions refers only to the visibly detached top and lower strips, not to every horizontal band. No difficulty or strategy evidence."
+    }
+  },
+  {
+    "level": 12610,
+    "previous": {
+      "geometry_tags": [
+        "open_center",
+        "layered_bands"
+      ],
+      "review_note": "Visual candidate only. Small blocker identities remain uncertain; tags describe visible geometry, not validated Match taxonomy. No cited difficulty or strategy evidence."
+    },
+    "refined": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "review_note": "Visual candidate only. Small blocker identities remain uncertain; tags describe visible geometry, not validated Match taxonomy. No cited difficulty or strategy evidence. open_center withheld: visible exterior/side recesses or small holes do not establish a predominantly empty central area."
+    }
+  },
+  {
+    "level": 12614,
+    "previous": {
+      "geometry_tags": [
+        "open_center",
+        "asymmetric"
+      ],
+      "review_note": "Visual candidate only. Small blocker identities remain uncertain; tags describe visible geometry, not validated Match taxonomy. No cited difficulty or strategy evidence."
+    },
+    "refined": {
+      "geometry_tags": [
+        "asymmetric"
+      ],
+      "review_note": "Visual candidate only. Small blocker identities remain uncertain; tags describe visible geometry, not validated Match taxonomy. No cited difficulty or strategy evidence. open_center withheld: visible exterior/side recesses or small holes do not establish a predominantly empty central area."
+    }
+  },
+  {
+    "level": 12633,
+    "previous": {
+      "geometry_tags": [
+        "open_center"
+      ],
+      "review_note": "Visual candidate only. Small blocker identities remain uncertain; tags describe visible geometry, not validated Match taxonomy. No cited difficulty or strategy evidence."
+    },
+    "refined": {
+      "geometry_tags": [],
+      "review_note": "Visual candidate only. Small blocker identities remain uncertain; tags describe visible geometry, not validated Match taxonomy. No cited difficulty or strategy evidence. open_center withheld: visible exterior/side recesses or small holes do not establish a predominantly empty central area."
+    }
+  },
+  {
+    "level": 12666,
+    "previous": {
+      "geometry_tags": [
+        "open_center"
+      ],
+      "review_note": "Visual candidate only. Small blocker identities remain uncertain; tags describe visible geometry, not validated Match taxonomy. No cited difficulty or strategy evidence."
+    },
+    "refined": {
+      "geometry_tags": [],
+      "review_note": "Visual candidate only. Small blocker identities remain uncertain; tags describe visible geometry, not validated Match taxonomy. No cited difficulty or strategy evidence. open_center withheld: visible exterior/side recesses or small holes do not establish a predominantly empty central area."
+    }
+  },
+  {
+    "level": 12738,
+    "previous": {
+      "geometry_tags": [
+        "open_center"
+      ],
+      "review_note": "Visual candidate only. Small blocker identities remain uncertain; tags describe visible geometry, not validated Match taxonomy. No cited difficulty or strategy evidence."
+    },
+    "refined": {
+      "geometry_tags": [],
+      "review_note": "Visual candidate only. Small blocker identities remain uncertain; tags describe visible geometry, not validated Match taxonomy. No cited difficulty or strategy evidence. open_center withheld: visible exterior/side recesses or small holes do not establish a predominantly empty central area."
+    }
+  },
+  {
+    "level": 12741,
+    "previous": {
+      "geometry_tags": [
+        "open_center",
+        "layered_bands"
+      ],
+      "review_note": "Visual candidate only. Small blocker identities remain uncertain; tags describe visible geometry, not validated Match taxonomy. No cited difficulty or strategy evidence."
+    },
+    "refined": {
+      "geometry_tags": [
+        "layered_bands"
+      ],
+      "review_note": "Visual candidate only. Small blocker identities remain uncertain; tags describe visible geometry, not validated Match taxonomy. No cited difficulty or strategy evidence. open_center withheld: visible exterior/side recesses or small holes do not establish a predominantly empty central area."
+    }
+  }
+]

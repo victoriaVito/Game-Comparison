@@ -1,0 +1,140 @@
+{
+  "status": "needs_review",
+  "sample": [
+    {
+      "level": 6001,
+      "image_path": "sources/royal-match-level-archive/levels/06001/board.jpg",
+      "result": "supported",
+      "evidence": "Candidate tag central_mass and its description match the image: three rows of tiles sit above two full-width wooden-crate rows, then a narrower crate stem continues down the center. The side scenery lies outside the orange play-field outline; it is not an empty playable gap."
+    },
+    {
+      "level": 6119,
+      "image_path": "sources/royal-match-level-archive/levels/06119/board.jpg",
+      "result": "supported",
+      "evidence": "The candidate tags asymmetric and layered_bands are visible: the left tile pocket is narrow, while the right side has repeated pink-covered rows separated by horizontal metal bars and protruding right-edge devices. The lower-right figures and bar placement also match the candidate observation."
+    },
+    {
+      "level": 6252,
+      "image_path": "sources/royal-match-level-archive/levels/06252/board.jpg",
+      "result": "conflict",
+      "evidence": "Candidate tags compact_full_field and layered_bands fit the connected upper field and horizontal rows, but omit the dominant central/lower brown covered mass, which occupies most of the central board around two paired inset compartments. The separate brick-covered strip below has a boss icon and counter (35); it is a boss arena/status area, not additional match-grid cells.",
+      "candidate_correction": {
+        "candidate_geometry_tags": [
+          "compact_full_field",
+          "layered_bands"
+        ],
+        "suggested_geometry_tags": [
+          "compact_full_field",
+          "layered_bands",
+          "central_mass"
+        ],
+        "suggested_observation": "Connected upper match field above a broad central/lower brown covered mass with two inset paired-object pockets; a separate brick boss/status area is below the match grid."
+      }
+    },
+    {
+      "level": 6253,
+      "image_path": "sources/royal-match-level-archive/levels/06253/board.jpg",
+      "result": "uncertain",
+      "evidence": "The candidate leaves geometry_tags empty and describes left/right upper pockets around a vertical striped column and horizontal arms. The original shows those blockers clearly, plus large yellow covered blocks below and narrow visible spaces above the arms. It is not clear from this static view whether the blocker cross fully disconnects the playable cells or whether cells remain passable underneath; the visible narrow spaces are empty-looking, not evidence of blocked cells.",
+      "candidate_correction": {
+        "candidate_geometry_tags": [],
+        "suggested_review_note": "Keep connectivity unclassified without a cell-level view; do not infer split_regions from the cross-shaped obstacle alone or treat the empty notches as blocked cells."
+      }
+    },
+    {
+      "level": 6379,
+      "image_path": "sources/royal-match-level-archive/levels/06379/board.jpg",
+      "result": "conflict",
+      "evidence": "Candidate says there is “no visible internal empty gap” and supplies no geometry tags. The original instead shows separate orange-outlined left and right play areas with a broad strip of grass/background between them; a further gap separates portions of the right-side areas. The lower figures are armored characters beside cream blocks, not a safe at the base. This is a visible separation, not a row of covered cells.",
+      "candidate_correction": {
+        "candidate_geometry_tags": [],
+        "suggested_geometry_tags": [
+          "split_regions",
+          "asymmetric"
+        ],
+        "suggested_observation": "Multiple outlined play islands are visibly separated by exterior grass/background; the tall left island and segmented right-side islands are not mirror-equivalent."
+      }
+    },
+    {
+      "level": 6504,
+      "image_path": "sources/royal-match-level-archive/levels/06504/board.jpg",
+      "result": "conflict",
+      "evidence": "Candidate observation correctly mentions a vertical empty gap between the left and right groups, but its geometry_tags are empty. At original resolution the two orange-bordered play islands are separated by a continuous strip of exterior floor/background; the lower cream blocks are inside the islands and are not that gap. Their contents and extents differ left-to-right.",
+      "candidate_correction": {
+        "candidate_geometry_tags": [],
+        "suggested_geometry_tags": [
+          "split_regions",
+          "asymmetric"
+        ],
+        "suggested_observation": "Two disconnected outlined play regions, left and right, separated by visible exterior background; lower covered blocks remain within each region."
+      }
+    },
+    {
+      "level": 6505,
+      "image_path": "sources/royal-match-level-archive/levels/06505/board.jpg",
+      "result": "conflict",
+      "evidence": "The candidate observation describes paired cupboards, cyan rows, pink horizontal strips, and a wider chained-cyan area, and marks the image partial. The original instead shows an upper candy grid with a row of discrete pink spheres, brown/orange rubble covering much of the right side, pots/containers below, and two large blue sofa-like devices on the lower left. Those features are legible; the pink spheres are board pieces, not an obscuring overlay. layered_bands remains plausible, but the detailed observation and partial/occlusion claim do not match this capture.",
+      "candidate_correction": {
+        "candidate_geometry_tags": [
+          "layered_bands"
+        ],
+        "suggested_geometry_tags": [
+          "layered_bands"
+        ],
+        "suggested_observation": "Upper candy rows transition into a pink-sphere row and a lower area of pots/containers; brown/orange rubble occupies the right side, with two blue sofa-like devices on the lower left.",
+        "suggested_occlusion": "none"
+      }
+    },
+    {
+      "level": 6621,
+      "image_path": "sources/royal-match-level-archive/levels/06621/board.jpg",
+      "result": "conflict",
+      "evidence": "The candidate says the lower extension “narrows down the left in steps.” In the original, the outlined board boundary moves outward to the left as it descends (roughly from x=137 at the top to x=47 and then x=3); the board widens in steps. Orange/brown covered material, trays, and purple tubes are internal contents and should not be mistaken for the outer boundary. The stair_step tag is supported by the actual stepped perimeter, but the described direction/content is not.",
+      "candidate_correction": {
+        "candidate_geometry_tags": [
+          "asymmetric",
+          "stair_step"
+        ],
+        "suggested_geometry_tags": [
+          "asymmetric",
+          "stair_step"
+        ],
+        "suggested_observation": "The play-field outline expands leftward in steps as it descends; covered material, receptacles, and tubes occupy cells inside that outline."
+      }
+    },
+    {
+      "level": 6755,
+      "image_path": "sources/royal-match-level-archive/levels/06755/board.jpg",
+      "result": "supported",
+      "evidence": "The asymmetric tag and description are supported: the upper tile area and lower pink-ball/blue-device area are concentrated on the left, while a large brown/orange covered mass dominates the right. A pale horizontal empty slot is visible between portions of the upper and lower left contents; it is visibly empty, not a blocker row."
+    },
+    {
+      "level": 6777,
+      "image_path": "sources/royal-match-level-archive/levels/06777/board.jpg",
+      "result": "supported",
+      "evidence": "The candidate observation matches the original: a top tile strip leads into purple bent tubes through the middle and down the right around a lower-left orange covered block and trays, with blue channels across the upper middle and along the right edge. The left/right arrangement is asymmetric; the tubes are internal obstacles, not proof of disconnected regions."
+    },
+    {
+      "level": 6881,
+      "image_path": "sources/royal-match-level-archive/levels/06881/board.jpg",
+      "result": "supported",
+      "evidence": "The original shows the described upper-right tile patch, glowing horizontal band, lower-right U-shaped path with covered objects, and two vertical purple tubes at far left. These unequal left/right contents support asymmetric. The glowing paths and tubes are arrangement features; the visible outer board remains one outlined field."
+    },
+    {
+      "level": 6990,
+      "image_path": "sources/royal-match-level-archive/levels/06990/board.jpg",
+      "result": "uncertain",
+      "evidence": "The candidate description matches the raised upper tile patch, alternating covered purple pockets and small blue blockers, and the narrow notch at the bottom center. The notch is at the lower boundary, while the center of the field is occupied; it is not an open_center. The empty tag list is cautious, but whether the small boundary notch merits stair_step or another geometry tag is borderline from this image.",
+      "candidate_correction": {
+        "candidate_geometry_tags": [],
+        "suggested_review_note": "Do not assign open_center; retain untagged pending calibration on whether a single narrow bottom-edge notch qualifies as stair_step."
+      }
+    }
+  ],
+  "limitations": [
+    "This is a bounded 12-image sample: first, middle, and last available rows were selected from each of the four shards. It is not full independent validation of all 928 available images or all candidate rows.",
+    "The batch validation.json lists repeated_observations as an empty array; no repeated-category descriptions were highlighted there to add to this sample.",
+    "All 12 sampled candidates have null difficulty_hypothesis and strategy_hypothesis; no image-specific hypotheses were present to assess. No difficulty, success-rate, or optimal-strategy conclusions were inferred.",
+    "Geometry taxonomy is used as candidate vocabulary only. Connectivity can remain uncertain where a static image does not establish whether an apparent blocker is an impassable play boundary; labels in candidate shards remain unchanged and unaccepted."
+  ]
+}

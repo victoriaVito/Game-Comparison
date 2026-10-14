@@ -1,0 +1,15 @@
+{
+  "status": "validated",
+  "range": [
+    4757,
+    5000
+  ],
+  "rows": 244,
+  "inspected_sheets": 21,
+  "inspection_counts": {
+    "reviewed": 227,
+    "partial": 17
+  },
+  "source_hashes_verified": 244,
+  "exact_contract_fields": true
+}

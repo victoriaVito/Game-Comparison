@@ -1,0 +1,112 @@
+{
+  "schema_version": 2,
+  "status": "needs_review",
+  "sample": [
+    {
+      "level": 11001,
+      "image_path": "sources/royal-match-level-archive/levels/11001/board.jpg",
+      "result": "supported",
+      "evidence": "The original shows a single rectangular outlined field. Six large red fan-like units form a 1-2-3 cluster extending from the middle into the lower half. Wooden drawers flank its lower tiers and occupy the bottom two rows. This supports the candidate's central blocker mass, layered placement and contiguous field; no internal background gap is visible. Both hypotheses are null and verified difficulty/strategy are unknown."
+    },
+    {
+      "level": 11127,
+      "image_path": "sources/royal-match-level-archive/levels/11127/board.jpg",
+      "result": "conflict",
+      "evidence": "The upper field has three colored-tile rows above two broad cyan bars, followed by a red-and-purple object row. Six white cabinets occupy mirrored lower positions, with purple cylindrical objects between them and a bottom-center background notch. Layered_bands is supported. The major left/right field outlines and cabinet groups mirror each other; the candidate's asymmetric tag is not supported merely by tile colors or the red objects at the left end of the cyan bars. No hypotheses or verified strategy/difficulty claims are present.",
+      "candidate_correction": {
+        "review_status": "needs_review",
+        "geometry_tags": ["layered_bands"],
+        "review_note": "The main left/right outline and cabinet groups are mirrored. Local object differences alone do not establish major-region asymmetry."
+      }
+    },
+    {
+      "level": 11252,
+      "image_path": "sources/royal-match-level-archive/levels/11252/board.jpg",
+      "result": "uncertain",
+      "evidence": "The original shows colored tiles through a central passage, purple cylindrical crown-marked objects on the upper edges, faceted blue objects, and white cabinets staggered inward in the lower half. A bottom-center background slot separates the lowest cabinet groups without splitting the upper field. Compact_full_field and layered_bands are plausible. However, the candidate's 'purple paired cells' and 'red covered cells' are not resolved confidently as those object/cell types from the visible markings; the red square tiles must not automatically be called covers. The cabinet staircase is internal placement, not evidence of a stepped playable outer boundary. Hypotheses are null and verified fields unknown.",
+      "candidate_correction": {
+        "review_status": "needs_review",
+        "observation": "Colored tiles occupy a central passage among purple cylindrical crown-marked objects, red-and-gold objects and faceted blue objects. White cabinets stagger inward in the lower half, beside a narrow central passage ending above a bottom-center background slot.",
+        "review_note": "Object identities and the phrase 'paired cells' need further review; preserve the geometry tags as provisional."
+      }
+    },
+    {
+      "level": 11253,
+      "image_path": "sources/royal-match-level-archive/levels/11253/board.jpg",
+      "result": "supported",
+      "evidence": "Three central columns of round striped blockers extend down the board, interrupted by two horizontal blue-and-yellow object bands. Colored cells flank them. A large brick-lined counter marked 33 occupies the upper right, with a visible background recess immediately beneath it; another background notch enters from the left farther down. These concrete features support the candidate's observation and layered_bands. Neither notch is a full-width gap disconnecting the board. No hypotheses or verified difficulty/strategy claims are present."
+    },
+    {
+      "level": 11379,
+      "image_path": "sources/royal-match-level-archive/levels/11379/board.jpg",
+      "result": "supported",
+      "evidence": "Round striped blockers cover much of the upper and left areas; red fleur-de-lis columns appear at the far left and near the center. Purple pipe-framed windows occupy the upper right and lower left. Red-and-gold objects span the row above an empty right-side horizontal recess, while colored tiles fill the lower-right basin. The different window placements and side recess support asymmetric. The left portion remains visibly continuous across the height of the right recess, so that recess alone does not prove split_regions. Hypotheses are null and verified fields unknown."
+    },
+    {
+      "level": 11504,
+      "image_path": "sources/royal-match-level-archive/levels/11504/board.jpg",
+      "result": "supported",
+      "evidence": "White-and-orange rocket-shaped units alternate with purple cylinders in the left three columns. The fourth column alternates purple square objects with brown or green inset spaces. Colored tiles fill the upper right, and a glowing purple serpentine graphic has two return bends beneath them. Purple cylinders span the bottom two rows except for the fourth-column inset/object positions. This supports the candidate's layered placement and visible inset slots, without treating those slots or the large purple graphic as proof of disconnected playable regions. Both hypotheses are null; difficulty and strategy remain unknown."
+    },
+    {
+      "level": 11505,
+      "image_path": "sources/royal-match-level-archive/levels/11505/board.jpg",
+      "result": "supported",
+      "evidence": "A four-column colored-tile pocket occupies the upper left. Six large cyan squares form two columns on the upper right; blue panels with yellow keyhole-like motifs occupy the lower right. Brown crown-marked crates surround two vertically stacked green capsule-shaped objects in the lower-left section. An unoutlined narrow background recess lies between the upper left and right groups and ends above the crate rows. This supports asymmetric and layered_bands, but not a claim that the whole board is disconnected. Hypotheses are null and verified fields unknown."
+    },
+    {
+      "level": 11632,
+      "image_path": "sources/royal-match-level-archive/levels/11632/board.jpg",
+      "result": "conflict",
+      "evidence": "The original contains round pink-and-white striped blockers, not visibly flat pale covers, among the colored tiles and across the lower central area. Purple-framed yellow banana-like motifs form mirrored lower-side L shapes. The bottom grid tab is four cells wide and filled with round striped blockers. Layered_bands is plausible, and the brick wall with the bomb marked 34 is correctly excluded as a separate arena below the match grid. The candidate's repeated cover/panel wording obscures the visible rounded blocker forms. No hypotheses or verified difficulty/strategy claims are present.",
+      "candidate_correction": {
+        "review_status": "needs_review",
+        "observation": "A broad colored-tile field contains round pink-and-white striped blockers concentrated toward the lower half. Purple-framed yellow motifs form mirrored L-shaped lower-side groups, around a central four-cell-wide bottom tab of round striped blockers. The brick wall and bomb emblem below are a separate arena, not match-grid cells."
+      }
+    },
+    {
+      "level": 11756,
+      "image_path": "sources/royal-match-level-archive/levels/11756/board.jpg",
+      "result": "conflict",
+      "evidence": "The outlined board has a wide upper rectangle and a narrower lower extension aligned on the right, leaving one large lower-left background corner. Crates and drawers surround white-and-orange upright units on the upper left and lower center; colored tiles and red fleur-de-lis objects occupy the right pocket. Asymmetric is supported. The playable left boundary makes one rectangular inset, not a sequence of progressively stepped or diagonal edges. The stair_step tag appears to overinterpret the internal blocker transitions or this single offset. Hypotheses are null and verified fields unknown.",
+      "candidate_correction": {
+        "review_status": "needs_review",
+        "geometry_tags": ["asymmetric"],
+        "review_note": "A single lower-left rectangular cutout does not establish a stepped or diagonal playable-boundary progression."
+      }
+    },
+    {
+      "level": 11757,
+      "image_path": "sources/royal-match-level-archive/levels/11757/board.jpg",
+      "result": "supported",
+      "evidence": "Four colored-tile columns occupy the upper left, with a vertical purple-bottle strip near the center and a horizontal bottle row between two right-side purple-block lobes. Flower borders trace these lobes. A tall brown panel occupies the far lower left, and a tall background notch separates it from the lower central strip. This supports the candidate's asymmetric outline and lower-left notch. The visible upper tile rows connect into the central strip; blocker colors alone do not establish disconnected regions. Hypotheses are null and verified fields unknown."
+    },
+    {
+      "level": 11879,
+      "image_path": "sources/royal-match-level-archive/levels/11879/board.jpg",
+      "result": "supported",
+      "evidence": "Five green curtain regions are visible: a tall upper-left curtain, a full-width middle curtain marked 10, a lower-left curtain marked 12, a taller right curtain marked 14, and a full-width bottom curtain marked 16. A genuine horizontal background slot lies below the 12 curtain and above the bottom tier, ending at the right curtain. Colored tiles occupy the exposed upper-right rectangle. Central_mass and layered_bands are supported by the dominant central covered tiers. The candidate's 'small' tile-pocket wording is relative and should not be treated as a measurement; the exposed rectangle is about seven columns by four rows. No hypotheses or verified claims are present."
+    },
+    {
+      "level": 12000,
+      "image_path": "sources/royal-match-level-archive/levels/12000/board.jpg",
+      "result": "conflict",
+      "evidence": "Visible background separates the tall upper-left coin hook, the upper-right bent coin path and the broad lower coin field. The lower field contains three central power-up cells, two narrow internal background slots near its sides, and a broad bottom-center background recess. Split_regions and asymmetric are supported. However, the upper-left hook has no enclosed empty center, and the upper-right path does not form the closed loop suggested by the candidate's wording. The lower recess description also omits the central bottom cutout. Hypotheses are null and verified difficulty/strategy unknown.",
+      "candidate_correction": {
+        "review_status": "needs_review",
+        "observation": "A tall upper-left coin hook and an upper-right bent coin path sit above a broad lower coin field, with visible background separating the major groups. The lower field surrounds three central power-up cells and includes two narrow side slots plus a broad bottom-center recess. The upper paths do not establish enclosed empty centers."
+      }
+    }
+  ],
+  "limitations": [
+    "This is a bounded independent sample of 12 distinct available originals, rendered directly rather than inferred from sheets or unique candidate wording. It does not prove visual correctness or completeness of all 1000 candidate records.",
+    "Sampling uses the first, upper-middle and last available record in each shard: 11001/11127/11252, 11253/11379/11504, 11505/11632/11756 and 11757/11879/12000. The third shard's median excludes missing levels 11565 and 11566. All four shards are represented; no extra tail samples were needed to reach 12.",
+    "Sample results: 7 supported, 4 conflict, 1 uncertain. Supported means the compared visible geometry and observation are supported within this sample, not an accepted label or a mechanics/strategy verification.",
+    "The index reports 998 available images and missing levels 11565 and 11566. Its prepared_not_visually_reviewed status differs from validation.json's candidate inspection counts of 979 reviewed, 19 partial and 2 missing. Those metadata states are preserved and do not substitute for this original-image inspection.",
+    "Repeated-observation warning: validation.json reports an empty repeated_observations list, but a direct exact-text count across the four shards finds 'The inspected sheet cell states MISSING SOURCE; no board image is available.' twice, for the two missing-source records. No available-image observation repeats exactly. Absence of exact repetition or presence of unique prose does not prove inspection, correctness or absence of semantic template repetition.",
+    "All 1000 candidate rows use integer schema_version 2 and review_status needs_review. The eight Royal Kingdom geometry terms remain only candidate vocabulary for Royal Match. This report does not promote classifications.",
+    "All sampled difficulty_hypothesis and strategy_hypothesis fields are null, verified difficulty and strategy are unknown, and verified_evidence is empty. No directly cited local evidence was provided to justify measured difficulty, an optimal strategy or hidden mechanics; this report adds no such claims.",
+    "Connectivity is assessed only from visible playable outlines and background gaps, never from blocker or tile-color differences. Internal blocker staircases do not establish stair_step; an empty notch is not central_mass. Covered cells may conceal mechanics that this static sample cannot resolve.",
+    "Candidate corrections are suggestions retained alongside the untouched shards. Source images, index, validation, pilot, taxonomy, applications, manifests, historical batches and trackers are not changed. Only this quality-review.json is written."
+  ]
+}

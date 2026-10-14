@@ -1,0 +1,54 @@
+{
+  "inspected_sheets": [
+    "levels-3757-3768.jpg",
+    "levels-3769-3780.jpg",
+    "levels-3781-3792.jpg",
+    "levels-3793-3804.jpg",
+    "levels-3805-3816.jpg",
+    "levels-3817-3828.jpg",
+    "levels-3829-3840.jpg",
+    "levels-3841-3852.jpg",
+    "levels-3853-3864.jpg",
+    "levels-3865-3876.jpg",
+    "levels-3877-3888.jpg",
+    "levels-3889-3900.jpg",
+    "levels-3901-3912.jpg",
+    "levels-3913-3924.jpg",
+    "levels-3925-3936.jpg",
+    "levels-3937-3948.jpg",
+    "levels-3949-3960.jpg",
+    "levels-3961-3972.jpg",
+    "levels-3973-3984.jpg",
+    "levels-3985-3996.jpg",
+    "levels-3997-4000.jpg"
+  ],
+  "rows_saved": 244,
+  "inspection_counts": {
+    "reviewed": 221,
+    "missing": 10,
+    "partial": 13
+  },
+  "status": "completed_needs_review",
+  "assigned_range": [
+    3757,
+    4000
+  ],
+  "validation": {
+    "exact_fields": true,
+    "numeric_order": true,
+    "manifest_paths_and_hashes": true,
+    "all_assigned_sheets_visually_inspected": true
+  },
+  "missing_levels": [
+    3776,
+    3777,
+    3778,
+    3779,
+    3780,
+    3781,
+    3782,
+    3783,
+    3784,
+    3785
+  ]
+}

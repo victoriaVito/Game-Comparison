@@ -1,0 +1,39 @@
+{
+  "coverage": [
+    10001,
+    10252
+  ],
+  "count": 252,
+  "inspection_counts": {
+    "reviewed": 245,
+    "partial": 7
+  },
+  "needs_review": 252,
+  "accepted": 0,
+  "missing": 0,
+  "rendered_numbered_sheets": [
+    "levels-10001-10012.jpg",
+    "levels-10013-10024.jpg",
+    "levels-10025-10036.jpg",
+    "levels-10037-10048.jpg",
+    "levels-10049-10060.jpg",
+    "levels-10061-10072.jpg",
+    "levels-10073-10084.jpg",
+    "levels-10085-10096.jpg",
+    "levels-10097-10108.jpg",
+    "levels-10109-10120.jpg",
+    "levels-10121-10132.jpg",
+    "levels-10133-10144.jpg",
+    "levels-10145-10156.jpg",
+    "levels-10157-10168.jpg",
+    "levels-10169-10180.jpg",
+    "levels-10181-10192.jpg",
+    "levels-10193-10204.jpg",
+    "levels-10205-10216.jpg",
+    "levels-10217-10228.jpg",
+    "levels-10229-10240.jpg",
+    "levels-10241-10252.jpg"
+  ],
+  "verification": "Exact ordered coverage, contract fields, integer schema, relative source and sheet paths, index cells, source SHA-256, candidate tags, unknown verified claims and null hypotheses checked.",
+  "sha256": "449af2f7f1d59c1d54427bbbb99d13f02650252c5e67f303c41df260db599f83"
+}

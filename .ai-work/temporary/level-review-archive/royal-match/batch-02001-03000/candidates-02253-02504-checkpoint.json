@@ -1,0 +1,32 @@
+{
+  "inspected_sheets": [
+    ".ai-work/temporary/level-review-archive/royal-match/batch-02001-03000/sheets/levels-2253-2264.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-02001-03000/sheets/levels-2265-2276.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-02001-03000/sheets/levels-2277-2288.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-02001-03000/sheets/levels-2289-2300.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-02001-03000/sheets/levels-2301-2312.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-02001-03000/sheets/levels-2313-2324.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-02001-03000/sheets/levels-2325-2336.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-02001-03000/sheets/levels-2337-2348.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-02001-03000/sheets/levels-2349-2360.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-02001-03000/sheets/levels-2361-2372.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-02001-03000/sheets/levels-2373-2384.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-02001-03000/sheets/levels-2385-2396.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-02001-03000/sheets/levels-2397-2408.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-02001-03000/sheets/levels-2409-2420.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-02001-03000/sheets/levels-2421-2432.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-02001-03000/sheets/levels-2433-2444.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-02001-03000/sheets/levels-2445-2456.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-02001-03000/sheets/levels-2457-2468.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-02001-03000/sheets/levels-2469-2480.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-02001-03000/sheets/levels-2481-2492.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-02001-03000/sheets/levels-2493-2504.jpg"
+  ],
+  "saved_rows": 252,
+  "last_saved_level": 2504,
+  "reviewed": 246,
+  "partial": 6,
+  "validation": "Passed exact fields, numeric order, 252 manifest paths and actual source SHA-256, 21 inspected sheets, permitted tags, needs_review-only and unknown verified fields.",
+  "status": "completed_assigned_visual_review",
+  "missing": 0
+}

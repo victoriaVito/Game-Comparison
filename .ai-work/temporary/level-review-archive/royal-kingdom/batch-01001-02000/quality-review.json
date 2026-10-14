@@ -1,0 +1,101 @@
+{
+  "status": "needs_review",
+  "sample": [
+    {
+      "level": 1001,
+      "image_path": "royal-kingdom/levels/level-1001.jpg",
+      "result": "uncertain",
+      "evidence": "Original inspected. Candidate tags: open_center; candidate describes scattered 'gold covered cells'. The nine-column tile field surrounds a genuine rectangular three-column central scenic hole, with tiles joining above and below it: open_center is supported, not central_mass or disconnected regions. Eight purple-framed gold-faced objects occur in mirrored pairs along the sides and upper/lower rows. Their visible faces support the placement, but this still image does not establish that they are covered cells rather than objects on cells. Difficulty and strategy hypotheses are both null; no unsupported hypothesis is present.",
+      "candidate_correction": {
+        "review_status": "needs_review",
+        "observation": "A contiguous rectangular tile field surrounds a rectangular central scenic hole. Eight purple-framed gold-faced objects occupy paired positions above, beside, and below the hole; their covered-cell state is unverified."
+      }
+    },
+    {
+      "level": 1126,
+      "image_path": "royal-kingdom/levels/level-1126.jpg",
+      "result": "conflict",
+      "evidence": "Original inspected. Candidate tag: open_center; candidate describes raised purple corners, a wooden U, and lower legs around a central empty slit. The corner panels and wooden U are visible, but the lower-center gap is an externally open bottom notch, not an internal central hole: the board's actual middle contains colored tiles and the horizontal wooden bridge. The left lower wing has turquoise circular faces and the right lower wing has gold-faced objects, both occupied/blocked areas, not empty play gaps. Applying open_center without this distinction overstates the central emptiness. No split_regions is supported because the upper wooden/tile bridge joins the wings. Both hypotheses are null.",
+      "candidate_correction": {
+        "review_status": "needs_review",
+        "geometry_tags": ["layered_bands"],
+        "observation": "An upper tile pocket between raised purple corner panels rests above a shallow wooden U. Turquoise-faced objects fill the lower-left wing and gold-faced objects fill the lower-right wing, separated by a bottom-opening central notch; the middle wooden bridge is occupied, not an empty center."
+      }
+    },
+    {
+      "level": 1252,
+      "image_path": "royal-kingdom/levels/level-1252.jpg",
+      "result": "conflict",
+      "evidence": "Original inspected. Candidate tag: layered_bands; candidate calls the six lower panels 'purple panels'. The top foliage rectangle, cream side columns and exposed middle tiles support layered_bands. The six large lower panels actually have burgundy/maroon faces, gold borders and small purple teardrop symbols: describing the panels themselves as purple confuses their symbols with the panel surfaces. The outer lower board boundary also narrows through staggered panel rows to one centered bottom panel; this is a genuine stepped boundary, not merely a stepped blocker arrangement. Both hypotheses are null.",
+      "candidate_correction": {
+        "review_status": "needs_review",
+        "geometry_tags": ["layered_bands", "stair_step"],
+        "observation": "A foliage rectangle between cream side columns sits above exposed tiles. Six maroon, gold-bordered panels bearing purple teardrop symbols surround a central multicolored mechanism; their staggered lower rows narrow the actual board boundary to a single bottom panel."
+      }
+    },
+    {
+      "level": 1253,
+      "image_path": "royal-kingdom/levels/level-1253.jpg",
+      "result": "supported",
+      "evidence": "Original inspected. Candidate split_regions and description of an upper tile tower with side bottle cabinets and two detached lower cabinets match the image. The upper central tower is three tiles wide and four rows tall; it meets the upper-left and upper-right cabinet borders. The lower cabinet pair is separated from that structure by horizontal scenic space and from each other by a wide central scenic gap. Blue bottle cabinets are occupied object panels, not empty cells. These are actual disconnected structures rather than blocker divisions in one full rectangle. Both hypotheses are null."
+    },
+    {
+      "level": 1378,
+      "image_path": "royal-kingdom/levels/level-1378.jpg",
+      "result": "supported",
+      "evidence": "Original inspected. Candidate asymmetric/layered_bands and the stated cyan L, gold middle column and bucket blocks are supported. A colored tile pocket occupies the upper-left; the cyan strip runs along its right and bottom edges. Eight gold-faced objects form the narrow column to its right. Four large bucket/shield blocks stack at far right, while four more form a two-by-two lower-left group. The top-right recess is visibly scenic empty space, whereas the cyan strip and bucket groups are occupied areas. The unequal left/right arrangement supports asymmetry without inventing split_regions. Both hypotheses are null."
+    },
+    {
+      "level": 1504,
+      "image_path": "royal-kingdom/levels/level-1504.jpg",
+      "result": "uncertain",
+      "evidence": "Original inspected. Candidate asymmetric/layered_bands, partial inspection and partial occlusion accurately identify two purple-pebble/brown-column left sections, two tall cream columns nearer the right and a colored-tile strip at far right. Scenic space makes a horizontal slit across the left block groups; it terminates at the cream columns rather than disconnecting the entire board. The '+10' badge and bright glow obscure the upper cream-column area. The underlying top cells and exact column connectivity cannot be independently confirmed from this frame, so the candidate's partial status must remain. Brown, pebble and cream areas are occupied blockers, not gaps. Both hypotheses are null."
+    },
+    {
+      "level": 1505,
+      "image_path": "royal-kingdom/levels/level-1505.jpg",
+      "result": "supported",
+      "evidence": "Original inspected. Candidate compact_full_field and separation of boss arena from match geometry are supported. The lower match board is a complete eight-column by six-row rectangle of colored pieces with no scenic hole. Above it, a knight occupies the right of the arena; two magenta hedge blocks sit at left beside an L-shaped purple target route. Those upper targets and hedges belong to the boss arena and do not create split_regions or central_mass in the match board. Both hypotheses are null."
+    },
+    {
+      "level": 1630,
+      "image_path": "royal-kingdom/levels/level-1630.jpg",
+      "result": "supported",
+      "evidence": "Original inspected. Candidate compact_full_field and its explicitly notched colored-tile rectangle match the lower board. One centered cell is absent from the top row and bottom row, and side-midpoint scenic notches enter from both edges. Several complete tile rows still connect the board across its middle: these shallow boundary cuts are neither an internal open_center hole nor split_regions. The cyan gate/beam and two towers above are separate arena content, correctly excluded by the candidate. Both hypotheses are null."
+    },
+    {
+      "level": 1756,
+      "image_path": "royal-kingdom/levels/level-1756.jpg",
+      "result": "supported",
+      "evidence": "Original inspected. Candidate central_mass/layered_bands and stated top tiles, foliage, purple block and beige panel are supported. Two colored-tile rows run across the top. Foliage continues beneath and down both sides of a seven-column by four-row purple block with yellow cross/hash-like faces. A broad beige jigsaw-pattern panel protrudes below the center, leaving scenic lower-side corners. The center is filled with purple objects and a beige panel; it is not an empty notch or open_center hole. The candidate's informal 'puzzle block' naming does not independently identify the mechanic. Both hypotheses are null."
+    },
+    {
+      "level": 1757,
+      "image_path": "royal-kingdom/levels/level-1757.jpg",
+      "result": "supported",
+      "evidence": "Original inspected. Candidate asymmetric/layered_bands and its metallic L, brown cells, scenic notch and four lower covered squares match the visible arrangement. Three colored-tile rows span the top; brown cylinders occupy two broad rows below and continue down the left. A gray circular-centered strip runs horizontally above the notch and vertically down its left. Four large panels in a two-by-two group are three purple and one cyan with a crown symbol. The scenic horizontal notch opens to the right; the occupied panels beneath it must not be treated as a central empty mass. The asymmetry is visible in the actual right-side recess and left extension, not just in blocker colors. Both hypotheses are null."
+    },
+    {
+      "level": 1878,
+      "image_path": "royal-kingdom/levels/level-1878.jpg",
+      "result": "supported",
+      "evidence": "Original inspected. Candidate layered_bands/asymmetric and its upper-left stones, upper-right tiles, lower numbered collectors and right blue strip match the image. Two cream stone slabs cover the upper-left half, while colored pieces fill the upper-right half. Two large beige lower collector panels display hanging red counters '18' and '40'. Five blue devices form a narrow strip extending down the far right. Those beige panels are framed occupied objects, not empty scenery, and the right-only extension supports asymmetry. The visible arrangement supports geometry but not a verified collector mechanic or strategy. Both hypotheses are null."
+    },
+    {
+      "level": 2000,
+      "image_path": "royal-kingdom/levels/level-2000.jpg",
+      "result": "supported",
+      "evidence": "Original inspected. Candidate split_regions/layered_bands and separation of the upper boss arena match the frame. Two wide lower green-foliage-covered strips contain staggered magenta/red containers. A continuous scenic/lava gap spans the width between the strips; yellow lines drawn across that space are not playable cells and do not join the regions. The upper strip also has rockets at both upper corners. The boss and its two purple-topped pedestals are above the match-board border and cannot be counted as a third match region. Covered foliage is occupied board area, not an empty gap. Both hypotheses are null."
+    }
+  ],
+  "limitations": [
+    "This is a bounded sampled quality review, not full independent validation of the 1,000-level batch. Twelve distinct originals were rendered and visually inspected at their native 405-by-720 resolution.",
+    "Selection uses the first, lower-middle and last available row in each of the four supplied shards: 1001/1126/1252, 1253/1378/1504, 1505/1630/1756 and 1757/1878/2000. All selected paths resolve to the exact original paths in sheets/index.json.",
+    "validation.json reports no repeated_observations; no additional repeated-description sample was indicated. Distinct wording and structural/hash validation were not treated as visual correctness.",
+    "The +10 animation/glow on level 1504 prevents full interpretation of the upper cream-column area even in the original. Object identities, covered-cell contents, hidden mechanics and future board changes are not established by screenshots.",
+    "All twelve sampled candidates have null difficulty_hypothesis and strategy_hypothesis, unknown verified difficulty/strategy and empty verified evidence. There were therefore no image-specific speculative hypotheses to substantiate, and none were invented.",
+    "Candidate corrections are explicit unaccepted proposals only. The original candidate claims are retained alongside observed evidence in this report; no shard, source image, taxonomy, tracker or app file was changed.",
+    "The conflict at 1252 includes incorrect panel-color wording and a proposed additional stair_step boundary tag. Nonexhaustive tags elsewhere were not automatically counted as conflicts. The open_center concern at 1126 requires review of whether the taxonomy is intended to include bottom-opening notches.",
+    "Sample outcomes: 8 supported, 2 conflict and 2 uncertain. Supported means the sampled visible claims are supported, not that the entire record or batch is accepted."
+  ]
+}

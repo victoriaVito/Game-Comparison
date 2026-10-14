@@ -1,0 +1,36 @@
+{
+  "range": [
+    3001,
+    3252
+  ],
+  "saved_rows": 252,
+  "last_saved_level": 3252,
+  "inspected_sheets": [
+    "levels-3001-3012.jpg",
+    "levels-3013-3024.jpg",
+    "levels-3025-3036.jpg",
+    "levels-3037-3048.jpg",
+    "levels-3049-3060.jpg",
+    "levels-3061-3072.jpg",
+    "levels-3073-3084.jpg",
+    "levels-3085-3096.jpg",
+    "levels-3097-3108.jpg",
+    "levels-3109-3120.jpg",
+    "levels-3121-3132.jpg",
+    "levels-3133-3144.jpg",
+    "levels-3145-3156.jpg",
+    "levels-3157-3168.jpg",
+    "levels-3169-3180.jpg",
+    "levels-3181-3192.jpg",
+    "levels-3193-3204.jpg",
+    "levels-3205-3216.jpg",
+    "levels-3217-3228.jpg",
+    "levels-3229-3240.jpg",
+    "levels-3241-3252.jpg"
+  ],
+  "counts": {
+    "reviewed": 224,
+    "partial": 28,
+    "missing": 0
+  }
+}

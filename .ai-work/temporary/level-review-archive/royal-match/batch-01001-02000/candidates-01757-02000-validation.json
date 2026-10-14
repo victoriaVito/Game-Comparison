@@ -1,0 +1,16 @@
+{
+  "validation": "passed",
+  "levels": [
+    1757,
+    2000
+  ],
+  "rows": 244,
+  "rendered_and_inspected_sheets": 21,
+  "inspection_counts": {
+    "reviewed": 208,
+    "partial": 36
+  },
+  "missing": 0,
+  "source_hashes_verified": 244,
+  "all_needs_review": true
+}

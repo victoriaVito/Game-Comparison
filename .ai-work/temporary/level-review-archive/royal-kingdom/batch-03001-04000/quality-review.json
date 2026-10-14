@@ -1,0 +1,121 @@
+{
+  "status": "needs_review",
+  "sample": [
+    {
+      "level": 3001,
+      "image_path": "royal-kingdom/levels/level-3001.jpg",
+      "result": "supported",
+      "evidence": "The original shows a broad tile field across the upper rows and down both outer sides of a large teal, gold-framed feature at bottom center. The sides join the upper field; the lower outer corners step inward. This supports the candidate's mostly contiguous-field description rather than separate regions."
+    },
+    {
+      "level": 3010,
+      "image_path": "royal-kingdom/levels/level-3010.jpg",
+      "result": "supported",
+      "evidence": "Below the separate lava-arena scene, the match field's visible left boundary retreats inward in successive steps toward the bottom. The diagonal cups are in the separate upper arena and are not the basis for stair_step; the label is supported by the play-field contour, although the purple pot and effects obscure some right-side cells."
+    },
+    {
+      "level": 3127,
+      "image_path": "royal-kingdom/levels/level-3127.jpg",
+      "result": "supported",
+      "evidence": "The original has a tall teal framed feature on the left, a distinct red-ring-bordered tile rectangle at upper right, and two striped fixtures beside a smaller teal framed feature below. These visible regions and the strong left-right imbalance support the asymmetric tag and the candidate's stated arrangement."
+    },
+    {
+      "level": 3252,
+      "image_path": "royal-kingdom/levels/level-3252.jpg",
+      "result": "conflict",
+      "evidence": "The candidate says the small upper-left tile rectangle has no blockers. In the original, that framed field visibly contains multiple special/blocker pieces among the blue, yellow, and green tiles. The rest of the screen is garden scenery, not an inferred extension of the board.",
+      "candidate_correction": {
+        "suggested_observation": "A small framed upper-left rectangular field contains colored tiles and several visible special/blocker pieces; the surrounding garden scene is outside the visible field.",
+        "suggested_geometry_tags": [
+          "compact_full_field"
+        ]
+      }
+    },
+    {
+      "level": 3253,
+      "image_path": "royal-kingdom/levels/level-3253.jpg",
+      "result": "supported",
+      "evidence": "The original shows a broad upper field with magenta covered cells, central colored tiles, and lower green-marked cells. A large purple pot obscures part of the lower-right area. The bottom-center inset is visibly background/empty rather than a blocker mass; the layered_bands tag describes the horizontal arrangement, not disconnected play regions."
+    },
+    {
+      "level": 3379,
+      "image_path": "royal-kingdom/levels/level-3379.jpg",
+      "result": "uncertain",
+      "evidence": "The upper-left tile patch and the blue curtain-like row beneath it are visible, as is the tall teal framed panel on the right. The candidate's layered_bands interpretation depends on whether that teal panel belongs to the play field or is a separate fixture; the screenshot alone does not resolve that boundary confidently.",
+      "candidate_correction": {
+        "review_needed": "Confirm the play-field boundary around the tall teal right-side panel before relying on layered_bands."
+      }
+    },
+    {
+      "level": 3504,
+      "image_path": "royal-kingdom/levels/level-3504.jpg",
+      "result": "conflict",
+      "evidence": "The candidate describes broad horizontal bands, flanking covered patches, and a deep bottom-center notch. The original instead shows only a small framed tile rectangle at upper left, with visible barrel-like, tree, and special pieces; the remaining screen is garden scenery. Those described bands and notch are not visible.",
+      "candidate_correction": {
+        "suggested_observation": "A small framed upper-left rectangular play field contains colored tiles and several distinct special/blocker pieces; the surrounding garden scenery is not a continuation of the board.",
+        "suggested_geometry_tags": [
+          "compact_full_field"
+        ]
+      }
+    },
+    {
+      "level": 3505,
+      "image_path": "royal-kingdom/levels/level-3505.jpg",
+      "result": "supported",
+      "evidence": "The original clearly separates the boss scene above from the ordinary tile field below. The lower field spans most of the screen width, with a short upper-left extension and a lower-right extension; the compact_full_field tag is consistent with that mostly continuous area."
+    },
+    {
+      "level": 3631,
+      "image_path": "royal-kingdom/levels/level-3631.jpg",
+      "result": "conflict",
+      "evidence": "The candidate claims two rectangles divided by a clear horizontal empty gap, with purple cylinders and blue cups. The original instead shows red-ring blockers across the middle rows, a central purple fixture, and occupied lower rows of blue/gold round blockers and green-framed cells. Blocked cells and fixtures are visible; no uninterrupted empty-background gap across the field is apparent.",
+      "candidate_correction": {
+        "suggested_observation": "A broad field has upper colored-tile rows, red-ring blockers across the middle, a central purple fixture, and occupied lower rows of round blue/gold blockers and green-framed cells.",
+        "suggested_geometry_tags": [
+          "layered_bands"
+        ],
+        "remove_geometry_tags": [
+          "split_regions"
+        ]
+      }
+    },
+    {
+      "level": 3756,
+      "image_path": "royal-kingdom/levels/level-3756.jpg",
+      "result": "conflict",
+      "evidence": "The candidate describes red-target rows, a purple drawer, orange rings, and green-framed lower covers. None of those arrangements appears in the original: it shows colored tiles mainly on the left and nested bright cyan channel-like structures wrapping around brown/orange pot blockers on the right. The candidate's layered_bands description does not match the visible organization.",
+      "candidate_correction": {
+        "suggested_observation": "Colored tiles occupy the left side while nested cyan channel-like structures and brown/orange pot blockers dominate the right; the screenshot does not establish a confident match to the current geometry tags.",
+        "suggested_geometry_tags": []
+      }
+    },
+    {
+      "level": 3757,
+      "image_path": "royal-kingdom/levels/level-3757.jpg",
+      "result": "conflict",
+      "evidence": "The candidate places a left tile strip and nested cyan covered lanes on the right. The original instead shows a tile rectangle in the upper right beside a vertical column of brown jars, a lower-left rectangle of blue crowned round blockers surrounding a teal central feature, and a separate bottle fixture at left. The claimed cyan lanes are not visible. The candidate's empty geometry_tags list remains appropriately cautious.",
+      "candidate_correction": {
+        "suggested_observation": "An upper-right tile rectangle sits beside a vertical jar column; a lower-left rectangle of blue crowned blockers surrounds a teal feature, with a separate bottle fixture at left.",
+        "suggested_geometry_tags": []
+      }
+    },
+    {
+      "level": 3879,
+      "image_path": "royal-kingdom/levels/level-3879.jpg",
+      "result": "supported",
+      "evidence": "The original shows a tile-filled upper-right pocket beside a vertical jar column, a bottle fixture at left, and a lower-left rectangle of eye-like blockers around a teal panel. The large unoccupied lower-right area makes the layout visibly asymmetric, supporting the tag and the candidate's observation."
+    },
+    {
+      "level": 4000,
+      "image_path": "royal-kingdom/levels/level-4000.jpg",
+      "result": "supported",
+      "evidence": "The upper half is a boss arena with enemy structures and lava scenery. Beneath it are three separate pink-framed horizontal groups of boosters over the lava background, not an ordinary match grid. The candidate correctly withholds geometry tags rather than treating the arena or booster groups as a match-board shape."
+    }
+  ],
+  "limitations": [
+    "This is a 13-image sample from 1,000 candidates, not full independent validation. It contains the first, middle, and last available rows of each of the four shards, plus level 3010 to check stair-step boundary use.",
+    "The batch validation file highlights no repeated observations. No repeated-category descriptions were therefore added to the sample on that basis.",
+    "All 13 original-resolution images were inspected. Even so, some fixtures may obscure whether a framed feature belongs to the playable boundary; level 3379 remains uncertain for that reason.",
+    "Visible blocker placement was not treated as proof of disconnected play regions. Empty background, covered/blocked cells, and the outer play-field contour were considered separately. No difficulty or strategy claims were independently verified from these images."
+  ]
+}

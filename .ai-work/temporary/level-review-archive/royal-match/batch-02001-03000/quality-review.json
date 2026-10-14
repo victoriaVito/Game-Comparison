@@ -1,0 +1,120 @@
+{
+  "status": "needs_review",
+  "sample": [
+    {
+      "level": 2001,
+      "image_path": "sources/royal-match-level-archive/levels/02001/board.jpg",
+      "result": "supported",
+      "evidence": "Original shows a full-width, 9-column tile area with three rows of purple jars directly beneath the colored tiles, followed by a full-width orange covered panel. This supports the candidate compact_full_field/layered_bands tags and its visible band ordering; the orange panel is covered/blocker material, not an empty gap. Both hypotheses are null, appropriately leaving difficulty and strategy unclaimed."
+    },
+    {
+      "level": 2127,
+      "image_path": "sources/royal-match-level-archive/levels/02127/board.jpg",
+      "result": "supported",
+      "evidence": "Original shows a broad three-row tile strip above a wide brown covered section, then lower left/right pink-and-lantern groups separated by a brown central stem. These are distinct horizontal layers, consistent with layered_bands. Covered cells and the stem do not by themselves make the play boundary disconnected; candidate does not claim split_regions. Both hypotheses are null."
+    },
+    {
+      "level": 2252,
+      "image_path": "sources/royal-match-level-archive/levels/02252/board.jpg",
+      "result": "conflict",
+      "evidence": "Original has a top tile rectangle, a row of paw-marked pots framing pink cells on the sides, a narrow vertical empty notch at the center, and an opaque orange roof/panel below. The narrow notch is not a broad empty central area surrounded by play regions, so open_center overstates what is visible; layered_bands is consistent. The claimed light-effect occlusion at bottom right is not apparent in the original; the lower detail is covered by the panel. Hypotheses are null.",
+      "candidate_correction": {
+        "proposed_geometry_tags": [
+          "layered_bands"
+        ],
+        "proposed_observation": "Top tile rectangle above a paw-pot row; pink side groups flank a narrow empty central notch; a broad orange covered panel occupies the lower band.",
+        "reason": "Review suggestion only: remove open_center because the center is a narrow notch, not a visibly open central area. Do not treat the covered lower panel as empty space."
+      }
+    },
+    {
+      "level": 2253,
+      "image_path": "sources/royal-match-level-archive/levels/02253/board.jpg",
+      "result": "supported",
+      "evidence": "Original shows a tall left-side device strip, a central/right tile-and-wood-block area, and a wide lower horizontal row of blue devices beneath it; green curtain-like covered panels occupy the bottom. This visibly layered arrangement supports layered_bands. The covered areas are not empty gaps, as the candidate observation cautions. Both hypotheses are null."
+    },
+    {
+      "level": 2379,
+      "image_path": "sources/royal-match-level-archive/levels/02379/board.jpg",
+      "result": "uncertain",
+      "evidence": "Original clearly shows an asymmetric layout: a tall blue-device rail on the left and a tile/crate area to the upper right, with visible background between their upper portions. However, a lower horizontal blue-device run appears to extend beneath the right-side area and may connect the regions at the bottom. The candidate split_regions claim therefore cannot be confirmed from this screenshot alone; its asymmetry tag and general layout description are supported. Hypotheses are null.",
+      "candidate_correction": {
+        "proposed_geometry_tags": [
+          "asymmetric"
+        ],
+        "reason": "Keep split_regions unresolved until the apparent lower connection versus gap is confirmed; do not infer disconnection from the empty space between upper portions."
+      }
+    },
+    {
+      "level": 2504,
+      "image_path": "sources/royal-match-level-archive/levels/02504/board.jpg",
+      "result": "supported",
+      "evidence": "Original shows an upper booster/tile rectangle and a separate lower arrangement of white cabinet cells in staggered rows, with obvious background gaps between the lower squares and between upper and lower groups. These are genuinely distinct visible play-cell clusters, supporting split_regions; the broad upper and lower groupings also fit layered bands. The central orange panel is covered/obscured material, not evidence of an empty notch. Both hypotheses are null."
+    },
+    {
+      "level": 2505,
+      "image_path": "sources/royal-match-level-archive/levels/02505/board.jpg",
+      "result": "uncertain",
+      "evidence": "The original is severely occluded by a large yellow panel over most of the left board. Only a short purple-cell row beneath it and a narrow right-hand area with one rocket and a green curtain are visible. Candidate leaves geometry_tags empty and explicitly says hidden continuity cannot be determined; that restraint is supported, but the underlying board shape cannot be independently assessed. Hypotheses are null.",
+      "candidate_correction": {
+        "reason": "Retain the geometry as unresolved; do not add a region or boundary tag from the exposed fragments."
+      }
+    },
+    {
+      "level": 2631,
+      "image_path": "sources/royal-match-level-archive/levels/02631/board.jpg",
+      "result": "conflict",
+      "evidence": "Original shows a detached two-column pink island at upper left, separated by visible background from the main lower/right tile-and-covered area. Candidate observation itself calls that left feature detached, but candidate geometry_tags omit split_regions; the visibly disconnected play-cell groups support flagging the omission. Asymmetry and layered bands are also visible. Hypotheses are null.",
+      "candidate_correction": {
+        "proposed_geometry_tags": [
+          "split_regions",
+          "asymmetric",
+          "layered_bands"
+        ],
+        "reason": "Review suggestion only: consider split_regions for the visibly detached upper-left island; preserve the existing tags until independently adjudicated."
+      }
+    },
+    {
+      "level": 2756,
+      "image_path": "sources/royal-match-level-archive/levels/02756/board.jpg",
+      "result": "supported",
+      "evidence": "Original shows a tall left pink-shell block with purple cells along its left/bottom, three flower panels alternating vertically with two bottle trays in the middle, and a taller right tile rectangle that ends above the left block base. The unequal left/right extents support asymmetric, and the stacked vertical sections support layered_bands; no empty gap is implied by the blockers. Both hypotheses are null."
+    },
+    {
+      "level": 2757,
+      "image_path": "sources/royal-match-level-archive/levels/02757/board.jpg",
+      "result": "supported",
+      "evidence": "Original shows an upper-left colored-tile rectangle and a right-side covered section above a lower field of pale stone cells; paw-marked cells create a central vertical stripe and a horizontal stripe. Left/right extents differ and the upper/lower structure is visibly banded, supporting asymmetric/layered_bands. The paw/stone arrangement is obstacle placement, not a staircase boundary; candidate does not apply stair_step. Both hypotheses are null."
+    },
+    {
+      "level": 2879,
+      "image_path": "sources/royal-match-level-archive/levels/02879/board.jpg",
+      "result": "conflict",
+      "evidence": "Original shows the upper-left tile area touching a horizontal row of paw-marked pots that continues across into the lower/right field; large beige covered cells fill much of that lower/right area. There is no clear empty horizontal gap separating the upper block from the lower field, so the candidate split_regions tag is not supported by the visible boundary. The large blocker mass does not establish disconnection; layered_bands remains plausible. The specific candidate observation of a separating gap/curtain panels does not match the visible continuous pot row and beige lower field. Hypotheses are null.",
+      "candidate_correction": {
+        "proposed_geometry_tags": [
+          "layered_bands"
+        ],
+        "proposed_observation": "Upper-left tile area meets a cross-board row of paw-marked pots; the lower/right area is largely occupied by beige covered cells.",
+        "reason": "Review suggestion only: remove split_regions unless a true empty-cell separation is established; do not treat the pot row or beige blockers as empty space."
+      }
+    },
+    {
+      "level": 3000,
+      "image_path": "sources/royal-match-level-archive/levels/03000/board.jpg",
+      "result": "conflict",
+      "evidence": "Original is a reward/coin-format arena: the header displays Reward rather than a target, most visible board elements are coin outlines around empty-looking windows, and only small isolated columns contain special tiles. No conventional colored match grid is visible, and no boss character is visible in the board area. Thus the candidate split_regions label cannot safely be read as disconnected match-grid regions; the candidate observation describes coin/special-item placements, not a verified play-grid boundary. Hypotheses are null.",
+      "candidate_correction": {
+        "proposed_geometry_tags": [],
+        "reason": "Review suggestion only: classify this screenshot as a nonstandard reward/coin arena for geometry purposes unless a conventional match grid can be evidenced. Do not mistake the coin layout or decorative/empty windows for match-grid regions."
+      }
+    }
+  ],
+  "limitations": [
+    "Sample comprises first, middle, and last available levels in each of the four shards (12 distinct levels); it is a spot check, not full independent validation of the 1,000 candidates.",
+    "All 1,000 levels in the batch index are marked available; originals were inspected at their exact repository paths. This review did not re-hash every source image.",
+    "The batch validation.json reports repeated_observations as an empty list; no repeated-category descriptions were highlighted there for additional sampling.",
+    "Every sampled candidate has null difficulty_hypothesis and strategy_hypothesis; the initial-board images alone do not verify difficulty or optimal strategy, so these remain unassessed.",
+    "Geometry judgments concern visible initial-board cell boundaries only. When a lower connector, occlusion, or nonstandard reward arena prevents confident interpretation, the result is uncertain or conflict rather than an accepted classification.",
+    "No candidate shard, source image, index, tracker, or application file was changed; candidate labels remain unaccepted and any proposed corrections are review suggestions only."
+  ]
+}

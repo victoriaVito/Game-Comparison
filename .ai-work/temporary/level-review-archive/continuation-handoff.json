@@ -1,0 +1,712 @@
+{
+  "runId": "c4d016de-2893-4b9b-9502-003dcca6a126",
+  "status": "candidate_archive_review_saved",
+  "completed_post_pilot_batches": 18,
+  "expected_post_pilot_batches": 18,
+  "coverage": [
+    {
+      "game": "royal-match",
+      "records": 1000,
+      "inspection_counts": {
+        "reviewed": 926,
+        "partial": 74
+      },
+      "available_images_have_recorded_inspection": true,
+      "accepted_labels": 0,
+      "limitation": "Structural and hash validation does not independently prove visual fidelity.",
+      "range": [
+        1001,
+        2000
+      ],
+      "review_status": "needs_review",
+      "repeated_observations": [],
+      "classification_complete": false,
+      "quality_review": {
+        "sample_size": 12,
+        "results": {
+          "supported": 6,
+          "uncertain": 3,
+          "conflict": 3
+        },
+        "limitation": "Sampled review is not full independent geometry validation."
+      }
+    },
+    {
+      "game": "royal-match",
+      "records": 1000,
+      "inspection_counts": {
+        "reviewed": 942,
+        "partial": 58
+      },
+      "available_images_have_recorded_inspection": true,
+      "accepted_labels": 0,
+      "limitation": "Structural and hash validation does not independently prove visual fidelity.",
+      "range": [
+        2001,
+        3000
+      ],
+      "review_status": "needs_review",
+      "repeated_observations": [],
+      "classification_complete": false,
+      "quality_review": {
+        "sample_size": 12,
+        "results": {
+          "supported": 6,
+          "conflict": 4,
+          "uncertain": 2
+        },
+        "limitation": "Sampled review is not full independent geometry validation."
+      }
+    },
+    {
+      "game": "royal-match",
+      "records": 1000,
+      "inspection_counts": {
+        "reviewed": 890,
+        "partial": 100,
+        "missing": 10
+      },
+      "available_images_have_recorded_inspection": true,
+      "accepted_labels": 0,
+      "limitation": "Structural and hash validation does not independently prove visual fidelity.",
+      "range": [
+        3001,
+        4000
+      ],
+      "review_status": "needs_review",
+      "repeated_observations": [],
+      "classification_complete": false,
+      "quality_review": {
+        "sample_size": 12,
+        "results": {
+          "supported": 9,
+          "uncertain": 2,
+          "conflict": 1
+        },
+        "limitation": "Sampled review is not full independent geometry validation."
+      }
+    },
+    {
+      "game": "royal-match",
+      "records": 1000,
+      "inspection_counts": {
+        "reviewed": 903,
+        "partial": 50,
+        "missing": 47
+      },
+      "available_images_have_recorded_inspection": true,
+      "accepted_labels": 0,
+      "limitation": "Structural and hash validation does not independently prove visual fidelity.",
+      "range": [
+        4001,
+        5000
+      ],
+      "review_status": "needs_review",
+      "repeated_observations": [],
+      "classification_complete": false,
+      "quality_review": {
+        "sample_size": 12,
+        "results": {
+          "supported": 6,
+          "conflict": 5,
+          "uncertain": 1
+        },
+        "limitation": "Sampled review is not full independent geometry validation."
+      }
+    },
+    {
+      "game": "royal-match",
+      "records": 1000,
+      "inspection_counts": {
+        "reviewed": 807,
+        "partial": 128,
+        "missing": 65
+      },
+      "available_images_have_recorded_inspection": true,
+      "accepted_labels": 0,
+      "limitation": "Structural and hash validation does not independently prove visual fidelity.",
+      "range": [
+        5001,
+        6000
+      ],
+      "review_status": "needs_review",
+      "repeated_observations": [],
+      "classification_complete": false,
+      "quality_review": {
+        "sample_size": 12,
+        "results": {
+          "supported": 5,
+          "uncertain": 3,
+          "conflict": 4
+        },
+        "limitation": "Sampled review is not full independent geometry validation."
+      }
+    },
+    {
+      "game": "royal-match",
+      "records": 1000,
+      "inspection_counts": {
+        "reviewed": 847,
+        "partial": 81,
+        "missing": 72
+      },
+      "available_images_have_recorded_inspection": true,
+      "accepted_labels": 0,
+      "limitation": "Structural and hash validation does not independently prove visual fidelity.",
+      "range": [
+        6001,
+        7000
+      ],
+      "review_status": "needs_review",
+      "repeated_observations": [],
+      "classification_complete": false,
+      "quality_review": {
+        "sample_size": 12,
+        "results": {
+          "supported": 5,
+          "conflict": 5,
+          "uncertain": 2
+        },
+        "limitation": "Sampled review is not full independent geometry validation."
+      }
+    },
+    {
+      "game": "royal-match",
+      "records": 1000,
+      "inspection_counts": {
+        "missing": 90,
+        "reviewed": 800,
+        "partial": 110
+      },
+      "available_images_have_recorded_inspection": true,
+      "accepted_labels": 0,
+      "limitation": "Structural and hash validation does not independently prove visual fidelity.",
+      "range": [
+        7001,
+        8000
+      ],
+      "review_status": "needs_review",
+      "repeated_observations": [],
+      "classification_complete": false,
+      "quality_review": {
+        "sample_size": 12,
+        "results": {
+          "supported": 8,
+          "conflict": 3,
+          "uncertain": 1
+        },
+        "limitation": "Sampled review is not full independent geometry validation."
+      }
+    },
+    {
+      "game": "royal-match",
+      "records": 1000,
+      "inspection_counts": {
+        "reviewed": 664,
+        "partial": 289,
+        "missing": 47
+      },
+      "available_images_have_recorded_inspection": true,
+      "accepted_labels": 0,
+      "limitation": "Structural and hash validation does not independently prove visual fidelity.",
+      "range": [
+        8001,
+        9000
+      ],
+      "review_status": "needs_review",
+      "repeated_observations": [],
+      "classification_complete": false,
+      "quality_review": {
+        "sample_size": 12,
+        "results": {
+          "supported": 7,
+          "conflict": 5
+        },
+        "limitation": "Sampled review is not full independent geometry validation."
+      }
+    },
+    {
+      "game": "royal-match",
+      "records": 1000,
+      "inspection_counts": {
+        "reviewed": 920,
+        "partial": 54,
+        "missing": 26
+      },
+      "available_images_have_recorded_inspection": true,
+      "accepted_labels": 0,
+      "limitation": "Structural and hash validation does not independently prove visual fidelity.",
+      "range": [
+        9001,
+        10000
+      ],
+      "review_status": "needs_review",
+      "repeated_observations": [],
+      "classification_complete": false,
+      "quality_review": {
+        "sample_size": 12,
+        "results": {
+          "supported": 5,
+          "conflict": 6,
+          "uncertain": 1
+        },
+        "limitation": "Sampled review is not full independent geometry validation."
+      }
+    },
+    {
+      "game": "royal-match",
+      "records": 1000,
+      "inspection_counts": {
+        "reviewed": 896,
+        "partial": 103,
+        "missing": 1
+      },
+      "available_images_have_recorded_inspection": true,
+      "accepted_labels": 0,
+      "limitation": "Structural and hash validation does not independently prove visual fidelity.",
+      "range": [
+        10001,
+        11000
+      ],
+      "review_status": "needs_review",
+      "repeated_observations": [],
+      "classification_complete": false,
+      "quality_review": {
+        "sample_size": 12,
+        "results": {
+          "supported": 9,
+          "uncertain": 1,
+          "conflict": 2
+        },
+        "limitation": "Sampled review is not full independent geometry validation."
+      }
+    },
+    {
+      "game": "royal-match",
+      "records": 1000,
+      "inspection_counts": {
+        "reviewed": 979,
+        "partial": 19,
+        "missing": 2
+      },
+      "available_images_have_recorded_inspection": true,
+      "accepted_labels": 0,
+      "limitation": "Structural and hash validation does not independently prove visual fidelity.",
+      "range": [
+        11001,
+        12000
+      ],
+      "review_status": "needs_review",
+      "repeated_observations": [],
+      "classification_complete": false,
+      "quality_review": {
+        "sample_size": 12,
+        "results": {
+          "supported": 7,
+          "conflict": 4,
+          "uncertain": 1
+        },
+        "limitation": "Sampled review is not full independent geometry validation."
+      }
+    },
+    {
+      "game": "royal-match",
+      "records": 1000,
+      "inspection_counts": {
+        "partial": 97,
+        "reviewed": 853,
+        "missing": 50
+      },
+      "available_images_have_recorded_inspection": true,
+      "accepted_labels": 0,
+      "limitation": "Structural and hash validation does not independently prove visual fidelity.",
+      "range": [
+        12001,
+        13000
+      ],
+      "review_status": "needs_review",
+      "repeated_observations": [],
+      "classification_complete": false,
+      "quality_review": {
+        "sample_size": 12,
+        "results": {
+          "uncertain": 2,
+          "supported": 6,
+          "conflict": 4
+        },
+        "limitation": "Sampled review is not full independent geometry validation."
+      }
+    },
+    {
+      "game": "royal-match",
+      "records": 500,
+      "inspection_counts": {
+        "reviewed": 455,
+        "partial": 45
+      },
+      "available_images_have_recorded_inspection": true,
+      "accepted_labels": 0,
+      "limitation": "Structural and hash validation does not independently prove visual fidelity.",
+      "range": [
+        13001,
+        13500
+      ],
+      "review_status": "needs_review",
+      "repeated_observations": [],
+      "classification_complete": false,
+      "quality_review": {
+        "sample_size": 12,
+        "results": {
+          "supported": 9,
+          "conflict": 2,
+          "uncertain": 1
+        },
+        "limitation": "Sampled review is not full independent geometry validation."
+      }
+    },
+    {
+      "game": "royal-kingdom",
+      "records": 1000,
+      "inspection_counts": {
+        "reviewed": 909,
+        "partial": 91
+      },
+      "available_images_have_recorded_inspection": true,
+      "accepted_labels": 0,
+      "limitation": "Structural and hash validation does not independently prove visual fidelity.",
+      "range": [
+        1001,
+        2000
+      ],
+      "review_status": "needs_review",
+      "repeated_observations": [],
+      "classification_complete": false,
+      "quality_review": {
+        "sample_size": 12,
+        "results": {
+          "uncertain": 2,
+          "conflict": 2,
+          "supported": 8
+        },
+        "limitation": "Sampled review is not full independent geometry validation."
+      }
+    },
+    {
+      "game": "royal-kingdom",
+      "records": 1000,
+      "inspection_counts": {
+        "reviewed": 891,
+        "partial": 109
+      },
+      "available_images_have_recorded_inspection": true,
+      "accepted_labels": 0,
+      "limitation": "Structural and hash validation does not independently prove visual fidelity.",
+      "range": [
+        2001,
+        3000
+      ],
+      "review_status": "needs_review",
+      "repeated_observations": [],
+      "classification_complete": false,
+      "quality_review": {
+        "sample_size": 12,
+        "results": {
+          "supported": 7,
+          "conflict": 4,
+          "uncertain": 1
+        },
+        "limitation": "Sampled review is not full independent geometry validation."
+      }
+    },
+    {
+      "game": "royal-kingdom",
+      "records": 1000,
+      "inspection_counts": {
+        "reviewed": 907,
+        "partial": 93
+      },
+      "available_images_have_recorded_inspection": true,
+      "accepted_labels": 0,
+      "limitation": "Structural and hash validation does not independently prove visual fidelity.",
+      "range": [
+        3001,
+        4000
+      ],
+      "review_status": "needs_review",
+      "repeated_observations": [],
+      "classification_complete": false,
+      "quality_review": {
+        "sample_size": 13,
+        "results": {
+          "supported": 7,
+          "conflict": 5,
+          "uncertain": 1
+        },
+        "limitation": "Sampled review is not full independent geometry validation."
+      }
+    },
+    {
+      "game": "royal-kingdom",
+      "records": 1000,
+      "inspection_counts": {
+        "reviewed": 917,
+        "partial": 83
+      },
+      "available_images_have_recorded_inspection": true,
+      "accepted_labels": 0,
+      "limitation": "Structural and hash validation does not independently prove visual fidelity.",
+      "range": [
+        4001,
+        5000
+      ],
+      "review_status": "needs_review",
+      "repeated_observations": [],
+      "classification_complete": false,
+      "quality_review": {
+        "sample_size": 12,
+        "results": {
+          "supported": 5,
+          "uncertain": 1,
+          "conflict": 6
+        },
+        "limitation": "Sampled review is not full independent geometry validation."
+      }
+    },
+    {
+      "game": "royal-kingdom",
+      "records": 300,
+      "inspection_counts": {
+        "reviewed": 283,
+        "partial": 17
+      },
+      "available_images_have_recorded_inspection": true,
+      "accepted_labels": 0,
+      "limitation": "Structural and hash validation does not independently prove visual fidelity.",
+      "range": [
+        5001,
+        5300
+      ],
+      "review_status": "needs_review",
+      "repeated_observations": [],
+      "classification_complete": false,
+      "quality_review": {
+        "sample_size": 12,
+        "results": {
+          "supported": 7,
+          "uncertain": 2,
+          "conflict": 3
+        },
+        "limitation": "Sampled review is not full independent geometry validation."
+      }
+    }
+  ],
+  "finished": [
+    {
+      "game": "royal-match",
+      "records": 1000,
+      "inspection_counts": {
+        "missing": 90,
+        "reviewed": 800,
+        "partial": 110
+      },
+      "available_images_have_recorded_inspection": true,
+      "accepted_labels": 0,
+      "limitation": "Structural and hash validation does not independently prove visual fidelity.",
+      "range": [
+        7001,
+        8000
+      ],
+      "review_status": "needs_review",
+      "repeated_observations": [],
+      "classification_complete": false,
+      "quality_review": {
+        "sample_size": 12,
+        "results": {
+          "supported": 8,
+          "conflict": 3,
+          "uncertain": 1
+        },
+        "limitation": "Sampled review is not full independent geometry validation."
+      }
+    },
+    {
+      "game": "royal-match",
+      "records": 1000,
+      "inspection_counts": {
+        "reviewed": 664,
+        "partial": 289,
+        "missing": 47
+      },
+      "available_images_have_recorded_inspection": true,
+      "accepted_labels": 0,
+      "limitation": "Structural and hash validation does not independently prove visual fidelity.",
+      "range": [
+        8001,
+        9000
+      ],
+      "review_status": "needs_review",
+      "repeated_observations": [],
+      "classification_complete": false,
+      "quality_review": {
+        "sample_size": 12,
+        "results": {
+          "supported": 7,
+          "conflict": 5
+        },
+        "limitation": "Sampled review is not full independent geometry validation."
+      }
+    },
+    {
+      "game": "royal-match",
+      "records": 1000,
+      "inspection_counts": {
+        "reviewed": 920,
+        "partial": 54,
+        "missing": 26
+      },
+      "available_images_have_recorded_inspection": true,
+      "accepted_labels": 0,
+      "limitation": "Structural and hash validation does not independently prove visual fidelity.",
+      "range": [
+        9001,
+        10000
+      ],
+      "review_status": "needs_review",
+      "repeated_observations": [],
+      "classification_complete": false,
+      "quality_review": {
+        "sample_size": 12,
+        "results": {
+          "supported": 5,
+          "conflict": 6,
+          "uncertain": 1
+        },
+        "limitation": "Sampled review is not full independent geometry validation."
+      }
+    },
+    {
+      "game": "royal-match",
+      "records": 1000,
+      "inspection_counts": {
+        "reviewed": 896,
+        "partial": 103,
+        "missing": 1
+      },
+      "available_images_have_recorded_inspection": true,
+      "accepted_labels": 0,
+      "limitation": "Structural and hash validation does not independently prove visual fidelity.",
+      "range": [
+        10001,
+        11000
+      ],
+      "review_status": "needs_review",
+      "repeated_observations": [],
+      "classification_complete": false,
+      "quality_review": {
+        "sample_size": 12,
+        "results": {
+          "supported": 9,
+          "uncertain": 1,
+          "conflict": 2
+        },
+        "limitation": "Sampled review is not full independent geometry validation."
+      }
+    },
+    {
+      "game": "royal-match",
+      "records": 1000,
+      "inspection_counts": {
+        "reviewed": 979,
+        "partial": 19,
+        "missing": 2
+      },
+      "available_images_have_recorded_inspection": true,
+      "accepted_labels": 0,
+      "limitation": "Structural and hash validation does not independently prove visual fidelity.",
+      "range": [
+        11001,
+        12000
+      ],
+      "review_status": "needs_review",
+      "repeated_observations": [],
+      "classification_complete": false,
+      "quality_review": {
+        "sample_size": 12,
+        "results": {
+          "supported": 7,
+          "conflict": 4,
+          "uncertain": 1
+        },
+        "limitation": "Sampled review is not full independent geometry validation."
+      }
+    },
+    {
+      "game": "royal-match",
+      "records": 1000,
+      "inspection_counts": {
+        "partial": 97,
+        "reviewed": 853,
+        "missing": 50
+      },
+      "available_images_have_recorded_inspection": true,
+      "accepted_labels": 0,
+      "limitation": "Structural and hash validation does not independently prove visual fidelity.",
+      "range": [
+        12001,
+        13000
+      ],
+      "review_status": "needs_review",
+      "repeated_observations": [],
+      "classification_complete": false,
+      "quality_review": {
+        "sample_size": 12,
+        "results": {
+          "uncertain": 2,
+          "supported": 6,
+          "conflict": 4
+        },
+        "limitation": "Sampled review is not full independent geometry validation."
+      }
+    },
+    {
+      "game": "royal-match",
+      "records": 500,
+      "inspection_counts": {
+        "reviewed": 455,
+        "partial": 45
+      },
+      "available_images_have_recorded_inspection": true,
+      "accepted_labels": 0,
+      "limitation": "Structural and hash validation does not independently prove visual fidelity.",
+      "range": [
+        13001,
+        13500
+      ],
+      "review_status": "needs_review",
+      "repeated_observations": [],
+      "classification_complete": false,
+      "quality_review": {
+        "sample_size": 12,
+        "results": {
+          "supported": 9,
+          "conflict": 2,
+          "uncertain": 1
+        },
+        "limitation": "Sampled review is not full independent geometry validation."
+      }
+    }
+  ],
+  "blocked": [],
+  "tracking": {
+    "task": "TSK-002",
+    "status": "in_progress",
+    "validated_post_pilot_batches": 18
+  },
+  "accepted_labels": 0,
+  "classification_complete": false,
+  "limitations": [
+    "Candidate geometry conflicts and partial cases remain open; sample quality is not full independent validation.",
+    "Pilot preserved with existing unresolved conflicts.",
+    "No linked remote task ID exists; no remote synchronization or publication claimed."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "assigned_range": [
+    11253,
+    11504
+  ],
+  "saved_coverage": [
+    11253,
+    11504
+  ],
+  "rows": 252,
+  "inspection_counts": {
+    "reviewed": 247,
+    "partial": 5
+  },
+  "review_status_counts": {
+    "needs_review": 252
+  },
+  "rendered_sheet_count": 21,
+  "rendered_sheets": [
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11253-11264.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11265-11276.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11277-11288.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11289-11300.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11301-11312.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11313-11324.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11325-11336.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11337-11348.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11349-11360.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11361-11372.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11373-11384.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11385-11396.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11397-11408.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11409-11420.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11421-11432.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11433-11444.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11445-11456.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11457-11468.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11469-11480.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11481-11492.jpg",
+    ".ai-work/temporary/level-review-archive/royal-match/batch-11001-12000/sheets/levels-11493-11504.jpg"
+  ],
+  "original_resolution_followups": [
+    11383,
+    11465,
+    11474
+  ],
+  "source_sha256_matches": 252,
+  "ordered_contiguous_unique": true,
+  "contract_fields_valid": true,
+  "verified_claims": 0,
+  "hypotheses": 0,
+  "status": "validated_candidate_review"
+}

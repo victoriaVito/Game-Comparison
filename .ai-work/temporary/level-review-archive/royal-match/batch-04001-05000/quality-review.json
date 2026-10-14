@@ -1,0 +1,122 @@
+{
+  "status": "needs_review",
+  "sample": [
+    {
+      "level": 4001,
+      "image_path": "sources/royal-match-level-archive/levels/04001/board.jpg",
+      "result": "supported",
+      "evidence": "The original shows a contiguous 5-row tile rectangle above two separated 2-by-2 vault groups. A visible empty horizontal band separates the upper play area from the vaults, and another gap divides the left and right lower groups. The layered-band and split-region descriptions are consistent with the visible arrangement; no empty space was mistaken for a blocker."
+    },
+    {
+      "level": 4127,
+      "image_path": "sources/royal-match-level-archive/levels/04127/board.jpg",
+      "result": "supported",
+      "evidence": "The original has a broad tile-and-paw-pot area on the left, while the right side is dominated by two tall metallic columns with pink domes and lower pipe rows. The left and right arrangements do not mirror, supporting asymmetric. The noted notch is visible between upper tiles and lower pipe/dome cells."
+    },
+    {
+      "level": 4252,
+      "image_path": "sources/royal-match-level-archive/levels/04252/board.jpg",
+      "result": "supported",
+      "evidence": "A narrow upper tile area and a wider cupboard band sit above a visibly separated lower U-shaped paw-pot arrangement. The lower side towers flank two birdhouse cells; the tall middle opening is bare board/background, not a central blocker mass. The split-region and layered-band tags fit these visible separations."
+    },
+    {
+      "level": 4253,
+      "image_path": "sources/royal-match-level-archive/levels/04253/board.jpg",
+      "result": "conflict",
+      "evidence": "The descriptive text generally matches the left tile strip, central numbered machine, pink/dark covered cells and the lower indentation. However, the visible major left and right board shapes are markedly different: the left is a tall, narrow tile/blocker section and the right is a wider rectangular arrangement with a long cyan divider. The empty tag list misses the clearly asymmetric layout; the cyan divider itself should not be mistaken for an empty gap.",
+      "candidate_correction": {
+        "geometry_tags": {
+          "candidate": [],
+          "observed": [
+            "asymmetric"
+          ]
+        }
+      }
+    },
+    {
+      "level": 4386,
+      "image_path": "sources/royal-match-level-archive/levels/04386/board.jpg",
+      "result": "conflict",
+      "evidence": "The left checkerboard of paw pots and purple stones differs substantially from the broad right-hand tile/skull arrangement, making the overall layout visibly asymmetric despite the candidate's empty tag list. The upper-right tile rows and lower-right skull rows have a narrow bare horizontal strip between them in the original; that strip is empty space, not another row of skull blockers. The written description of that slit is supported, but the omitted asymmetry tag is not.",
+      "candidate_correction": {
+        "geometry_tags": {
+          "candidate": [],
+          "observed": [
+            "asymmetric"
+          ]
+        }
+      }
+    },
+    {
+      "level": 4504,
+      "image_path": "sources/royal-match-level-archive/levels/04504/board.jpg",
+      "result": "supported",
+      "evidence": "The original clearly shows the large yellow covered U-shaped structure enclosing a rectangular bare-floor opening. That center is an empty notch, not a central mass of blockers. The upper-right cyan spheres and machine and the two isolated left-side rocket cells are visible as described; withholding a board-level geometry tag is defensible."
+    },
+    {
+      "level": 4505,
+      "image_path": "sources/royal-match-level-archive/levels/04505/board.jpg",
+      "result": "conflict",
+      "evidence": "The upper board has the described crowned outline and round blockers, but the lower-left and lower-right expanses are large yellow/orange solid covered masses in the original, not blue covered blocks. The candidate's color/object description is therefore not faithful. The downward-pointing central notch is visible, but does not establish that it consists of strapped cells.",
+      "candidate_correction": {
+        "observation": {
+          "candidate": "blue covered blocks occupy both lower edges and strapped cells form a downward central point",
+          "observed": "large yellow/orange covered masses occupy the lower left and right, with a central bare-floor notch; the image does not clearly establish strapped cells at the point"
+        }
+      }
+    },
+    {
+      "level": 4639,
+      "image_path": "sources/royal-match-level-archive/levels/04639/board.jpg",
+      "result": "conflict",
+      "evidence": "The original supports the text's upper tile patch, purple bottle blockers, large brown panels and left recess. The board is nevertheless visibly asymmetric: the left-middle is occupied by a broad brown panel/recess structure while the lower-right has a differently shaped stack of brown panels. The empty geometry-tag list omits this visible relation.",
+      "candidate_correction": {
+        "geometry_tags": {
+          "candidate": [],
+          "observed": [
+            "asymmetric"
+          ]
+        }
+      }
+    },
+    {
+      "level": 4756,
+      "image_path": "sources/royal-match-level-archive/levels/04756/board.jpg",
+      "result": "conflict",
+      "evidence": "The described upper-left characters/brown blocks, upper-right tiles, descending left dispensers and lower-right bottle trays are visible. Their placement is distinctly non-mirrored: a tall dispenser-and-drawer column occupies the left, whereas the right has separate tile and bottle-tray groups; the empty tag list omits asymmetric. The lower-right recess is bare board/background rather than a blocker arrangement.",
+      "candidate_correction": {
+        "geometry_tags": {
+          "candidate": [],
+          "observed": [
+            "asymmetric"
+          ]
+        }
+      }
+    },
+    {
+      "level": 4757,
+      "image_path": "sources/royal-match-level-archive/levels/04757/board.jpg",
+      "result": "supported",
+      "evidence": "The board cells form one largely contiguous irregular field. An upper-left tile patch meets a diagonal green-tray area; purple rocks occupy much of the right and bottom, and a lower-right notch is visibly bare background. Those blockers do not by themselves split the field into disconnected regions, so compact_full_field is a reasonable tag."
+    },
+    {
+      "level": 4871,
+      "image_path": "sources/royal-match-level-archive/levels/04871/board.jpg",
+      "result": "supported",
+      "evidence": "The original shows an upper-right tile area, diagonal crate and purple-rock bands, stepped brown cells, and lower-left bottle cells within an otherwise connected irregular field. The major left/right shapes differ and the arrangement has distinct upper/middle/lower bands, supporting asymmetric and layered_bands. No visible empty gap is confused with a band of blockers."
+    },
+    {
+      "level": 5000,
+      "image_path": "sources/royal-match-level-archive/levels/05000/board.jpg",
+      "result": "uncertain",
+      "evidence": "The original visibly contains five separated units: two coin-shaped groups at left, two blue-star rectangular rings in the middle, and a narrow rope-bound strip at right, supporting split_regions. Each middle ring has a visibly empty dark interior, not a central blocker mass. It is uncertain whether these two local holes satisfy the taxonomy's board-level open_center trait (an empty central area surrounded by play regions), so the candidate's open_center tag should not be treated as confirmed."
+    }
+  ],
+  "limitations": [
+    "This is a 12-image sample (first, middle and last available row from each shard), not full independent validation of the 1,000-level batch or its candidates.",
+    "The batch validation explicitly says structural and hash validation does not prove visual fidelity; this review checked only the sampled original images at their stored resolution.",
+    "The sampled candidate rows supplied null difficulty_hypothesis and strategy_hypothesis values, so there were no image-specific hypotheses to assess. No difficulty or strategy claim is verified here.",
+    "validation.json lists no repeated_observations, so it highlighted no repeated-category descriptions; this review does not treat wording variety as evidence of correctness.",
+    "Some covered-cell boundaries and connectivity remain visually ambiguous at screenshot resolution; only clear image-level discrepancies and traits are reported."
+  ]
+}

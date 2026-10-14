@@ -1,0 +1,13 @@
+{
+  "workflow": "review-local-level-archive",
+  "run_id": "ce1d0808-da7b-411c-9dd0-9006db4413bd",
+  "status_at_launch": "running",
+  "scope": {
+    "royal-match": [1001, 13500],
+    "royal-kingdom": [1001, 5300]
+  },
+  "expected_post_pilot_batches": 18,
+  "batch_size": 1000,
+  "accepted_labels": 0,
+  "classification_complete": false
+}

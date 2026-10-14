@@ -1,0 +1,276 @@
+{
+  "status": "validated",
+  "range": [
+    8757,
+    9000
+  ],
+  "rows": 244,
+  "counts": {
+    "missing": 19,
+    "reviewed": 155,
+    "partial": 70
+  },
+  "needs_review": 244,
+  "accepted": 0,
+  "source_hashes_verified": 225,
+  "numbered_sheets_rendered": 21,
+  "original_resolution_followups": [
+    8900,
+    8980,
+    9000
+  ],
+  "sheet_checkpoints": [
+    {
+      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-08001-09000/sheets/levels-8757-8768.jpg",
+      "saved_range": [
+        8757,
+        8768
+      ],
+      "rows": 12,
+      "counts": {
+        "missing": 12
+      }
+    },
+    {
+      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-08001-09000/sheets/levels-8769-8780.jpg",
+      "saved_range": [
+        8769,
+        8780
+      ],
+      "rows": 12,
+      "counts": {
+        "missing": 7,
+        "reviewed": 3,
+        "partial": 2
+      }
+    },
+    {
+      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-08001-09000/sheets/levels-8781-8792.jpg",
+      "saved_range": [
+        8781,
+        8792
+      ],
+      "rows": 12,
+      "counts": {
+        "reviewed": 9,
+        "partial": 3
+      }
+    },
+    {
+      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-08001-09000/sheets/levels-8793-8804.jpg",
+      "saved_range": [
+        8793,
+        8804
+      ],
+      "rows": 12,
+      "counts": {
+        "reviewed": 8,
+        "partial": 4
+      }
+    },
+    {
+      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-08001-09000/sheets/levels-8805-8816.jpg",
+      "saved_range": [
+        8805,
+        8816
+      ],
+      "rows": 12,
+      "counts": {
+        "reviewed": 8,
+        "partial": 4
+      }
+    },
+    {
+      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-08001-09000/sheets/levels-8817-8828.jpg",
+      "saved_range": [
+        8817,
+        8828
+      ],
+      "rows": 12,
+      "counts": {
+        "reviewed": 8,
+        "partial": 4
+      }
+    },
+    {
+      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-08001-09000/sheets/levels-8829-8840.jpg",
+      "saved_range": [
+        8829,
+        8840
+      ],
+      "rows": 12,
+      "counts": {
+        "reviewed": 10,
+        "partial": 2
+      }
+    },
+    {
+      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-08001-09000/sheets/levels-8841-8852.jpg",
+      "saved_range": [
+        8841,
+        8852
+      ],
+      "rows": 12,
+      "counts": {
+        "reviewed": 8,
+        "partial": 4
+      }
+    },
+    {
+      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-08001-09000/sheets/levels-8853-8864.jpg",
+      "saved_range": [
+        8853,
+        8864
+      ],
+      "rows": 12,
+      "counts": {
+        "reviewed": 8,
+        "partial": 4
+      }
+    },
+    {
+      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-08001-09000/sheets/levels-8865-8876.jpg",
+      "saved_range": [
+        8865,
+        8876
+      ],
+      "rows": 12,
+      "counts": {
+        "reviewed": 9,
+        "partial": 3
+      }
+    },
+    {
+      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-08001-09000/sheets/levels-8877-8888.jpg",
+      "saved_range": [
+        8877,
+        8888
+      ],
+      "rows": 12,
+      "counts": {
+        "partial": 5,
+        "reviewed": 7
+      }
+    },
+    {
+      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-08001-09000/sheets/levels-8889-8900.jpg",
+      "saved_range": [
+        8889,
+        8900
+      ],
+      "rows": 12,
+      "counts": {
+        "partial": 2,
+        "reviewed": 10
+      }
+    },
+    {
+      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-08001-09000/sheets/levels-8901-8912.jpg",
+      "saved_range": [
+        8901,
+        8912
+      ],
+      "rows": 12,
+      "counts": {
+        "reviewed": 8,
+        "partial": 4
+      }
+    },
+    {
+      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-08001-09000/sheets/levels-8913-8924.jpg",
+      "saved_range": [
+        8913,
+        8924
+      ],
+      "rows": 12,
+      "counts": {
+        "reviewed": 9,
+        "partial": 3
+      }
+    },
+    {
+      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-08001-09000/sheets/levels-8925-8936.jpg",
+      "saved_range": [
+        8925,
+        8936
+      ],
+      "rows": 12,
+      "counts": {
+        "reviewed": 8,
+        "partial": 4
+      }
+    },
+    {
+      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-08001-09000/sheets/levels-8937-8948.jpg",
+      "saved_range": [
+        8937,
+        8948
+      ],
+      "rows": 12,
+      "counts": {
+        "reviewed": 6,
+        "partial": 6
+      }
+    },
+    {
+      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-08001-09000/sheets/levels-8949-8960.jpg",
+      "saved_range": [
+        8949,
+        8960
+      ],
+      "rows": 12,
+      "counts": {
+        "reviewed": 7,
+        "partial": 5
+      }
+    },
+    {
+      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-08001-09000/sheets/levels-8961-8972.jpg",
+      "saved_range": [
+        8961,
+        8972
+      ],
+      "rows": 12,
+      "counts": {
+        "reviewed": 8,
+        "partial": 4
+      }
+    },
+    {
+      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-08001-09000/sheets/levels-8973-8984.jpg",
+      "saved_range": [
+        8973,
+        8984
+      ],
+      "rows": 12,
+      "counts": {
+        "reviewed": 9,
+        "partial": 3
+      }
+    },
+    {
+      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-08001-09000/sheets/levels-8985-8996.jpg",
+      "saved_range": [
+        8985,
+        8996
+      ],
+      "rows": 12,
+      "counts": {
+        "reviewed": 9,
+        "partial": 3
+      }
+    },
+    {
+      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-08001-09000/sheets/levels-8997-9000.jpg",
+      "saved_range": [
+        8997,
+        9000
+      ],
+      "rows": 4,
+      "counts": {
+        "partial": 1,
+        "reviewed": 3
+      }
+    }
+  ]
+}
