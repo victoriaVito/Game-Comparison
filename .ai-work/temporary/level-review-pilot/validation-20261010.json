@@ -21,8 +21,8 @@
     "follow_up": "Review the candidate geometry conflicts and partial cases before acceptance or scaling. No additional agent rerun was started.",
     "parent_visual_spot_check": {
       "sheet_paths": [
-        ".ai-work/temporary/level-review-pilot/royal-kingdom/sheets-20261009/levels-0505-0516.jpg",
-        ".ai-work/temporary/level-review-pilot/royal-kingdom/sheets-20261009/levels-0997-1000.jpg"
+        "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-pilot/royal-kingdom/sheets-20261009/levels-0505-0516.jpg",
+        "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-pilot/royal-kingdom/sheets-20261009/levels-0997-1000.jpg"
       ],
       "conflicts": [
         {

@@ -1,5 +1,5 @@
 {
-  "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9217-9228.jpg",
+  "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9217-9228.jpg",
   "levels": [
     9217,
     9218,
@@ -23,7 +23,7 @@
       "inspection_status": "reviewed",
       "image_path": "sources/royal-match-level-archive/levels/09217/board.jpg",
       "image_sha256": "1e99968ee6d94e84a043cb6482f90aa7f4f8723e10ce38e249dc8c769b443cab",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9217-9228.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9217-9228.jpg",
       "cell": 1,
       "geometry_tags": [
         "central_mass",
@@ -47,7 +47,7 @@
       "inspection_status": "reviewed",
       "image_path": "sources/royal-match-level-archive/levels/09218/board.jpg",
       "image_sha256": "86e40f4ea39977f8fef84692999a05a69eae606627c9056a707470b3d2bb5ce6",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9217-9228.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9217-9228.jpg",
       "cell": 2,
       "geometry_tags": [
         "compact_full_field",
@@ -71,7 +71,7 @@
       "inspection_status": "reviewed",
       "image_path": "sources/royal-match-level-archive/levels/09219/board.jpg",
       "image_sha256": "1923c63fad2222f96934ff28b0c0572fce74d532483f06af0beeed96d576ddbb",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9217-9228.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9217-9228.jpg",
       "cell": 3,
       "geometry_tags": [
         "compact_full_field",
@@ -95,7 +95,7 @@
       "inspection_status": "reviewed",
       "image_path": "sources/royal-match-level-archive/levels/09220/board.jpg",
       "image_sha256": "8be9fac4517b7e521f49eb77e330c2781758556ed3eb6c2c2189f67ba7b26acb",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9217-9228.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9217-9228.jpg",
       "cell": 4,
       "geometry_tags": [
         "compact_full_field",
@@ -119,7 +119,7 @@
       "inspection_status": "reviewed",
       "image_path": "sources/royal-match-level-archive/levels/09221/board.jpg",
       "image_sha256": "a93019559fddb2ee40247cb7412c73967dc9bf52d0aab01b9be189e2ebb623e2",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9217-9228.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9217-9228.jpg",
       "cell": 5,
       "geometry_tags": [
         "compact_full_field",
@@ -143,7 +143,7 @@
       "inspection_status": "reviewed",
       "image_path": "sources/royal-match-level-archive/levels/09222/board.jpg",
       "image_sha256": "90e51ce3a2c1c413821491c5d3b70d84ec97383d16a97dfb000d4df7fbccfcca",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9217-9228.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9217-9228.jpg",
       "cell": 6,
       "geometry_tags": [
         "layered_bands",
@@ -167,7 +167,7 @@
       "inspection_status": "reviewed",
       "image_path": "sources/royal-match-level-archive/levels/09223/board.jpg",
       "image_sha256": "3b87782f1254c87f503ed88915c6211963792bdac7de03560e2bb1d0306fe22e",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9217-9228.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9217-9228.jpg",
       "cell": 7,
       "geometry_tags": [
         "central_mass",
@@ -191,7 +191,7 @@
       "inspection_status": "partial",
       "image_path": "sources/royal-match-level-archive/levels/09224/board.jpg",
       "image_sha256": "6f5913e7c0354cb992e943687900893d8a27d2c1a1b257366e92e037fe267db0",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9217-9228.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9217-9228.jpg",
       "cell": 8,
       "geometry_tags": [],
       "observation": "A compact upper-right tile rectangle sits over a large dark red arena-like area, with purple and blue panels at the left; the match-grid perimeter is unclear.",
@@ -212,7 +212,7 @@
       "inspection_status": "reviewed",
       "image_path": "sources/royal-match-level-archive/levels/09225/board.jpg",
       "image_sha256": "384983cb9797cbfc150e1de9ccd4255d9ce97f6dd946a3064442a47a5af66fa6",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9217-9228.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9217-9228.jpg",
       "cell": 9,
       "geometry_tags": [
         "compact_full_field",
@@ -236,7 +236,7 @@
       "inspection_status": "reviewed",
       "image_path": "sources/royal-match-level-archive/levels/09226/board.jpg",
       "image_sha256": "27370fd9ebd181df33fe87c5e9e3c144b0bbcc5b208e6c19f43def3bb0553614",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9217-9228.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9217-9228.jpg",
       "cell": 10,
       "geometry_tags": [
         "compact_full_field",
@@ -260,7 +260,7 @@
       "inspection_status": "reviewed",
       "image_path": "sources/royal-match-level-archive/levels/09227/board.jpg",
       "image_sha256": "d79a910f16054f3aa52cb523349efea9ded58e2634ad033bd8e3cb23e9c38e7b",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9217-9228.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9217-9228.jpg",
       "cell": 11,
       "geometry_tags": [
         "compact_full_field"
@@ -283,7 +283,7 @@
       "inspection_status": "reviewed",
       "image_path": "sources/royal-match-level-archive/levels/09228/board.jpg",
       "image_sha256": "3bca06032cc351d0e6c4176aacd10f52feb541de566ee268fb661498d04944f7",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9217-9228.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9217-9228.jpg",
       "cell": 12,
       "geometry_tags": [
         "compact_full_field",

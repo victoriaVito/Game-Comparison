@@ -1,5 +1,5 @@
 {
-  "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9121-9132.jpg",
+  "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9121-9132.jpg",
   "levels": [
     9121,
     9122,
@@ -23,7 +23,7 @@
       "inspection_status": "partial",
       "image_path": "sources/royal-match-level-archive/levels/09121/board.jpg",
       "image_sha256": "1d915e861430cb7193a776f737aa9bd170531f83b263aed3601c45f982a30793",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9121-9132.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9121-9132.jpg",
       "cell": 1,
       "geometry_tags": [],
       "observation": "A large brown central blocker and purple striped bands occupy the left and lower portions, while a separate-looking tile field sits upper-right; the visible frame does not show a clear bridge.",
@@ -44,7 +44,7 @@
       "inspection_status": "reviewed",
       "image_path": "sources/royal-match-level-archive/levels/09122/board.jpg",
       "image_sha256": "55797382355c8a7bc085173ab431b481ad5c62ab03693a912cfa1c4cd081a8fb",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9121-9132.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9121-9132.jpg",
       "cell": 2,
       "geometry_tags": [
         "compact_full_field",
@@ -68,7 +68,7 @@
       "inspection_status": "reviewed",
       "image_path": "sources/royal-match-level-archive/levels/09123/board.jpg",
       "image_sha256": "8092e3ba133c25b4a1518e9271086595d5d1eff6bbf4612bf4c70ebf9b9e0d46",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9121-9132.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9121-9132.jpg",
       "cell": 3,
       "geometry_tags": [
         "compact_full_field",
@@ -92,7 +92,7 @@
       "inspection_status": "reviewed",
       "image_path": "sources/royal-match-level-archive/levels/09124/board.jpg",
       "image_sha256": "50392f4bda054cce9f6f2af5e5a65e434c2417f412d4b12e71ebb0dac1244d29",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9121-9132.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9121-9132.jpg",
       "cell": 4,
       "geometry_tags": [
         "compact_full_field",
@@ -116,7 +116,7 @@
       "inspection_status": "partial",
       "image_path": "sources/royal-match-level-archive/levels/09125/board.jpg",
       "image_sha256": "75b88cc107a5cfb520a908d9bc5ec1f062e263dc61a898c7f7d96c9a595d5f15",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9121-9132.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9121-9132.jpg",
       "cell": 5,
       "geometry_tags": [],
       "observation": "A large orange-red panel occupies most of the screen, with only a few small framed tiles along its lower edge; the panel is arena-like and not a clearly defined match grid.",
@@ -137,7 +137,7 @@
       "inspection_status": "reviewed",
       "image_path": "sources/royal-match-level-archive/levels/09126/board.jpg",
       "image_sha256": "23e3c62f210af2ad6057856e22b379bb3b251ec22686cb7f051aaf39f07535f9",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9121-9132.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9121-9132.jpg",
       "cell": 6,
       "geometry_tags": [
         "central_mass",
@@ -161,7 +161,7 @@
       "inspection_status": "partial",
       "image_path": "sources/royal-match-level-archive/levels/09127/board.jpg",
       "image_sha256": "795043cdd6b125b8264a3bf67b3cf6e74c73da9904dfa217de825d17b2c8a132",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9121-9132.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9121-9132.jpg",
       "cell": 7,
       "geometry_tags": [],
       "observation": "A left tile area and right tile area flank a vertical dark red central band with a separate cyan-framed strip; the band may be blocker cells, but the board connection is unclear at sheet scale.",
@@ -182,7 +182,7 @@
       "inspection_status": "reviewed",
       "image_path": "sources/royal-match-level-archive/levels/09128/board.jpg",
       "image_sha256": "78e65e32c73ba9e78ced8f4897b322105f1bf47777dfa5fdc8f67ffe94440673",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9121-9132.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9121-9132.jpg",
       "cell": 8,
       "geometry_tags": [
         "compact_full_field",
@@ -206,7 +206,7 @@
       "inspection_status": "reviewed",
       "image_path": "sources/royal-match-level-archive/levels/09129/board.jpg",
       "image_sha256": "72cb4cebfa791a641351d06be4daaafdd336057efd7c65b86094a0f36efd7254",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9121-9132.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9121-9132.jpg",
       "cell": 9,
       "geometry_tags": [
         "compact_full_field"
@@ -229,7 +229,7 @@
       "inspection_status": "partial",
       "image_path": "sources/royal-match-level-archive/levels/09130/board.jpg",
       "image_sha256": "f98a1f994b74bca0cbe473982aa7ef5551f3a3f348cf67d8823270fd3b5c532c",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9121-9132.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9121-9132.jpg",
       "cell": 10,
       "geometry_tags": [
         "compact_full_field",
@@ -253,7 +253,7 @@
       "inspection_status": "reviewed",
       "image_path": "sources/royal-match-level-archive/levels/09131/board.jpg",
       "image_sha256": "67e785031042de2bba681a2c388431f1c779a302687480c65ab83d6c8b6f2e7c",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9121-9132.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9121-9132.jpg",
       "cell": 11,
       "geometry_tags": [
         "edge_channels",
@@ -277,7 +277,7 @@
       "inspection_status": "partial",
       "image_path": "sources/royal-match-level-archive/levels/09132/board.jpg",
       "image_sha256": "07768e72753f02f5601a29672fbe10a94e72fd450b6aae3282bbf34612940b61",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9121-9132.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9121-9132.jpg",
       "cell": 12,
       "geometry_tags": [],
       "observation": "A small tile block is visible at upper-right, while two green framed panels sit below against empty background; the lower panels may be goals rather than a second play region.",

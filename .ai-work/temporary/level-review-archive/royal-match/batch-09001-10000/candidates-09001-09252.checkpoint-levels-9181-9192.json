@@ -1,5 +1,5 @@
 {
-  "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9181-9192.jpg",
+  "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9181-9192.jpg",
   "levels": [
     9181,
     9182,
@@ -23,7 +23,7 @@
       "inspection_status": "reviewed",
       "image_path": "sources/royal-match-level-archive/levels/09181/board.jpg",
       "image_sha256": "177891c8d73d4c3aec27d35178ccc855e943ab9f26f2b46cef044997af2b37e4",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9181-9192.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9181-9192.jpg",
       "cell": 1,
       "geometry_tags": [
         "compact_full_field",
@@ -47,7 +47,7 @@
       "inspection_status": "reviewed",
       "image_path": "sources/royal-match-level-archive/levels/09182/board.jpg",
       "image_sha256": "e88c4ed636ec5ca11b95cd1fd5e423cc93ea18e5983566d64b86e0bbe3d0d55d",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9181-9192.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9181-9192.jpg",
       "cell": 2,
       "geometry_tags": [
         "central_mass",
@@ -71,7 +71,7 @@
       "inspection_status": "reviewed",
       "image_path": "sources/royal-match-level-archive/levels/09183/board.jpg",
       "image_sha256": "2dfa0f2a8c59f4f57bedb71e179f32ecc2c2b155b366e69323aed632b833ada1",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9181-9192.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9181-9192.jpg",
       "cell": 3,
       "geometry_tags": [
         "open_center",
@@ -96,7 +96,7 @@
       "inspection_status": "reviewed",
       "image_path": "sources/royal-match-level-archive/levels/09184/board.jpg",
       "image_sha256": "7cd0cec3a149f8afccaa0ea0cac74883d4c14103abd999a90c31d1f041eeb6fa",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9181-9192.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9181-9192.jpg",
       "cell": 4,
       "geometry_tags": [
         "compact_full_field"
@@ -119,7 +119,7 @@
       "inspection_status": "partial",
       "image_path": "sources/royal-match-level-archive/levels/09185/board.jpg",
       "image_sha256": "d28c06c16cb514ff257d68d53f5087f73fb229cc7761925c606953b703c1efa6",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9181-9192.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9181-9192.jpg",
       "cell": 5,
       "geometry_tags": [],
       "observation": "A shallow upper row of tiles sits above several long green framed lanes with counters and flower columns; the lower lanes resemble objective panels rather than a clearly playable grid.",
@@ -140,7 +140,7 @@
       "inspection_status": "reviewed",
       "image_path": "sources/royal-match-level-archive/levels/09186/board.jpg",
       "image_sha256": "691f0ebeb7716d2cf4db2d864697df772b375cfcc4ed00bc437b4cec32c60645",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9181-9192.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9181-9192.jpg",
       "cell": 6,
       "geometry_tags": [
         "central_mass",
@@ -164,7 +164,7 @@
       "inspection_status": "partial",
       "image_path": "sources/royal-match-level-archive/levels/09187/board.jpg",
       "image_sha256": "c7a67643ffe000cead854e8c973d0c38fec52a49ea9314b9a7fc68ab75c7d077",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9181-9192.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9181-9192.jpg",
       "cell": 7,
       "geometry_tags": [],
       "observation": "A compact upper tile group sits above several lower pink-and-green framed panels across open background; the lower panels may be goals and their connection to the match grid is unclear.",
@@ -185,7 +185,7 @@
       "inspection_status": "reviewed",
       "image_path": "sources/royal-match-level-archive/levels/09188/board.jpg",
       "image_sha256": "b7b08aac8e0054a77c2f373c7a05101b73d551b90389d4f8daf3e67386040c62",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9181-9192.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9181-9192.jpg",
       "cell": 8,
       "geometry_tags": [
         "compact_full_field"
@@ -208,7 +208,7 @@
       "inspection_status": "partial",
       "image_path": "sources/royal-match-level-archive/levels/09189/board.jpg",
       "image_sha256": "01630c6dfabea5a91eb141e6f468cd307dbcc13c2c1f7aa40cbf2002334da084",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9181-9192.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9181-9192.jpg",
       "cell": 9,
       "geometry_tags": [],
       "observation": "Tile and purple blocker groups occupy the upper and lower board, while broad dark background separates them around central framed panels; board continuity is unclear at sheet scale.",
@@ -229,7 +229,7 @@
       "inspection_status": "reviewed",
       "image_path": "sources/royal-match-level-archive/levels/09190/board.jpg",
       "image_sha256": "7a4f7efd6fe9083d6b8fe6c78421fe1c04288af54e3c3f0c3b6dfc1d3b6ba61c",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9181-9192.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9181-9192.jpg",
       "cell": 10,
       "geometry_tags": [
         "layered_bands",
@@ -253,7 +253,7 @@
       "inspection_status": "reviewed",
       "image_path": "sources/royal-match-level-archive/levels/09191/board.jpg",
       "image_sha256": "a12538c5f55b4131c1031cf99e1803027d439f015ea8701cde6b1259dacbf648",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9181-9192.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9181-9192.jpg",
       "cell": 11,
       "geometry_tags": [
         "compact_full_field",
@@ -277,7 +277,7 @@
       "inspection_status": "partial",
       "image_path": "sources/royal-match-level-archive/levels/09192/board.jpg",
       "image_sha256": "3c1d9550d1f9b357ff9526c10af6976dde9527eb43f806952bf8c4959df6305c",
-      "sheet_path": ".ai-work/temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9181-9192.jpg",
+      "sheet_path": "/Volumes/Extreme Pro/6_niveles_outsourcing/eoc-level-captures/repo-ai-work-temporary/level-review-archive/royal-match/batch-09001-10000/sheets/levels-9181-9192.jpg",
       "cell": 12,
       "geometry_tags": [],
       "observation": "A compact tile block appears upper-right with lower framed panels and a blue vertical segment beneath it; large background gaps make it unclear whether these pieces form one play region.",
