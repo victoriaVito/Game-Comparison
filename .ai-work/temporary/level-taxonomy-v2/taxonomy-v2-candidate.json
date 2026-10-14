@@ -1,0 +1,1778 @@
+{
+  "version": "2-candidate",
+  "status": "candidate",
+  "generated_at": "2026-10-14T14:36:53.243Z",
+  "workflow_run_id": "3374bf5d-a1e6-4128-9b84-8ba1f799db01",
+  "scope": "Observable initial-board construction only; excludes difficulty, success rate, optimal strategy, and unseen mechanics.",
+  "sample": {
+    "levels": 114,
+    "observed": 114,
+    "per_band": 3,
+    "method": "deterministic SHA-1 order within game x 500-level band; tutorials and unknown-mode excluded"
+  },
+  "v1_traits": {
+    "compact_full_field": "One mostly contiguous play region with limited internal separation.",
+    "split_regions": "Two or more visibly disconnected play regions.",
+    "layered_bands": "The board is organized into distinct horizontal or vertical layers.",
+    "edge_channels": "Playable cells form narrow routes along one or more outer edges.",
+    "central_mass": "A large blocker or covered region dominates the board center.",
+    "open_center": "The central area is visibly empty while play regions surround it.",
+    "stair_step": "The playable boundary follows a stepped or diagonal progression.",
+    "asymmetric": "The major left and right board regions do not mirror each other."
+  },
+  "tags": [
+    {
+      "tag": "centered_lower_extension",
+      "definition": "A broad upper board narrows into a short extension centered on the bottom edge.",
+      "include_when": "The lower outline steps inward on both sides and continues into a visibly narrower, centered bottom section.",
+      "exclude_when": "The lower edge instead has a cut-in, off-center extension, or multiple separated projections.",
+      "example_levels": [
+        "royal-kingdom:840",
+        "royal-kingdom:1465",
+        "royal-kingdom:1685",
+        "royal-match:1827",
+        "royal-match:5027"
+      ],
+      "v1_overlap": "Related to stair_step when the outline steps inward, but it captures the specific centered lower extension not named by a v1 tag.",
+      "dimension": "silhouette",
+      "support": 5,
+      "status": "candidate",
+      "accepted": false,
+      "reproducibility": {
+        "positives_checked": 3,
+        "positives_confirmed": 3,
+        "negatives_checked": 3,
+        "negatives_rejected": 3,
+        "unexpected_matches": [],
+        "verdict": "reproducible",
+        "details": [
+          {
+            "id": "royal-match:5027",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "The broad upper boundary steps inward on both sides and continues into a narrower, centered lower section. The pieces and central object do not change the visible board outline."
+          },
+          {
+            "id": "royal-kingdom:1685",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "The broad board narrows symmetrically at the bottom into a short centered extension. The blockers above the board are separate from its outline."
+          },
+          {
+            "id": "royal-kingdom:1465",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Both sides of the broad board step inward near the bottom, continuing into a short, narrower centered section."
+          },
+          {
+            "id": "royal-match:11866",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "The lower board separates into two side sections around a central cut-in; it does not continue into one centered bottom extension."
+          },
+          {
+            "id": "royal-match:3264",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "The visible board has an irregular arrangement of sections rather than a broad upper outline narrowing into a single centered bottom extension."
+          },
+          {
+            "id": "royal-kingdom:2050",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "The lower outline has a central cut-in and separate side projections, rather than a narrower centered section extending from the broad upper board."
+          }
+        ]
+      }
+    },
+    {
+      "tag": "lower_edge_cut_in",
+      "definition": "A visible notch or cut-in removes part of the board outline along its lower edge.",
+      "include_when": "The bottom boundary visibly recedes inward, creating a notch, inset, or cutout.",
+      "exclude_when": "The lower outline only narrows into a centered extension or projects outward without a cut-in.",
+      "example_levels": [
+        "royal-kingdom:2050",
+        "royal-kingdom:3030",
+        "royal-match:11448"
+      ],
+      "v1_overlap": "May resemble stair_step, but v1 does not specify that the stepped boundary forms a lower-edge cut-in.",
+      "dimension": "silhouette",
+      "support": 3,
+      "status": "candidate",
+      "accepted": false,
+      "reproducibility": {
+        "positives_checked": 3,
+        "positives_confirmed": 3,
+        "negatives_checked": 3,
+        "negatives_rejected": 2,
+        "unexpected_matches": [
+          "royal-match:3264"
+        ],
+        "verdict": "reproducible_broader_than_examples",
+        "details": [
+          {
+            "id": "royal-kingdom:1920",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "The lower outline narrows into a centered extension; it does not show a notch cut into the bottom boundary."
+          },
+          {
+            "id": "royal-kingdom:813",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "The board narrows into a centered extension at the bottom, with no visible cut-in along the lower edge."
+          },
+          {
+            "id": "royal-match:3264",
+            "applies": true,
+            "confidence": "medium",
+            "evidence": "The lower-left outline steps inward as the board descends, leaving sections cut out of the lower boundary; this is part of the board shape, not just blocker placement."
+          },
+          {
+            "id": "royal-kingdom:3030",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "The lower edge has a prominent central cut-in between the two lower board sections."
+          },
+          {
+            "id": "royal-match:11448",
+            "applies": true,
+            "confidence": "medium",
+            "evidence": "The lower outline has a large inward cutout between the narrow lower-left section and the board section on the right; the striped element sits over the board but does not form that cutout."
+          },
+          {
+            "id": "royal-kingdom:2050",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "A central notch cuts upward into the lower edge of the board, visibly removing part of its outline."
+          }
+        ]
+      }
+    },
+    {
+      "tag": "pinched_side_contour",
+      "definition": "Deep inward recesses along one or both sides visibly narrow the board around a middle or lower section.",
+      "include_when": "One or both lateral boundaries indent enough to create a pronounced waist or separate wider sections above and below.",
+      "exclude_when": "The outline has only a shallow edge notch, or narrows solely at the bottom into a centered extension.",
+      "example_levels": [
+        "royal-match:4615",
+        "royal-match:2769",
+        "royal-match:2935",
+        "royal-match:12590",
+        "royal-match:13496"
+      ],
+      "v1_overlap": "Related to stair_step when recesses are stepped; asymmetric may apply when the recesses differ between sides. Neither v1 tag specifies a pinched contour.",
+      "dimension": "silhouette",
+      "support": 5,
+      "status": "candidate",
+      "accepted": false,
+      "reproducibility": {
+        "positives_checked": 3,
+        "positives_confirmed": 3,
+        "negatives_checked": 3,
+        "negatives_rejected": 3,
+        "unexpected_matches": [],
+        "verdict": "reproducible",
+        "details": [
+          {
+            "id": "royal-match:12590",
+            "applies": true,
+            "confidence": "medium",
+            "evidence": "The playable outline has pronounced inward steps on both sides around the middle, with wider board sections above and below; these are contour changes rather than just the placement of blockers."
+          },
+          {
+            "id": "royal-match:2769",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "The right boundary recesses deeply between the broad upper and lower sections, creating a pronounced side pinch."
+          },
+          {
+            "id": "royal-match:2935",
+            "applies": true,
+            "confidence": "medium",
+            "evidence": "The outline narrows substantially at the central transition between the broad upper and lower board sections, with deep inward side steps."
+          },
+          {
+            "id": "royal-match:7740",
+            "applies": false,
+            "confidence": "medium",
+            "evidence": "The visible playable outline does not show a pronounced side recess narrowing the board around its middle or lower section; the colored blocks and tiles are placements within the board."
+          },
+          {
+            "id": "royal-match:4426",
+            "applies": false,
+            "confidence": "medium",
+            "evidence": "The outline has a localized step near the left side, but it does not form a pronounced waist or deep side recess separating wider sections."
+          },
+          {
+            "id": "royal-kingdom:813",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "The board stays broad through its sides and narrows only into a centered extension at the bottom, which the definition excludes."
+          }
+        ]
+      }
+    },
+    {
+      "tag": "offset_lateral_appendage",
+      "definition": "A distinct board section projects from, extends beyond, or is vertically offset from one side of the main outline.",
+      "include_when": "A screenshot shows a recognizable one-sided lobe, wing, extension, or offset section beyond the adjacent main-board boundary.",
+      "exclude_when": "The outline is bilaterally balanced, the only feature is a centered lower extension, or the apparent division is an internal gap without an offset outer contour.",
+      "example_levels": [
+        "royal-match:104",
+        "royal-match:418",
+        "royal-match:1643",
+        "royal-match:3264",
+        "royal-match:4969",
+        "royal-match:5244",
+        "royal-match:5971",
+        "royal-match:6006",
+        "royal-match:6327",
+        "royal-match:6811",
+        "royal-match:7452",
+        "royal-match:8068",
+        "royal-match:9644",
+        "royal-match:10377",
+        "royal-match:12174"
+      ],
+      "v1_overlap": "Overlaps with asymmetric when the appendage makes the left and right outlines differ. Treat this tag as a specific contour feature and asymmetric as a whole-board symmetry judgment.",
+      "dimension": "silhouette",
+      "support": 15,
+      "status": "candidate",
+      "accepted": false,
+      "reproducibility": {
+        "positives_checked": 3,
+        "positives_confirmed": 3,
+        "negatives_checked": 3,
+        "negatives_rejected": 3,
+        "unexpected_matches": [],
+        "verdict": "reproducible",
+        "details": [
+          {
+            "id": "royal-match:9644",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "El contorno del tablero incluye una columna lateral a la derecha que sobresale del límite del bloque principal; no parece ser solo una división interna."
+          },
+          {
+            "id": "royal-match:7056",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "El contorno visible del tablero es aproximadamente rectangular y equilibrado a ambos lados; las diferencias visibles corresponden a elementos dentro del tablero."
+          },
+          {
+            "id": "royal-kingdom:3089",
+            "applies": false,
+            "confidence": "medium",
+            "evidence": "La zona superior del tablero tiene secciones laterales visibles a ambos lados del área central, y hay una extensión inferior centrada. No se aprecia un apéndice lateral unilateral."
+          },
+          {
+            "id": "royal-match:6327",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "El contorno del tablero se extiende hacia la izquierda, formando una sección lateral que sobresale del límite del bloque principal, cuyo borde superior empieza más a la derecha."
+          },
+          {
+            "id": "royal-kingdom:2608",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "El contorno muestra secciones a ambos lados de una zona central retraída, dispuestas de forma aproximadamente equilibrada; no se distingue una extensión unilateral."
+          },
+          {
+            "id": "royal-match:1643",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Una sección del tablero se prolonga hacia la derecha más allá del borde del bloque principal, formando un apéndice lateral reconocible."
+          }
+        ]
+      }
+    },
+    {
+      "tag": "separated_panel_outline",
+      "definition": "The board silhouette consists of visibly detached or narrowly separated framed regions rather than one continuous outline.",
+      "include_when": "Two or more framed board areas are visibly apart, or a narrow gap clearly separates distinct panel-like regions.",
+      "exclude_when": "A narrow passage connects the regions into one continuous outline, or divisions are only internal layers within a contiguous board.",
+      "example_levels": [
+        "royal-match:26",
+        "royal-match:2067",
+        "royal-kingdom:3089",
+        "royal-kingdom:4391"
+      ],
+      "v1_overlap": "Overlaps with split_regions when the areas are disconnected. Use split_regions for connectivity and this tag for the panel-like silhouette.",
+      "dimension": "silhouette",
+      "support": 4,
+      "status": "candidate",
+      "accepted": false,
+      "reproducibility": {
+        "positives_checked": 3,
+        "positives_confirmed": 3,
+        "negatives_checked": 3,
+        "negatives_rejected": 2,
+        "unexpected_matches": [
+          "royal-match:6327"
+        ],
+        "verdict": "reproducible_broader_than_examples",
+        "details": [
+          {
+            "id": "royal-kingdom:3089",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "El panel inferior ancho está visiblemente separado del área superior enmarcada por un espacio claro."
+          },
+          {
+            "id": "royal-match:9644",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "Las zonas de la izquierda y la derecha están conectadas por una columna vertical de casillas verdes; forman un contorno continuo."
+          },
+          {
+            "id": "royal-match:8575",
+            "applies": false,
+            "confidence": "medium",
+            "evidence": "El contorno escalonado del tablero se ve continuo alrededor de la zona de casillas y el panel amarillo; no se distinguen dos marcos separados."
+          },
+          {
+            "id": "royal-match:6327",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "El tablero rectangular principal y la franja horizontal inferior están enmarcados como áreas distintas y separados por un espacio visible."
+          },
+          {
+            "id": "royal-match:2067",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "La franja horizontal enmarcada de la parte inferior está claramente separada del tablero principal por un espacio."
+          },
+          {
+            "id": "royal-kingdom:4391",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Se ven dos grandes regiones enmarcadas, una a cada lado, separadas entre sí por un espacio amplio; el elemento pequeño superior también está aislado."
+          }
+        ]
+      }
+    },
+    {
+      "tag": "narrow_connectors",
+      "definition": "A visibly narrow neck, passage, or span links two broader board areas.",
+      "include_when": "Use when a constricted section is the visible connection between broader areas, such as a narrow central passage, side spur, or neck between chambers.",
+      "exclude_when": "Do not use for a narrow lane that does not connect broader areas, for broad or uniform joins, or when the areas are visibly disconnected.",
+      "example_levels": [
+        "royal-kingdom:1292",
+        "royal-kingdom:1920",
+        "royal-kingdom:2088",
+        "royal-match:2769",
+        "royal-match:2935",
+        "royal-match:3621",
+        "royal-match:6227",
+        "royal-match:6811",
+        "royal-match:10285",
+        "royal-match:10699",
+        "royal-match:11782"
+      ],
+      "v1_overlap": "Partial overlap with layered_bands and stair_step: those tags describe band organization or stepped outlines, not the narrow connection itself. Complements split_regions when a narrow link keeps areas connected.",
+      "dimension": "spatial_structure",
+      "support": 11,
+      "status": "candidate",
+      "accepted": false,
+      "reproducibility": {
+        "positives_checked": 3,
+        "positives_confirmed": 1,
+        "negatives_checked": 3,
+        "negatives_rejected": 3,
+        "unexpected_matches": [],
+        "verdict": "partially_reproducible",
+        "details": [
+          {
+            "id": "royal-match:3621",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Dos pasos laterales estrechos rodean una zona central sin tablero y conectan la zona superior ancha con la fila inferior ancha."
+          },
+          {
+            "id": "royal-kingdom:1920",
+            "applies": false,
+            "confidence": "medium",
+            "evidence": "La zona jugable inferior es amplia; su contorno tiene una hendidura superior, pero no se ve un cuello estrecho que conecte dos zonas más anchas."
+          },
+          {
+            "id": "royal-match:6811",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "La sección superior derecha se une a la zona inferior amplia mediante un tramo ancho; las columnas estrechas visibles corresponden a elementos del tablero, no a su contorno."
+          },
+          {
+            "id": "royal-kingdom:217",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "El contorno jugable muestra una zona amplia y continua; los bloques interiores no forman un cuello del límite del tablero."
+          },
+          {
+            "id": "royal-kingdom:5143",
+            "applies": false,
+            "confidence": "medium",
+            "evidence": "El contorno visible se ensancha hacia la zona derecha y no muestra un cuello estrecho entre dos áreas amplias; los pasillos estrechos aparentes se deben a elementos interiores."
+          },
+          {
+            "id": "royal-match:8068",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "La sección superior y la zona inferior amplia se unen a lo largo de un tramo ancho; no se aprecia un cuello estrecho en el contorno jugable."
+          }
+        ]
+      }
+    },
+    {
+      "tag": "barrier_defined_lanes",
+      "definition": "One or more long, visually continuous barriers divide a board area into parallel lanes or intersecting lane-like routes.",
+      "include_when": "Use when elongated vertical or horizontal barriers visibly form parallel routes, or when crossing barrier bands subdivide the field into lane-like sections.",
+      "exclude_when": "Do not use for a single broad central obstacle without lane formation, ordinary board edges, or a single narrow connector between larger areas.",
+      "example_levels": [
+        "royal-kingdom:1685",
+        "royal-kingdom:2050",
+        "royal-kingdom:3646",
+        "royal-match:572",
+        "royal-match:1127",
+        "royal-match:1827",
+        "royal-match:2067",
+        "royal-match:2454",
+        "royal-match:5971",
+        "royal-match:7740",
+        "royal-match:8382",
+        "royal-match:9074",
+        "royal-match:9966",
+        "royal-match:12081",
+        "royal-match:12038"
+      ],
+      "v1_overlap": "Partial overlap with layered_bands and central_mass. Use layered_bands for broad layer organization; use central_mass for a dominant central block. This tag specifically requires barriers that visibly create lanes or crossing subdivisions.",
+      "dimension": "spatial_structure",
+      "support": 15,
+      "status": "candidate",
+      "accepted": false,
+      "reproducibility": {
+        "positives_checked": 3,
+        "positives_confirmed": 2,
+        "negatives_checked": 3,
+        "negatives_rejected": 2,
+        "unexpected_matches": [
+          "royal-match:9644"
+        ],
+        "verdict": "partially_reproducible",
+        "details": [
+          {
+            "id": "royal-kingdom:217",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "El tablero muestra obstáculos agrupados en una zona central y elementos a los lados, pero no barreras largas que formen rutas paralelas o secciones tipo carril. La franja decorativa está sobre la cuadrícula, no subdivide el área jugable."
+          },
+          {
+            "id": "royal-match:3019",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "Los bloques ocupan una zona central amplia; no forman barreras alargadas que subdividan el tablero en carriles. El paso estrecho junto a esa zona no basta para aplicar la etiqueta."
+          },
+          {
+            "id": "royal-match:5971",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Varias barreras florales largas y horizontales atraviesan el área jugable en paralelo, formando secciones tipo carril."
+          },
+          {
+            "id": "royal-kingdom:1685",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "Los bloqueadores azules aparecen en posiciones dispersas de la cuadrícula y no forman barreras continuas que creen carriles."
+          },
+          {
+            "id": "royal-match:9644",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Dos bandas largas y horizontales atraviesan la zona jugable, separando filas en secciones paralelas tipo carril."
+          },
+          {
+            "id": "royal-match:2067",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Varias barreras verticales largas de aspecto tubular atraviesan distintas partes del tablero y dividen el área jugable en carriles paralelos."
+          }
+        ]
+      }
+    },
+    {
+      "tag": "recessed_pockets",
+      "definition": "One or more distinct, bounded bays or pockets are inset into or project from the edge of a broader board area.",
+      "include_when": "Use when a screenshot shows a clearly delineated side, corner, upper, or lower pocket or bay distinct from the neighboring field; multiple repeated pockets also qualify.",
+      "exclude_when": "Do not use for generic compartments within a regular grid, broad connected tiers, simple board extensions, or separated panels without a pocket-like recess or projection.",
+      "example_levels": [
+        "royal-kingdom:1133",
+        "royal-kingdom:1292",
+        "royal-kingdom:1729",
+        "royal-kingdom:2058",
+        "royal-kingdom:2177",
+        "royal-kingdom:1180",
+        "royal-match:1926",
+        "royal-match:4444",
+        "royal-match:4509",
+        "royal-match:4687",
+        "royal-match:5142",
+        "royal-match:6227",
+        "royal-match:6821",
+        "royal-match:8382",
+        "royal-match:9351",
+        "royal-match:10855",
+        "royal-match:12896"
+      ],
+      "v1_overlap": "Partial overlap with edge_channels and asymmetric when pockets sit along one edge or are unevenly arranged. Those tags describe edge routes or overall imbalance, not bounded pocket shapes.",
+      "dimension": "spatial_structure",
+      "support": 17,
+      "status": "candidate",
+      "accepted": false,
+      "reproducibility": {
+        "positives_checked": 3,
+        "positives_confirmed": 2,
+        "negatives_checked": 3,
+        "negatives_rejected": 2,
+        "unexpected_matches": [
+          "royal-match:13496"
+        ],
+        "verdict": "partially_reproducible",
+        "details": [
+          {
+            "id": "royal-match:10855",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "El contorno del tablero muestra varias zonas inferiores delimitadas que se apartan del campo superior, incluidas áreas en las esquinas inferiores; no dependen solo de la colocación de bloqueadores."
+          },
+          {
+            "id": "royal-match:3081",
+            "applies": false,
+            "confidence": "medium",
+            "evidence": "El campo principal visible tiene un contorno rectangular. Los cilindros laterales parecen elementos fuera de ese contorno, no bahías del tablero; el personaje tapa parte del centro."
+          },
+          {
+            "id": "royal-match:13496",
+            "applies": true,
+            "confidence": "medium",
+            "evidence": "El campo ancho superior se estrecha hacia una zona central y termina en dos bahías inferiores laterales, separadas por una muesca visible en el borde del tablero."
+          },
+          {
+            "id": "royal-kingdom:1292",
+            "applies": true,
+            "confidence": "medium",
+            "evidence": "La zona inferior amplia tiene una muesca central profunda que separa dos bahías laterales; se aprecia además un tramo superior más estrecho. La flecha superpuesta cubre parte del centro."
+          },
+          {
+            "id": "royal-match:3791",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "Se ven dos paneles de tablero separados por un espacio vacío, sin una conexión o bahía claramente delineada entre ellos; no basta para identificar un bolsillo en el borde."
+          },
+          {
+            "id": "royal-kingdom:2058",
+            "applies": false,
+            "confidence": "medium",
+            "evidence": "El contorno forma niveles y extensiones escalonadas conectadas, pero no se distingue una bahía acotada separada del campo vecino."
+          }
+        ]
+      }
+    },
+    {
+      "tag": "looping_corridors",
+      "definition": "A long, narrow route or boundary visibly bends around a central chamber or covered area in repeated turns or loops.",
+      "include_when": "Use when a route or striped boundary makes a winding or repeated rectangular path around an interior area, rather than running as a straight lane.",
+      "exclude_when": "Do not use for a single bend, ordinary stepped board edges, or parallel lanes that do not curve around an interior area.",
+      "example_levels": [
+        "royal-kingdom:4409",
+        "royal-match:4870",
+        "royal-match:8425",
+        "royal-match:10377"
+      ],
+      "v1_overlap": "Partial overlap with edge_channels and stair_step when a winding path follows an edge or stepped outline; those tags do not capture repeated interior turns or loops.",
+      "dimension": "spatial_structure",
+      "support": 4,
+      "status": "candidate",
+      "accepted": false,
+      "reproducibility": {
+        "positives_checked": 3,
+        "positives_confirmed": 2,
+        "negatives_checked": 3,
+        "negatives_rejected": 3,
+        "unexpected_matches": [],
+        "verdict": "partially_reproducible",
+        "details": [
+          {
+            "id": "royal-match:4870",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "A bright striped route repeatedly winds in rectangular turns around the central covered area; this is a visible route, not the outer board boundary."
+          },
+          {
+            "id": "royal-match:10377",
+            "applies": false,
+            "confidence": "medium",
+            "evidence": "The board shows an irregular arrangement of playable cells and roof-like blockers, but no striped route making repeated loops around an interior area."
+          },
+          {
+            "id": "royal-match:12590",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "The board has separated groups of covered elements and a stepped outer shape, but no narrow route or striped boundary looping around a central area."
+          },
+          {
+            "id": "royal-kingdom:4391",
+            "applies": false,
+            "confidence": "low",
+            "evidence": "Only two separate rectangular elements are visible; no winding route around a central area can be seen. The board area is not fully visible, limiting confidence."
+          },
+          {
+            "id": "royal-match:104",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "The board consists of side-by-side rectangular sections with crates on one side; there is no repeated winding route around an interior area."
+          },
+          {
+            "id": "royal-kingdom:4409",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "The striped boundary winds through repeated rectangular turns around several covered areas and a central compartment; it is distinct from the outer playable-board boundary."
+          }
+        ]
+      }
+    },
+    {
+      "tag": "bilateral_reflection",
+      "definition": "The board outline, prominent structural features, or major region placement approximately reflects across a horizontal or vertical axis; internal element types or contents need not match.",
+      "include_when": "A screenshot shows a clear approximate mirror relationship across the horizontal or vertical midpoint in the outline, prominent features, or placement of major regions, even if the elements within paired regions differ.",
+      "exclude_when": "The layout is merely balanced or similarly sized without a visible reflection pattern, or any apparent match is limited to minor details rather than the outline or major structures.",
+      "example_levels": [
+        "royal-kingdom:2608",
+        "royal-kingdom:5244",
+        "royal-match:26",
+        "royal-match:2729",
+        "royal-match:2935",
+        "royal-match:3081",
+        "royal-match:11866"
+      ],
+      "v1_overlap": "May overlap with v1 `asymmetric` when the outer structure reflects but the contents differ. Distinguish structural reflection from matching internal content; both tags may apply if the major regions themselves are not mirrored.",
+      "dimension": "symmetry",
+      "support": 7,
+      "status": "candidate",
+      "accepted": false,
+      "reproducibility": {
+        "positives_checked": 3,
+        "positives_confirmed": 3,
+        "negatives_checked": 3,
+        "negatives_rejected": 1,
+        "unexpected_matches": [
+          "royal-kingdom:3575",
+          "royal-match:3621"
+        ],
+        "verdict": "reproducible_broader_than_examples",
+        "details": [
+          {
+            "id": "royal-match:2935",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "The playable outline has broad upper and lower sections around a narrow central section, and the prominent blue structures in the middle are placed as matching left-right pairs across the vertical midpoint. Internal tiles differ, but the major structure reflects."
+          },
+          {
+            "id": "royal-kingdom:5142",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "The playable layout is visibly asymmetric: the upper-left tile area, upper-right framed area, and separate lower-left framed area do not reflect across either midpoint. The open scenic areas are not a matching board structure."
+          },
+          {
+            "id": "royal-kingdom:3575",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "The playable board outline is broadly rectangular with a centered notch at the bottom, and the prominent target columns at the left and right edges form a clear left-right reflection across the vertical midpoint. Tile contents between them differ."
+          },
+          {
+            "id": "royal-match:3621",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "The playable outline and prominent structures reflect across the vertical midpoint: the stepped upper rows, side columns, paired lower side sections, and centered lower gap are arranged symmetrically. Internal tiles do not all match."
+          },
+          {
+            "id": "royal-kingdom:2608",
+            "applies": true,
+            "confidence": "medium",
+            "evidence": "The board’s major structures show an approximate top-bottom reflection: the two framed central compartments are stacked as a matching pair, with the left blocker features also repeated above and below the midpoint. Tile contents in the right-side region differ."
+          },
+          {
+            "id": "royal-kingdom:5244",
+            "applies": true,
+            "confidence": "medium",
+            "evidence": "The board’s major structures show an approximate top-bottom reflection: the two framed central compartments are stacked as a matching pair, with the left blocker features also repeated above and below the midpoint. Tile contents in the right-side region differ."
+          }
+        ]
+      }
+    },
+    {
+      "tag": "cross_board_horizontal_band",
+      "definition": "A visually distinct horizontal row or band of elements extends across most of the board width.",
+      "include_when": "Use when a continuous or nearly continuous horizontal strip spans most of the visible board at one height or across a few adjacent rows, including strips that separate upper and lower zones.",
+      "exclude_when": "Do not use for short bars confined to one area, broad rectangular masses without a band-like shape, or rows of ordinary pieces that do not form a distinct visible strip.",
+      "example_levels": [
+        "royal-kingdom:217",
+        "royal-kingdom:2050",
+        "royal-kingdom:3646",
+        "royal-match:571",
+        "royal-match:536",
+        "royal-match:3622",
+        "royal-match:7056",
+        "royal-match:5180",
+        "royal-match:5774",
+        "royal-match:9966",
+        "royal-match:7542",
+        "royal-match:9542"
+      ],
+      "v1_overlap": "Partial overlap with layered_bands: use this tag for a distinct cross-board strip, and layered_bands for the broader organization of the playable area into tiers.",
+      "dimension": "element_placement",
+      "support": 12,
+      "status": "candidate",
+      "accepted": false,
+      "reproducibility": {
+        "positives_checked": 3,
+        "positives_confirmed": 3,
+        "negatives_checked": 3,
+        "negatives_rejected": 2,
+        "unexpected_matches": [
+          "royal-match:8382"
+        ],
+        "verdict": "reproducible_broader_than_examples",
+        "details": [
+          {
+            "id": "royal-kingdom:217",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "A distinct row of blue-and-gold shield-like elements runs across nearly the full board width above the main tile area."
+          },
+          {
+            "id": "royal-match:7542",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "A row of paw-print jars forms a distinct strip across most of the board width, just above the brown lower section."
+          },
+          {
+            "id": "royal-kingdom:2050",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "A bright cyan horizontal beam spans nearly the full board width; a separate row of shield-like elements also runs across most of the board below it."
+          },
+          {
+            "id": "royal-kingdom:3636",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "The flower elements form left and right rows, but a wide central purple mass separates them; no nearly continuous horizontal strip spans most of the board."
+          },
+          {
+            "id": "royal-match:8382",
+            "applies": true,
+            "confidence": "medium",
+            "evidence": "At two heights, purple arrow tiles form horizontal strips across much of the board, though central emblem tiles and end pieces interrupt them."
+          },
+          {
+            "id": "royal-match:6327",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "The visible elements form separate clusters and vertical sections; there is no distinct horizontal strip spanning most of the board."
+          }
+        ]
+      }
+    },
+    {
+      "tag": "edge_side_bank",
+      "definition": "Repeated elements form a prominent column or bank along one or both outer sides of the board.",
+      "include_when": "Use when several visible objects, blockers, or framed cells align in a tall stack or repeated bank in an outermost side lane.",
+      "exclude_when": "Do not use for an isolated object near a corner, elements merely distributed across a side region, or a narrow playable route along an edge without a repeated element bank.",
+      "example_levels": [
+        "royal-kingdom:49",
+        "royal-kingdom:5143",
+        "royal-match:3575",
+        "royal-match:4426",
+        "royal-match:6006",
+        "royal-match:7610",
+        "royal-match:8068",
+        "royal-match:9074",
+        "royal-match:9351",
+        "royal-match:10285",
+        "royal-match:11081",
+        "royal-match:11706",
+        "royal-match:12081",
+        "royal-match:12896"
+      ],
+      "v1_overlap": "Partial overlap with edge_channels: distinguish banks of visible elements along the edge from playable cells forming a narrow edge route.",
+      "dimension": "element_placement",
+      "support": 14,
+      "status": "candidate",
+      "accepted": false,
+      "reproducibility": {
+        "positives_checked": 3,
+        "positives_confirmed": 3,
+        "negatives_checked": 3,
+        "negatives_rejected": 1,
+        "unexpected_matches": [
+          "royal-match:2067",
+          "royal-match:7056"
+        ],
+        "verdict": "reproducible_broader_than_examples",
+        "details": [
+          {
+            "id": "royal-match:11706",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "En el extremo derecho hay una columna alta y continua de cinco celdas enmarcadas repetidas; no es solo el borde del tablero."
+          },
+          {
+            "id": "royal-match:5971",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "Las flores forman bandas horizontales y un tramo vertical interior; no se observa una columna repetida prominente en un carril lateral exterior."
+          },
+          {
+            "id": "royal-match:2067",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Una columna vertical de segmentos de tubería ocupa el carril más a la derecha, desde la parte superior hasta la inferior del tablero."
+          },
+          {
+            "id": "royal-match:8068",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "En el lado derecho, varias rocas repetidas forman una columna alta junto al límite del tablero; también hay celdas azules enmarcadas apiladas en el extremo izquierdo."
+          },
+          {
+            "id": "royal-match:7056",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "El carril más a la izquierda contiene una columna alta de objetos circulares repetidos, claramente alineados junto al borde del tablero."
+          },
+          {
+            "id": "royal-match:9351",
+            "applies": true,
+            "confidence": "medium",
+            "evidence": "En el extremo izquierdo se ven tres piezas moradas repetidas apiladas verticalmente junto al límite del tablero; la columna está en la parte superior y no continúa como la misma pieza más abajo."
+          }
+        ]
+      }
+    },
+    {
+      "tag": "localized_solid_mass",
+      "definition": "A large contiguous patch or panel of similar elements occupies a substantial, localized part of the board.",
+      "include_when": "Use when a visibly dense, mostly contiguous area of blockers, covered cells, or other similar elements forms a substantial patch or panel, regardless of its position.",
+      "exclude_when": "Do not use for a thin horizontal band, scattered or separated clusters, or a large area that is not visually distinguishable as a contiguous patch.",
+      "example_levels": [
+        "royal-match:104",
+        "royal-kingdom:1729",
+        "royal-match:2708",
+        "royal-match:3019",
+        "royal-match:4235",
+        "royal-match:4426",
+        "royal-match:4444",
+        "royal-match:6227",
+        "royal-match:8575",
+        "royal-match:8606",
+        "royal-match:10166"
+      ],
+      "v1_overlap": "Partial overlap with central_mass when the patch dominates the center; central_mass should remain specific to that central placement.",
+      "dimension": "element_placement",
+      "support": 11,
+      "status": "candidate",
+      "accepted": false,
+      "reproducibility": {
+        "positives_checked": 3,
+        "positives_confirmed": 3,
+        "negatives_checked": 3,
+        "negatives_rejected": 1,
+        "unexpected_matches": [
+          "royal-match:6573",
+          "royal-kingdom:1133"
+        ],
+        "verdict": "reproducible_broader_than_examples",
+        "details": [
+          {
+            "id": "royal-kingdom:1729",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "A dense, contiguous block of brown barrel-like blockers fills much of the upper-left board area, clearly distinct from the playable board outline."
+          },
+          {
+            "id": "royal-match:6573",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "A broad, contiguous panel of purple covered-pot elements occupies the lower-center portion of the playable board."
+          },
+          {
+            "id": "royal-match:10377",
+            "applies": false,
+            "confidence": "medium",
+            "evidence": "The brown roof-like blockers form long horizontal strips and separated sections rather than a clearly localized contiguous patch; the irregular outline is the board boundary."
+          },
+          {
+            "id": "royal-match:4235",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "A large, solid area of brown roof-like blockers fills much of the upper-right board, forming a clearly contiguous localized panel."
+          },
+          {
+            "id": "royal-kingdom:1133",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "A dense, contiguous field of pink covered elements occupies a substantial lower portion of the board."
+          },
+          {
+            "id": "royal-match:104",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "A compact rectangular panel of adjacent wooden blockers fills much of the right side of the playable board."
+          }
+        ]
+      }
+    },
+    {
+      "tag": "repeated_framed_compartments",
+      "definition": "Multiple visibly bounded or framed pockets recur across the board, each enclosing a group of elements.",
+      "include_when": "Use when at least two separate pockets have clear borders or frames and visibly contain grouped elements, especially when the pockets repeat in shape or style.",
+      "exclude_when": "Do not use for one framed area, unframed clusters, or a continuous panel with small openings that are not distinct framed pockets.",
+      "example_levels": [
+        "royal-kingdom:1729",
+        "royal-kingdom:2608",
+        "royal-match:1926",
+        "royal-match:6327",
+        "royal-match:7610",
+        "royal-match:9351",
+        "royal-match:12174"
+      ],
+      "v1_overlap": "Possible overlap with split_regions when the compartments are visibly disconnected play areas; this tag describes repeated framing, not separation alone.",
+      "dimension": "element_placement",
+      "support": 7,
+      "status": "candidate",
+      "accepted": false,
+      "reproducibility": {
+        "positives_checked": 3,
+        "positives_confirmed": 3,
+        "negatives_checked": 3,
+        "negatives_rejected": 2,
+        "unexpected_matches": [
+          "royal-match:571"
+        ],
+        "verdict": "reproducible_broader_than_examples",
+        "details": [
+          {
+            "id": "royal-match:9351",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "En el área jugable se ven tres compartimentos separados con bordes morados, cada uno agrupando piezas: dos a la derecha y uno en la parte inferior."
+          },
+          {
+            "id": "royal-kingdom:2801",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "El área jugable muestra una gran superficie continua de fichas rosas y filas de piezas abajo; no hay varios compartimentos enmarcados distintos."
+          },
+          {
+            "id": "royal-match:6327",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Se repiten varios bolsillos enmarcados de color naranja, separados entre sí; cada uno contiene grupos de objetos."
+          },
+          {
+            "id": "royal-kingdom:3575",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "La cuadrícula jugable visible es continua; los dos objetos con marco están por encima de ella, fuera del límite de la cuadrícula."
+          },
+          {
+            "id": "royal-match:1926",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "En la parte inferior izquierda hay dos bolsillos verdes enmarcados, separados y repetidos, cada uno con un grupo de cuatro objetos."
+          },
+          {
+            "id": "royal-match:571",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Se ven varios bolsillos enmarcados de color naranja, separados y repetidos por el tablero; cada uno contiene un grupo de objetos."
+          }
+        ]
+      }
+    },
+    {
+      "tag": "paired_flanking_layout",
+      "definition": "Similar groups of elements occupy corresponding positions on opposite sides of a central route, field, or structure.",
+      "include_when": "Use when visible groups on the left and right flank the same central feature and are positioned as a clear pair or corresponding set.",
+      "exclude_when": "Do not use for a one-sided bank, unrelated objects on opposite sides, or overall left-right balance without paired element groups.",
+      "example_levels": [
+        "royal-kingdom:813",
+        "royal-match:2454",
+        "royal-match:2935",
+        "royal-match:3621",
+        "royal-match:6573",
+        "royal-match:7236",
+        "royal-match:8425",
+        "royal-match:10285",
+        "royal-match:11081",
+        "royal-match:11107"
+      ],
+      "v1_overlap": "May resemble asymmetric when paired groups are not exact mirrors; this tag concerns paired placement, while asymmetric concerns whether the major board regions mirror each other.",
+      "dimension": "element_placement",
+      "support": 10,
+      "status": "candidate",
+      "accepted": false,
+      "reproducibility": {
+        "positives_checked": 3,
+        "positives_confirmed": 2,
+        "negatives_checked": 3,
+        "negatives_rejected": 3,
+        "unexpected_matches": [],
+        "verdict": "partially_reproducible",
+        "details": [
+          {
+            "id": "royal-match:6573",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Matching banks of purple jars sit on the left and right of the central lower board area, in corresponding positions around its central divider and doorway."
+          },
+          {
+            "id": "royal-match:11107",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "The left side is filled with potion-like pieces while the right side is largely an empty orange area; there are no corresponding groups flanking a central feature."
+          },
+          {
+            "id": "royal-match:4870",
+            "applies": false,
+            "confidence": "medium",
+            "evidence": "The TNT pieces form a pattern across the top of the board, rather than clear paired groups on opposite sides of a central route or structure."
+          },
+          {
+            "id": "royal-kingdom:386",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "The candy area is on the left, while a stepped run of columns occupies the right; these are not similar groups in corresponding positions."
+          },
+          {
+            "id": "royal-match:3621",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Matching vertical groups of banana-like elements flank the central rectangular open area, with corresponding positions on its left and right."
+          },
+          {
+            "id": "royal-kingdom:2608",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "The left and right sides contain visibly different groups of elements around the central blue structures, not a corresponding pair."
+          }
+        ]
+      }
+    },
+    {
+      "tag": "staggered_alignment",
+      "definition": "Repeated elements or groups follow a visible stepped or diagonal progression rather than lining up at one height or position.",
+      "include_when": "Use when successive rows, columns, or separated groups shift position in a clear repeated progression across the board.",
+      "exclude_when": "Do not use for a single irregular edge, a stepped outline of the playable boundary, or scattered elements without a discernible progression.",
+      "example_levels": [
+        "royal-match:1643",
+        "royal-match:2729",
+        "royal-kingdom:4409",
+        "royal-match:6327",
+        "royal-match:11782"
+      ],
+      "v1_overlap": "Partial overlap with stair_step: reserve stair_step for the playable boundary's shape and use this tag for the arrangement of elements within the board.",
+      "dimension": "element_placement",
+      "support": 5,
+      "status": "candidate",
+      "accepted": false,
+      "reproducibility": {
+        "positives_checked": 3,
+        "positives_confirmed": 2,
+        "negatives_checked": 3,
+        "negatives_rejected": 2,
+        "unexpected_matches": [
+          "royal-match:8068"
+        ],
+        "verdict": "partially_reproducible",
+        "details": [
+          {
+            "id": "royal-match:1643",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "The metal blockers at the lower left extend farther right in successive rows, making a clear stepped progression within the board; this is blocker placement, not the playable boundary."
+          },
+          {
+            "id": "royal-kingdom:3575",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "The visible pieces and side targets line up in rows and columns. The indentation at the bottom is the playable boundary, not a progression in element placement."
+          },
+          {
+            "id": "royal-match:11782",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "The separated groups of bear elements step diagonally down and to the right across successive rows."
+          },
+          {
+            "id": "royal-kingdom:1133",
+            "applies": false,
+            "confidence": "medium",
+            "evidence": "The purple elements form a mostly contiguous mass in aligned rows; its uneven outer shape does not show a clear repeated stepped or diagonal progression."
+          },
+          {
+            "id": "royal-kingdom:4409",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "The purple groups occupy separate areas but do not follow a consistent stepped or diagonal progression; the surrounding striped elements also do not form a repeated progression."
+          },
+          {
+            "id": "royal-match:8068",
+            "applies": true,
+            "confidence": "medium",
+            "evidence": "The repeated blue and green crate groups shift across successive rows in a visible stepped pattern inside the board, distinct from the stepped outer boundary."
+          }
+        ]
+      }
+    },
+    {
+      "tag": "distinct_surface_zones",
+      "definition": "Adjacent areas of the board visibly differ in surface, covering, or obstacle appearance, forming recognizable material zones.",
+      "include_when": "At least two contiguous areas have clearly different visible materials or surface treatments, arranged as zones or a mosaic.",
+      "exclude_when": "Differences are isolated objects without grouped areas, or the screenshot shows only a change in board outline or playable-region connectivity.",
+      "example_levels": [
+        "royal-kingdom:217",
+        "royal-kingdom:671",
+        "royal-kingdom:2058",
+        "royal-match:2801",
+        "royal-match:4858",
+        "royal-match:5774",
+        "royal-match:6573",
+        "royal-match:8575",
+        "royal-match:13321",
+        "royal-match:13496"
+      ],
+      "v1_overlap": "Partial overlap with layered_bands when zones form rows or columns. Use this tag for visible material differences, not merely for the board’s geometric organization.",
+      "dimension": "element_layering",
+      "support": 10,
+      "status": "candidate",
+      "accepted": false,
+      "reproducibility": {
+        "positives_checked": 3,
+        "positives_confirmed": 3,
+        "negatives_checked": 3,
+        "negatives_rejected": 0,
+        "unexpected_matches": [
+          "royal-match:10166",
+          "royal-match:7452",
+          "royal-match:10377"
+        ],
+        "verdict": "reproducible_broader_than_examples",
+        "details": [
+          {
+            "id": "royal-kingdom:2058",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Se ven grupos contiguos de obstáculos con apariencias distintas: bloques marrones, piezas azules con franjas y piezas moradas, formando zonas diferenciadas. La forma irregular del límite del tablero no es la base de la decisión."
+          },
+          {
+            "id": "royal-match:10166",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "La zona inferior de bloques claros y recipientes morados contrasta con las amplias zonas de cajas marrones y piezas moradas de la parte superior; son grupos contiguos de materiales y obstáculos distintos."
+          },
+          {
+            "id": "royal-match:13321",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "A ambos lados del pasillo central hay franjas contiguas de paneles marrones y superficies magenta, repetidas como un mosaico de tratamientos visibles distintos."
+          },
+          {
+            "id": "royal-match:13496",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Una amplia franja contigua de bloques con aspecto de ladrillo ocupa la parte inferior y contrasta con las casillas de juego visibles encima; es una zona agrupada de apariencia distinta."
+          },
+          {
+            "id": "royal-match:7452",
+            "applies": true,
+            "confidence": "medium",
+            "evidence": "Se distinguen grupos contiguos: paneles grandes marrones a la izquierda, recipientes y piezas estampadas en columnas centrales, y obstáculos azules a la derecha. La decisión se basa en esas zonas agrupadas, no en el contorno irregular del tablero."
+          },
+          {
+            "id": "royal-match:10377",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Las superficies anaranjadas con aspecto de tejas forman franjas amplias y contiguas, junto a grupos de recipientes morados y piezas estampadas; esas zonas de obstáculos tienen apariencias claramente distintas."
+          }
+        ]
+      }
+    },
+    {
+      "tag": "repeated_element_bands",
+      "definition": "Similar visible elements or surface patterns repeat in two or more aligned horizontal rows or vertical runs.",
+      "include_when": "The screenshot shows multiple aligned rows or runs of repeated elements, stripes, or obstacle types.",
+      "exclude_when": "There is only one row or run, the elements are scattered without alignment, or the pattern describes only the board boundary.",
+      "example_levels": [
+        "royal-match:3646",
+        "royal-match:1827",
+        "royal-match:2729",
+        "royal-match:8425",
+        "royal-match:8781",
+        "royal-match:9644",
+        "royal-match:10285",
+        "royal-match:10166",
+        "royal-match:11706",
+        "royal-match:12650",
+        "royal-match:13321"
+      ],
+      "v1_overlap": "Strong overlap with layered_bands. This tag identifies repeated visible content within bands; layered_bands should describe the board’s overall spatial organization.",
+      "dimension": "element_layering",
+      "support": 11,
+      "status": "candidate",
+      "accepted": false,
+      "reproducibility": {
+        "positives_checked": 3,
+        "positives_confirmed": 3,
+        "negatives_checked": 3,
+        "negatives_rejected": 1,
+        "unexpected_matches": [
+          "royal-kingdom:2801",
+          "royal-match:12174"
+        ],
+        "verdict": "reproducible_broader_than_examples",
+        "details": [
+          {
+            "id": "royal-match:8425",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "The central obstacle area has multiple aligned horizontal rows of repeated sack-like elements; the surrounding board boundary is not the basis for the tag."
+          },
+          {
+            "id": "royal-match:12174",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Repeated elements form several aligned rows, including yellow pieces on the left and matching horizontal pieces in the lower-right area."
+          },
+          {
+            "id": "royal-match:1827",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "The central round blockers form multiple clearly aligned horizontal rows and vertical runs."
+          },
+          {
+            "id": "royal-match:9644",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Repeated pink tiles form many aligned rows, and the purple striped obstacles appear in two aligned horizontal bands."
+          },
+          {
+            "id": "royal-kingdom:2801",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "The large pink-tile surface pattern repeats across many aligned horizontal rows and vertical runs."
+          },
+          {
+            "id": "royal-kingdom:3575",
+            "applies": false,
+            "confidence": "medium",
+            "evidence": "The visible interior mostly contains a scattered mix of different pieces, without multiple aligned rows or runs of repeated elements. Repeated bullseye pieces along the sides are part of the board boundary and are excluded."
+          }
+        ]
+      }
+    },
+    {
+      "tag": "broad_cover_layer",
+      "definition": "A visually continuous covering occupies a substantial, identifiable portion of the board, distinct from uncovered cells or pieces.",
+      "include_when": "A broad connected area appears covered, and the contrast with nearby uncovered or differently covered areas is visible in the screenshot.",
+      "exclude_when": "Covering is sparse, confined to isolated cells, or cannot be distinguished from the underlying pieces.",
+      "example_levels": [
+        "royal-match:2801",
+        "royal-match:1926",
+        "royal-match:4858",
+        "royal-match:6821",
+        "royal-match:6573",
+        "royal-match:12650"
+      ],
+      "v1_overlap": "Partial overlap with central_mass and layered_bands when a broad cover dominates the center or forms a band. This tag describes visible coverage rather than the region’s position or geometry.",
+      "dimension": "element_layering",
+      "support": 6,
+      "status": "candidate",
+      "accepted": false,
+      "reproducibility": {
+        "positives_checked": 3,
+        "positives_confirmed": 3,
+        "negatives_checked": 3,
+        "negatives_rejected": 0,
+        "unexpected_matches": [
+          "royal-match:5323",
+          "royal-match:1827",
+          "royal-match:9644"
+        ],
+        "verdict": "reproducible_broader_than_examples",
+        "details": [
+          {
+            "id": "royal-match:9644",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Dentro del límite dorado del tablero, varias filas inferiores muestran una cobertura rosa conectada, claramente distinta de las casillas con piezas y de las franjas moradas."
+          },
+          {
+            "id": "royal-match:6821",
+            "applies": true,
+            "confidence": "medium",
+            "evidence": "Dentro del límite dorado se ven dos grandes superficies marrones continuas: una a la izquierda y otra en la parte inferior derecha. Contrastan claramente con las casillas ocupadas por piezas; la imagen no permite determinar si son coberturas o bloqueadores."
+          },
+          {
+            "id": "royal-match:1926",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Una gran superficie amarilla continua ocupa una zona amplia dentro del contorno escalonado del tablero. Se distingue de las casillas con piezas y de los elementos de la parte inferior."
+          },
+          {
+            "id": "royal-match:1827",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Dos franjas verdes anchas y continuas ocupan áreas extensas dentro del tablero, a ambos lados del grupo central de piezas, y contrastan claramente con él."
+          },
+          {
+            "id": "royal-match:5323",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Dentro del límite del tablero, una gran superficie naranja continua ocupa el centro, flanqueada por franjas celestes anchas. Todas contrastan con las casillas con piezas de la parte superior."
+          },
+          {
+            "id": "royal-match:12650",
+            "applies": true,
+            "confidence": "medium",
+            "evidence": "En la parte superior hay dos filas anchas de elementos rosados y celestes visualmente continuos, y una franja celeste continúa por el centro del tablero. Se distinguen de las casillas con piezas; cada elemento conserva contornos visibles."
+          }
+        ]
+      }
+    },
+    {
+      "tag": "framed_or_nested_layer",
+      "definition": "A visible frame, border, or panel encloses or overlays a distinguishable group of cells or objects.",
+      "include_when": "The screenshot clearly shows a group bounded by a frame or a panel visibly layered within a separate border.",
+      "exclude_when": "Borders are ordinary cell outlines, or repeated elements are not visibly enclosed or overlaid by a distinct boundary.",
+      "example_levels": [
+        "royal-match:571",
+        "royal-match:3621",
+        "royal-kingdom:4687",
+        "royal-match:5943",
+        "royal-match:7610",
+        "royal-match:9258"
+      ],
+      "v1_overlap": "None. The v1 geometry tags do not specifically describe nested frames or visible overlays.",
+      "dimension": "element_layering",
+      "support": 6,
+      "status": "candidate",
+      "accepted": false,
+      "reproducibility": {
+        "positives_checked": 3,
+        "positives_confirmed": 3,
+        "negatives_checked": 3,
+        "negatives_rejected": 0,
+        "unexpected_matches": [
+          "royal-match:3791",
+          "royal-kingdom:4509",
+          "royal-match:5323"
+        ],
+        "verdict": "reproducible_broader_than_examples",
+        "details": [
+          {
+            "id": "royal-kingdom:4509",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Se ven grupos de celdas de fresas dentro de bandejas verdes con borde morado y dorado, distintos de los contornos normales de las celdas. El límite del tablero no es lo que determina la etiqueta."
+          },
+          {
+            "id": "royal-kingdom:4687",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "En los laterales, grupos de celdas azules están encerrados en paneles separados con marcos blancos y dorados; esos marcos se distinguen del límite general del tablero."
+          },
+          {
+            "id": "royal-match:3791",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Se ven grupos de cuatro objetos dentro de paneles marrones individuales con bordes dorados, claramente distintos de los contornos repetidos de las celdas. El área de fichas de animales es parte del tablero, no el marco del grupo."
+          },
+          {
+            "id": "royal-match:571",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Varios grupos de objetos están contenidos en paneles cuadrados marrones con marcos dorados, separados de los contornos normales de las fichas y del límite general del tablero."
+          },
+          {
+            "id": "royal-match:3621",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Columnas de objetos y grupos de ventiladores están contenidos o superpuestos por paneles morados con bordes dorados, distinguibles del límite escalonado del tablero."
+          },
+          {
+            "id": "royal-match:5323",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Un gran panel naranja con borde dorado ocupa el centro del tablero y está claramente delimitado frente a las fichas y los paneles azules laterales."
+          }
+        ]
+      }
+    },
+    {
+      "tag": "bilateral_goal_pairs",
+      "definition": "Matching goal-like objects, markers, or panels appear in corresponding positions on opposite sides of the board’s centerline.",
+      "include_when": "Use when a screenshot shows two visually matching goal groups or framed goal areas arranged as a left-right pair, including paired bays, panels, edge columns, or gates.",
+      "exclude_when": "Exclude a lone group, two groups without a clear opposing arrangement, or apparent pairing based only on board shape rather than visible goal-like elements.",
+      "example_levels": [
+        "royal-kingdom:1133",
+        "royal-kingdom:1292",
+        "royal-kingdom:3575",
+        "royal-match:4391",
+        "royal-match:6573",
+        "royal-match:12590"
+      ],
+      "v1_overlap": "None; this describes goal placement, not whether the playable board itself is asymmetric.",
+      "dimension": "goal_layout",
+      "support": 6,
+      "status": "candidate",
+      "accepted": false,
+      "reproducibility": {
+        "positives_checked": 3,
+        "positives_confirmed": 3,
+        "negatives_checked": 3,
+        "negatives_rejected": 2,
+        "unexpected_matches": [
+          "royal-kingdom:3089"
+        ],
+        "verdict": "reproducible_broader_than_examples",
+        "details": [
+          {
+            "id": "royal-kingdom:3575",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Dos paneles azules iguales y columnas de dianas ocupan posiciones opuestas izquierda-derecha."
+          },
+          {
+            "id": "royal-match:6573",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Dos armarios blancos enmarcados iguales forman un par inferior izquierda-derecha."
+          },
+          {
+            "id": "royal-kingdom:671",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "Los grupos izquierdo y derecho contienen elementos diferentes; no hay objetivos emparejados equivalentes."
+          },
+          {
+            "id": "royal-match:11107",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "Los paneles naranjas están en el centro y a la derecha, sin correspondencia bilateral."
+          },
+          {
+            "id": "royal-kingdom:3089",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Dos áreas laterales enmarcadas equivalentes flanquean las fichas centrales; sus medallones difieren."
+          },
+          {
+            "id": "royal-kingdom:1133",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Dos grandes elementos morados con emblemas amarillos forman un par inferior izquierda-derecha."
+          }
+        ]
+      }
+    },
+    {
+      "tag": "edge_goal_runs",
+      "definition": "Repeated goal-like objects, markers, or framed pockets form a row, column, tier, or continuous run along an outer board edge.",
+      "include_when": "Use when multiple visible goal-like elements align along a boundary, including edge rows, stacked edge compartments, or runs that turn from one edge to another.",
+      "exclude_when": "Exclude a single isolated edge object, arrangements away from the perimeter, or narrow playable routes along an edge when no repeated goal-like elements are visible.",
+      "example_levels": [
+        "royal-match:104",
+        "royal-match:3019",
+        "royal-kingdom:4319",
+        "royal-match:10377",
+        "royal-match:13082",
+        "royal-kingdom:4509"
+      ],
+      "v1_overlap": "No direct overlap with edge_channels: an edge-aligned goal arrangement does not establish that playable cells form a narrow route.",
+      "dimension": "goal_layout",
+      "support": 6,
+      "status": "candidate",
+      "accepted": false,
+      "reproducibility": {
+        "positives_checked": 3,
+        "positives_confirmed": 3,
+        "negatives_checked": 3,
+        "negatives_rejected": 1,
+        "unexpected_matches": [
+          "royal-match:4426",
+          "royal-match:418"
+        ],
+        "verdict": "reproducible_broader_than_examples",
+        "details": [
+          {
+            "id": "royal-match:4426",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Múltiples piezas repetidas con huellas forman columnas en el borde derecho de la zona jugable."
+          },
+          {
+            "id": "royal-kingdom:4509",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Hay piezas doradas repetidas en la fila superior y el borde izquierdo; además, varios compartimentos iguales recorren el borde inferior."
+          },
+          {
+            "id": "royal-match:418",
+            "applies": true,
+            "confidence": "medium",
+            "evidence": "Las piezas de hielo objetivo se repiten en columnas junto al borde derecho y en filas junto al borde inferior izquierdo de la zona jugable."
+          },
+          {
+            "id": "royal-match:10377",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Los marcadores con flor de lis se repiten a lo largo del borde izquierdo y en una fila continua por el borde inferior."
+          },
+          {
+            "id": "royal-kingdom:5142",
+            "applies": false,
+            "confidence": "medium",
+            "evidence": "Se ven bordes decorativos rayados alrededor de áreas jugables, pero no una fila o columna de objetivos repetidos en el perímetro."
+          },
+          {
+            "id": "royal-kingdom:4319",
+            "applies": true,
+            "confidence": "high",
+            "evidence": "Cuatro compartimentos enmarcados con marcadores morados se apilan a lo largo del borde derecho."
+          }
+        ]
+      }
+    },
+    {
+      "tag": "compact_goal_cluster",
+      "definition": "A compact, localized group of goal-like pieces or symbol-marked cells occupies one pocket or region.",
+      "include_when": "Use when the visible goal-like elements are tightly grouped in a single local area, such as a corner, center pocket, or space between larger bays.",
+      "exclude_when": "Exclude elements spread into a row or column along an edge, multiple separated groups, or a central blocker without a visible compact goal-like group.",
+      "example_levels": [
+        "royal-match:2177",
+        "royal-kingdom:3636",
+        "royal-match:4870",
+        "royal-match:10855"
+      ],
+      "v1_overlap": "None; a compact goal group is not the same as central_mass, which requires a large central blocker or covered region.",
+      "dimension": "goal_layout",
+      "support": 4,
+      "status": "candidate",
+      "accepted": false,
+      "reproducibility": {
+        "positives_checked": 3,
+        "positives_confirmed": 2,
+        "negatives_checked": 3,
+        "negatives_rejected": 2,
+        "unexpected_matches": [
+          "royal-match:11782"
+        ],
+        "verdict": "partially_reproducible",
+        "details": [
+          {
+            "id": "royal-match:10855",
+            "applies": false,
+            "confidence": "high",
+            "evidence": "Orange symbol-marked cells appear in separate left and right pockets as well as a compact group at the bottom center, so they do not form one localized group."
+          },
+          {
+            "id": "royal-match:11782",
+            "applies": true,
+            "confidence": "medium",
+            "evidence": "The visible brick-and-hammer goal-like object is confined to a single pocket at the upper right of the playable board."
+          },
+          {
+            "id": "royal-kingdom:3636",
+            "applies": true,
+            "confidence": "medium",
+            "evidence": "Red mushroom-like goal pieces form a compact group in the bottom-center pocket; the playable board boundary encloses that local region."
+          },
+          {
+            "id": "royal-match:2177",
+            "applies": true,
+            "confidence": "medium",
+            "evidence": "Pink goal-like pieces are tightly grouped in the lower-right region of the playable board."
+          },
+          {
+            "id": "royal-kingdom:2088",
+            "applies": false,
+            "confidence": "medium",
+            "evidence": "Teal symbol-marked cells occupy multiple separated sections, including a row-like band and a lower-left group divided by blockers, rather than one compact pocket."
+          },
+          {
+            "id": "royal-match:7452",
+            "applies": false,
+            "confidence": "medium",
+            "evidence": "Goal-like containers appear in vertical bands and separated pockets across the board, not as a single compact localized group."
+          }
+        ]
+      }
+    }
+  ],
+  "v1_issues": [
+    {
+      "tag": "asymmetric",
+      "issue": "The tag may be applied both to any non-mirrored board and to specific one-sided outline extensions, conflating an overall symmetry judgment with a contour feature.",
+      "suggestion": "Define asymmetric strictly as a left-right symmetry comparison; use specific shape tags such as offset_lateral_appendage for identifiable outline features.",
+      "dimension": "silhouette"
+    },
+    {
+      "tag": "split_regions",
+      "issue": "It can overlap with descriptions of separated framed panels, while not distinguishing disconnected regions from connected but visually distinct bays.",
+      "suggestion": "Define split_regions by whether playable areas are visibly disconnected, and use a separate silhouette tag for panel-like outline structure.",
+      "dimension": "silhouette"
+    },
+    {
+      "tag": "stair_step",
+      "issue": "It can describe many unrelated outline changes, including centered tapers, side recesses, and lower-edge cut-ins.",
+      "suggestion": "Keep it for the stepped boundary pattern itself and pair it with more specific tags when the resulting contour has a distinct form.",
+      "dimension": "silhouette"
+    },
+    {
+      "tag": "split_regions",
+      "issue": "A narrow visible bridge or neck can make broad areas appear nearly separate, leaving unclear whether the board counts as split.",
+      "suggestion": "Define split_regions as requiring visibly disconnected playable areas; use narrow_connectors when a constricted passage visibly connects them.",
+      "dimension": "spatial_structure"
+    },
+    {
+      "tag": "layered_bands",
+      "issue": "The tag may blur broad horizontal or vertical tiers with internal barrier bands that create multiple narrow lanes.",
+      "suggestion": "Reserve layered_bands for overall tiered organization and distinguish lane-forming internal barriers with barrier_defined_lanes.",
+      "dimension": "spatial_structure"
+    },
+    {
+      "tag": "edge_channels",
+      "issue": "A narrow route along the perimeter can resemble a pocket, or be confused with an interior lane that happens to approach an edge.",
+      "suggestion": "Specify that edge_channels requires a narrow route that follows the outer boundary; use recessed_pockets for bounded edge bays and barrier_defined_lanes for interior barrier-formed routes.",
+      "dimension": "spatial_structure"
+    },
+    {
+      "tag": "central_mass",
+      "issue": "A large central block and a long crosswise barrier may both be labeled as a central mass even when the latter primarily partitions the board into lanes.",
+      "suggestion": "Clarify that central_mass describes a dominant central area or block, while lane-forming linear barriers are captured by barrier_defined_lanes.",
+      "dimension": "spatial_structure"
+    },
+    {
+      "tag": "asymmetric",
+      "issue": "Its definition does not clarify whether asymmetry refers to the board outline and placement of major regions or also to differing contents within otherwise mirrored regions. This creates ambiguity with reflected layouts whose side contents differ.",
+      "suggestion": "Define `asymmetric` by differences in the outline or placement of major regions, not by element identity alone. Allow it to coexist with `bilateral_reflection` when the outer structure reflects but the major regions’ contents differ.",
+      "dimension": "symmetry"
+    },
+    {
+      "tag": "layered_bands",
+      "issue": "The tag can be read either as broad tiering of the board or as any distinct horizontal strip of elements.",
+      "suggestion": "Define layered_bands as the overall organization of playable regions into tiers; describe an individual cross-board strip with cross_board_horizontal_band.",
+      "dimension": "element_placement"
+    },
+    {
+      "tag": "edge_channels",
+      "issue": "A visible bank of objects along an outer edge can be mistaken for a playable edge route.",
+      "suggestion": "Specify that edge_channels refers to the shape of the playable cells, while edge_side_bank refers to repeated elements positioned along an edge.",
+      "dimension": "element_placement"
+    },
+    {
+      "tag": "stair_step",
+      "issue": "The name may cover both a stepped playable boundary and an internal diagonal arrangement of elements.",
+      "suggestion": "Limit stair_step to the playable boundary and use staggered_alignment for internal element placement.",
+      "dimension": "element_placement"
+    },
+    {
+      "tag": "asymmetric",
+      "issue": "Paired or corresponding groups can occur without the major left and right board regions being mirror images.",
+      "suggestion": "Keep asymmetric focused on the overall major-region layout; treat local paired placement independently.",
+      "dimension": "element_placement"
+    },
+    {
+      "tag": "layered_bands",
+      "issue": "The definition can cover both the board’s overall geometric organization and repeated rows or columns of particular visible elements, making it unclear when to apply it alongside element-layering tags.",
+      "suggestion": "Reserve layered_bands for the board’s overall spatial organization; use element-layering tags for repeated content, material transitions, and coverings.",
+      "dimension": "element_layering"
+    },
+    {
+      "tag": "central_mass",
+      "issue": "A broad covered area may be read as a central mass even when the screenshot shows a surface treatment rather than a distinct central blocker.",
+      "suggestion": "Apply central_mass only when a visually dominant central region is evident; describe broad coverage separately when the defining cue is its surface appearance.",
+      "dimension": "element_layering"
+    },
+    {
+      "tag": "edge_channels",
+      "issue": "Edge-aligned goal runs could be mistaken for playable routes along an outer edge.",
+      "suggestion": "Clarify that edge_channels requires a visibly narrow route of playable cells; goal objects or pockets at the boundary alone do not qualify.",
+      "dimension": "goal_layout"
+    },
+    {
+      "tag": "layered_bands",
+      "issue": "Stacked edge goals or repeated horizontal goal rows could be mistaken for distinct board layers.",
+      "suggestion": "Clarify that layered_bands describes the organization of playable cells, not the arrangement of goal-like objects.",
+      "dimension": "goal_layout"
+    },
+    {
+      "tag": "asymmetric",
+      "issue": "Paired or matching goal placements could be mistaken for mirrored major board regions.",
+      "suggestion": "Clarify that asymmetric applies to the shape and placement of major board regions, not to goal-object distribution.",
+      "dimension": "goal_layout"
+    }
+  ],
+  "synthesis": [
+    {
+      "dimension": "silhouette",
+      "raw_proposals": 38,
+      "tags": 5,
+      "failed": false
+    },
+    {
+      "dimension": "spatial_structure",
+      "raw_proposals": 93,
+      "tags": 4,
+      "failed": false
+    },
+    {
+      "dimension": "symmetry",
+      "raw_proposals": 7,
+      "tags": 1,
+      "failed": false
+    },
+    {
+      "dimension": "element_placement",
+      "raw_proposals": 138,
+      "tags": 6,
+      "failed": false
+    },
+    {
+      "dimension": "element_layering",
+      "raw_proposals": 41,
+      "tags": 4,
+      "failed": false
+    },
+    {
+      "dimension": "goal_layout",
+      "raw_proposals": 19,
+      "tags": 3,
+      "failed": false
+    },
+    {
+      "dimension": "other",
+      "raw_proposals": 0,
+      "tags": 0,
+      "failed": false
+    }
+  ],
+  "non_visual_dimensions_available": [
+    "mode",
+    "tutorial",
+    "target_count",
+    "moves_start",
+    "element_era",
+    "element_introduced_here"
+  ],
+  "limitation": "Agent-generated candidates from a small sample; Victoria must review before any tag is accepted or applied to the archive."
+}

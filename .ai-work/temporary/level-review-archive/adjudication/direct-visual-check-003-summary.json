@@ -1,0 +1,20 @@
+{
+  "task": "TSK-002.A2",
+  "workflow_run_id": "7acdec9e-52f7-43a7-9e68-bf3e9e7a90a3",
+  "recorded_at": "2026-10-14T12:01:20.370Z",
+  "output": ".ai-work/temporary/level-review-archive/adjudication/direct-visual-check-003.jsonl",
+  "cases": 88,
+  "skipped": [],
+  "agreement": {
+    "blind_consensus": 22,
+    "tiebreak_resolved": 62,
+    "unresolved": 4,
+    "tiebreak_failed": 0,
+    "pipeline_failed": 0
+  },
+  "candidate_supported": 14,
+  "candidate_changed": 74,
+  "partial": 3,
+  "accepted_labels": 0,
+  "limitation": "Agent visual inspection is candidate evidence only; owner acceptance is required before any label is promoted."
+}

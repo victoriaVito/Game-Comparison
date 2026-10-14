@@ -1,0 +1,62 @@
+{
+  "levels": 18387,
+  "sources": {
+    "royal_match_features": "/Users/victoria.serrano/Shared with me/codex_taussen/analysis/features.json",
+    "element_introductions": "/Users/victoria.serrano/Shared with me/codex_taussen/docs/research/gameplay-introductions-report.md"
+  },
+  "by_game": {
+    "royal-match": {
+      "levels": 13087,
+      "mode": {
+        "standard": 12941,
+        "bonus": 145,
+        "unknown": 1
+      },
+      "tutorial": 11,
+      "target_count": {
+        "1": 480,
+        "2": 3970,
+        "3": 3683,
+        "None": 1391,
+        "4": 3563
+      },
+      "moves_known": 6823,
+      "element_intro_levels": 57,
+      "geometry_tag_count": {
+        "1": 8066,
+        "2": 4788,
+        "4": 7,
+        "3": 223,
+        "0": 3
+      },
+      "geometry_adjudicated": 65
+    },
+    "royal-kingdom": {
+      "levels": 5300,
+      "mode": {
+        "standard": 4126,
+        "kingdom": 658,
+        "dark_kingdom": 516
+      },
+      "tutorial": 10,
+      "target_count": {
+        "None": 5300
+      },
+      "moves_known": 5282,
+      "element_intro_levels": 61,
+      "geometry_tag_count": {
+        "1": 2661,
+        "2": 2459,
+        "3": 177,
+        "0": 1,
+        "4": 2
+      },
+      "geometry_adjudicated": 28
+    }
+  },
+  "limitations": [
+    "Element introductions are community-reported; absence from the initial frame is not proof of absence.",
+    "Royal Kingdom target_count is not extracted; moves_start for Royal Kingdom comes from noisy OCR.",
+    "Geometry tags are candidates; none are accepted."
+  ]
+}

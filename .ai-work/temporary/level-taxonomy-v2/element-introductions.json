@@ -1,0 +1,498 @@
+{
+  "source": "/Users/victoria.serrano/Shared with me/codex_taussen/docs/research/gameplay-introductions-report.md",
+  "evidence_status": "community-reported; semantic names not independently verified",
+  "introductions": {
+    "royal-kingdom": [
+      {
+        "level": 1,
+        "element": "Box"
+      },
+      {
+        "level": 4,
+        "element": "Snow"
+      },
+      {
+        "level": 7,
+        "element": "Ivy"
+      },
+      {
+        "level": 11,
+        "element": "Column"
+      },
+      {
+        "level": 16,
+        "element": "Owl Birdhouse"
+      },
+      {
+        "level": 21,
+        "element": "Chalice Box"
+      },
+      {
+        "level": 31,
+        "element": "Vase"
+      },
+      {
+        "level": 41,
+        "element": "Magic Orb"
+      },
+      {
+        "level": 51,
+        "element": "Turtle"
+      },
+      {
+        "level": 61,
+        "element": "Lantern"
+      },
+      {
+        "level": 71,
+        "element": "Stone Wall"
+      },
+      {
+        "level": 81,
+        "element": "Gnome"
+      },
+      {
+        "level": 91,
+        "element": "Snowman"
+      },
+      {
+        "level": 101,
+        "element": "Steam Bomb"
+      },
+      {
+        "level": 121,
+        "element": "Knight"
+      },
+      {
+        "level": 141,
+        "element": "Target"
+      },
+      {
+        "level": 161,
+        "element": "Dragon Box"
+      },
+      {
+        "level": 181,
+        "element": "Metal Crate"
+      },
+      {
+        "level": 201,
+        "element": "Flower Pot / Tulip"
+      },
+      {
+        "level": 221,
+        "element": "Log / Horse Statue"
+      },
+      {
+        "level": 251,
+        "element": "Turtle House"
+      },
+      {
+        "level": 301,
+        "element": "Jelly"
+      },
+      {
+        "level": 351,
+        "element": "Diamond Safe"
+      },
+      {
+        "level": 401,
+        "element": "Scroll"
+      },
+      {
+        "level": 451,
+        "element": "Medallion"
+      },
+      {
+        "level": 501,
+        "element": "Snow Cannon"
+      },
+      {
+        "level": 551,
+        "element": "Clock"
+      },
+      {
+        "level": 601,
+        "element": "Metal Column"
+      },
+      {
+        "level": 651,
+        "element": "Gem"
+      },
+      {
+        "level": 701,
+        "element": "Lyre"
+      },
+      {
+        "level": 751,
+        "element": "Lily"
+      },
+      {
+        "level": 801,
+        "element": "Gnome Helmet"
+      },
+      {
+        "level": 851,
+        "element": "Potion Tube"
+      },
+      {
+        "level": 901,
+        "element": "Dragon Volcano"
+      },
+      {
+        "level": 951,
+        "element": "Chain"
+      },
+      {
+        "level": 1001,
+        "element": "Ancient Mask"
+      },
+      {
+        "level": 1101,
+        "element": "Magic Cards"
+      },
+      {
+        "level": 1201,
+        "element": "Crystal Borders"
+      },
+      {
+        "level": 1301,
+        "element": "Gift Box"
+      },
+      {
+        "level": 1401,
+        "element": "Diving Helmet"
+      },
+      {
+        "level": 1501,
+        "element": "Tablet"
+      },
+      {
+        "level": 1601,
+        "element": "Jelly Fountain"
+      },
+      {
+        "level": 1701,
+        "element": "Puzzle"
+      },
+      {
+        "level": 1801,
+        "element": "Barrel"
+      },
+      {
+        "level": 1901,
+        "element": "Armory"
+      },
+      {
+        "level": 2001,
+        "element": "Flowers"
+      },
+      {
+        "level": 2201,
+        "element": "Magic Globe"
+      },
+      {
+        "level": 2401,
+        "element": "Glass Tubes"
+      },
+      {
+        "level": 2601,
+        "element": "Penguin"
+      },
+      {
+        "level": 2801,
+        "element": "Mosaic"
+      },
+      {
+        "level": 3001,
+        "element": "Gong"
+      },
+      {
+        "level": 3201,
+        "element": "Spaceship"
+      },
+      {
+        "level": 3401,
+        "element": "Timber"
+      },
+      {
+        "level": 3601,
+        "element": "Mushrooms"
+      },
+      {
+        "level": 3801,
+        "element": "Power Capsules"
+      },
+      {
+        "level": 4001,
+        "element": "Parrot"
+      },
+      {
+        "level": 4201,
+        "element": "Mace"
+      },
+      {
+        "level": 4401,
+        "element": "Accordion"
+      },
+      {
+        "level": 4601,
+        "element": "Ice Fan"
+      },
+      {
+        "level": 4801,
+        "element": "Giant Gnome"
+      },
+      {
+        "level": 5001,
+        "element": "Mole"
+      }
+    ],
+    "royal-match": [
+      {
+        "level": 1,
+        "element": "Box"
+      },
+      {
+        "level": 4,
+        "element": "Grass"
+      },
+      {
+        "level": 11,
+        "element": "Cupboard"
+      },
+      {
+        "level": 21,
+        "element": "Mailbox"
+      },
+      {
+        "level": 31,
+        "element": "Royal Egg"
+      },
+      {
+        "level": 41,
+        "element": "Potion Bottle"
+      },
+      {
+        "level": 51,
+        "element": "Vase"
+      },
+      {
+        "level": 61,
+        "element": "Owl Statue"
+      },
+      {
+        "level": 71,
+        "element": "Bush"
+      },
+      {
+        "level": 81,
+        "element": "Honey"
+      },
+      {
+        "level": 91,
+        "element": "Safe"
+      },
+      {
+        "level": 101,
+        "element": "Bird"
+      },
+      {
+        "level": 141,
+        "element": "Ice Bar"
+      },
+      {
+        "level": 161,
+        "element": "Porcelain Piggy"
+      },
+      {
+        "level": 181,
+        "element": "Curtain"
+      },
+      {
+        "level": 201,
+        "element": "Oyster"
+      },
+      {
+        "level": 231,
+        "element": "Magic Hat"
+      },
+      {
+        "level": 261,
+        "element": "Flowerpot"
+      },
+      {
+        "level": 301,
+        "element": "Stone"
+      },
+      {
+        "level": 351,
+        "element": "Dynamite Box"
+      },
+      {
+        "level": 401,
+        "element": "Shelf"
+      },
+      {
+        "level": 451,
+        "element": "Bird House"
+      },
+      {
+        "level": 501,
+        "element": "Gem Rock"
+      },
+      {
+        "level": 551,
+        "element": "Soil"
+      },
+      {
+        "level": 651,
+        "element": "Light Bulb"
+      },
+      {
+        "level": 751,
+        "element": "Metal Tube"
+      },
+      {
+        "level": 801,
+        "element": "Jar"
+      },
+      {
+        "level": 851,
+        "element": "Jewelry Box"
+      },
+      {
+        "level": 901,
+        "element": "Cauldron"
+      },
+      {
+        "level": 951,
+        "element": "Chain"
+      },
+      {
+        "level": 1001,
+        "element": "Pouch"
+      },
+      {
+        "level": 1301,
+        "element": "Seed Box"
+      },
+      {
+        "level": 1301,
+        "element": "Roof"
+      },
+      {
+        "level": 1501,
+        "element": "Gummy Maker"
+      },
+      {
+        "level": 1601,
+        "element": "Launcher"
+      },
+      {
+        "level": 1701,
+        "element": "Jelly"
+      },
+      {
+        "level": 1801,
+        "element": "Soap"
+      },
+      {
+        "level": 2001,
+        "element": "Treasure Map"
+      },
+      {
+        "level": 2401,
+        "element": "Piggy Helmet"
+      },
+      {
+        "level": 2601,
+        "element": "Ice Cube / Polar Bear"
+      },
+      {
+        "level": 2801,
+        "element": "Slot Machine"
+      },
+      {
+        "level": 3001,
+        "element": "Duck Shooting"
+      },
+      {
+        "level": 3201,
+        "element": "Magnet"
+      },
+      {
+        "level": 3401,
+        "element": "Wall"
+      },
+      {
+        "level": 3801,
+        "element": "Conveyor Belt"
+      },
+      {
+        "level": 4401,
+        "element": "Candy Cane"
+      },
+      {
+        "level": 4801,
+        "element": "Tablet"
+      },
+      {
+        "level": 5001,
+        "element": "Crystal"
+      },
+      {
+        "level": 5201,
+        "element": "Ivy"
+      },
+      {
+        "level": 5401,
+        "element": "Giant Piggy"
+      },
+      {
+        "level": 5801,
+        "element": "Sea Mine"
+      },
+      {
+        "level": 6201,
+        "element": "Vending Machine"
+      },
+      {
+        "level": 6401,
+        "element": "Porcelain"
+      },
+      {
+        "level": 7001,
+        "element": "Furnace"
+      },
+      {
+        "level": 8201,
+        "element": "Royal Pin"
+      },
+      {
+        "level": 8601,
+        "element": "Royal Cryptex"
+      },
+      {
+        "level": 9001,
+        "element": "Ice Borders"
+      },
+      {
+        "level": 9801,
+        "element": "Grass Bomb"
+      },
+      {
+        "level": 11601,
+        "element": "Jelly Bomb"
+      },
+      {
+        "level": 11801,
+        "element": "Squirrel Nest"
+      },
+      {
+        "level": 13601,
+        "element": "Turtle"
+      }
+    ]
+  }
+}
